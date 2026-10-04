@@ -1,0 +1,51 @@
+{
+  "axis_origin": [
+    115.39186740230157,
+    300.83467886854095,
+    2090.0
+  ],
+  "axis_direction": [
+    0.05767214948580592,
+    -0.03564355557575782,
+    0.9976990829501674
+  ],
+  "axis_fit": [
+    115.39186740230157,
+    300.83467886854095,
+    0.05780515435102039,
+    -0.03572575758049296,
+    4.893950152492344
+  ],
+  "thread_pitch_estimated": 3.005,
+  "thread_handed_fit": -1,
+  "thread_radial_fit": [
+    4.894188759608477,
+    0.031108136591816188,
+    0.2713850044386134,
+    0.04644308206212325,
+    -0.005491734275377268
+  ],
+  "thread_radial_rms_robust": 0.21915846094319186,
+  "handle_origin": [
+    128.75672917855442,
+    314.7644419262507,
+    2004.5337828431873
+  ],
+  "handle_axis": [
+    0.8608088993493531,
+    0.5077182129658725,
+    -0.035074991428308736
+  ],
+  "handle_radius": 2.4009541881087926,
+  "frame_grid_step": 0.4,
+  "units": "estimated mm, not calibrated",
+  "evidence": "frame rebuilt from measured silhouette and paired surface fields; rotational pieces from measured axes and radial profiles",
+  "inferred": [
+    "frame inner bore",
+    "spindle hidden inside boss",
+    "handle passage",
+    "pad underside closure and spindle connection"
+  ],
+  "status": "candidate",
+  "pad_reconstruction": "screened Poisson from segmented scan normals, retaining asymmetric recessed top; underside clipping and spindle recess inferred"
+}

@@ -1,0 +1,30 @@
+{
+  "version": "black_final_v1",
+  "status": "PASS_WITH_DOCUMENTED_SCOPE",
+  "isaac_sim": "6.0.1",
+  "tests": {
+    "motion_480": {
+      "status": "PASS",
+      "asset_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc"
+    },
+    "drop_960": {
+      "status": "PASS",
+      "asset_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc"
+    },
+    "probe_480": {
+      "status": "PASS",
+      "asset_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc"
+    },
+    "clamp_480": {
+      "status": "PASS",
+      "asset_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc"
+    },
+    "package_reopen": {
+      "status": "PASS",
+      "asset_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc"
+    }
+  },
+  "units_calibrated": false,
+  "physical_parameters_calibrated": false,
+  "robot_training_validated": false
+}

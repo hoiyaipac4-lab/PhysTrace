@@ -1,0 +1,176 @@
+{
+  "schema": "appliance_interaction/1.0",
+  "group": "A04",
+  "asset_id": "AF_DARK",
+  "label": "深色圆筒空气炸锅",
+  "part": "抽屉",
+  "joint_kind": "slide",
+  "q_min_si": 0.0,
+  "q_max_si": 0.07414079083469,
+  "q_display_unit": "mm",
+  "q_max_display": 74.14079083469,
+  "q_range_origin": "RGBD_estimate",
+  "nominal_gain_N_per_U": 1.0,
+  "gain_origin": "engineering_initialization_not_sensor_calibration",
+  "effective_lever_m": 1.0,
+  "lever_origin": "not_used_for_translation",
+  "axis_local": [
+    1,
+    0,
+    0
+  ],
+  "radial_at_zero_local": [
+    1,
+    0,
+    0
+  ],
+  "physics_hz": 240,
+  "viscous_damping_si": 0.0,
+  "damping_origin": "disabled_to_avoid_unidentified_speed_correction",
+  "static_transition_speed_si": 0.0002,
+  "static_threshold_multiplier": 1.0,
+  "native_joint_friction_when_profile_used": 0.0,
+  "native_joint_damping_when_profile_used": 0.0,
+  "branches": {
+    "opening": {
+      "progress": [
+        0.0,
+        0.05,
+        0.15000000000000002,
+        0.25000000000000006,
+        0.35000000000000003,
+        0.45000000000000007,
+        0.5500000000000002,
+        0.6500000000000001,
+        0.7500000000000002,
+        0.8500000000000002,
+        0.9500000000000002,
+        1.0
+      ],
+      "response_U": [
+        13.09303466078151,
+        13.09303466078151,
+        14.200245203885359,
+        0.0,
+        2.045853081920629,
+        4.091706163841259,
+        6.13755924576189,
+        8.18341232768252,
+        10.229265409603153,
+        10.541412804782464,
+        10.541412804782464,
+        10.541412804782464
+      ],
+      "n_trials_by_bin": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "median_speed_si": 0.022524923143126423,
+      "shape_origin": "binned_geometry_response"
+    },
+    "closing": {
+      "progress": [
+        0.0,
+        0.05,
+        0.15000000000000002,
+        0.25000000000000006,
+        0.35000000000000003,
+        0.45000000000000007,
+        0.5500000000000002,
+        0.6500000000000001,
+        0.7500000000000002,
+        0.8500000000000002,
+        0.9500000000000002,
+        1.0
+      ],
+      "response_U": [
+        1.8521,
+        1.8521,
+        11.10613327595676,
+        24.074529485127975,
+        27.01559446494901,
+        13.997297232474509,
+        0.9790000000000001,
+        1.02485,
+        2.4283015748527212,
+        3.521794680951371,
+        4.615287787050021,
+        4.615287787050021
+      ],
+      "n_trials_by_bin": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "median_speed_si": 0.027014042754267206,
+      "shape_origin": "binned_geometry_response"
+    }
+  },
+  "amplitude_statistics_U": {
+    "n": 10,
+    "median": 2.7778,
+    "mean": 3.36933526585065,
+    "sd": 2.195648723351685,
+    "p25": 2.0085,
+    "p75": 3.0572729344438967
+  },
+  "profile_measure": "sum_of_finger_vector_norms",
+  "model_semantics": "effective_interaction_resistance_proxy",
+  "source_trials": [
+    "A04_10",
+    "A04_1",
+    "A04_2",
+    "A04_3",
+    "A04_4",
+    "A04_5",
+    "A04_6",
+    "A04_7",
+    "A04_8",
+    "A04_9"
+  ],
+  "amplitude_fit_trials": [
+    "A04_10",
+    "A04_1",
+    "A04_2",
+    "A04_3",
+    "A04_4",
+    "A04_5",
+    "A04_6",
+    "A04_7",
+    "A04_8",
+    "A04_9"
+  ],
+  "excluded_zero_trials": [],
+  "geometry_trials": [
+    "A04_1",
+    "A04_2"
+  ],
+  "binding": {
+    "asset_path": "asset/airfryer.usda",
+    "joint_path": "/AirFryer/Joints/DrawerSlide",
+    "body_path": "/AirFryer/Drawer",
+    "mode": "read_native_q_and_apply_effort_no_position_override"
+  },
+  "parameter_origin_codes": {
+    "source_derived": "原始记录计算",
+    "RGBD_estimate": "视频深度几何估计",
+    "binned_geometry_response": "几何分箱拟合",
+    "constant_empirical_response": "实测活动响应中位数常量模型",
+    "engineering_initialization": "用于初始化的工程取值"
+  }
+}

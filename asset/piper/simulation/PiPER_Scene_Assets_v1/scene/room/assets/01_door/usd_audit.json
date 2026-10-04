@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "asset_file": "asset.usda",
+  "asset_sha256": "58d61a2cc41f3f9ede83affb10087cf88a4925bfe218791e7ebca33c1512ce53",
+  "dependency_fingerprint": "ebf0b087fb56c492ff009459a609e7a5768e0dc3dae65efd6c0d9d53e00abb09",
+  "dependencies": [
+    {
+      "path": "asset.usda",
+      "sha256": "58d61a2cc41f3f9ede83affb10087cf88a4925bfe218791e7ebca33c1512ce53"
+    },
+    {
+      "path": "geometry.usdc",
+      "sha256": "df101fc5e4d5949d9874246c24127bfc70d6b40169e13515eee76c6c5422b90f"
+    }
+  ],
+  "default_prim": "/root",
+  "up_axis": "Z",
+  "meters_per_unit": 1.0,
+  "mesh_count": 20,
+  "vertex_count": 1568,
+  "face_count": 1256,
+  "bodies": [
+    {
+      "path": "/root/Asset/Leaf",
+      "kinematic": false,
+      "enabled": true,
+      "authored_mass": 22.0
+    }
+  ],
+  "joints": [
+    {
+      "path": "/root/Asset/Hinge",
+      "type": "PhysicsRevoluteJoint",
+      "enabled": true,
+      "body0": [],
+      "body1": [
+        "/root/Asset/Leaf"
+      ]
+    }
+  ],
+  "enabled_collider_count": 20,
+  "scope": "Default-time structural checks and local dependency hashing only. No appearance, manifold, animation, cooked-collider, collision-clearance or actual simulation acceptance is implied."
+}

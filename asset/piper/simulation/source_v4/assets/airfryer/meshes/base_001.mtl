@@ -1,0 +1,6 @@
+newmtl surface
+Ka 1 1 1
+Kd 1 1 1
+Ks .2 .2 .2
+Ns 30
+map_Kd kqzg_D.png

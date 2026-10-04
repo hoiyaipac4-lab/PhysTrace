@@ -1,0 +1,280 @@
+{
+  "source": "../../../../external_sources/source_0039/airfryer.usda",
+  "source_sha256": "90a436428a9352e5ac6776b45c9df41fa468398529724043697e2181a45a1dff",
+  "usd_version": [
+    0,
+    25,
+    11
+  ],
+  "meters_per_unit": 1.0,
+  "up_axis": "Z",
+  "links": {
+    "base": {
+      "path": "/AirFryer/Body",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_kg": 2.5,
+      "com_local_m": [
+        0.0,
+        0.0,
+        0.14499999582767487
+      ],
+      "diagonal_inertia_kg_m2": [
+        0.017999999225139618,
+        0.017999999225139618,
+        0.014999999664723873
+      ],
+      "has_rigid_body_api": true
+    },
+    "drawer": {
+      "path": "/AirFryer/Drawer",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_kg": 0.6000000238418579,
+      "com_local_m": [
+        0.0,
+        -0.014999999664723873,
+        0.07999999821186066
+      ],
+      "diagonal_inertia_kg_m2": [
+        0.0010999999940395355,
+        0.0010000000474974513,
+        0.0017000000225380063
+      ],
+      "has_rigid_body_api": true
+    },
+    "knob": {
+      "path": "/AirFryer/Knob",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.12331324070692062,
+          0.20529958605766296,
+          1.0
+        ]
+      ],
+      "mass_kg": 0.03999999910593033,
+      "com_local_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diagonal_inertia_kg_m2": [
+        6.000000212225132e-06,
+        1.1000000085914508e-05,
+        6.000000212225132e-06
+      ],
+      "has_rigid_body_api": true
+    }
+  },
+  "joints": [
+    {
+      "path": "/AirFryer/Joints/DrawerSlide",
+      "type": "PhysicsPrismaticJoint",
+      "attributes": {
+        "physics:axis": "Y",
+        "physics:breakForce": "inf",
+        "physics:breakTorque": "inf",
+        "physics:collisionEnabled": "True",
+        "physics:excludeFromArticulation": "False",
+        "physics:jointEnabled": "True",
+        "physics:localPos0": "(0, 0, 0)",
+        "physics:localPos1": "(0, 0, 0)",
+        "physics:localRot0": "(0, 0, 0, 1)",
+        "physics:localRot1": "(0, 0, 0, 1)",
+        "physics:lowerLimit": "0.0",
+        "physics:upperLimit": "0.1599999964237213"
+      },
+      "body0": [
+        "/AirFryer/Body"
+      ],
+      "body1": [
+        "/AirFryer/Drawer"
+      ]
+    },
+    {
+      "path": "/AirFryer/Joints/KnobTurn",
+      "type": "PhysicsRevoluteJoint",
+      "attributes": {
+        "physics:axis": "Y",
+        "physics:breakForce": "inf",
+        "physics:breakTorque": "inf",
+        "physics:collisionEnabled": "False",
+        "physics:excludeFromArticulation": "False",
+        "physics:jointEnabled": "True",
+        "physics:localPos0": "(0, -0.12331324, 0.20529959)",
+        "physics:localPos1": "(0, 0, 0)",
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(0.38268343, -0, -0.9238795, -0)",
+        "physics:lowerLimit": "-135.0",
+        "physics:upperLimit": "135.0"
+      },
+      "body0": [
+        "/AirFryer/Body"
+      ],
+      "body1": [
+        "/AirFryer/Knob"
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "path": "/AirFryer/Body/Fan/Mesh",
+      "link": "base",
+      "obj": "meshes/base_000.obj",
+      "vertices": 55395,
+      "triangles": 108744,
+      "collision_enabled": false,
+      "collision_approximation": null,
+      "bounds_local_m": [
+        [
+          -0.05551040172576904,
+          -0.06413862109184265,
+          0.16508229076862335
+        ],
+        [
+          0.05551030486822128,
+          0.04688209295272827,
+          0.17623530328273773
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "../../../task_assets/configuration/materials/textures/kqzg_D.png"
+    },
+    {
+      "path": "/AirFryer/Body/Housing/Mesh_001",
+      "link": "base",
+      "obj": "meshes/base_001.obj",
+      "vertices": 183697,
+      "triangles": 396309,
+      "collision_enabled": true,
+      "collision_approximation": "sdf",
+      "bounds_local_m": [
+        [
+          -0.11226171255111694,
+          -0.11770881712436676,
+          0.003070986131206155
+        ],
+        [
+          0.11227460205554962,
+          0.1117360070347786,
+          0.2751900851726532
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "../../../task_assets/configuration/materials/textures/kqzg_D.png"
+    },
+    {
+      "path": "/AirFryer/Knob/Dial/Mesh_002",
+      "link": "knob",
+      "obj": "meshes/knob_002.obj",
+      "vertices": 4710,
+      "triangles": 9416,
+      "collision_enabled": true,
+      "collision_approximation": "convexHull",
+      "bounds_local_m": [
+        [
+          -0.02344060130417347,
+          -0.01050875335931778,
+          -0.023326098918914795
+        ],
+        [
+          0.02344060130417347,
+          0.01050875335931778,
+          0.023326098918914795
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "../../../task_assets/configuration/materials/textures/kqzg_D.png"
+    },
+    {
+      "path": "/AirFryer/Drawer/BasketHandle/Mesh_005",
+      "link": "drawer",
+      "obj": "meshes/drawer_003.obj",
+      "vertices": 54061,
+      "triangles": 108041,
+      "collision_enabled": true,
+      "collision_approximation": "sdf",
+      "bounds_local_m": [
+        [
+          -0.10355040431022644,
+          -0.17875440418720245,
+          0.02354799211025238
+        ],
+        [
+          0.10355150699615479,
+          0.08541380614042282,
+          0.13807038962841034
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "../../../task_assets/configuration/materials/textures/kqzg_D.png"
+    }
+  ]
+}

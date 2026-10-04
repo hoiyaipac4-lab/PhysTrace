@@ -1,0 +1,242 @@
+{
+  "cube_wood": {
+    "urdf": "assets/cube_wood/asset.urdf",
+    "mass_kg": 0.006000000052154064,
+    "size_m": [
+      0.025,
+      0.025,
+      0.025
+    ],
+    "dynamic": true,
+    "root_link": "cube_wood__block",
+    "joints": []
+  },
+  "cube_aluminum": {
+    "urdf": "assets/cube_aluminum/asset.urdf",
+    "mass_kg": 0.0430000014603138,
+    "size_m": [
+      0.025,
+      0.025,
+      0.025
+    ],
+    "dynamic": true,
+    "root_link": "cube_aluminum__block",
+    "joints": []
+  },
+  "cube_iron": {
+    "urdf": "assets/cube_iron/asset.urdf",
+    "mass_kg": 0.12219999730587006,
+    "size_m": [
+      0.025,
+      0.025,
+      0.025
+    ],
+    "dynamic": true,
+    "root_link": "cube_iron__block",
+    "joints": []
+  },
+  "cube_brass": {
+    "urdf": "assets/cube_brass/asset.urdf",
+    "mass_kg": 0.131400004029274,
+    "size_m": [
+      0.025,
+      0.025,
+      0.025
+    ],
+    "dynamic": true,
+    "root_link": "cube_brass__block",
+    "joints": []
+  },
+  "microwave": {
+    "urdf": "assets/microwave/common_v4/microwave.urdf",
+    "articulated": true,
+    "base_fixed": true,
+    "physics_source": "source engineering mass/inertia; common convex decomposition",
+    "resistance_profile_status": "separate explicit interaction model; passive composition has no calibrated resistance",
+    "root_link": "microwave__base",
+    "joints": [
+      {
+        "name": "microwave__opening_joint",
+        "type": "revolute",
+        "axis": "0 0 -1",
+        "limit": {
+          "lower": "0",
+          "upper": "1.9198621771937625",
+          "effort": "100",
+          "velocity": "10"
+        }
+      }
+    ],
+    "resistance_profile": "assets/microwave/resistance_profile.json",
+    "resistance_application": "explicit effort model, separate from passive scene",
+    "physical_provenance": {
+      "base": {
+        "mass_kg": 5.0,
+        "com_m": [
+          0.0,
+          -0.00980360060930252,
+          0.1203393407704425
+        ],
+        "diagonal_inertia": [
+          0.06662313158673941,
+          0.10263239975763869,
+          0.12087337711445073
+        ],
+        "source": "common_bbox_engineering_assumption",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      },
+      "door": {
+        "mass_kg": 1.0,
+        "com_m": [
+          -0.1771493903361261,
+          0.009898582473397255,
+          0.0001620166003704071
+        ],
+        "diagonal_inertia": [
+          0.004401755463421046,
+          0.01387627777760136,
+          0.010177151913176512
+        ],
+        "source": "common_bbox_engineering_assumption",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      },
+      "knob_top": {
+        "mass_kg": 0.029999999329447746,
+        "com_m": [
+          0.0,
+          0.006923344102688134,
+          0.0
+        ],
+        "diagonal_inertia": [
+          5.371686517970748e-06,
+          8.820004258901344e-06,
+          5.371686517970748e-06
+        ],
+        "source": "common_bbox_engineering_assumption",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      },
+      "knob_bottom": {
+        "mass_kg": 0.029999999329447746,
+        "com_m": [
+          0.0,
+          0.006923344102688134,
+          0.0
+        ],
+        "diagonal_inertia": [
+          5.3716880825931724e-06,
+          8.820005823523769e-06,
+          5.371686517970748e-06
+        ],
+        "source": "common_bbox_engineering_assumption",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      }
+    }
+  },
+  "airfryer": {
+    "urdf": "assets/airfryer/common_v4/airfryer.urdf",
+    "articulated": true,
+    "base_fixed": true,
+    "physics_source": "source engineering mass/inertia; common convex decomposition",
+    "resistance_profile_status": "separate explicit interaction model; passive composition has no calibrated resistance",
+    "root_link": "airfryer__base",
+    "joints": [
+      {
+        "name": "airfryer__opening_joint",
+        "type": "prismatic",
+        "axis": "0 -1 0",
+        "limit": {
+          "lower": "0",
+          "upper": "0.16",
+          "effort": "100",
+          "velocity": "10"
+        }
+      }
+    ],
+    "resistance_profile": "assets/airfryer/resistance_profile.json",
+    "resistance_application": "explicit effort model, separate from passive scene",
+    "physical_provenance": {
+      "base": {
+        "mass_kg": 2.5,
+        "com_m": [
+          0.0,
+          0.0,
+          0.14499999582767487
+        ],
+        "diagonal_inertia": [
+          0.017999999225139618,
+          0.017999999225139618,
+          0.014999999664723873
+        ],
+        "source": "source_explicit",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      },
+      "drawer": {
+        "mass_kg": 0.6000000238418579,
+        "com_m": [
+          0.0,
+          -0.014999999664723873,
+          0.07999999821186066
+        ],
+        "diagonal_inertia": [
+          0.0010999999940395355,
+          0.0010000000474974513,
+          0.0017000000225380063
+        ],
+        "source": "source_explicit",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      },
+      "knob": {
+        "mass_kg": 0.03999999910593033,
+        "com_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "diagonal_inertia": [
+          6.000000212225132e-06,
+          1.1000000085914508e-05,
+          6.000000212225132e-06
+        ],
+        "source": "source_explicit",
+        "mass_origin": "source engineering nominal; base fixed by fixture"
+      }
+    }
+  },
+  "plate": {
+    "urdf": "assets/plate/plate.urdf",
+    "mass_kg": 0.237,
+    "base_fixed": true,
+    "collision_parts": 48,
+    "root_link": "plate",
+    "joints": []
+  },
+  "green_region": {
+    "type": "visual_marker",
+    "collision": false,
+    "size_m": [
+      0.06,
+      0.06,
+      0.0002
+    ]
+  },
+  "support_microwave": {
+    "urdf": "assets/support_microwave/asset.urdf",
+    "base_fixed": true,
+    "size_m": [
+      0.34,
+      0.44,
+      0.1
+    ],
+    "purpose": "physical raised fixture for appliance handle access; plain color, no added textures"
+  },
+  "support_airfryer": {
+    "urdf": "assets/support_airfryer/asset.urdf",
+    "base_fixed": true,
+    "size_m": [
+      0.24,
+      0.24,
+      0.1
+    ],
+    "purpose": "physical raised fixture for appliance handle access; plain color, no added textures"
+  }
+}

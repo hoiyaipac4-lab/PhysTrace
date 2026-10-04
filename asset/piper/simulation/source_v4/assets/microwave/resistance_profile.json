@@ -1,0 +1,179 @@
+{
+  "schema": "appliance_interaction/1.0",
+  "group": "A01",
+  "asset_id": "MW_WHITE",
+  "label": "白色双旋钮微波炉",
+  "part": "门",
+  "joint_kind": "hinge",
+  "q_min_si": 0.0,
+  "q_max_si": 1.8300611598229772,
+  "q_display_unit": "deg",
+  "q_max_display": 104.85478070867302,
+  "q_range_origin": "RGBD_estimate",
+  "nominal_gain_N_per_U": 1.0,
+  "gain_origin": "engineering_initialization_not_sensor_calibration",
+  "effective_lever_m": 0.25,
+  "lever_origin": "engineering_initialization_replace_from_asset",
+  "axis_local": [
+    0,
+    0,
+    1
+  ],
+  "radial_at_zero_local": [
+    1,
+    0,
+    0
+  ],
+  "physics_hz": 240,
+  "viscous_damping_si": 0.0,
+  "damping_origin": "disabled_to_avoid_unidentified_speed_correction",
+  "static_transition_speed_si": 0.002,
+  "static_threshold_multiplier": 1.0,
+  "native_joint_friction_when_profile_used": 0.0,
+  "native_joint_damping_when_profile_used": 0.0,
+  "branches": {
+    "opening": {
+      "progress": [
+        0.0,
+        0.05,
+        0.15000000000000002,
+        0.25000000000000006,
+        0.35000000000000003,
+        0.45000000000000007,
+        0.5500000000000002,
+        0.6500000000000001,
+        0.7500000000000002,
+        0.8500000000000002,
+        0.9500000000000002,
+        1.0
+      ],
+      "response_U": [
+        16.705162692114076,
+        16.705162692114076,
+        9.624212352033146,
+        8.013395243590573,
+        6.857436661712999,
+        6.98061686683026,
+        5.637156009017313,
+        5.790644698131633,
+        5.807371465646054,
+        5.602323592046429,
+        6.210933081268868,
+        6.210933081268868
+      ],
+      "n_trials_by_bin": [
+        5,
+        4,
+        3,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        3
+      ],
+      "median_speed_si": 0.8409843614706961,
+      "shape_origin": "binned_geometry_response"
+    },
+    "closing": {
+      "progress": [
+        0.0,
+        0.05,
+        0.15000000000000002,
+        0.25000000000000006,
+        0.35000000000000003,
+        0.45000000000000007,
+        0.5500000000000002,
+        0.6500000000000001,
+        0.7500000000000002,
+        0.8500000000000002,
+        0.9500000000000002,
+        1.0
+      ],
+      "response_U": [
+        6.41128909108348,
+        6.41128909108348,
+        2.025754032453101,
+        1.8843671488791394,
+        1.8537882996717827,
+        1.6046023002367176,
+        1.154556040216325,
+        0.4961,
+        0.0,
+        0.24195,
+        0.44605,
+        0.44605
+      ],
+      "n_trials_by_bin": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4
+      ],
+      "median_speed_si": 0.517298085529618,
+      "shape_origin": "binned_geometry_response"
+    }
+  },
+  "amplitude_statistics_U": {
+    "n": 10,
+    "median": 2.0804281200435217,
+    "mean": 2.9548081890677205,
+    "sd": 1.8243811247104949,
+    "p25": 1.4846334156967882,
+    "p75": 4.497264835873652
+  },
+  "profile_measure": "sum_of_finger_vector_norms",
+  "model_semantics": "effective_interaction_resistance_proxy",
+  "source_trials": [
+    "A01_10",
+    "A01_1",
+    "A01_2",
+    "A01_3",
+    "A01_4",
+    "A01_5",
+    "A01_6",
+    "A01_7",
+    "A01_8",
+    "A01_9"
+  ],
+  "amplitude_fit_trials": [
+    "A01_10",
+    "A01_1",
+    "A01_2",
+    "A01_3",
+    "A01_4",
+    "A01_5",
+    "A01_6",
+    "A01_7",
+    "A01_8",
+    "A01_9"
+  ],
+  "excluded_zero_trials": [],
+  "geometry_trials": [
+    "A01_1",
+    "A01_2",
+    "A01_3",
+    "A01_6",
+    "A01_10"
+  ],
+  "binding": {
+    "asset_path": "",
+    "joint_path": "",
+    "body_path": "",
+    "mode": "read_native_q_and_apply_effort_no_position_override"
+  },
+  "parameter_origin_codes": {
+    "source_derived": "原始记录计算",
+    "RGBD_estimate": "视频深度几何估计",
+    "binned_geometry_response": "几何分箱拟合",
+    "constant_empirical_response": "实测活动响应中位数常量模型",
+    "engineering_initialization": "用于初始化的工程取值"
+  }
+}

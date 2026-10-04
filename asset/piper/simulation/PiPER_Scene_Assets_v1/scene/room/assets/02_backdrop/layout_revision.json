@@ -1,0 +1,20 @@
+{
+  "source": "User sofa length2.18, right gap0.13, door-frame gap0.70",
+  "right_wall_shift_x_m": -0.03,
+  "changed": [
+    "Ceiling_cove_header",
+    "Ceiling_cove_lip",
+    "Ceiling_cove_strip",
+    "Low_wall_outlet_plate",
+    "Return_cove_lip.001",
+    "Return_cove_strip.001",
+    "Short_return_wall.001",
+    "Skirting_return.001",
+    "Socket_slot",
+    "Socket_slot.001",
+    "Socket_slot.002",
+    "Socket_slot.003",
+    "Socket_slot.004",
+    "Socket_slot.005"
+  ]
+}

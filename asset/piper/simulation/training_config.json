@@ -1,0 +1,60 @@
+{
+  "physics_hz": 480,
+  "control_hz": 30,
+  "seed": 0,
+  "plate_fixed": false,
+  "resolution": [
+    1280,
+    960
+  ],
+  "model_resolution": [
+    224,
+    224
+  ],
+  "head_camera": "/World/CameraMount/Links/CameraBody/WorkspaceCamera",
+  "hand_camera": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/WristCamera",
+  "wrist_local_matrix": [
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.9396926207859084,
+      0.0,
+      0.3420201433256687,
+      0.0
+    ],
+    [
+      -0.3420201433256687,
+      -0.0,
+      -0.9396926207859084,
+      0.0
+    ],
+    [
+      -0.0759,
+      0.0,
+      0.0468,
+      1.0
+    ]
+  ],
+  "wrist_calibration": "Geometric nominal lens near front surface of supplied camera body; not real-camera hand-eye calibration. Symmetry-plane camera orientation; parameters editable.",
+  "gpu": 0,
+  "material_overrides": {},
+  "friction_status": "Inherited provisional values; do not interpret material labels as measured friction. Optional per-object measured overrides, no invented measurements.",
+  "action_schema": {
+    "arm_joint_positions_rad": 6,
+    "gripper_width_m": "full opening [0, 0.07]"
+  },
+  "home": [
+    0,
+    0.65,
+    -0.85,
+    0,
+    0.2,
+    0,
+    0.02,
+    -0.02
+  ]
+}

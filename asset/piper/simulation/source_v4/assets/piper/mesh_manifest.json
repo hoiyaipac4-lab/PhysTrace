@@ -1,0 +1,82 @@
+[
+  {
+    "source": "meshes/link4.STL",
+    "output": "meshes/link4.obj",
+    "vertices": 52674,
+    "faces": 17558,
+    "normals": 52674,
+    "sha256": "407e3893e3a24abce8f1c1f1e3511ba3ae16c4e5cd868e3a4e265c3dfbb1484d"
+  },
+  {
+    "source": "meshes/link7.STL",
+    "output": "meshes/link7.obj",
+    "vertices": 6258,
+    "faces": 2086,
+    "normals": 6258,
+    "sha256": "581fb8d5f5fdd0f046cb171cf7249c85a03135fc3abe6867137a8d9ca5d74f1e"
+  },
+  {
+    "source": "meshes/link8.STL",
+    "output": "meshes/link8.obj",
+    "vertices": 6258,
+    "faces": 2086,
+    "normals": 6258,
+    "sha256": "41375ac679363d1598e1dcf02cbd530573760b7a7b8c3b43388fb5fe22f8cbce"
+  },
+  {
+    "source": "meshes/link5.STL",
+    "output": "meshes/link5.obj",
+    "vertices": 50016,
+    "faces": 16672,
+    "normals": 50016,
+    "sha256": "8bf223a21c8840a33565b6a759d3f027665289544f6ab4df78188c734efb4a9c"
+  },
+  {
+    "source": "meshes/link1.STL",
+    "output": "meshes/link1.obj",
+    "vertices": 26862,
+    "faces": 8954,
+    "normals": 26862,
+    "sha256": "4cd53d65c44adb4bfab9a4a0324a7f41adad43f1541d5b05796dffa92732053b"
+  },
+  {
+    "source": "meshes/link3.STL",
+    "output": "meshes/link3.obj",
+    "vertices": 110742,
+    "faces": 36914,
+    "normals": 110742,
+    "sha256": "60f7eec1dd532836ce655af66e0d0586363ba048c519131271b50e10b614bd80"
+  },
+  {
+    "source": "meshes/gripper_base.STL",
+    "output": "meshes/gripper_base.obj",
+    "vertices": 38964,
+    "faces": 12988,
+    "normals": 38964,
+    "sha256": "5d226e04c441d1ba0914d7c71fbc4fa18a0fd6416c19e2d1a8ba831b91ffa8e7"
+  },
+  {
+    "source": "meshes/link6.STL",
+    "output": "meshes/link6.obj",
+    "vertices": 3528,
+    "faces": 1176,
+    "normals": 3528,
+    "sha256": "d304eb17e921eb67186c3aea175fe31355acdb626bf81a8983c37fa190b019db"
+  },
+  {
+    "source": "meshes/link2.STL",
+    "output": "meshes/link2.obj",
+    "vertices": 219498,
+    "faces": 73166,
+    "normals": 219498,
+    "sha256": "946cf3e92260f3020a3699c44db2580df100287a235c604e1b9beff9364629c8"
+  },
+  {
+    "source": "meshes/base_link.STL",
+    "output": "meshes/base_link.obj",
+    "vertices": 36438,
+    "faces": 12146,
+    "normals": 36438,
+    "sha256": "1603d823ea33f356990a99d714c384a22d36f39c79696ecbc2393081ebc4a19a"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "asset_id": "05_light",
+  "spec_sha256": "840a0afdabc6ae18a88e6f833fce5467179f8d0d4eadda1b2ad181c86fdb1022",
+  "asset_sha256": "a14e2de9164cb84bd063bc84f2d23610ff1308e0998fd432a7d35f531bae132f",
+  "geometry_sha256": "4c07c2a9dedcd71c200251548047f0567e0bed83dc8487c9b2dd267bf515b650",
+  "asset_path": "asset.usda",
+  "checks": [
+    {
+      "requirement_id": "R01",
+      "status": "pass",
+      "evidence_ids": [
+        "E08",
+        "E10",
+        "E11"
+      ],
+      "artifacts": [
+        "preview.png",
+        "source_comparison.jpg",
+        "isaac_final.png"
+      ],
+      "notes": "Source/model appearance reviewed: principal visible structure, silhouette and colors preserved. Approximate dimensions, synthesized textures, hidden geometry and different viewpoints are explicitly disclosed; this is not calibrated photogrammetry."
+    },
+    {
+      "requirement_id": "R02",
+      "status": "pass",
+      "evidence_ids": [],
+      "artifacts": [
+        "geometry.json",
+        "usd_audit.json",
+        "blender_review.json"
+      ],
+      "notes": "Editable Blender geometry, meters/Z-up, relative USD dependencies and physics hierarchy pass structural checks. Background intentionally uses static colliders with no rigid-body API."
+    },
+    {
+      "requirement_id": "R03",
+      "status": "pass",
+      "evidence_ids": [],
+      "artifacts": [
+        "physics_test.json",
+        "physics_poses.npy",
+        "isaac_open.png",
+        "isaac_final.png"
+      ],
+      "notes": "Driven door open/close or free-body rest stability; not calibrated physical properties or robot manipulation."
+    }
+  ],
+  "limitations": [
+    "照明可用；未观察到灯架调节动作及真实光通量。",
+    "所有尺寸、质量、摩擦、隐藏结构及房间外部环境均未实测。",
+    "V2精修细节为视频引导的近似；实时深度测量不稳定，未用作模型尺度标定。"
+  ]
+}

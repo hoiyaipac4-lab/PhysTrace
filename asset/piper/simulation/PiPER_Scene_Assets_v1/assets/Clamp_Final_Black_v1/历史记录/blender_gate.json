@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "asset_id": "robot_arm_part_c_clamp",
+  "blend_file": "repaired_candidate.blend",
+  "blend_sha256": "19c88587a083fe8568a7c5f27b52fd7595886f9ac12b76bc90d8e7788b077374",
+  "checks": {
+    "source_scale": {
+      "passed": false,
+      "reason": "OBJ单位暂估毫米，未实测标定",
+      "evidence_files": [
+        "scan_audit.json",
+        "export_check.json"
+      ]
+    },
+    "registration": {
+      "passed": true,
+      "reason": "单份扫描，保留原坐标，仅Blender按毫米转换米",
+      "evidence_files": [
+        "export_check.json"
+      ]
+    },
+    "geometry_integrity": {
+      "passed": true,
+      "reason": "四件封闭，绕序一致，0退化面、0检出自交；静态无两两相交",
+      "evidence_files": [
+        "validation.json",
+        "assembly_check.json"
+      ]
+    },
+    "scan_fidelity": {
+      "passed": false,
+      "reason": "逐件完整双向面积采样已交付；未给定验收容差，未证明全表面误差上界",
+      "evidence_files": [
+        "validation.json",
+        "region_diagnostics.json"
+      ]
+    },
+    "critical_structures": {
+      "passed": false,
+      "reason": "外部结构重建；内部螺纹、压盘连接仍为未知或推定，离散姿态不代替完整运动",
+      "evidence_files": [
+        "reconstruction_parameters.json",
+        "assembly_check.json"
+      ]
+    },
+    "uv_and_bakes": {
+      "passed": false,
+      "reason": "来源无纹理；本次几何修复未进行贴图烘焙",
+      "evidence_files": [
+        "scan_audit.json"
+      ]
+    },
+    "photo_appearance": {
+      "passed": false,
+      "reason": "未提供实物照片；仅检查材质，不能验收实物外观",
+      "evidence_files": [
+        "scan_audit.json"
+      ]
+    },
+    "editable_reload": {
+      "passed": true,
+      "reason": "已重开核对四件对象尺寸及OBJ导出",
+      "evidence_files": [
+        "reload_check.json",
+        "export_check.json"
+      ]
+    }
+  },
+  "training_ready": false
+}

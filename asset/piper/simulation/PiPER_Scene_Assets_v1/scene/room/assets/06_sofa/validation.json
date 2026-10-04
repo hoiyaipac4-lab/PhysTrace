@@ -1,0 +1,54 @@
+{
+  "asset_id": "06_sofa",
+  "spec_sha256": "8443786adfe31c79b5d0b596d56fb298c6a881cecad0fb55826c0c18f6d0e08d",
+  "asset_sha256": "73025cab3338d30ccd373c79c5cca5754acff4af10f0ebf89e9f163ccbbce1a7",
+  "geometry_sha256": "a5bf1915791f321638d718e01e14463e414aed98143d4cdbcaff68ae78cd983a",
+  "asset_path": "asset.usda",
+  "checks": [
+    {
+      "requirement_id": "R01",
+      "status": "pass",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E14",
+        "E15"
+      ],
+      "artifacts": [
+        "preview.png",
+        "source_comparison.jpg",
+        "isaac_final.png"
+      ],
+      "notes": "Source/model appearance reviewed: principal visible structure, silhouette and colors preserved. Approximate dimensions, synthesized textures, hidden geometry and different viewpoints are explicitly disclosed; this is not calibrated photogrammetry."
+    },
+    {
+      "requirement_id": "R02",
+      "status": "pass",
+      "evidence_ids": [],
+      "artifacts": [
+        "geometry.json",
+        "usd_audit.json",
+        "blender_review.json"
+      ],
+      "notes": "Editable Blender geometry, meters/Z-up, relative USD dependencies and physics hierarchy pass structural checks. Background intentionally uses static colliders with no rigid-body API."
+    },
+    {
+      "requirement_id": "R03",
+      "status": "pass",
+      "evidence_ids": [],
+      "artifacts": [
+        "physics_test.json",
+        "physics_poses.npy",
+        "isaac_open.png",
+        "isaac_final.png"
+      ],
+      "notes": "Driven door open/close or free-body rest stability; not calibrated physical properties or robot manipulation."
+    }
+  ],
+  "limitations": [
+    "无坐压演示；本版使用刚体家具，不声称软垫变形标定。",
+    "V2精修细节为视频引导的近似；实时深度测量不稳定，未用作模型尺度标定。",
+    "V4贴图残留拍摄光照、分辨率限制；未恢复标定反照率，隐藏表面与具体图案位置为推断。",
+    "整长与后墙间距采用用户实测；其他尺寸、质量、摩擦及隐藏结构仍为估计。"
+  ]
+}

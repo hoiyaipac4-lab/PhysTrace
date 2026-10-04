@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "asset_file": "asset.usda",
+  "asset_sha256": "a14e2de9164cb84bd063bc84f2d23610ff1308e0998fd432a7d35f531bae132f",
+  "dependency_fingerprint": "ac529fd9205d336ab84715354430b758bd2b520d3cf921d780b9c61a743764c5",
+  "dependencies": [
+    {
+      "path": "asset.usda",
+      "sha256": "a14e2de9164cb84bd063bc84f2d23610ff1308e0998fd432a7d35f531bae132f"
+    },
+    {
+      "path": "geometry.usdc",
+      "sha256": "4c07c2a9dedcd71c200251548047f0567e0bed83dc8487c9b2dd267bf515b650"
+    }
+  ],
+  "default_prim": "/root",
+  "up_axis": "Z",
+  "meters_per_unit": 1.0,
+  "mesh_count": 42,
+  "vertex_count": 102376,
+  "face_count": 101756,
+  "bodies": [
+    {
+      "path": "/root/Asset/Body",
+      "kinematic": false,
+      "enabled": true,
+      "authored_mass": 9.0
+    }
+  ],
+  "joints": [],
+  "enabled_collider_count": 41,
+  "scope": "Default-time structural checks and local dependency hashing only. No appearance, manifold, animation, cooked-collider, collision-clearance or actual simulation acceptance is implied."
+}

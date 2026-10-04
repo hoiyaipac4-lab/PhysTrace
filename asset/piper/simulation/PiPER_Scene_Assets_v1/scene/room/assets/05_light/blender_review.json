@@ -1,0 +1,37 @@
+{
+  "stage": "blender",
+  "valid": true,
+  "blender_file": "model.blend",
+  "blender_sha256": "0114df30874e99a3d78fd79fde7c273f5506af03b1e6c428cf0fbebdc1140354",
+  "checks": [
+    {
+      "domain": "structure",
+      "status": "pass",
+      "notes": "Inspected bounded cloth ripples on existing diffuser; stand and mounting preserved. Visual approximation only."
+    },
+    {
+      "domain": "geometry",
+      "status": "pass",
+      "notes": "Inspected bounded cloth ripples on existing diffuser; stand and mounting preserved. Visual approximation only."
+    },
+    {
+      "domain": "appearance",
+      "status": "pass",
+      "notes": "Inspected bounded cloth ripples on existing diffuser; stand and mounting preserved. Visual approximation only."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "preview.png",
+      "sha256": "26b5de8deee101d7cb2931bf9287d936bc990d31ca5c9b5a2ef21428b4af2493"
+    },
+    {
+      "path": "geometry.json",
+      "sha256": "c1962dbce184f1223933bbc6feb36f6213b49956f0eb2979f3a8091b8d94ec86"
+    },
+    {
+      "path": "asset_spec.json",
+      "sha256": "840a0afdabc6ae18a88e6f833fce5467179f8d0d4eadda1b2ad181c86fdb1022"
+    }
+  ]
+}

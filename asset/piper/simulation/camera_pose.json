@@ -1,0 +1,20 @@
+{
+  "heading_to_table_edge_deg": 30.0,
+  "downward_pitch_deg": 30.0,
+  "optical_forward_world": [
+    -0.75,
+    0.4330127018922193,
+    -0.5
+  ],
+  "optical_eye_world": [
+    0.6512697757404183,
+    -0.44948643726818294,
+    1.3281197761034178
+  ],
+  "joint_targets_deg": {
+    "lock_pivot_camera_internal_shaft": -11.44441247254738,
+    "CameraRoll": 25.022196546041553
+  },
+  "direction_fit_error": 2.5372722546760972e-11,
+  "basis": "User requested 30-degree heading inward and 30-degree downward pitch. Optical normal estimated from supplied lens geometry; intrinsics and real extrinsics uncalibrated."
+}

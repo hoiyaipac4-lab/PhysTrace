@@ -1,0 +1,8 @@
+{
+  "source_archive": "piper_scene_v4.zip",
+  "source_urdf_sha256": "2302039b6b2bd6df650a8b5e16e90106b0c4feab9682a248648f82a94699a9cd",
+  "portable_urdf": "piper.urdf",
+  "portable_changes": "Relative mesh/texture filenames only; mechanics unchanged from v4",
+  "vendor_comparison": "../evidence/vendor/comparison.json",
+  "pre_v4_source_preserved": "piper.pre_v4.source.urdf"
+}

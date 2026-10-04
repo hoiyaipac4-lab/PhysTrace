@@ -1,0 +1,230 @@
+{
+  "frame": {
+    "scan_to_model": {
+      "inferred_or_interface_fraction": 0.008333333333333333,
+      "remaining_p95": 0.3622718985230808,
+      "remaining_sample_max": 0.7521502656043234,
+      "clusters_ge_1_diagnostic_only": [],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    },
+    "model_to_scan": {
+      "inferred_or_interface_fraction": 0.05472222222222222,
+      "remaining_p95": 0.3590948539129265,
+      "remaining_sample_max": 0.5541458636620545,
+      "clusters_ge_1_diagnostic_only": [],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    }
+  },
+  "screw": {
+    "scan_to_model": {
+      "inferred_or_interface_fraction": 0.12333333333333334,
+      "remaining_p95": 0.4724141998037553,
+      "remaining_sample_max": 1.8675432455874772,
+      "clusters_ge_1_diagnostic_only": [
+        {
+          "samples": 68,
+          "bounds": [
+            [
+              119.94427352659442,
+              297.02955390436495,
+              2119.9298099891803
+            ],
+            [
+              121.19415838194455,
+              302.677934541092,
+              2121.468606667629
+            ]
+          ],
+          "max_sample_distance": 1.7057696226845243
+        },
+        {
+          "samples": 14,
+          "bounds": [
+            [
+              114.48896356044142,
+              302.44263837178806,
+              2034.633855337784
+            ],
+            [
+              115.6382799850842,
+              305.35376189568984,
+              2034.996395517554
+            ]
+          ],
+          "max_sample_distance": 1.8675432455874772
+        },
+        {
+          "samples": 4,
+          "bounds": [
+            [
+              115.81781542688724,
+              305.4049596780798,
+              2122.6705444330514
+            ],
+            [
+              118.01491374600515,
+              305.65519951834915,
+              2122.9057151033376
+            ]
+          ],
+          "max_sample_distance": 1.1405165616712254
+        },
+        {
+          "samples": 4,
+          "bounds": [
+            [
+              114.636519576843,
+              293.8727996639226,
+              2122.450200857876
+            ],
+            [
+              115.18335464921272,
+              294.10379372964434,
+              2122.5450518969105
+            ]
+          ],
+          "max_sample_distance": 1.0567296668505262
+        }
+      ],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    },
+    "model_to_scan": {
+      "inferred_or_interface_fraction": 0.3238333333333333,
+      "remaining_p95": 0.45149535166540716,
+      "remaining_sample_max": 2.3834086833974752,
+      "clusters_ge_1_diagnostic_only": [
+        {
+          "samples": 4,
+          "bounds": [
+            [
+              114.62770859008918,
+              305.0106575656031,
+              1997.11168562515
+            ],
+            [
+              114.73164643268576,
+              305.55156170313455,
+              1997.315996701707
+            ]
+          ],
+          "max_sample_distance": 1.1385598047148728
+        },
+        {
+          "samples": 4,
+          "bounds": [
+            [
+              109.84020576886121,
+              299.2557597841424,
+              1997.062412859146
+            ],
+            [
+              112.32921555359795,
+              299.86424122624413,
+              1997.2570245063387
+            ]
+          ],
+          "max_sample_distance": 1.0914566329913677
+        },
+        {
+          "samples": 5,
+          "bounds": [
+            [
+              121.19424862116509,
+              302.32367169271964,
+              2120.0652870981567
+            ],
+            [
+              121.42114569919194,
+              302.7806122815442,
+              2120.698358539784
+            ]
+          ],
+          "max_sample_distance": 1.1185715994075909
+        },
+        {
+          "samples": 7,
+          "bounds": [
+            [
+              107.28973714744974,
+              301.55533193144225,
+              2008.003242433438
+            ],
+            [
+              108.42980736636757,
+              302.5952632487402,
+              2008.057053225422
+            ]
+          ],
+          "max_sample_distance": 2.3834086833974752
+        }
+      ],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    }
+  },
+  "pad": {
+    "scan_to_model": {
+      "inferred_or_interface_fraction": 0.043333333333333335,
+      "remaining_p95": 0.07552326813658139,
+      "remaining_sample_max": 0.8275029151177651,
+      "clusters_ge_1_diagnostic_only": [],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    },
+    "model_to_scan": {
+      "inferred_or_interface_fraction": 0.14527777777777778,
+      "remaining_p95": 0.06612724749697937,
+      "remaining_sample_max": 0.26690933889891827,
+      "clusters_ge_1_diagnostic_only": [],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    }
+  },
+  "handle": {
+    "scan_to_model": {
+      "inferred_or_interface_fraction": 0.006833333333333334,
+      "remaining_p95": 0.25157664449988276,
+      "remaining_sample_max": 1.052804278479274,
+      "clusters_ge_1_diagnostic_only": [
+        {
+          "samples": 17,
+          "bounds": [
+            [
+              156.959373729085,
+              332.3190528200741,
+              2004.4638413968335
+            ],
+            [
+              157.95105234046156,
+              333.147593691237,
+              2005.108384554759
+            ]
+          ],
+          "max_sample_distance": 1.052804278479274
+        }
+      ],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    },
+    "model_to_scan": {
+      "inferred_or_interface_fraction": 0.15966666666666668,
+      "remaining_p95": 0.26200632692734493,
+      "remaining_sample_max": 1.0669266723545827,
+      "clusters_ge_1_diagnostic_only": [
+        {
+          "samples": 34,
+          "bounds": [
+            [
+              156.9737441941199,
+              332.80340485423466,
+              2004.9264685304627
+            ],
+            [
+              158.58403639538145,
+              333.9212655621372,
+              2006.0056290602056
+            ]
+          ],
+          "max_sample_distance": 1.0669266723545827
+        }
+      ],
+      "note": "geometric region masks, not deletion; full statistics retained. Threshold 1 is diagnostic, not agreed tolerance."
+    }
+  }
+}

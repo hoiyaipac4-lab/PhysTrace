@@ -1,0 +1,87 @@
+{
+  "source": "../../../../external_sources/source_0040/scene_piper_materials_wrist_camera_20260922.usdc",
+  "output": "../../../../external_sources/source_0041/scene_wrist_photo_mount_20260922.usdc",
+  "basis": "four user-provided real installation photographs + original FBX bracket geometry",
+  "calibrated": false,
+  "mount_transform_row_major": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.05,
+      -0.017,
+      0.025,
+      1.0
+    ]
+  ],
+  "camera_transform_row_major": [
+    [
+      -0.03395512085946707,
+      -0.9992387597327307,
+      -0.019208092440760882,
+      0.0
+    ],
+    [
+      -0.9634474772234336,
+      0.02761661499868654,
+      0.2664700381052546,
+      0.0
+    ],
+    [
+      -0.26573673771586115,
+      0.02755400899234732,
+      -0.9636517850430109,
+      0.0
+    ],
+    [
+      -0.06981377257941376,
+      -0.03444321552452743,
+      0.04670148404008978,
+      1.0
+    ]
+  ],
+  "camera_position_gripper_m": [
+    -0.06981377257941376,
+    -0.03444321552452743,
+    0.04670148404008978
+  ],
+  "camera_forward_gripper": [
+    0.26573673771586115,
+    -0.02755400899234732,
+    0.9636517850430109
+  ],
+  "downward_pitch_deg": 15.416733336356275,
+  "source_bracket_axis_center_m": [
+    0.017,
+    0,
+    -0.05
+  ],
+  "source_bracket_estimated_inner_radius_m": 0.029,
+  "bracket_axis_gripper_z_m": 0.025,
+  "mount_scale": 1.0,
+  "extra_tall_extension_removed": true,
+  "physics_attributes_unchanged": true,
+  "optical_origin_note": "front-center of lens bar estimated from FBX, not individual sensor calibration",
+  "resolution": [
+    320,
+    240
+  ],
+  "global_camera_unchanged": true,
+  "camera_dynamics": "same as previous: visual fixed attachment, no added collision/mass",
+  "source_unchanged": true
+}

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="rear_table">
+  <link name="rear_table__base">
+    <visual>
+      <origin xyz="0 0 -.025" />
+      <geometry>
+        <mesh filename="portable_resources/table_visual.obj" scale="1.5 1 .999" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -.025" />
+      <geometry>
+        <box size="1.35 .7 .05" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="20" />
+      <inertia ixx="2" iyy="2" izz="2" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="support_0">
+      <origin xyz="-0.62 -0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+      <material name="rear_table__support">
+        <color rgba=".12 .14 .16 1" />
+      </material>
+    </visual>
+    <collision name="support_0">
+      <origin xyz="-0.62 -0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+    </collision>
+    <visual name="support_1">
+      <origin xyz="-0.62 0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+      <material name="rear_table__support">
+        <color rgba=".12 .14 .16 1" />
+      </material>
+    </visual>
+    <collision name="support_1">
+      <origin xyz="-0.62 0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+    </collision>
+    <visual name="support_2">
+      <origin xyz="0.62 -0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+      <material name="rear_table__support">
+        <color rgba=".12 .14 .16 1" />
+      </material>
+    </visual>
+    <collision name="support_2">
+      <origin xyz="0.62 -0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+    </collision>
+    <visual name="support_3">
+      <origin xyz="0.62 0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+      <material name="rear_table__support">
+        <color rgba=".12 .14 .16 1" />
+      </material>
+    </visual>
+    <collision name="support_3">
+      <origin xyz="0.62 0.29 -.405" />
+      <geometry>
+        <box size=".045 .045 .71" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

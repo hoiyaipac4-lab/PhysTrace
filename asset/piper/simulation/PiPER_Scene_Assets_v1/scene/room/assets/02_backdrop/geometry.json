@@ -1,0 +1,805 @@
+{
+  "mesh_count": 160,
+  "objects": [
+    {
+      "name": "Blind_bottom_rail",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Blind_bottom_rail.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Blind_cloth",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Blind_cloth.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Blind_top_roll",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Blind_top_roll.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Ceiling_cove_header",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Ceiling_cove_lip",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Ceiling_cove_strip",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Green_notice_mark",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Green_notice_mark.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Low_wall_outlet_plate",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Notice_strip",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.003",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.004",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.005",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.006",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.007",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.008",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.009",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.010",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.011",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.012",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.013",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.014",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.015",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.016",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.017",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.018",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.019",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.020",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.021",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.022",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.023",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.024",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.025",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.026",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.027",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.028",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.029",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.030",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.031",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.032",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.033",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.034",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.035",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.036",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.037",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.038",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.039",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.040",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.041",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.042",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.043",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.044",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.045",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.046",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.047",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.048",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.049",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.050",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.051",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.052",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.053",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.054",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.055",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.056",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.057",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.058",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.059",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.060",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.061",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.062",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.063",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.064",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.065",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.066",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.067",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.068",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.069",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.070",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.071",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.072",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.073",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.074",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.075",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.076",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.077",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.078",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.079",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.080",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.081",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.082",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.083",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.084",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.085",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.086",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.087",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.088",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.089",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.090",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.091",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.092",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.093",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.094",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.095",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.096",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.097",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.098",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.099",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.100",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.101",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.102",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.103",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.104",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.105",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.106",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.107",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.108",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.109",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.110",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.111",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.112",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.113",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.114",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.115",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.116",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.117",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.118",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.119",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Oak_floor_plank.120",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Return_cove_lip",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Return_cove_lip.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Return_cove_strip",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Return_cove_strip.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Short_return_wall",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Short_return_wall.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Skirting_return",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Skirting_return.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Skirting_right",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Socket_slot",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Socket_slot.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Socket_slot.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Socket_slot.003",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Socket_slot.004",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Socket_slot.005",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Switch_plate",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Switch_plate.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Switch_plate.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Switch_rocker",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Switch_rocker.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Switch_rocker.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Taupe_panel",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Wall_above_door",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Wall_left",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Wall_right",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Window_recess",
+      "vertices": 96,
+      "polygons": 98
+    }
+  ]
+}

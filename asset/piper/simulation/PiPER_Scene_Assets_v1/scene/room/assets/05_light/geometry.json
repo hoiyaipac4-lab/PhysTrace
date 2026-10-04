@@ -1,0 +1,210 @@
+{
+  "mesh_count": 41,
+  "objects": [
+    {
+      "name": "Boom_end_cap",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.002",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.003",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.004",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.005",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.006",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.007",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "C_stand_leg_segment.008",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Column_collar",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Column_collar.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Column_collar.002",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Diffuser",
+      "vertices": 98306,
+      "polygons": 98304
+    },
+    {
+      "name": "Foot_tip",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Foot_tip.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Foot_tip.002",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Grip_handle",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Grip_handle_end",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Grip_head",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Leg_elbow",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Leg_elbow.001",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Leg_elbow.002",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Leg_elbow.003",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Leg_elbow.004",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Leg_elbow.005",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Light_attachment",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Lock_knob",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Lock_knob.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Lock_knob.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Lock_screw",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Lock_screw.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Lock_screw.002",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Long_boom",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Lower_column",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Softbox_edge",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Softbox_edge.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Softbox_edge.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Softbox_edge.003",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Softbox_shell",
+      "vertices": 16,
+      "polygons": 14
+    },
+    {
+      "name": "Upper_column",
+      "vertices": 64,
+      "polygons": 34
+    }
+  ]
+}

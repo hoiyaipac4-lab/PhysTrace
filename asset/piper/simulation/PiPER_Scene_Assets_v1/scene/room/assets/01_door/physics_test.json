@@ -1,0 +1,14 @@
+{
+  "engine": "Isaac Sim 5.1 PhysX",
+  "duration_s": 8,
+  "physics_hz": 240.0,
+  "asset_sha256": "58d61a2cc41f3f9ede83affb10087cf88a4925bfe218791e7ebca33c1512ce53",
+  "geometry_sha256": "df101fc5e4d5949d9874246c24127bfc70d6b40169e13515eee76c6c5422b90f",
+  "body_path": "/World/Item/Asset/Leaf",
+  "sample_count": 1920,
+  "finite": true,
+  "scope": "Driven door open/close or free-body rest stability; not calibrated physical properties or robot manipulation.",
+  "angle_at_3s_deg": -84.85758956807666,
+  "final_angle_deg": -0.14276770569627897,
+  "pass": true
+}

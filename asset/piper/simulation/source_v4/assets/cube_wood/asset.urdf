@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="cube_wood">
+  <link name="cube_wood__block">
+    <inertial>
+      <mass value="0.006000000052154064" />
+      <inertia ixx="6.250000054327151e-07" iyy="6.250000054327151e-07" izz="6.250000054327151e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../../material_visual/wood/cube_visual.obj" />
+      </geometry>
+      <material name="cube_wood__appearance">
+        <color rgba="0.588 0.588 0.588 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size=".025 .025 .025" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,2085 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="piper">
+  <link name="dummy_link">
+    <inertial>
+      <mass value="0" />
+      <inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <joint name="base_to_dummy" type="fixed">
+    <parent link="dummy_link" />
+    <child link="base_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.00473641164191482 2.56829134630247E-05 0.041451518036016" rpy="0 0 0" />
+      <mass value="1.02" />
+      <inertia ixx="0.00267433" ixy="-0.00000073" ixz="-0.00017389" iyy="0.00282612" iyz="0.0000004" izz="0.00089624" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link_0_0.obj" />
+      </geometry>
+      <material name="base_link_0_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link_1_0.obj" />
+      </geometry>
+      <material name="base_link_1_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link_2_0.obj" />
+      </geometry>
+      <material name="base_link_2_0">
+        <color rgba="0.0 0.0 0.0 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link_3_0.obj" />
+      </geometry>
+      <material name="base_link_3_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link_4_0.obj" />
+      </geometry>
+      <material name="base_link_4_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/base_link_5_0.obj" />
+      </geometry>
+      <material name="base_link_5_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+  </link>
+  <link name="link1">
+    <inertial>
+      <origin xyz="0.000121504734057468 0.000104632162460536 -0.00438597309559853" rpy="0 0 0" />
+      <mass value="0.71" />
+      <inertia ixx="0.00048916" ixy="-0.00000036" ixz="-0.00000224" iyy="0.00040472" iyz="-0.00000242" izz="0.00043982" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link1.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link1_0_0.obj" />
+      </geometry>
+      <material name="link1_0_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link1_1_0.obj" />
+      </geometry>
+      <material name="link1_1_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link1_2_0.obj" />
+      </geometry>
+      <material name="link1_2_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link1_3_0.obj" />
+      </geometry>
+      <material name="link1_3_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link1_4_0.obj" />
+      </geometry>
+      <material name="link1_4_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint1" type="revolute">
+    <origin xyz="0 0 0.123" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link1" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.618" upper="2.618" effort="100" velocity="5" />
+  </joint>
+  <link name="link2">
+    <inertial>
+      <origin xyz="0.198666145229743 -0.010926924140076 0.00142121714502687" rpy="0 0 0" />
+      <mass value="1.17" />
+      <inertia ixx="0.00116918" ixy="-0.00180037" ixz="0.00025146" iyy="0.06785384" iyz="-0.00000455" izz="0.06774489" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_0_0.obj" />
+      </geometry>
+      <material name="link2_0_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_1_0.obj" />
+      </geometry>
+      <material name="link2_1_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_2_0.obj" />
+      </geometry>
+      <material name="link2_2_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_3_0.obj" />
+      </geometry>
+      <material name="link2_3_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_4_0.obj" />
+      </geometry>
+      <material name="link2_4_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_5_0.obj" />
+      </geometry>
+      <material name="link2_5_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_6_0.obj" />
+      </geometry>
+      <material name="link2_6_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_7_0.obj" />
+      </geometry>
+      <material name="link2_7_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_8_0.obj" />
+      </geometry>
+      <material name="link2_8_0">
+        <color rgba="0.4039219915866852 0.4039219915866852 0.4039219915866852 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_9_0.obj" />
+      </geometry>
+      <material name="link2_9_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_10_0.obj" />
+      </geometry>
+      <material name="link2_10_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_11_0.obj" />
+      </geometry>
+      <material name="link2_11_0">
+        <color rgba="0.4039219915866852 0.4039219915866852 0.4039219915866852 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_12_0.obj" />
+      </geometry>
+      <material name="link2_12_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_13_0.obj" />
+      </geometry>
+      <material name="link2_13_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_14_0.obj" />
+      </geometry>
+      <material name="link2_14_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_15_0.obj" />
+      </geometry>
+      <material name="link2_15_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_16_0.obj" />
+      </geometry>
+      <material name="link2_16_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_17_0.obj" />
+      </geometry>
+      <material name="link2_17_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_18_0.obj" />
+      </geometry>
+      <material name="link2_18_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_19_0.obj" />
+      </geometry>
+      <material name="link2_19_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_20_0.obj" />
+      </geometry>
+      <material name="link2_20_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_21_0.obj" />
+      </geometry>
+      <material name="link2_21_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_22_0.obj" />
+      </geometry>
+      <material name="link2_22_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_23_0.obj" />
+      </geometry>
+      <material name="link2_23_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_24_0.obj" />
+      </geometry>
+      <material name="link2_24_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_25_0.obj" />
+      </geometry>
+      <material name="link2_25_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_26_0.obj" />
+      </geometry>
+      <material name="link2_26_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_27_0.obj" />
+      </geometry>
+      <material name="link2_27_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_28_0.obj" />
+      </geometry>
+      <material name="link2_28_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_29_0.obj" />
+      </geometry>
+      <material name="link2_29_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_30_0.obj" />
+      </geometry>
+      <material name="link2_30_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_31_0.obj" />
+      </geometry>
+      <material name="link2_31_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_32_0.obj" />
+      </geometry>
+      <material name="link2_32_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_33_0.obj" />
+      </geometry>
+      <material name="link2_33_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_34_0.obj" />
+      </geometry>
+      <material name="link2_34_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_35_0.obj" />
+      </geometry>
+      <material name="link2_35_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_36_0.obj" />
+      </geometry>
+      <material name="link2_36_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_37_0.obj" />
+      </geometry>
+      <material name="link2_37_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_38_0.obj" />
+      </geometry>
+      <material name="link2_38_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_39_0.obj" />
+      </geometry>
+      <material name="link2_39_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_40_0.obj" />
+      </geometry>
+      <material name="link2_40_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_41_0.obj" />
+      </geometry>
+      <material name="link2_41_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_42_0.obj" />
+      </geometry>
+      <material name="link2_42_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_43_0.obj" />
+      </geometry>
+      <material name="link2_43_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_44_0.obj" />
+      </geometry>
+      <material name="link2_44_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_45_0.obj" />
+      </geometry>
+      <material name="link2_45_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_46_0.obj" />
+      </geometry>
+      <material name="link2_46_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_47_0.obj" />
+      </geometry>
+      <material name="link2_47_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_48_0.obj" />
+      </geometry>
+      <material name="link2_48_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_49_0.obj" />
+      </geometry>
+      <material name="link2_49_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_50_0.obj" />
+      </geometry>
+      <material name="link2_50_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_51_0.obj" />
+      </geometry>
+      <material name="link2_51_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_52_0.obj" />
+      </geometry>
+      <material name="link2_52_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_53_0.obj" />
+      </geometry>
+      <material name="link2_53_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_54_0.obj" />
+      </geometry>
+      <material name="link2_54_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_55_0.obj" />
+      </geometry>
+      <material name="link2_55_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_56_0.obj" />
+      </geometry>
+      <material name="link2_56_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_57_0.obj" />
+      </geometry>
+      <material name="link2_57_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_58_0.obj" />
+      </geometry>
+      <material name="link2_58_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_59_0.obj" />
+      </geometry>
+      <material name="link2_59_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_60_0.obj" />
+      </geometry>
+      <material name="link2_60_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_61_0.obj" />
+      </geometry>
+      <material name="link2_61_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_62_0.obj" />
+      </geometry>
+      <material name="link2_62_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_63_0.obj" />
+      </geometry>
+      <material name="link2_63_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_64_0.obj" />
+      </geometry>
+      <material name="link2_64_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_65_0.obj" />
+      </geometry>
+      <material name="link2_65_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_66_0.obj" />
+      </geometry>
+      <material name="link2_66_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_67_0.obj" />
+      </geometry>
+      <material name="link2_67_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_68_0.obj" />
+      </geometry>
+      <material name="link2_68_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_69_0.obj" />
+      </geometry>
+      <material name="link2_69_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_70_0.obj" />
+      </geometry>
+      <material name="link2_70_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_71_0.obj" />
+      </geometry>
+      <material name="link2_71_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_72_0.obj" />
+      </geometry>
+      <material name="link2_72_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_73_0.obj" />
+      </geometry>
+      <material name="link2_73_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_74_0.obj" />
+      </geometry>
+      <material name="link2_74_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_75_0.obj" />
+      </geometry>
+      <material name="link2_75_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_76_0.obj" />
+      </geometry>
+      <material name="link2_76_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_77_0.obj" />
+      </geometry>
+      <material name="link2_77_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_78_0.obj" />
+      </geometry>
+      <material name="link2_78_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_79_0.obj" />
+      </geometry>
+      <material name="link2_79_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_80_0.obj" />
+      </geometry>
+      <material name="link2_80_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_81_0.obj" />
+      </geometry>
+      <material name="link2_81_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_82_0.obj" />
+      </geometry>
+      <material name="link2_82_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_83_0.obj" />
+      </geometry>
+      <material name="link2_83_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_84_0.obj" />
+      </geometry>
+      <material name="link2_84_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_85_0.obj" />
+      </geometry>
+      <material name="link2_85_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_86_0.obj" />
+      </geometry>
+      <material name="link2_86_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_87_0.obj" />
+      </geometry>
+      <material name="link2_87_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_88_0.obj" />
+      </geometry>
+      <material name="link2_88_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_89_0.obj" />
+      </geometry>
+      <material name="link2_89_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_90_0.obj" />
+      </geometry>
+      <material name="link2_90_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_91_0.obj" />
+      </geometry>
+      <material name="link2_91_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_92_0.obj" />
+      </geometry>
+      <material name="link2_92_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_93_0.obj" />
+      </geometry>
+      <material name="link2_93_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_94_0.obj" />
+      </geometry>
+      <material name="link2_94_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_95_0.obj" />
+      </geometry>
+      <material name="link2_95_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_96_0.obj" />
+      </geometry>
+      <material name="link2_96_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_97_0.obj" />
+      </geometry>
+      <material name="link2_97_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_98_0.obj" />
+      </geometry>
+      <material name="link2_98_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_99_0.obj" />
+      </geometry>
+      <material name="link2_99_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_100_0.obj" />
+      </geometry>
+      <material name="link2_100_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_101_0.obj" />
+      </geometry>
+      <material name="link2_101_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_102_0.obj" />
+      </geometry>
+      <material name="link2_102_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_103_0.obj" />
+      </geometry>
+      <material name="link2_103_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_104_0.obj" />
+      </geometry>
+      <material name="link2_104_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_105_0.obj" />
+      </geometry>
+      <material name="link2_105_0">
+        <color rgba="0.7450979948043823 0.7450979948043823 0.7450979948043823 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_106_0.obj" />
+      </geometry>
+      <material name="link2_106_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_107_0.obj" />
+      </geometry>
+      <material name="link2_107_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_108_0.obj" />
+      </geometry>
+      <material name="link2_108_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_109_0.obj" />
+      </geometry>
+      <material name="link2_109_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_110_0.obj" />
+      </geometry>
+      <material name="link2_110_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_111_0.obj" />
+      </geometry>
+      <material name="link2_111_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_112_0.obj" />
+      </geometry>
+      <material name="link2_112_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_113_0.obj" />
+      </geometry>
+      <material name="link2_113_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_114_0.obj" />
+      </geometry>
+      <material name="link2_114_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_115_0.obj" />
+      </geometry>
+      <material name="link2_115_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_116_0.obj" />
+      </geometry>
+      <material name="link2_116_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_117_0.obj" />
+      </geometry>
+      <material name="link2_117_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_118_0.obj" />
+      </geometry>
+      <material name="link2_118_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_119_0.obj" />
+      </geometry>
+      <material name="link2_119_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_120_0.obj" />
+      </geometry>
+      <material name="link2_120_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_121_0.obj" />
+      </geometry>
+      <material name="link2_121_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_122_0.obj" />
+      </geometry>
+      <material name="link2_122_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_123_0.obj" />
+      </geometry>
+      <material name="link2_123_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_124_0.obj" />
+      </geometry>
+      <material name="link2_124_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_125_0.obj" />
+      </geometry>
+      <material name="link2_125_0">
+        <color rgba="0.7450979948043823 0.7450979948043823 0.7450979948043823 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_126_0.obj" />
+      </geometry>
+      <material name="link2_126_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_127_0.obj" />
+      </geometry>
+      <material name="link2_127_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_128_0.obj" />
+      </geometry>
+      <material name="link2_128_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_129_0.obj" />
+      </geometry>
+      <material name="link2_129_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_130_0.obj" />
+      </geometry>
+      <material name="link2_130_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_131_0.obj" />
+      </geometry>
+      <material name="link2_131_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_132_0.obj" />
+      </geometry>
+      <material name="link2_132_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_133_0.obj" />
+      </geometry>
+      <material name="link2_133_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_134_0.obj" />
+      </geometry>
+      <material name="link2_134_0">
+        <color rgba="0.8549019694328308 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_135_0.obj" />
+      </geometry>
+      <material name="link2_135_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_136_0.obj" />
+      </geometry>
+      <material name="link2_136_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_137_0.obj" />
+      </geometry>
+      <material name="link2_137_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_138_0.obj" />
+      </geometry>
+      <material name="link2_138_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_139_0.obj" />
+      </geometry>
+      <material name="link2_139_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_140_0.obj" />
+      </geometry>
+      <material name="link2_140_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_141_0.obj" />
+      </geometry>
+      <material name="link2_141_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_142_0.obj" />
+      </geometry>
+      <material name="link2_142_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_143_0.obj" />
+      </geometry>
+      <material name="link2_143_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_144_0.obj" />
+      </geometry>
+      <material name="link2_144_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link2_145_0.obj" />
+      </geometry>
+      <material name="link2_145_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint2" type="revolute">
+    <origin xyz="0 0 0" rpy="1.5708 -0.1359 -3.1416" />
+    <parent link="link1" />
+    <child link="link2" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="3.14" effort="100" velocity="5" />
+  </joint>
+  <link name="link3">
+    <inertial>
+      <origin xyz="-0.0202737662122021 -0.133914995944595 -0.000458682652737356" rpy="0 0 0" />
+      <mass value="0.5" />
+      <inertia ixx="0.01361711" ixy="0.00165794" ixz="-0.00000048" iyy="0.00045024" iyz="-0.00000045" izz="0.01380322" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_0_0.obj" />
+      </geometry>
+      <material name="link3_0_0">
+        <color rgba="0.12156900018453598 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_1_0.obj" />
+      </geometry>
+      <material name="link3_1_0">
+        <color rgba="0.12156900018453598 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_2_0.obj" />
+      </geometry>
+      <material name="link3_2_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_3_0.obj" />
+      </geometry>
+      <material name="link3_3_0">
+        <color rgba="0.12156900018453598 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_4_0.obj" />
+      </geometry>
+      <material name="link3_4_0">
+        <color rgba="0.12156900018453598 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_5_0.obj" />
+      </geometry>
+      <material name="link3_5_0">
+        <color rgba="0.4000000059604645 0.4000000059604645 0.4000000059604645 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_6_0.obj" />
+      </geometry>
+      <material name="link3_6_0">
+        <color rgba="0.4000000059604645 0.4000000059604645 0.4000000059604645 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_7_0.obj" />
+      </geometry>
+      <material name="link3_7_0">
+        <color rgba="0.12156900018453598 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_8_0.obj" />
+      </geometry>
+      <material name="link3_8_0">
+        <color rgba="0.12156900018453598 0.12156900018453598 0.12156900018453598 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_9_0.obj" />
+      </geometry>
+      <material name="link3_9_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_10_0.obj" />
+      </geometry>
+      <material name="link3_10_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_11_0.obj" />
+      </geometry>
+      <material name="link3_11_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_12_0.obj" />
+      </geometry>
+      <material name="link3_12_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_13_0.obj" />
+      </geometry>
+      <material name="link3_13_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_14_0.obj" />
+      </geometry>
+      <material name="link3_14_0">
+        <color rgba="0.7803919911384583 0.16862699389457703 0.16862699389457703 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_15_0.obj" />
+      </geometry>
+      <material name="link3_15_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_16_0.obj" />
+      </geometry>
+      <material name="link3_16_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_17_0.obj" />
+      </geometry>
+      <material name="link3_17_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_18_0.obj" />
+      </geometry>
+      <material name="link3_18_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_19_0.obj" />
+      </geometry>
+      <material name="link3_19_0">
+        <color rgba="0.9019609689712524 0.9019609689712524 0.9019609689712524 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_20_0.obj" />
+      </geometry>
+      <material name="link3_20_0">
+        <color rgba="0.7803919911384583 0.16862699389457703 0.16862699389457703 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_21_0.obj" />
+      </geometry>
+      <material name="link3_21_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link3_22_0.obj" />
+      </geometry>
+      <material name="link3_22_0">
+        <color rgba="0.058823999017477036 0.058823999017477036 0.058823999017477036 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint3" type="revolute">
+    <origin xyz="0.28503 0 0" rpy="0 0 -1.7939" />
+    <parent link="link2" />
+    <child link="link3" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.967" upper="0" effort="100" velocity="5" />
+  </joint>
+  <link name="link4">
+    <inertial>
+      <origin xyz="-9.66635791618542E-05 0.000876064475651083 -0.00496880904640868" rpy="0 0 0" />
+      <mass value="0.38" />
+      <inertia ixx="0.00018501" ixy="0.00000054" ixz="0.00000120" iyy="0.00018965" iyz="-0.00000841" izz="0.00015484" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_0_0.obj" />
+      </geometry>
+      <material name="link4_0_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_1_0.obj" />
+      </geometry>
+      <material name="link4_1_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_2_0.obj" />
+      </geometry>
+      <material name="link4_2_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_3_0.obj" />
+      </geometry>
+      <material name="link4_3_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_4_0.obj" />
+      </geometry>
+      <material name="link4_4_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_5_0.obj" />
+      </geometry>
+      <material name="link4_5_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link4_6_0.obj" />
+      </geometry>
+      <material name="link4_6_0">
+        <color rgba="0.11372499912977219 0.11372499912977219 0.11372499912977219 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint4" type="revolute">
+    <origin xyz="-0.021984 -0.25075 0" rpy="1.5708 0 0" />
+    <parent link="link3" />
+    <child link="link4" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.745" upper="1.745" effort="100" velocity="5" />
+  </joint>
+  <link name="link5">
+    <inertial>
+      <origin xyz="-4.10554118924211E-05 -0.0566486692356075 -0.0037205791677906" rpy="0 0 0" />
+      <mass value="0.383" />
+      <inertia ixx="0.00166169" ixy="0.00000006" ixz="-0.00000007" iyy="0.00018510" iyz="0.00001026" izz="0.00164321" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5_0_0.obj" />
+      </geometry>
+      <material name="link5_0_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5_1_0.obj" />
+      </geometry>
+      <material name="link5_1_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5_2_0.obj" />
+      </geometry>
+      <material name="link5_2_0">
+        <color rgba="0.0 0.0 0.0 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5_3_0.obj" />
+      </geometry>
+      <material name="link5_3_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5_4_0.obj" />
+      </geometry>
+      <material name="link5_4_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link5_5_0.obj" />
+      </geometry>
+      <material name="link5_5_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint5" type="revolute">
+    <origin xyz="0 0 0" rpy="-1.5708 0 0" />
+    <parent link="link4" />
+    <child link="link5" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.22" upper="1.22" effort="100" velocity="5" />
+  </joint>
+  <link name="link6">
+    <inertial>
+      <origin xyz="-8.82590762930069E-05 9.0598378529832E-06 -0.002" rpy="0 0 0" />
+      <mass value="0.007" />
+      <inertia ixx="5.73015540542155E-07" ixy="-1.98305403089247E-22" ixz="-7.2791893904596E-23" iyy="5.73015540542155E-07" iyz="-3.4146026640245E-24" izz="1.06738869138926E-06" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link6.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link6_0_0.obj" />
+      </geometry>
+      <material name="link6_0_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint6" type="revolute">
+    <origin xyz="8.8259E-05 -0.091 0" rpy="1.5708 0 0" />
+    <parent link="link5" />
+    <child link="link6" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.0944" upper="2.0944" effort="100" velocity="3" />
+  </joint>
+  <link name="gripper_base">
+    <inertial>
+      <origin xyz="-0.01450913510928943 -0.005998216535446927 0.031286719467607034" rpy="0 0 0" />
+      <mass value="0.569999988079071" />
+      <inertia ixx="0.0011147094635002442" ixy="-0.00019659685240704856" ixz="-3.1473265388827825e-05" iyy="0.001207981774573009" iyz="-9.49888516379163e-06" izz="0.0010417351187591711" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/gripper_base.obj" />
+      </geometry>
+      <material name="">
+        <color rgba=".114435 .114435 .114435 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/gripper_base.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/camera_body.obj" />
+      </geometry>
+      <material name="camera_body">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/camera_body_collision.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/mount_bracket.obj" />
+      </geometry>
+      <material name="mount_bracket">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/mount_bracket_collision.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/mount_screw_01.obj" />
+      </geometry>
+      <material name="mount_screw_01">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/mount_screw_01_collision.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/mount_screw_02.obj" />
+      </geometry>
+      <material name="mount_screw_02">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/mount_screw_02_collision.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint6_to_gripper_base" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="link6" />
+    <child link="gripper_base" />
+  </joint>
+  <link name="link7">
+    <inertial>
+      <origin xyz="0.00065123185041968 -0.0491929869131989 0.00972258769184025" rpy="0 0 0" />
+      <mass value="0.025" />
+      <inertia ixx="0.00007371" ixy="-0.00000113" ixz="0.00000021" iyy="0.00000781" iyz="-0.00001372" izz="0.0000747" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link7.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link7_0_0.obj" />
+      </geometry>
+      <material name="link7_0_0">
+        <color rgba="0.0 0.0 0.0 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link7_1_0.obj" />
+      </geometry>
+      <material name="link7_1_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link7_2_0.obj" />
+      </geometry>
+      <material name="link7_2_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint7" type="prismatic">
+    <origin xyz="0 0 0.1358" rpy="1.5708 0 0" />
+    <parent link="gripper_base" />
+    <child link="link7" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="0.035" effort="10" velocity="1" />
+  </joint>
+  <link name="link8">
+    <inertial>
+      <origin xyz="0.000651231850419722 -0.0491929869131991 0.00972258769184024" rpy="0 0 0" />
+      <mass value="0.025" />
+      <inertia ixx="0.00007371" ixy="-0.00000113" ixz="0.00000021" iyy="0.00000781" iyz="-0.00001372" izz="0.0000747" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link8.obj" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link8_0_0.obj" />
+      </geometry>
+      <material name="link8_0_0">
+        <color rgba="0.0 0.0 0.0 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link8_1_0.obj" />
+      </geometry>
+      <material name="link8_1_0">
+        <color rgba="0.11764699965715408 0.11764699965715408 0.11764699965715408 1.0" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="portable_resources/link8_2_0.obj" />
+      </geometry>
+      <material name="link8_2_0">
+        <color rgba="0.9803919792175293 0.9803919792175293 0.9803919792175293 1.0" />
+      </material>
+    </visual>
+  </link>
+  <joint name="joint8" type="prismatic">
+    <origin xyz="0 0 0.1358" rpy="1.5708 0 -3.1416" />
+    <parent link="gripper_base" />
+    <child link="link8" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-0.035" upper="0" effort="10" velocity="1" />
+  </joint>
+  <link name="piper_tcp">
+    <inertial>
+      <mass value="0" />
+      <inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <joint name="piper_tcp_fixed" type="fixed">
+    <parent link="gripper_base" />
+    <child link="piper_tcp" />
+    <origin xyz="0 0 0.09" rpy="0 0 0" />
+  </joint>
+</robot>

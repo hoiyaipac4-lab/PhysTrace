@@ -1,0 +1,11 @@
+{
+  "overall_length_m": 2.18,
+  "rear_finished_wall_gap_m": 0,
+  "right_wall_gap_m": 0.13,
+  "nearest_door_frame_gap_m": 0.7,
+  "source": "User correction: 后背靠墙 右侧13厘米，距离门框70厘米",
+  "supersedes": "V5 erroneous interpretation of 13cm as rear clearance",
+  "reference": "70cm measured horizontally from sofa left outer edge to nearest outer door frame edge; 13cm from sofa right outer edge to right wall inner plane",
+  "rear_finish": "Existing black window backing front face y1.777; structural wall front y1.8",
+  "architecture_adjustment": "Estimated right return wall and attached socket/cove moved inward30mm. Other dimensions remain estimates or depth candidates."
+}

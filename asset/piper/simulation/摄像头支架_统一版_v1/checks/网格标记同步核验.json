@@ -1,0 +1,9 @@
+{
+  "updated_attributes": [
+    "/CameraMount/Links/CameraNeck/Part_059/摄像头连接杆_扫描约束候选_002.primvars:repair_evidence_material_index",
+    "/CameraMount/Links/CameraNeck/Part_059/摄像头连接杆_扫描约束候选_002.primvars:修复依据颜色"
+  ],
+  "geometry_signature_unchanged": "f99dd09daef28973be6c28f644c0880f993055664d6802a9c9eab49fd9fc0fef",
+  "invalid_primvar_lengths": [],
+  "runtime_geometry_test_remains_applicable": true
+}

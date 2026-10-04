@@ -1,0 +1,92 @@
+{
+  "robot": "assets/piper/piper.urdf",
+  "robot_compat": "assets/piper/piper_mj.urdf",
+  "joint_names": [
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6",
+    "joint7",
+    "joint8"
+  ],
+  "arm_joint_names": [
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "finger_joint_names": [
+    "joint7",
+    "joint8"
+  ],
+  "limits": [
+    {
+      "lower": "-2.618",
+      "upper": "2.618",
+      "effort": "100",
+      "velocity": "5"
+    },
+    {
+      "lower": "0",
+      "upper": "3.14",
+      "effort": "100",
+      "velocity": "5"
+    },
+    {
+      "lower": "-2.967",
+      "upper": "0",
+      "effort": "100",
+      "velocity": "5"
+    },
+    {
+      "lower": "-1.745",
+      "upper": "1.745",
+      "effort": "100",
+      "velocity": "5"
+    },
+    {
+      "lower": "-1.22",
+      "upper": "1.22",
+      "effort": "100",
+      "velocity": "5"
+    },
+    {
+      "lower": "-2.0944",
+      "upper": "2.0944",
+      "effort": "100",
+      "velocity": "3"
+    },
+    {
+      "lower": "0",
+      "upper": "0.035",
+      "effort": "10",
+      "velocity": "1"
+    },
+    {
+      "lower": "-0.035",
+      "upper": "0",
+      "effort": "10",
+      "velocity": "1"
+    }
+  ],
+  "base_link": "dummy_link",
+  "tcp_link": "piper_tcp",
+  "tcp_origin_in_gripper_base_m": [
+    0,
+    0,
+    0.09
+  ],
+  "source": "../../external_sources/source_0027/original.urdf",
+  "source_sha256": "17c811ef25b0a0a41e660ec84aea818cac0faef10eb49efde5229d00568b2703",
+  "changes": [
+    "absolute OBJ mesh paths retaining original geometry and inertias",
+    "massless TCP frame added at gripper base +90mm local Z"
+  ],
+  "control": "native joint drives; object poses initialized once; no grasp attachment or pose servo",
+  "baseline_robot_sha256": "17c811ef25b0a0a41e660ec84aea818cac0faef10eb49efde5229d00568b2703",
+  "robot_drake": "assets/piper/piper_drake.urdf"
+}

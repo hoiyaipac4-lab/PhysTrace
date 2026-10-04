@@ -1,0 +1,90 @@
+{
+  "mesh_count": 17,
+  "objects": [
+    {
+      "name": "Continuous_tufted_back",
+      "vertices": 12258,
+      "polygons": 12256
+    },
+    {
+      "name": "Covered_button",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Covered_button.001",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Covered_button.002",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Covered_button.003",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Covered_button.004",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Covered_button.005",
+      "vertices": 266,
+      "polygons": 288
+    },
+    {
+      "name": "Curved_arm",
+      "vertices": 482,
+      "polygons": 471
+    },
+    {
+      "name": "Curved_arm.001",
+      "vertices": 482,
+      "polygons": 471
+    },
+    {
+      "name": "Seat_cushion_1",
+      "vertices": 3586,
+      "polygons": 3584
+    },
+    {
+      "name": "Seat_cushion_2",
+      "vertices": 3586,
+      "polygons": 3584
+    },
+    {
+      "name": "Seat_cushion_3",
+      "vertices": 3586,
+      "polygons": 3584
+    },
+    {
+      "name": "Upholstered_base",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Walnut_foot",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Walnut_foot.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Walnut_foot.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Walnut_foot.003",
+      "vertices": 96,
+      "polygons": 98
+    }
+  ]
+}

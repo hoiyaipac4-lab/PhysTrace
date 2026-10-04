@@ -1,0 +1,38 @@
+{
+  "stage": "blender",
+  "valid": true,
+  "blender_file": "model.blend",
+  "blender_sha256": "ebb845f89deb7f8a22b5d4d206a25dc5917bd02d658bc4a2293626b8e196dd70",
+  "checks": [
+    {
+      "domain": "structure",
+      "status": "pass",
+      "notes": "Reviewed actual preview against 14/16s frames: slab, charcoal frame, nickel lever, upper lock and hinge leaves present; estimated dimensions and hidden hinges, no lock internals."
+    },
+    {
+      "domain": "geometry",
+      "status": "pass",
+      "notes": "Reviewed actual preview against 14/16s frames: slab, charcoal frame, nickel lever, upper lock and hinge leaves present; estimated dimensions and hidden hinges, no lock internals."
+    },
+    {
+      "domain": "appearance",
+      "status": "pass",
+      "notes": "Reviewed actual preview against 14/16s frames: slab, charcoal frame, nickel lever, upper lock and hinge leaves present; estimated dimensions and hidden hinges, no lock internals."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "preview.png",
+      "sha256": "af80f5434d8108da82b56547306b5b9fe88110ee317eeb1b454a47e08172fe9b"
+    },
+    {
+      "path": "geometry.json",
+      "sha256": "7e00bd4e2933035b8d79c30c92e4215876bca4507ebad01f9d9ae5ee864cdc1a"
+    },
+    {
+      "path": "asset_spec.json",
+      "sha256": "269e2c40e08fb0c69140dc86dfa625a4e6108e69068bbe6836b70421d8be4cbd"
+    }
+  ],
+  "source_timestamp_correction": "FFmpeg fps=1/2 selected frames 29 + 60*k; corrected metadata only; source images and model unchanged."
+}

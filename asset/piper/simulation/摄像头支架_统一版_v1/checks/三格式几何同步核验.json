@@ -1,0 +1,489 @@
+{
+  "version": "unified_v1",
+  "visible_parts": 65,
+  "geometry_comparison": [
+    {
+      "id": "Part_000",
+      "name": "base_lower",
+      "vertices": 18194,
+      "triangles": 36400,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_001",
+      "name": "base_spring_back",
+      "vertices": 14328,
+      "triangles": 28652,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_002",
+      "name": "base_spring_front",
+      "vertices": 14328,
+      "triangles": 28652,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_003",
+      "name": "base_upper",
+      "vertices": 22828,
+      "triangles": 45676,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_004",
+      "name": "base_upper_远端横销",
+      "vertices": 4162,
+      "triangles": 8320,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_005",
+      "name": "camera_lower",
+      "vertices": 17947,
+      "triangles": 35898,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_006",
+      "name": "camera_spring_back",
+      "vertices": 17976,
+      "triangles": 35948,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_007",
+      "name": "camera_spring_front",
+      "vertices": 17976,
+      "triangles": 35948,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_008",
+      "name": "camera_upper",
+      "vertices": 18816,
+      "triangles": 37652,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_009",
+      "name": "camera_upper_远端横销",
+      "vertices": 4098,
+      "triangles": 8192,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_010",
+      "name": "camera_锁紧旋钮_重建候选",
+      "vertices": 20772,
+      "triangles": 41540,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_011",
+      "name": "elbow_spring_anchor_back_重建候选",
+      "vertices": 8578,
+      "triangles": 17152,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_012",
+      "name": "elbow_spring_anchor_front_重建候选",
+      "vertices": 8578,
+      "triangles": 17152,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_013",
+      "name": "elbow_锁紧旋钮_重建候选",
+      "vertices": 20834,
+      "triangles": 41664,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_014",
+      "name": "fastener_base_back_0_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_015",
+      "name": "fastener_base_back_1_重建候选",
+      "vertices": 2306,
+      "triangles": 4608,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_016",
+      "name": "fastener_base_front_0_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_017",
+      "name": "fastener_base_front_1_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_018",
+      "name": "fastener_camera_back_0_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_019",
+      "name": "fastener_camera_back_1_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_020",
+      "name": "fastener_camera_front_0_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_021",
+      "name": "fastener_camera_front_1_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_022",
+      "name": "fastener_elbow_back_0_重建候选",
+      "vertices": 2306,
+      "triangles": 4608,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_023",
+      "name": "fastener_elbow_back_2_重建候选",
+      "vertices": 2306,
+      "triangles": 4608,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_024",
+      "name": "fastener_elbow_front_0_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_025",
+      "name": "fastener_elbow_front_2_重建候选",
+      "vertices": 1634,
+      "triangles": 3264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_026",
+      "name": "joint_base_0_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_027",
+      "name": "joint_base_1_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_028",
+      "name": "joint_camera_0_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_029",
+      "name": "joint_camera_1_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_030",
+      "name": "joint_elbow_0_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_031",
+      "name": "joint_elbow_1_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_032",
+      "name": "joint_elbow_2_internal_shaft",
+      "vertices": 194,
+      "triangles": 384,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_033",
+      "name": "lock_pivot_camera_back_cap_重建候选",
+      "vertices": 2690,
+      "triangles": 5376,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_034",
+      "name": "lock_pivot_camera_internal_shaft",
+      "vertices": 258,
+      "triangles": 512,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_035",
+      "name": "lock_pivot_elbow_back_cap_重建候选",
+      "vertices": 2690,
+      "triangles": 5376,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_036",
+      "name": "lock_pivot_elbow_internal_shaft",
+      "vertices": 258,
+      "triangles": 512,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_037",
+      "name": "侧板_base_back",
+      "vertices": 5970,
+      "triangles": 11948,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_038",
+      "name": "侧板_base_front",
+      "vertices": 5966,
+      "triangles": 11940,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_039",
+      "name": "侧板_camera_back",
+      "vertices": 4208,
+      "triangles": 8424,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_040",
+      "name": "侧板_camera_front",
+      "vertices": 4208,
+      "triangles": 8424,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_041",
+      "name": "侧板_elbow_back",
+      "vertices": 6040,
+      "triangles": 12092,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_042",
+      "name": "侧板_elbow_front",
+      "vertices": 6040,
+      "triangles": 12092,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_043",
+      "name": "压盘",
+      "vertices": 32256,
+      "triangles": 64512,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_044",
+      "name": "夹板",
+      "vertices": 123848,
+      "triangles": 247704,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_045",
+      "name": "底座锁紧短轴_扫描拟合候选",
+      "vertices": 2786,
+      "triangles": 5568,
+      "max_coordinate_difference_m": 1.4901161193847656e-08
+    },
+    {
+      "id": "Part_046",
+      "name": "扫描约束旋转内柱",
+      "vertices": 2818,
+      "triangles": 5632,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_047",
+      "name": "插接外壳",
+      "vertices": 12027,
+      "triangles": 24058,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_048",
+      "name": "摄像头光学区_1_镜圈_候选",
+      "vertices": 3652,
+      "triangles": 7304,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_049",
+      "name": "摄像头光学区_1_镜片_候选",
+      "vertices": 794,
+      "triangles": 1584,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_050",
+      "name": "摄像头光学区_2_镜圈_候选",
+      "vertices": 9274,
+      "triangles": 18548,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_051",
+      "name": "摄像头光学区_2_镜片_候选",
+      "vertices": 1186,
+      "triangles": 2368,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_052",
+      "name": "摄像头光学区_3_镜圈_候选",
+      "vertices": 3548,
+      "triangles": 7096,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_053",
+      "name": "摄像头光学区_3_镜片_候选",
+      "vertices": 770,
+      "triangles": 1536,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_054",
+      "name": "摄像头光学区_4_镜圈_候选",
+      "vertices": 2140,
+      "triangles": 4280,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_055",
+      "name": "摄像头光学区_4_镜片_候选",
+      "vertices": 474,
+      "triangles": 944,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_056",
+      "name": "摄像头前面板_重建候选",
+      "vertices": 6126,
+      "triangles": 12264,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_057",
+      "name": "摄像头后螺钉_left_重建候选",
+      "vertices": 2210,
+      "triangles": 4416,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_058",
+      "name": "摄像头后螺钉_right_重建候选",
+      "vertices": 2210,
+      "triangles": 4416,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_059",
+      "name": "摄像头连接杆_扫描约束候选",
+      "vertices": 34735,
+      "triangles": 69470,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_060",
+      "name": "摄像头金属壳体_扫描约束重建",
+      "vertices": 34380,
+      "triangles": 68888,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_061",
+      "name": "摄像头锁紧轮_扫描约束候选",
+      "vertices": 5683,
+      "triangles": 11366,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_062",
+      "name": "旋钮",
+      "vertices": 19010,
+      "triangles": 38016,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_063",
+      "name": "横杆",
+      "vertices": 4145,
+      "triangles": 8286,
+      "max_coordinate_difference_m": 0.0
+    },
+    {
+      "id": "Part_064",
+      "name": "螺杆",
+      "vertices": 77255,
+      "triangles": 154510,
+      "max_coordinate_difference_m": 0.0
+    }
+  ],
+  "updated_mass_groups": [
+    {
+      "group": "Clamp",
+      "mass_kg": 0.13958872135705677,
+      "center_m": [
+        -0.15658207990808132,
+        0.38901670239342645,
+        2.139386798030998
+      ],
+      "density_and_scale_estimated": true
+    },
+    {
+      "group": "CameraNeck",
+      "mass_kg": 0.022797444479642763,
+      "center_m": [
+        0.5510919310898772,
+        0.40259787255567037,
+        2.0616520217142695
+      ],
+      "density_and_scale_estimated": true
+    }
+  ],
+  "updated_parts": [
+    "Part_044",
+    "Part_059"
+  ],
+  "same_indexed_triangles": true,
+  "scope": "All 65 Blender mesh caches compared to USD vertices and triangle indices in world meters. Updated colliders share updated geometry. Not full mechanism or metrology acceptance."
+}

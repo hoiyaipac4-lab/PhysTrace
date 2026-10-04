@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="cube_aluminum">
+  <link name="cube_aluminum__block">
+    <inertial>
+      <mass value="0.0430000014603138" />
+      <inertia ixx="4.479166818782688e-06" iyy="4.479166818782688e-06" izz="4.479166818782688e-06" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../../material_visual/aluminum/cube_visual.obj" />
+      </geometry>
+      <material name="cube_aluminum__appearance">
+        <color rgba="0.588 0.588 0.588 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size=".025 .025 .025" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

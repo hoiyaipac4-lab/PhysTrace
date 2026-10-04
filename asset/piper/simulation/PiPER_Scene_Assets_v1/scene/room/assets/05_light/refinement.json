@@ -1,0 +1,16 @@
+{
+  "changed": [
+    "Existing diffuser subdivided, 1.6 mm bounded cloth ripples",
+    "Reduced cloth specular response"
+  ],
+  "preserved": [
+    "Stand",
+    "Boom",
+    "Softbox shell",
+    "Light mounting",
+    "Mass and body structure"
+  ],
+  "inferred": [
+    "Cloth ripple geometry is visual approximation, not measured deformation"
+  ]
+}

@@ -1,0 +1,20 @@
+# Local execution output (the archived evidence inside simulation is retained).
+/outputs/
+/simulation/.runtime/
+/simulation/.runtime.lock
+/simulation/run_logs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/configs/local.json

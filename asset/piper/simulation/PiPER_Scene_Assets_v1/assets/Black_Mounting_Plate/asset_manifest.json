@@ -1,0 +1,33 @@
+{
+  "asset_id": "robot_base_001",
+  "name": "机械臂底座",
+  "version": "scan_constrained_rebuild_v1_black",
+  "original_source": "../../../../external_sources/source_0031/机械臂底座.obj",
+  "source_sha256": "4d3df70e671b667a825f65bf548f899ad3e38a3ec9fe2c3d2021026458edd7cc",
+  "unit_assumption": "1 OBJ unit = 1 mm, estimated from approximately 720 x 120 x 8 coordinate-unit plate; no physical calibration provided",
+  "coordinate_transform": "Identity in OBJ; Blender scale_length=0.001; no registration, rotation or rescaling of source coordinates",
+  "parts": [
+    "single rigid plate with two stepped open slots and three through holes"
+  ],
+  "geometry_status": "reconstructed_and_checked",
+  "blender_overall_status": "not fully accepted: material reference and physical scale uncalibrated",
+  "training_ready": false,
+  "photos_provided": false,
+  "material_status": "Black per explicit user request; roughness estimated; no photo calibration or PBR baking claimed",
+  "uv_status": "smart UV generated; texture projection/coverage not validated",
+  "physics_status": "not configured or runtime tested",
+  "inferences": [
+    "Interpolation between measured thickness sections",
+    "Two shallow shelf transitions interpolate between nearby measured sections",
+    "Small disconnected source fragments retained in reference and full bidirectional comparisons; not separate mechanical parts",
+    "Thread form absent/unresolved; small holes represented by measured scan contour, not claimed threaded"
+  ],
+  "artifact_sha256": {
+    "robot_base_rebuilt.obj": "c527ed4c156391fea5beb98164a3e9e9895cf8f536d16399ef8a493d564f2b7f",
+    "robot_base_rebuilt.blend": "ad9ad45ce68a832ef90bde9e429eb5b252140aabdb286707f2449c3215e0f7ec",
+    "validation.json": "ac33019df59a5b9c7f33d062246360f2edf28a2b552339bdc9ea18f243f60c83",
+    "surface_coverage.json": "6ae920273372be84ccc28e593871c6243bec80863fe298de997ecc778afcccfa",
+    "reopen_check.json": "f3026094101996bd493205d2ce6b31dd59fd9baa0068ac8a8384a741ff1171c7",
+    "robot_base_rebuilt.mtl": "3387b35d36124fd75d2121ba7a41ab5234702e324a7ea8aaa280b6996a3b6094"
+  }
+}

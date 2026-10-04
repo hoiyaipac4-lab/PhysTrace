@@ -1,0 +1,429 @@
+{
+  "meaning": "Relative source-history identifiers. These inputs are outside the supplied bundle, not included runtime dependencies.",
+  "references": [
+    {
+      "file": "docs/SETUP.md",
+      "relative_reference": "../external_sources/source_0001"
+    },
+    {
+      "file": "docs/UPLOAD_ZH.md",
+      "relative_reference": "../external_sources/source_0002/PiPER_GitHub"
+    },
+    {
+      "file": "docs/UPLOAD_ZH.md",
+      "relative_reference": "../external_sources/source_0002/PiPER_GitHub"
+    },
+    {
+      "file": "simulation/source_archive_check.json",
+      "relative_reference": "../external_sources/source_0003/PiPER_Scene_Assets_v1.zip"
+    },
+    {
+      "file": "simulation/source_archive_check.json",
+      "relative_reference": "../external_sources/source_0004/摄像头支架_统一版_v1.zip"
+    },
+    {
+      "file": "simulation/start_fixed.sh",
+      "relative_reference": "../external_sources/source_0005/conda.sh"
+    },
+    {
+      "file": "simulation/start_fixed.sh",
+      "relative_reference": "../external_sources/source_0006/setup_conda_env.sh"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0007/simulation_app.py"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0008/isaacsim.exp.base.python.kit"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0009/kit"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0010/exts"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0011/apps"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0012/.runtime"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0013/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0015/1.8.2"
+    },
+    {
+      "file": "simulation/repair_evidence/high_resolution.log",
+      "relative_reference": "../../external_sources/source_0016/20260926_042800_2715213.log"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0007/simulation_app.py"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0008/isaacsim.exp.base.python.kit"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0009/kit"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0010/exts"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0011/apps"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0012/.runtime"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0013/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/native_final.log",
+      "relative_reference": "../../external_sources/source_0015/1.8.2"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0007/simulation_app.py"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0008/isaacsim.exp.base.python.kit"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0009/kit"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0010/exts"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0011/apps"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0012/.runtime"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0013/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0014/Isaac-Sim"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0015/1.8.2"
+    },
+    {
+      "file": "simulation/repair_evidence/repeat_validation2.log",
+      "relative_reference": "../../external_sources/source_0017/20260926_042559_2714067.log"
+    },
+    {
+      "file": "simulation/repair_evidence/verification_summary.json",
+      "relative_reference": "../../external_sources/source_0018/OmniPBR.mdl"
+    },
+    {
+      "file": "simulation/repair_evidence/verification_summary.json",
+      "relative_reference": "../../external_sources/source_0019/OmniPBR_Opacity.mdl"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0020/all_assets"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0021/all_assets"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0022/all_assets"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0023/all_assets"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0024/all_assets"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0025/all_assets"
+    },
+    {
+      "file": "simulation/source_v4/package_manifest.json",
+      "relative_reference": "../../external_sources/source_0026/piper_training_scenes_20260924"
+    },
+    {
+      "file": "simulation/source_v4/robot.json",
+      "relative_reference": "../../external_sources/source_0027/original.urdf"
+    },
+    {
+      "file": "simulation/source_v4/source_manifest.json",
+      "relative_reference": "../../external_sources/source_0028/piper_cross36_appliances_20260924"
+    },
+    {
+      "file": "simulation/摄像头支架_统一版_v1/camera_mount.usdc",
+      "relative_reference": "../../external_sources/source_0029/stable_articulation_candidate.usda"
+    },
+    {
+      "file": "simulation/摄像头支架_统一版_v1/使用说明.txt",
+      "relative_reference": "../../external_sources/source_0030/isaacsim-6.0.1"
+    },
+    {
+      "file": "simulation/摄像头支架_统一版_v1/运行动作演示.bat",
+      "relative_reference": "../../external_sources/source_0030/isaacsim-6.0.1"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/启动调试.cmd",
+      "relative_reference": "../../../external_sources/source_0030/isaacsim-6.0.1"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/assets/Black_Mounting_Plate/asset_manifest.json",
+      "relative_reference": "../../../../external_sources/source_0031/机械臂底座.obj"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/assets/Clamp_Final_Black_v1/asset_manifest.json",
+      "relative_reference": "../../../../external_sources/source_0032/机械臂零件.obj"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/assets/Clamp_Final_Black_v1/IsaacSim/重新验收.ps1",
+      "relative_reference": "../../../../../external_sources/source_0030/isaacsim-6.0.1"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/assets/Clamp_Final_Black_v1/历史记录/asset_manifest.json",
+      "relative_reference": "../../../../../external_sources/source_0032/机械臂零件.obj"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/assets/Clamp_Final_Black_v1/检查报告/scan_audit.json",
+      "relative_reference": "../../../../../external_sources/source_0033/source"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+      "relative_reference": "../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+      "relative_reference": "../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+      "relative_reference": "../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+      "relative_reference": "../../../../../external_sources/source_0037/base.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/base.usda",
+      "relative_reference": "../../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/base.usda",
+      "relative_reference": "../../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/base.usda",
+      "relative_reference": "../../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/base.usda",
+      "relative_reference": "../../../../../../external_sources/source_0037/base.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/materials.usda",
+      "relative_reference": "../../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/materials.usda",
+      "relative_reference": "../../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/materials.usda",
+      "relative_reference": "../../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/materials.usda",
+      "relative_reference": "../../../../../../external_sources/source_0037/base.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/robot.usda",
+      "relative_reference": "../../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/robot.usda",
+      "relative_reference": "../../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/robot.usda",
+      "relative_reference": "../../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/mujoco.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/mujoco.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/mujoco.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/mujoco.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0037/base.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physics.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physics.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physics.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physics.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0037/base.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physx.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0034/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physx.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0035/piper.usdc"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physx.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0036/piper.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physx.usda",
+      "relative_reference": "../../../../../../../external_sources/source_0037/base.usd"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/01_door/asset_spec.json",
+      "relative_reference": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/02_backdrop/asset_spec.json",
+      "relative_reference": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/05_light/asset_spec.json",
+      "relative_reference": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    },
+    {
+      "file": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/06_sofa/asset_spec.json",
+      "relative_reference": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    },
+    {
+      "file": "simulation/source_v4/assets/airfryer/source_geometry.json",
+      "relative_reference": "../../../../external_sources/source_0039/airfryer.usda"
+    },
+    {
+      "file": "simulation/source_v4/assets/isaac_piper_visual/camera_photo_mount_20260922.json",
+      "relative_reference": "../../../../external_sources/source_0040/scene_piper_materials_wrist_camera_20260922.usdc"
+    },
+    {
+      "file": "simulation/source_v4/assets/isaac_piper_visual/camera_photo_mount_20260922.json",
+      "relative_reference": "../../../../external_sources/source_0041/scene_wrist_photo_mount_20260922.usdc"
+    },
+    {
+      "file": "simulation/source_v4/assets/isaac_piper_visual/dependencies.json",
+      "relative_reference": "../../../../external_sources/source_0042/piper_two_plates_red_chili_scene_20260921"
+    },
+    {
+      "file": "simulation/source_v4/assets/microwave/source_geometry.json",
+      "relative_reference": "../../../../external_sources/source_0046/asset.usda"
+    },
+    {
+      "file": "simulation/source_v4/assets/plate/manifest.json",
+      "relative_reference": "../../../../external_sources/source_0047/tayohya_plate"
+    },
+    {
+      "file": "simulation/source_v4/assets/airfryer/common_v4/spec.json",
+      "relative_reference": "../../../../../external_sources/source_0039/airfryer.usda"
+    },
+    {
+      "file": "simulation/source_v4/assets/airfryer/common_v4/spec.json",
+      "relative_reference": "../../../../../external_sources/source_0048/A04.json"
+    },
+    {
+      "file": "simulation/source_v4/assets/airfryer/common_v4/spec.json",
+      "relative_reference": "../../../../../external_sources/source_0049/common_v2"
+    },
+    {
+      "file": "simulation/source_v4/assets/microwave/common_v4/spec.json",
+      "relative_reference": "../../../../../external_sources/source_0046/asset.usda"
+    },
+    {
+      "file": "simulation/source_v4/assets/microwave/common_v4/spec.json",
+      "relative_reference": "../../../../../external_sources/source_0050/A01_reference.json"
+    },
+    {
+      "file": "simulation/source_v4/assets/microwave/common_v4/spec.json",
+      "relative_reference": "../../../../../external_sources/source_0051/common_v2"
+    },
+    {
+      "file": "simulation/摄像头支架_统一版_v1/checks/Blender_OBJ重开核验.json",
+      "relative_reference": "../../../external_sources/source_0052/夹板与连接杆更新_整机检查稿.blend"
+    }
+  ]
+}

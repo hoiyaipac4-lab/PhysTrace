@@ -1,0 +1,38 @@
+{
+  "scene.usda": {
+    "reopened": true,
+    "wood_center_m": [
+      -0.17250010676682004,
+      -0.008652880787849426,
+      0.6475001098588109
+    ],
+    "missing_active_asset_paths": []
+  },
+  "scene_training.usda": {
+    "reopened": true,
+    "wood_center_m": [
+      -0.17250010676682004,
+      -0.008652880787849426,
+      0.6475001098588109
+    ],
+    "missing_active_asset_paths": []
+  },
+  "dependencies": {
+    "layers": 70,
+    "assets": 64,
+    "unresolved_nonbuiltin": [],
+    "builtin_mdl_names": [
+      "OmniPBR.mdl",
+      "OmniPBR_Opacity.mdl"
+    ]
+  },
+  "isaac_render": {
+    "version": "6.0.1",
+    "overview": "layout_preview/table_overview.png",
+    "detail": "layout_preview/ruler_detail.png",
+    "checked": true,
+    "dynamic_training_retested": false
+  },
+  "revision": "Final: no plate; aluminum, iron, wood, brass centered at 20,30,40,50 cm",
+  "plate_active": false
+}

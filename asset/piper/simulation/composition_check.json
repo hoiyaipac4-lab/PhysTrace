@@ -1,0 +1,53 @@
+{
+  "camera_clamp_fit": {
+    "upper_jaw_z_offset_m": 0.008299427986146135,
+    "screw_pad_advance_m": -0.00042414069175722435,
+    "jaw_table_overlap_depth_m": 0.03491705160034231,
+    "pad_target_z_m": 0.61,
+    "upper_jaw_target_z_m": 0.635,
+    "scope": "Visible jaw and pad positioned against the 25 mm tabletop; fixed mounting joint remains the support model, not friction-load certification."
+  },
+  "camera_seating": {
+    "swivel_deg": 0,
+    "trials": [
+      {
+        "angle_deg": 0,
+        "arm_vertices_in_table_clearance_box": 0
+      }
+    ],
+    "scope": "All visible arm vertices versus expanded tabletop box; clamp fixture and pad handled separately; not full triangle collision certification."
+  },
+  "clamp_orientation": "Jaws inward, backs outside table front. Literal 180-degree reversal rejected after purpose clarification because backs crossed the tabletop.",
+  "light_world_bounds": [
+    [
+      -0.8111328166234762,
+      0.44446669828552676,
+      1.0718809543486783e-16
+    ],
+    [
+      0.8111328166234751,
+      1.3795333017144735,
+      2.4867352720281533
+    ]
+  ],
+  "right_clearance_m": 0.07999997802698378,
+  "plate_bottom_z_m": 0.639,
+  "robot_flange_top_z_m": 0.6389999480359256,
+  "plate_flange_gap_m": 5.196407437679795e-08,
+  "unresolved": [],
+  "layers": 67,
+  "assets": 53,
+  "prims": 3256,
+  "camera_mount_translation": [
+    0.26400000000000035,
+    -2.545,
+    0.7622994279861459
+  ],
+  "camera_mount_rotation_y_deg": -90,
+  "camera_mount_rotation_z_deg": -90,
+  "placement_status": "PROVISIONAL_NOT_CALIBRATED",
+  "source_archive_integrity": "PASS",
+  "joint_targets": "PASS",
+  "isaac_version_tested": "5.1.0",
+  "source_authoring_version": "6.0.1"
+}

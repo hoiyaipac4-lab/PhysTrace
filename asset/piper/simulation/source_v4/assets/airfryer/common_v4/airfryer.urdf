@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="airfryer_opening_benchmark">
+  <material name="airfryer__body_finish">
+    <color rgba=".55 .58 .62 1" />
+  </material>
+  <link name="airfryer__base">
+    <inertial>
+      <origin xyz="0 0 0.1449999958" rpy="0 0 0" />
+      <mass value="2.5" />
+      <inertia ixx="0.017999999225139618" iyy="0.017999999225139618" izz="0.014999999664723873" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/airfryer_base_000.obj" />
+      </geometry>
+      <material name="airfryer__body_finish" />
+    </visual>
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/airfryer_base_001.obj" />
+      </geometry>
+      <material name="airfryer__body_finish" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0000.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0001.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0002.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0003.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0004.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0005.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0006.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0007.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0008.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0009.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0010.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0011.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0012.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0013.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0014.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0015.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0016.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0017.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0018.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0019.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0020.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0021.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0022.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0023.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0024.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0025.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0026.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0027.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0028.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0029.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0030.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0031.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0032.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0033.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="airfryer__drawer">
+    <inertial>
+      <origin xyz="0 -0.01499999966 0.07999999821" rpy="0 0 0" />
+      <mass value="0.6000000238418579" />
+      <inertia ixx="0.0010999999940395355" iyy="0.0010000000474974513" izz="0.0017000000225380063" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/airfryer_drawer_003.obj" />
+      </geometry>
+      <material name="airfryer__body_finish" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0034.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0035.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0036.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0037.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0038.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0039.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0040.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0041.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0042.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0043.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0044.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0045.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0046.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0047.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0048.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0049.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0050.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0051.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0052.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0053.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0054.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0055.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0056.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0057.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0058.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0059.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="airfryer__opening_joint" type="prismatic">
+    <parent link="airfryer__base" />
+    <child link="airfryer__drawer" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+    <limit lower="0" upper="0.16" effort="100" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <link name="airfryer__knob">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.03999999910593033" />
+      <inertia ixx="6.000000212225132e-06" iyy="1.1000000085914508e-05" izz="6.000000212225132e-06" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/airfryer_knob_002.obj" />
+      </geometry>
+      <material name="airfryer__body_finish" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="airfryer_collision_0060.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="airfryer__knob_fixed" type="fixed">
+    <parent link="airfryer__base" />
+    <child link="airfryer__knob" />
+    <origin xyz="0 -0.1233132407 0.2052995861" rpy="0 0 0" />
+  </joint>
+</robot>

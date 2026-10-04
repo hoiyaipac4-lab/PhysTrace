@@ -1,0 +1,22 @@
+{
+  "source_project": "../../external_sources/source_0028/piper_cross36_appliances_20260924",
+  "sources": {
+    "physics.py": "66a3d3614d2eb42190f029de5c4db9fc7e62f90f50a0c562e930b07bb330978b",
+    "extra.py": "aa447558cf9e2d43a5d3d5d35820a01dc65463137882fe9a81c45280153426ea",
+    "collect.py": "7dd9d22045c6723b8d800dcde860821ad67ae532448923945bc4512a2fcf6fea",
+    "camera_renderer.py": "32dcba0e25e1a1acf29211eca6e9cd6820eba5af8f13286ee2430531b2e7a7dd",
+    "camera_config.json": "1f2d070c334099f1db934b8bb7a54742bccd9da290809d9f3d79b725346d3d8e",
+    "protocol.json": "9bb24aa35377e07def478bfa40ee8be8944502a7e1fde18fac6721eddb1bb1ba",
+    "robot.json": "e7aaad6daffa516c7c5b9f50ec7d935a2a8ca9f208685f695c5a08b5c129e2d4",
+    "native_capture.py": "0bc37ec3da879dbf664264611569855b02d1a44866aca6cf51c34b002b60c91e",
+    "appearance_assets.py": "ab1621234b6dae3260759979d758eea4337b620301be30bd11cb13a3d3b5bfa3",
+    "metrics.py": "097e33944776faa51eca8dc684724893042b62ba18d7b45414cd51955f4a0400",
+    "table_visual.obj": "777fe0baf5dac3dbfa200a4732a853c6767e87240021ed687ced5aca8ef39487",
+    "table_visual.mtl": "18419837e0578dd1af8689f4220aa6d3b34392316d94888842b177819a7ba6ad",
+    "table_visual.json": "280b7775079e7349cfa426883df0326c3c2b9001eb91043478904d7b30063adf",
+    "cube_visual.obj": "e682638fb61e18ecf959644697dee87971408fac2aa8dc4510ee8248682369ce",
+    "cube_visual.mtl": "18419837e0578dd1af8689f4220aa6d3b34392316d94888842b177819a7ba6ad",
+    "cube_visual.json": "02b1bdd2b740e1583e411e5fc211823f26660dee400434d93662be82a8706eed"
+  },
+  "purpose": "scene construction and native smoke only; no VLA or GPT inference"
+}

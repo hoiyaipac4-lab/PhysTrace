@@ -1,0 +1,33 @@
+{
+  "scope": "Static sampled visible geometry plus joint definition; dynamic check separate",
+  "clamps": [
+    {
+      "path": "/World/Clamps/Left",
+      "neutral_feed_offset_m": -0.018042063574403563,
+      "pad_top_z_m": 0.6100000000999102,
+      "table_bottom_z_m": 0.61,
+      "pad_gap_m": -9.991019123134492e-11,
+      "frame_vertices_inside_table_slab": 0,
+      "screw_pitch_m_per_turn": 0.003005,
+      "turn_range": [
+        -2,
+        0.25
+      ],
+      "fixture": "Frame fixed to tabletop; screw, pad and handle are dynamic; pad-table contacts enabled. Board and robot remain fixed installation; friction holding capacity not validated."
+    },
+    {
+      "path": "/World/Clamps/Right",
+      "neutral_feed_offset_m": -0.018042063574403563,
+      "pad_top_z_m": 0.6100000000999102,
+      "table_bottom_z_m": 0.61,
+      "pad_gap_m": -9.991019123134492e-11,
+      "frame_vertices_inside_table_slab": 0,
+      "screw_pitch_m_per_turn": 0.003005,
+      "turn_range": [
+        -2,
+        0.25
+      ],
+      "fixture": "Frame fixed to tabletop; screw, pad and handle are dynamic; pad-table contacts enabled. Board and robot remain fixed installation; friction holding capacity not validated."
+    }
+  ]
+}

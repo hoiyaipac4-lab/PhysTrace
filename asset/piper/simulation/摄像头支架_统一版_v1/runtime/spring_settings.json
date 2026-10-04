@@ -1,0 +1,94 @@
+[
+  {
+    "name": "base_spring_back",
+    "mesh": "/CameraMount/Links/BaseUpper/Part_001/base_spring_back_折弯挂接_002",
+    "body_start": "/CameraMount/Links/BaseYoke",
+    "body_end": "/CameraMount/Links/BaseUpper",
+    "anchor_start_m": [
+      -0.06232302507817052,
+      0.39435948967442164,
+      2.149448985299097
+    ],
+    "anchor_end_m": [
+      0.03367226880267509,
+      0.4089111766901722,
+      2.0915987261429354
+    ],
+    "evidence": "Scan-supported anchor regions; hook seating and spring dimensions inferred.",
+    "stiffness_N_m": 810.607058757569,
+    "damping_N_s_m": 2.0,
+    "rest_length_m": 0.11301991208061231,
+    "initial_tension_N": 0.0,
+    "active_coils_estimated": 52,
+    "parameter_status": "Estimated 1.1mm wire, 7mm mean coil diameter and 79GPa shear modulus. Zero initial preload is a configurable default, not measured. Axial damping 2 N s/m is a provisional simulation value."
+  },
+  {
+    "name": "base_spring_front",
+    "mesh": "/CameraMount/Links/BaseUpper/Part_002/base_spring_front_折弯挂接_002",
+    "body_start": "/CameraMount/Links/BaseYoke",
+    "body_end": "/CameraMount/Links/BaseUpper",
+    "anchor_start_m": [
+      -0.0619393926213243,
+      0.370314216573623,
+      2.144240853352334
+    ],
+    "anchor_end_m": [
+      0.03366491009365536,
+      0.3827095433436618,
+      2.085080344642077
+    ],
+    "evidence": "Scan-supported anchor regions; hook seating and spring dimensions inferred.",
+    "stiffness_N_m": 810.607058757569,
+    "damping_N_s_m": 2.0,
+    "rest_length_m": 0.1131096486344551,
+    "initial_tension_N": 0.0,
+    "active_coils_estimated": 52,
+    "parameter_status": "Estimated 1.1mm wire, 7mm mean coil diameter and 79GPa shear modulus. Zero initial preload is a configurable default, not measured. Axial damping 2 N s/m is a provisional simulation value."
+  },
+  {
+    "name": "camera_spring_back",
+    "mesh": "/CameraMount/Links/CameraUpper/Part_006/camera_spring_back_anchor_seated_001",
+    "body_start": "/CameraMount/Links/ElbowYoke",
+    "body_end": "/CameraMount/Links/CameraUpper",
+    "anchor_start_m": [
+      0.2205205445792164,
+      0.42506476709907215,
+      2.018679255115247
+    ],
+    "anchor_end_m": [
+      0.3527969559166789,
+      0.4223690083734133,
+      2.035125519206816
+    ],
+    "evidence": "Scan-supported anchor regions; hook seating and spring dimensions inferred.",
+    "stiffness_N_m": 669.0724929427554,
+    "damping_N_s_m": 2.0,
+    "rest_length_m": 0.13332215012515433,
+    "initial_tension_N": 0.0,
+    "active_coils_estimated": 63,
+    "parameter_status": "Estimated 1.1mm wire, 7mm mean coil diameter and 79GPa shear modulus. Zero initial preload is a configurable default, not measured. Axial damping 2 N s/m is a provisional simulation value."
+  },
+  {
+    "name": "camera_spring_front",
+    "mesh": "/CameraMount/Links/CameraUpper/Part_007/camera_spring_front_anchor_seated_001",
+    "body_start": "/CameraMount/Links/ElbowYoke",
+    "body_end": "/CameraMount/Links/CameraUpper",
+    "anchor_start_m": [
+      0.22051664515723632,
+      0.40077871719247343,
+      2.0126919061306205
+    ],
+    "anchor_end_m": [
+      0.35282574113149795,
+      0.3960672471980894,
+      2.029024983944429
+    ],
+    "evidence": "Scan-supported anchor regions; hook seating and spring dimensions inferred.",
+    "stiffness_N_m": 669.0724929427554,
+    "damping_N_s_m": 2.0,
+    "rest_length_m": 0.13339664260357637,
+    "initial_tension_N": 0.0,
+    "active_coils_estimated": 63,
+    "parameter_status": "Estimated 1.1mm wire, 7mm mean coil diameter and 79GPa shear modulus. Zero initial preload is a configurable default, not measured. Axial damping 2 N s/m is a provisional simulation value."
+  }
+]
