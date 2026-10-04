@@ -1,0 +1,5 @@
+newmtl mount_screw_01_original_surface
+Kd 1 1 1
+Ka 0 0 0
+d 1
+map_Kd mount_screw_01_base_color.png

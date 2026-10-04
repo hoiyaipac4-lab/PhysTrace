@@ -1,0 +1,13 @@
+{
+  "geometry_unchanged": true,
+  "geometry_hash": "d9f2cf1b6c6510de32e3e93c88ff072d81c952dd655fd92600764b326207b0bf",
+  "color_linear_rgb": [
+    0.006,
+    0.006,
+    0.006
+  ],
+  "roughness": 0.4,
+  "metallic": 0.15,
+  "source": "user request",
+  "material_reload_verified": true
+}

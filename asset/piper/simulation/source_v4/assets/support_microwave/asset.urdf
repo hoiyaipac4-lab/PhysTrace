@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="support_microwave"><link name="support_microwave__base"><inertial><mass value="2" /><inertia ixx=".01" iyy=".01" izz=".01" ixy="0" ixz="0" iyz="0" /></inertial><visual><geometry><box size="0.34 0.44 0.1" /></geometry><material name="support_microwave__finish"><color rgba=".3 .32 .35 1" /></material></visual><collision><geometry><box size="0.34 0.44 0.1" /></geometry></collision></link></robot>

@@ -1,0 +1,788 @@
+{
+  "materials": [
+    "robot_description/meshes/gripper_base.mtl",
+    "robot_description/visual_refresh/link2_119_0.mtl",
+    "robot_description/visual_refresh/link2_95_0.mtl",
+    "robot_description/visual_refresh/link2_12_0.mtl",
+    "robot_description/visual_refresh/base_link_0_0.mtl",
+    "robot_description/visual_refresh/link4_4_0.mtl",
+    "robot_description/visual_refresh/link2_101_0.mtl",
+    "robot_description/visual_refresh/link3_15_0.mtl",
+    "robot_description/visual_refresh/link3_2_0.mtl",
+    "robot_description/visual_refresh/mount_bracket.mtl",
+    "robot_description/visual_refresh/link2_63_0.mtl",
+    "robot_description/visual_refresh/link2_73_0.mtl",
+    "robot_description/visual_refresh/link2_99_0.mtl",
+    "robot_description/visual_refresh/link2_142_0.mtl",
+    "robot_description/visual_refresh/link2_9_0.mtl",
+    "robot_description/visual_refresh/link2_94_0.mtl",
+    "robot_description/visual_refresh/link2_78_0.mtl",
+    "robot_description/visual_refresh/link2_110_0.mtl",
+    "robot_description/visual_refresh/link2_68_0.mtl",
+    "robot_description/visual_refresh/link2_114_0.mtl",
+    "robot_description/visual_refresh/link2_32_0.mtl",
+    "robot_description/visual_refresh/link3_13_0.mtl",
+    "robot_description/visual_refresh/link2_134_0.mtl",
+    "robot_description/visual_refresh/link2_118_0.mtl",
+    "robot_description/visual_refresh/link2_56_0.mtl",
+    "robot_description/visual_refresh/link2_48_0.mtl",
+    "robot_description/visual_refresh/link2_104_0.mtl",
+    "robot_description/visual_refresh/link2_33_0.mtl",
+    "robot_description/visual_refresh/link2_90_0.mtl",
+    "robot_description/visual_refresh/link7_1_0.mtl",
+    "robot_description/visual_refresh/link2_133_0.mtl",
+    "robot_description/visual_refresh/link2_11_0.mtl",
+    "robot_description/visual_refresh/link2_135_0.mtl",
+    "robot_description/visual_refresh/base_link_1_0.mtl",
+    "robot_description/visual_refresh/link2_120_0.mtl",
+    "robot_description/visual_refresh/link1_1_0.mtl",
+    "robot_description/visual_refresh/link2_13_0.mtl",
+    "robot_description/visual_refresh/link2_115_0.mtl",
+    "robot_description/visual_refresh/link2_83_0.mtl",
+    "robot_description/visual_refresh/link7_0_0.mtl",
+    "robot_description/visual_refresh/link3_19_0.mtl",
+    "robot_description/visual_refresh/link2_29_0.mtl",
+    "robot_description/visual_refresh/link2_37_0.mtl",
+    "robot_description/visual_refresh/link3_4_0.mtl",
+    "robot_description/visual_refresh/link2_74_0.mtl",
+    "robot_description/visual_refresh/link3_14_0.mtl",
+    "robot_description/visual_refresh/link2_16_0.mtl",
+    "robot_description/visual_refresh/link2_10_0.mtl",
+    "robot_description/visual_refresh/link2_130_0.mtl",
+    "robot_description/visual_refresh/link2_71_0.mtl",
+    "robot_description/visual_refresh/link2_49_0.mtl",
+    "robot_description/visual_refresh/link2_125_0.mtl",
+    "robot_description/visual_refresh/link3_21_0.mtl",
+    "robot_description/visual_refresh/link3_16_0.mtl",
+    "robot_description/visual_refresh/link2_30_0.mtl",
+    "robot_description/visual_refresh/link2_28_0.mtl",
+    "robot_description/visual_refresh/link2_55_0.mtl",
+    "robot_description/visual_refresh/link3_1_0.mtl",
+    "robot_description/visual_refresh/link3_20_0.mtl",
+    "robot_description/visual_refresh/link1_2_0.mtl",
+    "robot_description/visual_refresh/link2_22_0.mtl",
+    "robot_description/visual_refresh/link2_19_0.mtl",
+    "robot_description/visual_refresh/link2_43_0.mtl",
+    "robot_description/visual_refresh/link2_116_0.mtl",
+    "robot_description/visual_refresh/link2_143_0.mtl",
+    "robot_description/visual_refresh/mount_screw_02.mtl",
+    "robot_description/visual_refresh/link2_89_0.mtl",
+    "robot_description/visual_refresh/link2_62_0.mtl",
+    "robot_description/visual_refresh/link2_3_0.mtl",
+    "robot_description/visual_refresh/link2_6_0.mtl",
+    "robot_description/visual_refresh/link2_39_0.mtl",
+    "robot_description/visual_refresh/link3_11_0.mtl",
+    "robot_description/visual_refresh/link2_79_0.mtl",
+    "robot_description/visual_refresh/mount_screw_01.mtl",
+    "robot_description/visual_refresh/link7_2_0.mtl",
+    "robot_description/visual_refresh/link4_6_0.mtl",
+    "robot_description/visual_refresh/link4_5_0.mtl",
+    "robot_description/visual_refresh/link2_54_0.mtl",
+    "robot_description/visual_refresh/link2_75_0.mtl",
+    "robot_description/visual_refresh/base_link_4_0.mtl",
+    "robot_description/visual_refresh/link1_0_0.mtl",
+    "robot_description/visual_refresh/link3_3_0.mtl",
+    "robot_description/visual_refresh/link2_82_0.mtl",
+    "robot_description/visual_refresh/link2_51_0.mtl",
+    "robot_description/visual_refresh/link2_41_0.mtl",
+    "robot_description/visual_refresh/link2_96_0.mtl",
+    "robot_description/visual_refresh/link8_1_0.mtl",
+    "robot_description/visual_refresh/link2_36_0.mtl",
+    "robot_description/visual_refresh/link3_9_0.mtl",
+    "robot_description/visual_refresh/link2_144_0.mtl",
+    "robot_description/visual_refresh/link2_80_0.mtl",
+    "robot_description/visual_refresh/link2_38_0.mtl",
+    "robot_description/visual_refresh/link2_124_0.mtl",
+    "robot_description/visual_refresh/link2_88_0.mtl",
+    "robot_description/visual_refresh/link2_87_0.mtl",
+    "robot_description/visual_refresh/link2_129_0.mtl",
+    "robot_description/visual_refresh/link3_0_0.mtl",
+    "robot_description/visual_refresh/link2_14_0.mtl",
+    "robot_description/visual_refresh/link2_64_0.mtl",
+    "robot_description/visual_refresh/base_link_3_0.mtl",
+    "robot_description/visual_refresh/link5_4_0.mtl",
+    "robot_description/visual_refresh/link2_121_0.mtl",
+    "robot_description/visual_refresh/link2_100_0.mtl",
+    "robot_description/visual_refresh/link2_106_0.mtl",
+    "robot_description/visual_refresh/link2_126_0.mtl",
+    "robot_description/visual_refresh/camera_body.mtl",
+    "robot_description/visual_refresh/link2_26_0.mtl",
+    "robot_description/visual_refresh/link2_93_0.mtl",
+    "robot_description/visual_refresh/link2_98_0.mtl",
+    "robot_description/visual_refresh/link1_4_0.mtl",
+    "robot_description/visual_refresh/link2_86_0.mtl",
+    "robot_description/visual_refresh/link2_61_0.mtl",
+    "robot_description/visual_refresh/link8_2_0.mtl",
+    "robot_description/visual_refresh/link5_3_0.mtl",
+    "robot_description/visual_refresh/link4_2_0.mtl",
+    "robot_description/visual_refresh/link2_59_0.mtl",
+    "robot_description/visual_refresh/link2_128_0.mtl",
+    "robot_description/visual_refresh/link2_145_0.mtl",
+    "robot_description/visual_refresh/link2_57_0.mtl",
+    "robot_description/visual_refresh/link2_58_0.mtl",
+    "robot_description/visual_refresh/link2_66_0.mtl",
+    "robot_description/visual_refresh/link2_45_0.mtl",
+    "robot_description/visual_refresh/link2_112_0.mtl",
+    "robot_description/visual_refresh/link2_7_0.mtl",
+    "robot_description/visual_refresh/link2_137_0.mtl",
+    "robot_description/visual_refresh/link2_131_0.mtl",
+    "robot_description/visual_refresh/link2_111_0.mtl",
+    "robot_description/visual_refresh/link3_7_0.mtl",
+    "robot_description/visual_refresh/link2_27_0.mtl",
+    "robot_description/visual_refresh/link2_24_0.mtl",
+    "robot_description/visual_refresh/link2_0_0.mtl",
+    "robot_description/visual_refresh/link5_2_0.mtl",
+    "robot_description/visual_refresh/link2_109_0.mtl",
+    "robot_description/visual_refresh/link5_5_0.mtl",
+    "robot_description/visual_refresh/link3_5_0.mtl",
+    "robot_description/visual_refresh/link1_3_0.mtl",
+    "robot_description/visual_refresh/link8_0_0.mtl",
+    "robot_description/visual_refresh/link2_141_0.mtl",
+    "robot_description/visual_refresh/link4_1_0.mtl",
+    "robot_description/visual_refresh/link2_47_0.mtl",
+    "robot_description/visual_refresh/link2_77_0.mtl",
+    "robot_description/visual_refresh/link2_107_0.mtl",
+    "robot_description/visual_refresh/link4_3_0.mtl",
+    "robot_description/visual_refresh/link2_52_0.mtl",
+    "robot_description/visual_refresh/link2_108_0.mtl",
+    "robot_description/visual_refresh/link5_1_0.mtl",
+    "robot_description/visual_refresh/link2_103_0.mtl",
+    "robot_description/visual_refresh/link5_0_0.mtl",
+    "robot_description/visual_refresh/link2_31_0.mtl",
+    "robot_description/visual_refresh/link3_10_0.mtl",
+    "robot_description/visual_refresh/link2_4_0.mtl",
+    "robot_description/visual_refresh/link2_113_0.mtl",
+    "robot_description/visual_refresh/link2_97_0.mtl",
+    "robot_description/visual_refresh/link2_69_0.mtl",
+    "robot_description/visual_refresh/link2_53_0.mtl",
+    "robot_description/visual_refresh/link2_84_0.mtl",
+    "robot_description/visual_refresh/link2_76_0.mtl",
+    "robot_description/visual_refresh/link3_12_0.mtl",
+    "robot_description/visual_refresh/link2_85_0.mtl",
+    "robot_description/visual_refresh/link2_44_0.mtl",
+    "robot_description/visual_refresh/link2_67_0.mtl",
+    "robot_description/visual_refresh/link6_0_0.mtl",
+    "robot_description/visual_refresh/link2_1_0.mtl",
+    "robot_description/visual_refresh/link2_5_0.mtl",
+    "robot_description/visual_refresh/link2_35_0.mtl",
+    "robot_description/visual_refresh/link2_40_0.mtl",
+    "robot_description/visual_refresh/link2_21_0.mtl",
+    "robot_description/visual_refresh/link2_25_0.mtl",
+    "robot_description/visual_refresh/link2_138_0.mtl",
+    "robot_description/visual_refresh/link2_70_0.mtl",
+    "robot_description/visual_refresh/link2_123_0.mtl",
+    "robot_description/visual_refresh/link2_17_0.mtl",
+    "robot_description/visual_refresh/link2_2_0.mtl",
+    "robot_description/visual_refresh/link2_132_0.mtl",
+    "robot_description/visual_refresh/link3_17_0.mtl",
+    "robot_description/visual_refresh/base_link_5_0.mtl",
+    "robot_description/visual_refresh/link2_8_0.mtl",
+    "robot_description/visual_refresh/link2_92_0.mtl",
+    "robot_description/visual_refresh/link2_23_0.mtl",
+    "robot_description/visual_refresh/link2_15_0.mtl",
+    "robot_description/visual_refresh/link2_122_0.mtl",
+    "robot_description/visual_refresh/link2_18_0.mtl",
+    "robot_description/visual_refresh/link3_18_0.mtl",
+    "robot_description/visual_refresh/link2_72_0.mtl",
+    "robot_description/visual_refresh/link2_102_0.mtl",
+    "robot_description/visual_refresh/link2_50_0.mtl",
+    "robot_description/visual_refresh/link2_46_0.mtl",
+    "robot_description/visual_refresh/link2_117_0.mtl",
+    "robot_description/visual_refresh/link2_105_0.mtl",
+    "robot_description/visual_refresh/base_link_2_0.mtl",
+    "robot_description/visual_refresh/link2_65_0.mtl",
+    "robot_description/visual_refresh/link3_22_0.mtl",
+    "robot_description/visual_refresh/link4_0_0.mtl",
+    "robot_description/visual_refresh/link2_139_0.mtl",
+    "robot_description/visual_refresh/link3_8_0.mtl",
+    "robot_description/visual_refresh/link2_136_0.mtl",
+    "robot_description/visual_refresh/link2_20_0.mtl",
+    "robot_description/visual_refresh/link2_60_0.mtl",
+    "robot_description/visual_refresh/link2_127_0.mtl",
+    "robot_description/visual_refresh/link3_6_0.mtl",
+    "robot_description/visual_refresh/link2_91_0.mtl",
+    "robot_description/visual_refresh/link2_81_0.mtl",
+    "robot_description/visual_refresh/link2_140_0.mtl",
+    "robot_description/visual_refresh/link2_34_0.mtl",
+    "robot_description/visual_refresh/link2_42_0.mtl"
+  ],
+  "portable_urdf": [
+    {
+      "file": "robot_description/piper.pre_v4.source.urdf",
+      "rewritten": 219
+    },
+    {
+      "file": "robot_description/piper.source.urdf",
+      "rewritten": 223
+    },
+    {
+      "file": "robot_description/piper.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/support_microwave/asset.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/cube_brass/asset.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/cube_wood/asset.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/microwave/common_v4/microwave.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/airfryer/common_v4/airfryer.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/piper/piper_mj.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/piper/piper_drake.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/piper/piper.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/plate/plate.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/rear_table/asset.urdf",
+      "rewritten": 1
+    },
+    {
+      "file": "source_v4/assets/cube_aluminum/asset.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/cube_iron/asset.urdf",
+      "rewritten": 0
+    },
+    {
+      "file": "source_v4/assets/support_airfryer/asset.urdf",
+      "rewritten": 0
+    }
+  ],
+  "collision_changes": [
+    {
+      "path": "/World/Desk/BaseLink/Base_005/Mesh_007",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Desk/BaseLink/Base_002/Mesh_004",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Desk/TopLink/Top_014/Mesh_022",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Desk/TopLink/Top_015/Mesh_023",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Desk/TopLink/Board",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Desk/MiddleLink/Middle_001/Mesh_008",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Desk/MiddleLink/Middle/Mesh_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseLower/Part_000/base_lower_endpoint_rebuild_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseUpper/Part_003/base_upper_start_scan_cap_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseUpper/Part_004/base_upper_远端横销_修复_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraLower/Part_005/CollisionClean",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraUpper/Part_008/camera_upper_endpoint_rebuild_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraUpper/Part_009/camera_upper_远端横销_修复_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_010/camera_fresh_shell_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_018/fastener_camera_back_0_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_019/fastener_camera_back_1_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_020/fastener_camera_front_0_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_021/fastener_camera_front_1_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_028/joint_camera_0_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_029/joint_camera_1_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_033/lock_pivot_camera_back_cap_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_034/lock_pivot_camera_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_039/camera_back_continuous_outline_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraYoke/Part_040/camera_front_continuous_outline_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_011/elbow_spring_anchor_back_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_012/elbow_spring_anchor_front_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_013/elbow_fresh_shell_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_022/fastener_elbow_back_0_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_023/fastener_elbow_back_2_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_024/fastener_elbow_front_0_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_025/fastener_elbow_front_2_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_030/joint_elbow_0_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_031/joint_elbow_1_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_032/joint_elbow_2_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_035/lock_pivot_elbow_back_cap_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_036/lock_pivot_elbow_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_041/elbow_back_continuous_outline_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/ElbowYoke/Part_042/elbow_front_continuous_outline_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_014/fastener_base_back_0_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_015/fastener_base_back_1_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_016/fastener_base_front_0_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_017/fastener_base_front_1_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_026/joint_base_0_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_027/joint_base_1_internal_shaft_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_037/base_back_continuous_outline_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_038/base_front_continuous_outline_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/BaseYoke/Part_046/扫描约束旋转内柱_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Pad/Part_043/压盘_扫描连续曲面重建_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Clamp/Part_044/夹板_扫描轴线孔道候选_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Clamp/Part_045/底座锁紧短轴_轴向加密_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Clamp/Part_047/插接外壳_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Clamp/Part_062/底座旋钮_扫描截面重建_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Clamp/Part_063/横杆_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/Clamp/Part_064/螺杆_扫描包络内螺纹候选_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_048/光学1_镜圈_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_050/光学2_镜圈_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_052/光学3_镜圈_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_054/光学4_镜圈_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_056/摄像头前面板_重建候选_连续曲面_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_057/摄像头后螺钉_left_重建候选_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_058/摄像头后螺钉_right_重建候选_001",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_060/CollisionClean",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraBody/Part_061/CollisionClean",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/CameraMount/Links/CameraNeck/Part_059/摄像头连接杆_扫描约束候选_002",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 128
+    },
+    {
+      "path": "/World/Clamps/Left/frame/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Left/screw/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Left/pad/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Left/handle/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Right/frame/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Right/screw/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Right/pad/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    },
+    {
+      "path": "/World/Clamps/Right/handle/Mesh",
+      "before": "sdf",
+      "after": "sdf",
+      "note": "Final bounded SDF profile. The intermediate convex-decomposition trial was rejected.",
+      "resolution": 256
+    }
+  ],
+  "other_changes": [
+    "Plate is dynamic by default in training layer; optional fixture in config.",
+    "Airfryer damping 10 -> 40 N s/m; max velocity 0.2 m/s; stiffness 100 N/m and force cap 10 N unchanged."
+  ],
+  "source_scene": "../scene.usda",
+  "fixed_scene": "../scene_training.usda",
+  "status": "SEE_VERIFICATION_SUMMARY"
+}

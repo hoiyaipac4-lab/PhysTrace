@@ -1,0 +1,39 @@
+{
+  "scope": "Fixed original inferred bore axis; radial ray samples at 13 axial stations and 360 angles. Same expanded scan selection for old/new reverse. No registration. Estimated mm.",
+  "before": {
+    "bore_min_radius_mm": 1.7494579553604126,
+    "bore_max_radius_mm": 1.750011682510376,
+    "missing_rays": 0,
+    "minimum_sampled_shaft_clearance_mm": 0.2494579553604126,
+    "reverse_by_original_face_role": {
+      "0": {
+        "area_mm2": 1103.6612023762264,
+        "face_center_p95_mm": 3.2199093803617247,
+        "over_2mm_area_mm2": 98.62533237611345
+      },
+      "1": {
+        "area_mm2": 476.45454528337467,
+        "face_center_p95_mm": 6.83663523566836,
+        "over_2mm_area_mm2": 383.8507253666653
+      }
+    }
+  },
+  "after": {
+    "bore_min_radius_mm": 1.7478649616241455,
+    "bore_max_radius_mm": 1.7502456903457642,
+    "missing_rays": 0,
+    "minimum_sampled_shaft_clearance_mm": 0.2478649616241455,
+    "reverse_by_original_face_role": {
+      "0": {
+        "area_mm2": 1060.014340317659,
+        "face_center_p95_mm": 3.2030969870651838,
+        "over_2mm_area_mm2": 87.19804909655215
+      },
+      "1": {
+        "area_mm2": 578.5013580996815,
+        "face_center_p95_mm": 6.633416873258499,
+        "over_2mm_area_mm2": 411.3786413599453
+      }
+    }
+  }
+}

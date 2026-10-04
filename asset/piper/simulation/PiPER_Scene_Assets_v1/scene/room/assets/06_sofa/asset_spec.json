@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "asset_id": "06_sofa",
+  "name": "沙发",
+  "description": "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。 V2：原坐垫内区增高最多9毫米，拉扣凹陷减小最多7毫米，降低布面高光；保留扶手、滚边与脚。 V4修复六个网格缺失UV，映射原视频布面像素，保留所有网格顶点。 V5按用户实测整长2.18米，后墙净距13厘米更新。",
+  "sources": [
+    {
+      "id": "V01",
+      "path": "../../evidence/source.qt",
+      "kind": "appearance_video",
+      "sha256": "ffb80ae2531995f9cc15f044cebb5987cbbb0a5dcc1fe604707130598cb30c29",
+      "fps": 30,
+      "frame_count": 894,
+      "width": 960,
+      "height": 540,
+      "original_path": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E02",
+      "source_id": "V01",
+      "frame": 89,
+      "time_seconds": 2.966666666666667,
+      "image_path": "../../evidence/002.png",
+      "observation": "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。"
+    },
+    {
+      "id": "E03",
+      "source_id": "V01",
+      "frame": 149,
+      "time_seconds": 4.966666666666667,
+      "image_path": "../../evidence/003.png",
+      "observation": "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。"
+    },
+    {
+      "id": "E14",
+      "source_id": "V01",
+      "frame": 809,
+      "time_seconds": 26.966666666666665,
+      "image_path": "../../evidence/014.png",
+      "observation": "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。"
+    },
+    {
+      "id": "E15",
+      "source_id": "V01",
+      "frame": 869,
+      "time_seconds": 28.966666666666665,
+      "image_path": "../../evidence/015.png",
+      "observation": "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。"
+    }
+  ],
+  "appearance": [
+    {
+      "id": "A01",
+      "statement": "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。",
+      "certainty": "observed",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "id": "A02",
+      "statement": "布面具有原视频可见的细微不均匀色调；源像素近似映射至各部件，非精确表面配准。",
+      "certainty": "inferred",
+      "basis": "原视频帧89可见坐垫布面；材料区域映射见texture_provenance.json。靠背/扶手复用同材质坐垫像素，避免将拍摄阴影叠加为材质。",
+      "evidence_ids": [
+        "E02"
+      ]
+    }
+  ],
+  "structure": [
+    {
+      "id": "S01",
+      "statement": "三个坐垫、连续靠背、两扶手、底座与短脚",
+      "certainty": "inferred",
+      "basis": "可见轮廓与遮挡处的最小合理补全",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "id": "S_USER_DIM",
+      "statement": "沙发整长2.18米，背面到后方主墙面净距13厘米。",
+      "certainty": "inferred",
+      "basis": "用户直接提供这两个实测尺寸；将距离墙解释为背面到后方主墙面净距，见user_dimensions.json。",
+      "evidence_ids": []
+    }
+  ],
+  "interactions": [
+    {
+      "id": "I01",
+      "statement": "无坐压演示；本版使用刚体家具，不声称软垫变形标定。",
+      "certainty": "unknown",
+      "missing_evidence": "无受控交互测量",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E14",
+        "E15"
+      ]
+    }
+  ],
+  "preserve": [
+    "浅灰米色三人沙发，三块独立坐垫、连续拉扣靠背、两侧高背下弧扶手、浅色滚边、短棕木脚。"
+  ],
+  "known_defects": [],
+  "requirements": [
+    {
+      "id": "R01",
+      "domain": "appearance",
+      "criterion": "保留源视频的主体轮廓、颜色和可见细节；尺寸为估计",
+      "claim_ids": [
+        "A01",
+        "A02"
+      ],
+      "required": true,
+      "method": "源帧与Blender/USD预览人工对照"
+    },
+    {
+      "id": "R02",
+      "domain": "structure",
+      "criterion": "可编辑分件、独立USD、米制Z向上、无丢失依赖；整长2.18米、组合场景后墙净距0.13米",
+      "claim_ids": [
+        "S01",
+        "S_USER_DIM"
+      ],
+      "required": true,
+      "method": "模型重开、USD结构及依赖检查"
+    },
+    {
+      "id": "R03",
+      "domain": "interaction",
+      "criterion": "在Isaac Sim实际步进中验证所配置的基础碰撞/关节，不扩大到真实物理标定",
+      "claim_ids": [
+        "I01"
+      ],
+      "required": true,
+      "method": "引擎真实位姿记录与测试画面"
+    }
+  ],
+  "limitations": [
+    "无坐压演示；本版使用刚体家具，不声称软垫变形标定。",
+    "V2精修细节为视频引导的近似；实时深度测量不稳定，未用作模型尺度标定。",
+    "V4贴图残留拍摄光照、分辨率限制；未恢复标定反照率，隐藏表面与具体图案位置为推断。",
+    "整长与后墙间距采用用户实测；其他尺寸、质量、摩擦及隐藏结构仍为估计。"
+  ]
+}

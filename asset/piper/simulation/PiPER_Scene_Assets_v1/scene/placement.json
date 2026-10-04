@@ -1,0 +1,35 @@
+{
+  "right_edge_axis": "+X viewed from front -Y",
+  "right_gap_m": 0.008000000000000007,
+  "table_front_y": -0.4086528808,
+  "plate_translation_m": [
+    0.33195287827527753,
+    -0.34472165668283017,
+    0.635
+  ],
+  "robot_translation_m": [
+    0.03195287827527754,
+    -0.34622165668283017,
+    0.6435886882527112
+  ],
+  "robot_yaw_deg": 90,
+  "clamp_positions_m": [
+    [
+      -0.016047121724722446,
+      -0.37665288080000003,
+      0.4882490882527112
+    ],
+    [
+      0.07995287827527753,
+      -0.37665288080000003,
+      0.4882490882527112
+    ]
+  ],
+  "board_top_m": 0.6435886882527112,
+  "clamp_screw_retraction_m": -0.014032836645806984,
+  "clamp_model": "fixed installation snapshot; screw/pad/handle retracted together, not friction-clamp validation",
+  "robot_mount": "fixed joint to TopLink, single desk+robot articulation",
+  "estimated_added_mounting_mass_kg": 5.225542241759811,
+  "original_desk_preserved": true,
+  "placement_basis": "photo layout; right gap user specified 8 mm; front clearance 4 mm; robot over LEFT LARGE OPENING per user correction; clamps flank robot at +/-48 mm; exact bolt registration not calibrated"
+}

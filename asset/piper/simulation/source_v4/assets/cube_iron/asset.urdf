@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="cube_iron">
+  <link name="cube_iron__block">
+    <inertial>
+      <mass value="0.12219999730587006" />
+      <inertia ixx="1.2729166386028132e-05" iyy="1.2729166386028132e-05" izz="1.2729166386028132e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../../material_visual/iron/cube_visual.obj" />
+      </geometry>
+      <material name="cube_iron__appearance">
+        <color rgba="0.588 0.588 0.588 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size=".025 .025 .025" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

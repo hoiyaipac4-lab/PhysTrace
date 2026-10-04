@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "simulation_seconds": 10.002083333332926,
+  "height_range_m": [
+    0.6350000063690209,
+    0.7128613686561585
+  ],
+  "mount_max_anchor_gap_mm": 0.6442447646867353,
+  "clamp_checks": [
+    {
+      "feed_range_m": [
+        -0.0015024382155388594,
+        -1.5675857278907301e-09
+      ],
+      "coupling_max_error_m": 5.17808901008901e-10,
+      "final_feed_m": -2.9988553862381195e-09
+    },
+    {
+      "feed_range_m": [
+        -0.0015024287858977914,
+        -1.5198390324044908e-09
+      ],
+      "coupling_max_error_m": 8.192244432869018e-10,
+      "final_feed_m": -1.9056827227359463e-08
+    }
+  ],
+  "render_views": [
+    "initial",
+    "raised",
+    "returned",
+    "overview",
+    "workspace_camera",
+    "mount_detail"
+  ],
+  "scope": "10-second lift and return, small robot joint motion, two half-turn screw loosen/return cycles, camera spring hold and 30/30-degree optical pose. Fixed assembly fixtures remain; no full friction holding, collision workspace, payload or real-camera calibration certification."
+}

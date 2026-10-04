@@ -1,0 +1,96 @@
+{
+  "self_intersection": {
+    "frame": 0,
+    "screw": 0,
+    "pad": 0,
+    "handle": 0
+  },
+  "pair_intersections": {
+    "frame_screw": {
+      "intersection_volume_mm3": 0.0,
+      "faces": 0
+    },
+    "frame_pad": {
+      "intersection_volume_mm3": 0.0,
+      "faces": 0
+    },
+    "frame_handle": {
+      "intersection_volume_mm3": 0.0,
+      "faces": 0
+    },
+    "screw_pad": {
+      "intersection_volume_mm3": 0.0,
+      "faces": 0
+    },
+    "screw_handle": {
+      "intersection_volume_mm3": 0.0,
+      "faces": 0
+    },
+    "pad_handle": {
+      "intersection_volume_mm3": 0.0,
+      "faces": 0
+    }
+  },
+  "motion_samples": [
+    {
+      "travel_estimated_mm": 0,
+      "type": "discrete geometric intersection check, not dynamics",
+      "intersections": {
+        "frame_screw": 0.0,
+        "frame_pad": 0.0,
+        "frame_handle": 0.0,
+        "screw_pad": 0.0,
+        "screw_handle": 0.0,
+        "pad_handle": 0.0
+      }
+    },
+    {
+      "travel_estimated_mm": 4.5,
+      "type": "discrete geometric intersection check, not dynamics",
+      "intersections": {
+        "frame_screw": 0.0,
+        "frame_pad": 0.0,
+        "frame_handle": 0.0,
+        "screw_pad": 0.0,
+        "screw_handle": 0.0,
+        "pad_handle": 0.0
+      }
+    },
+    {
+      "travel_estimated_mm": 9,
+      "type": "discrete geometric intersection check, not dynamics",
+      "intersections": {
+        "frame_screw": 0.0,
+        "frame_pad": 0.0,
+        "frame_handle": 0.0,
+        "screw_pad": 0.0,
+        "screw_handle": 0.0,
+        "pad_handle": 0.0
+      }
+    },
+    {
+      "travel_estimated_mm": 13.5,
+      "type": "discrete geometric intersection check, not dynamics",
+      "intersections": {
+        "frame_screw": 0.0,
+        "frame_pad": 0.0,
+        "frame_handle": 0.0,
+        "screw_pad": 0.0,
+        "screw_handle": 0.0,
+        "pad_handle": 0.0
+      }
+    },
+    {
+      "travel_estimated_mm": 18,
+      "type": "discrete geometric intersection check, not dynamics",
+      "intersections": {
+        "frame_screw": 0.0,
+        "frame_pad": 0.0,
+        "frame_handle": 0.0,
+        "screw_pad": 0.0,
+        "screw_handle": 0.0,
+        "pad_handle": 0.0
+      }
+    }
+  ]
+}

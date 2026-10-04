@@ -1,0 +1,23 @@
+{
+  "asset_id": "tayohya_plate",
+  "source_object_name": "E__A棣栭挗浠跨湡璧勪骇_TAYOHYA椁愬叿濂楄__60fd83b",
+  "source_mesh_objects": 1,
+  "source_vertices": 1792164,
+  "source_faces": 3584324,
+  "visual_faces": 120000,
+  "dimensions_m": [
+    0.2057441771030426,
+    0.2058418095111847,
+    0.04090007022023201
+  ],
+  "source_units": "FBX local millimetres converted to metres (0.001 object scale)",
+  "axis_conversion": "source local [x,y,z] to [x,z,-y]; plate concavity facing +Z",
+  "center_offset_m": [
+    -0.0005469665527343751,
+    0.000188720703125,
+    -0.000377288818359375
+  ],
+  "texture": "embedded original 4096x4096 PNG",
+  "collision_input_faces": 6000,
+  "open_side_up": true
+}

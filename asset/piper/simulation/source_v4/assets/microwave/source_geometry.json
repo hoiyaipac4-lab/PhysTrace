@@ -1,0 +1,406 @@
+{
+  "source": "../../../../external_sources/source_0046/asset.usda",
+  "source_sha256": "fedb5cbd95c82b6b3001b35631b8499ee52af7cb0d6b09d80e86c26edb3d57ea",
+  "usd_version": [
+    0,
+    25,
+    11
+  ],
+  "meters_per_unit": 1.0,
+  "up_axis": "Z",
+  "links": {
+    "base": {
+      "path": "/Asset",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_kg": null,
+      "com_local_m": null,
+      "diagonal_inertia_kg_m2": null,
+      "has_rigid_body_api": false
+    },
+    "door": {
+      "path": "/Asset/Door",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.217,
+          0.127,
+          0.126,
+          1.0
+        ]
+      ],
+      "mass_kg": 1.0,
+      "com_local_m": null,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "has_rigid_body_api": true
+    },
+    "knob_top": {
+      "path": "/Asset/WBL_zn1",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.1712186560034752,
+          0.152,
+          0.16540535539388657,
+          1.0
+        ]
+      ],
+      "mass_kg": 0.029999999329447746,
+      "com_local_m": null,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "has_rigid_body_api": true
+    },
+    "knob_bottom": {
+      "path": "/Asset/WBL_zn2",
+      "world_transform_row_major": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.1712186560034752,
+          0.152,
+          0.09050038829445839,
+          1.0
+        ]
+      ],
+      "mass_kg": 0.029999999329447746,
+      "com_local_m": null,
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "has_rigid_body_api": true
+    }
+  },
+  "joints": [
+    {
+      "path": "/Asset/DoorHinge",
+      "type": "PhysicsRevoluteJoint",
+      "attributes": {
+        "drive:angular:physics:damping": "0.05000000074505806",
+        "drive:angular:physics:maxForce": "3.0",
+        "drive:angular:physics:stiffness": "0.0",
+        "drive:angular:physics:targetPosition": "0.0",
+        "drive:angular:physics:targetVelocity": "0.0",
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Z",
+        "physics:breakForce": "inf",
+        "physics:breakTorque": "inf",
+        "physics:collisionEnabled": "True",
+        "physics:excludeFromArticulation": "False",
+        "physics:jointEnabled": "True",
+        "physics:localPos0": "(0.217, 0.127, 0.126)",
+        "physics:localPos1": "(0, 0, 0)",
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": "-110.0",
+        "physics:upperLimit": "0.0"
+      },
+      "body0": [],
+      "body1": [
+        "/Asset/Door"
+      ]
+    },
+    {
+      "path": "/Asset/WBL_zn1Joint",
+      "type": "PhysicsRevoluteJoint",
+      "attributes": {
+        "drive:angular:physics:damping": "0.10000000149011612",
+        "drive:angular:physics:maxForce": "0.06862710416316986",
+        "drive:angular:physics:stiffness": "0.0",
+        "drive:angular:physics:targetPosition": "0.0",
+        "drive:angular:physics:targetVelocity": "0.0",
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Y",
+        "physics:breakForce": "inf",
+        "physics:breakTorque": "inf",
+        "physics:collisionEnabled": "True",
+        "physics:excludeFromArticulation": "False",
+        "physics:jointEnabled": "True",
+        "physics:localPos0": "(-0.17121866, 0.15200001, 0.16540536)",
+        "physics:localPos1": "(0, 0, 0)",
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": "-inf",
+        "physics:upperLimit": "inf"
+      },
+      "body0": [],
+      "body1": [
+        "/Asset/WBL_zn1"
+      ]
+    },
+    {
+      "path": "/Asset/WBL_zn2Joint",
+      "type": "PhysicsRevoluteJoint",
+      "attributes": {
+        "drive:angular:physics:damping": "0.10000000149011612",
+        "drive:angular:physics:maxForce": "0.1246485710144043",
+        "drive:angular:physics:stiffness": "0.0",
+        "drive:angular:physics:targetPosition": "0.0",
+        "drive:angular:physics:targetVelocity": "0.0",
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Y",
+        "physics:breakForce": "inf",
+        "physics:breakTorque": "inf",
+        "physics:collisionEnabled": "True",
+        "physics:excludeFromArticulation": "False",
+        "physics:jointEnabled": "True",
+        "physics:localPos0": "(-0.17121866, 0.15200001, 0.090500385)",
+        "physics:localPos1": "(0, 0, 0)",
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": "-inf",
+        "physics:upperLimit": "inf"
+      },
+      "body0": [],
+      "body1": [
+        "/Asset/WBL_zn2"
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "path": "/Asset/Body/WBL",
+      "link": "base",
+      "obj": "meshes/base_000.obj",
+      "vertices": 5801,
+      "triangles": 11079,
+      "collision_enabled": true,
+      "collision_approximation": "none",
+      "bounds_local_m": [
+        [
+          -0.21694421768188477,
+          -0.1693630963563919,
+          -0.00013740498980041593
+        ],
+        [
+          0.21694421768188477,
+          0.14975589513778687,
+          0.24081608653068542
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    },
+    {
+      "path": "/Asset/Body/WBL_Pan",
+      "link": "base",
+      "obj": "meshes/base_001.obj",
+      "vertices": 1989,
+      "triangles": 3974,
+      "collision_enabled": true,
+      "collision_approximation": "none",
+      "bounds_local_m": [
+        [
+          -0.06595878303050995,
+          -0.1085437685251236,
+          0.04659662023186684
+        ],
+        [
+          0.1588319092988968,
+          0.11624693870544434,
+          0.05417172238230705
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    },
+    {
+      "path": "/Asset/Body/WBL_Zhou",
+      "link": "base",
+      "obj": "meshes/base_002.obj",
+      "vertices": 2882,
+      "triangles": 5772,
+      "collision_enabled": true,
+      "collision_approximation": "none",
+      "bounds_local_m": [
+        [
+          -0.025533318519592285,
+          -0.04170879349112511,
+          0.033485617488622665
+        ],
+        [
+          0.11840572208166122,
+          0.0830010324716568,
+          0.04750122129917145
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    },
+    {
+      "path": "/Asset/Door/Men",
+      "link": "door",
+      "obj": "meshes/door_003.obj",
+      "vertices": 400,
+      "triangles": 796,
+      "collision_enabled": true,
+      "collision_approximation": "convexDecomposition",
+      "bounds_local_m": [
+        [
+          -0.34883955121040344,
+          -0.00035020304494537413,
+          -0.11007101833820343
+        ],
+        [
+          -0.005459229461848736,
+          0.04236309230327606,
+          0.11039505153894424
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    },
+    {
+      "path": "/Asset/Door/WBL_Men2",
+      "link": "door",
+      "obj": "meshes/door_004.obj",
+      "vertices": 908,
+      "triangles": 1760,
+      "collision_enabled": true,
+      "collision_approximation": "convexDecomposition",
+      "bounds_local_m": [
+        [
+          -0.3384365439414978,
+          -0.022565927356481552,
+          -0.054853569716215134
+        ],
+        [
+          -0.33244946599006653,
+          0.00785827450454235,
+          0.049779199063777924
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    },
+    {
+      "path": "/Asset/WBL_zn1/VisualCollision",
+      "link": "knob_top",
+      "obj": "meshes/knob_top_005.obj",
+      "vertices": 366,
+      "triangles": 654,
+      "collision_enabled": false,
+      "collision_approximation": "convexDecomposition",
+      "bounds_local_m": [
+        [
+          -0.021000005304813385,
+          -0.002883206820115447,
+          -0.021000005304813385
+        ],
+        [
+          0.021000005304813385,
+          0.016729895025491714,
+          0.021000005304813385
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    },
+    {
+      "path": "/Asset/WBL_zn2/VisualCollision",
+      "link": "knob_bottom",
+      "obj": "meshes/knob_bottom_006.obj",
+      "vertices": 366,
+      "triangles": 654,
+      "collision_enabled": false,
+      "collision_approximation": "convexDecomposition",
+      "bounds_local_m": [
+        [
+          -0.021000005304813385,
+          -0.002883206820115447,
+          -0.021000009030103683
+        ],
+        [
+          0.021000005304813385,
+          0.016729895025491714,
+          0.021000009030103683
+        ]
+      ],
+      "source_uv_preserved": true,
+      "texture": "meshes/T_WBL_C.jpg"
+    }
+  ]
+}

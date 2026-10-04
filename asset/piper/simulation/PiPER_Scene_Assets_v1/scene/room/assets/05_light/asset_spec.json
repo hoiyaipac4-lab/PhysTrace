@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "asset_id": "05_light",
+  "name": "照灯",
+  "description": "银色摄影灯架与倾斜长横杆，左端带黑色软箱、白色扩散面，黑色电线。 V2：在原柔光布网格增加最大1.6毫米的微弱褶皱，保留支架与安装关系。",
+  "sources": [
+    {
+      "id": "V01",
+      "path": "../../evidence/source.qt",
+      "kind": "appearance_video",
+      "sha256": "ffb80ae2531995f9cc15f044cebb5987cbbb0a5dcc1fe604707130598cb30c29",
+      "fps": 30,
+      "frame_count": 894,
+      "width": 960,
+      "height": 540,
+      "original_path": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E08",
+      "source_id": "V01",
+      "frame": 449,
+      "time_seconds": 14.966666666666667,
+      "image_path": "../../evidence/008.png",
+      "observation": "银色摄影灯架与倾斜长横杆，左端带黑色软箱、白色扩散面，黑色电线。"
+    },
+    {
+      "id": "E10",
+      "source_id": "V01",
+      "frame": 569,
+      "time_seconds": 18.966666666666665,
+      "image_path": "../../evidence/010.png",
+      "observation": "银色摄影灯架与倾斜长横杆，左端带黑色软箱、白色扩散面，黑色电线。"
+    },
+    {
+      "id": "E11",
+      "source_id": "V01",
+      "frame": 629,
+      "time_seconds": 20.966666666666665,
+      "image_path": "../../evidence/011.png",
+      "observation": "银色摄影灯架与倾斜长横杆，左端带黑色软箱、白色扩散面，黑色电线。"
+    }
+  ],
+  "appearance": [
+    {
+      "id": "A01",
+      "statement": "银色摄影灯架与倾斜长横杆，左端带黑色软箱、白色扩散面，黑色电线。",
+      "certainty": "observed",
+      "evidence_ids": [
+        "E08",
+        "E10",
+        "E11"
+      ]
+    }
+  ],
+  "structure": [
+    {
+      "id": "S01",
+      "statement": "立柱、旋钮、夹持头、横杆、软箱；支撑脚隐藏，使用标注的合理近似",
+      "certainty": "inferred",
+      "basis": "可见轮廓与遮挡处的最小合理补全",
+      "evidence_ids": [
+        "E08",
+        "E10",
+        "E11"
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "I01",
+      "statement": "照明可用；未观察到灯架调节动作及真实光通量。",
+      "certainty": "unknown",
+      "missing_evidence": "无受控交互测量",
+      "evidence_ids": [
+        "E08",
+        "E10",
+        "E11"
+      ]
+    }
+  ],
+  "preserve": [
+    "银色摄影灯架与倾斜长横杆，左端带黑色软箱、白色扩散面，黑色电线。"
+  ],
+  "known_defects": [],
+  "requirements": [
+    {
+      "id": "R01",
+      "domain": "appearance",
+      "criterion": "保留源视频的主体轮廓、颜色和可见细节；尺寸为估计",
+      "claim_ids": [
+        "A01"
+      ],
+      "required": true,
+      "method": "源帧与Blender/USD预览人工对照"
+    },
+    {
+      "id": "R02",
+      "domain": "structure",
+      "criterion": "可编辑分件、独立USD、米制Z向上、无丢失依赖",
+      "claim_ids": [
+        "S01"
+      ],
+      "required": true,
+      "method": "模型重开、USD结构及依赖检查"
+    },
+    {
+      "id": "R03",
+      "domain": "interaction",
+      "criterion": "在Isaac Sim实际步进中验证所配置的基础碰撞/关节，不扩大到真实物理标定",
+      "claim_ids": [
+        "I01"
+      ],
+      "required": true,
+      "method": "引擎真实位姿记录与测试画面"
+    }
+  ],
+  "limitations": [
+    "照明可用；未观察到灯架调节动作及真实光通量。",
+    "所有尺寸、质量、摩擦、隐藏结构及房间外部环境均未实测。",
+    "V2精修细节为视频引导的近似；实时深度测量不稳定，未用作模型尺度标定。"
+  ]
+}

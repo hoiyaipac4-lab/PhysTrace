@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "asset_id": "02_backdrop",
+  "name": "背景墙",
+  "description": "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。 V2：使用源视频749帧可见木地板区域映射木纹，增加错缝分板、局部顶边与低位插座；保留原墙体、卷帘。",
+  "sources": [
+    {
+      "id": "V01",
+      "path": "../../evidence/source.qt",
+      "kind": "appearance_video",
+      "sha256": "ffb80ae2531995f9cc15f044cebb5987cbbb0a5dcc1fe604707130598cb30c29",
+      "fps": 30,
+      "frame_count": 894,
+      "width": 960,
+      "height": 540,
+      "original_path": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E02",
+      "source_id": "V01",
+      "frame": 89,
+      "time_seconds": 2.966666666666667,
+      "image_path": "../../evidence/002.png",
+      "observation": "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。"
+    },
+    {
+      "id": "E03",
+      "source_id": "V01",
+      "frame": 149,
+      "time_seconds": 4.966666666666667,
+      "image_path": "../../evidence/003.png",
+      "observation": "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。"
+    },
+    {
+      "id": "E05",
+      "source_id": "V01",
+      "frame": 269,
+      "time_seconds": 8.966666666666667,
+      "image_path": "../../evidence/005.png",
+      "observation": "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。"
+    },
+    {
+      "id": "E08",
+      "source_id": "V01",
+      "frame": 449,
+      "time_seconds": 14.966666666666667,
+      "image_path": "../../evidence/008.png",
+      "observation": "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。"
+    }
+  ],
+  "appearance": [
+    {
+      "id": "A01",
+      "statement": "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。",
+      "certainty": "observed",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E05",
+        "E08"
+      ]
+    }
+  ],
+  "structure": [
+    {
+      "id": "S01",
+      "statement": "卷帘覆盖窗/墙区域，两幅并列；精确墙体尺寸及背面未知",
+      "certainty": "inferred",
+      "basis": "可见轮廓与遮挡处的最小合理补全",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E05",
+        "E08"
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "I01",
+      "statement": "未展示卷帘升降，背景作为固定碰撞环境。",
+      "certainty": "unknown",
+      "missing_evidence": "无受控交互测量",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E05",
+        "E08"
+      ]
+    }
+  ],
+  "preserve": [
+    "暖白墙，门侧棕米色墙面；沙发后方两幅米灰卷帘，白色底杆、顶管、侧拉绳，黑色窄中缝。"
+  ],
+  "known_defects": [],
+  "requirements": [
+    {
+      "id": "R01",
+      "domain": "appearance",
+      "criterion": "保留源视频的主体轮廓、颜色和可见细节；尺寸为估计",
+      "claim_ids": [
+        "A01"
+      ],
+      "required": true,
+      "method": "源帧与Blender/USD预览人工对照"
+    },
+    {
+      "id": "R02",
+      "domain": "structure",
+      "criterion": "可编辑分件、独立USD、米制Z向上、无丢失依赖",
+      "claim_ids": [
+        "S01"
+      ],
+      "required": true,
+      "method": "模型重开、USD结构及依赖检查"
+    },
+    {
+      "id": "R03",
+      "domain": "interaction",
+      "criterion": "在Isaac Sim实际步进中验证所配置的基础碰撞/关节，不扩大到真实物理标定",
+      "claim_ids": [
+        "I01"
+      ],
+      "required": true,
+      "method": "引擎真实位姿记录与测试画面"
+    }
+  ],
+  "limitations": [
+    "未展示卷帘升降，背景作为固定碰撞环境。",
+    "所有尺寸、质量、摩擦、隐藏结构及房间外部环境均未实测。",
+    "V2精修细节为视频引导的近似；实时深度测量不稳定，未用作模型尺度标定。"
+  ]
+}

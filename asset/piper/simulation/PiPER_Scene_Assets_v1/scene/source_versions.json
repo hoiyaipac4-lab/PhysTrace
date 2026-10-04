@@ -1,0 +1,21 @@
+{
+  "clamp_source": "delivery/机械臂零件_黑色定稿_v1/IsaacSim/Clamp.usdc",
+  "sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc",
+  "room_reused": [
+    "Door",
+    "Backdrop",
+    "Light",
+    "Sofa"
+  ],
+  "room_visual_only": true,
+  "room_offset_m": [
+    -0.55,
+    0.45,
+    0
+  ],
+  "excluded": [
+    "old table",
+    "old camera support"
+  ],
+  "reason": "Keep latest lift desk and robot assembly; old room dimensions are visual estimates."
+}

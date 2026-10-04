@@ -1,0 +1,3249 @@
+{
+  "steps": 2400,
+  "dt_s": 0.004166666666666667,
+  "motion_demo": true,
+  "max_anchor_gap_m": 7.0084365262384265e-06,
+  "final_tracking_errors_deg": {
+    "BaseSwivel": 0.002942948885442352,
+    "joint_base_0_internal_shaft": 0.05717626893095691,
+    "lock_pivot_elbow_internal_shaft": 0.025811287390463327,
+    "lock_pivot_camera_internal_shaft": 0.00036502480224830607,
+    "CameraRoll": 3.972838146365266e-06
+  },
+  "max_tension_N": 0.9564289188218648,
+  "scope": "Packaged runtime limited trajectory, estimated spring and mass parameters. Not full workspace, real stiffness or final scan-reconstruction acceptance.",
+  "samples": [
+    {
+      "time_s": 0.0,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.002094486616212432,
+        "lock_pivot_elbow_internal_shaft": 0.0009637126339763666,
+        "lock_pivot_camera_internal_shaft": -1.094763596360241e-06,
+        "BaseSwivel": 0.00010354911249149139,
+        "CameraRoll": -2.0941515318373944e-08
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.717761156932164e-07,
+        "joint_base_1_internal_shaft": 1.7548241778568284e-07,
+        "joint_elbow_0_internal_shaft": 3.344804325581901e-07,
+        "joint_elbow_2_internal_shaft": 7.0084365262384265e-06,
+        "joint_elbow_1_internal_shaft": 3.9375877236509803e-07,
+        "lock_pivot_elbow_internal_shaft": 3.897183552630609e-07,
+        "joint_camera_0_internal_shaft": 3.6940445947568443e-07,
+        "joint_camera_1_internal_shaft": 1.7853652757894989e-06,
+        "lock_pivot_camera_internal_shaft": 5.884214406856623e-07,
+        "BaseSwivel": 2.279890339434039e-07,
+        "CameraRoll": 5.218699852037239e-07,
+        "PadSwingAndSpin": 4.2628208299655037e-07
+      },
+      "max_tension_N": 0.0
+    },
+    {
+      "time_s": 0.1,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.03734921178135186,
+        "lock_pivot_elbow_internal_shaft": 0.016948163524798197,
+        "lock_pivot_camera_internal_shaft": 0.0002353201843152773,
+        "BaseSwivel": 0.001913584956405775,
+        "CameraRoll": -4.144042745934643e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.455112731104053e-07,
+        "joint_base_1_internal_shaft": 1.0455358932261382e-07,
+        "joint_elbow_0_internal_shaft": 3.5483204993911774e-07,
+        "joint_elbow_2_internal_shaft": 4.533992083793065e-06,
+        "joint_elbow_1_internal_shaft": 4.1785615539529814e-07,
+        "lock_pivot_elbow_internal_shaft": 4.119410632039927e-07,
+        "joint_camera_0_internal_shaft": 2.8484739749650117e-07,
+        "joint_camera_1_internal_shaft": 8.740781097905585e-07,
+        "lock_pivot_camera_internal_shaft": 5.20423803288585e-07,
+        "BaseSwivel": 3.612464695774518e-07,
+        "CameraRoll": 4.834942765766788e-07,
+        "PadSwingAndSpin": 9.559318948366683e-07
+      },
+      "max_tension_N": 0.010737986908294733
+    },
+    {
+      "time_s": 0.2,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.0499698738534897,
+        "lock_pivot_elbow_internal_shaft": 0.022613360225327693,
+        "lock_pivot_camera_internal_shaft": 0.000318098501475751,
+        "BaseSwivel": 0.0025736016157706294,
+        "CameraRoll": 3.338898957269354e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.1766560912170664e-07,
+        "joint_base_1_internal_shaft": 3.4053889210855014e-07,
+        "joint_elbow_0_internal_shaft": 1.7082029277698202e-07,
+        "joint_elbow_2_internal_shaft": 4.800153857554661e-06,
+        "joint_elbow_1_internal_shaft": 8.539106966887009e-07,
+        "lock_pivot_elbow_internal_shaft": 1.6577109345774547e-07,
+        "joint_camera_0_internal_shaft": 1.0216227214802118e-06,
+        "joint_camera_1_internal_shaft": 1.1057947314953873e-06,
+        "lock_pivot_camera_internal_shaft": 3.30498755965322e-07,
+        "BaseSwivel": 2.794575947494051e-07,
+        "CameraRoll": 2.573806101182537e-07,
+        "PadSwingAndSpin": 4.63973885319028e-07
+      },
+      "max_tension_N": 0.01465805821603986
+    },
+    {
+      "time_s": 0.3,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05458319345651585,
+        "lock_pivot_elbow_internal_shaft": 0.02465231586257583,
+        "lock_pivot_camera_internal_shaft": 0.00036477483177525674,
+        "BaseSwivel": 0.0028181932354756937,
+        "CameraRoll": -2.248750322607168e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.579372628164053e-07,
+        "joint_base_1_internal_shaft": 2.2086961351170345e-07,
+        "joint_elbow_0_internal_shaft": 3.176033857701629e-07,
+        "joint_elbow_2_internal_shaft": 4.4778810410468164e-06,
+        "joint_elbow_1_internal_shaft": 7.648039329139217e-07,
+        "lock_pivot_elbow_internal_shaft": 2.0750054887634654e-07,
+        "joint_camera_0_internal_shaft": 4.776984743971753e-07,
+        "joint_camera_1_internal_shaft": 8.996983333365501e-07,
+        "lock_pivot_camera_internal_shaft": 2.2432619452106053e-07,
+        "BaseSwivel": 5.206136356595791e-07,
+        "CameraRoll": 4.1539201273811087e-07,
+        "PadSwingAndSpin": 3.9040307352347915e-07
+      },
+      "max_tension_N": 0.01565662348095852
+    },
+    {
+      "time_s": 0.4,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.056165812043594505,
+        "lock_pivot_elbow_internal_shaft": 0.02533727519543681,
+        "lock_pivot_camera_internal_shaft": 0.00036076353445710943,
+        "BaseSwivel": 0.0028894784069090885,
+        "CameraRoll": -7.9229913549954e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.94223851125062e-07,
+        "joint_base_1_internal_shaft": 4.23007916711533e-07,
+        "joint_elbow_0_internal_shaft": 2.0038057066697108e-07,
+        "joint_elbow_2_internal_shaft": 4.493839656218935e-06,
+        "joint_elbow_1_internal_shaft": 4.724297535128631e-07,
+        "lock_pivot_elbow_internal_shaft": 1.7011207467447242e-07,
+        "joint_camera_0_internal_shaft": 5.208113446973891e-07,
+        "joint_camera_1_internal_shaft": 7.296207484434224e-07,
+        "lock_pivot_camera_internal_shaft": 2.420971915797802e-07,
+        "BaseSwivel": 7.796704443440709e-07,
+        "CameraRoll": 5.611444594710725e-07,
+        "PadSwingAndSpin": 2.1381440137967176e-07
+      },
+      "max_tension_N": 0.016778287472903268
+    },
+    {
+      "time_s": 0.5,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.056792533546235646,
+        "lock_pivot_elbow_internal_shaft": 0.02564377443851084,
+        "lock_pivot_camera_internal_shaft": 0.00036422723579398314,
+        "BaseSwivel": 0.0029242109045883907,
+        "CameraRoll": 7.643263608091687e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 6.741606221837852e-07,
+        "joint_base_1_internal_shaft": 3.292122871979122e-07,
+        "joint_elbow_0_internal_shaft": 5.50055748684186e-07,
+        "joint_elbow_2_internal_shaft": 4.3462264144521744e-06,
+        "joint_elbow_1_internal_shaft": 3.8074943368896127e-07,
+        "lock_pivot_elbow_internal_shaft": 2.8705265957840495e-07,
+        "joint_camera_0_internal_shaft": 5.160663777971028e-07,
+        "joint_camera_1_internal_shaft": 8.472157818041257e-07,
+        "lock_pivot_camera_internal_shaft": 7.79571470209118e-07,
+        "BaseSwivel": 7.523395986315474e-07,
+        "CameraRoll": 9.070482011161127e-07,
+        "PadSwingAndSpin": 2.480516363543056e-07
+      },
+      "max_tension_N": 0.016592950152673657
+    },
+    {
+      "time_s": 0.6,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05709464194927143,
+        "lock_pivot_elbow_internal_shaft": 0.025769157076592154,
+        "lock_pivot_camera_internal_shaft": 0.0003637886910625228,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -1.2230745855105886e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.7338080173993537e-07,
+        "joint_base_1_internal_shaft": 2.3791962101401056e-07,
+        "joint_elbow_0_internal_shaft": 2.3602519257987476e-07,
+        "joint_elbow_2_internal_shaft": 4.502478479952013e-06,
+        "joint_elbow_1_internal_shaft": 4.837889051134697e-07,
+        "lock_pivot_elbow_internal_shaft": 2.2300288180560496e-07,
+        "joint_camera_0_internal_shaft": 2.7235671905450143e-07,
+        "joint_camera_1_internal_shaft": 4.429988563741035e-07,
+        "lock_pivot_camera_internal_shaft": 1.467838027643697e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 5.418212349237481e-07,
+        "PadSwingAndSpin": 1.3568084418129813e-06
+      },
+      "max_tension_N": 0.016631791556327442
+    },
+    {
+      "time_s": 0.7,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05713690700607168,
+        "lock_pivot_elbow_internal_shaft": 0.0257909398050714,
+        "lock_pivot_camera_internal_shaft": 0.0003633758858898426,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -1.6205463422923872e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.976574232761761e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 5.151726269289435e-07,
+        "joint_elbow_2_internal_shaft": 4.329083183315876e-06,
+        "joint_elbow_1_internal_shaft": 2.5951619756700333e-07,
+        "lock_pivot_elbow_internal_shaft": 3.1072818589989115e-07,
+        "joint_camera_0_internal_shaft": 3.334778501139576e-07,
+        "joint_camera_1_internal_shaft": 1.0446123411206665e-06,
+        "lock_pivot_camera_internal_shaft": 6.527082163002587e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 9.425779329686301e-07,
+        "PadSwingAndSpin": 4.1385518906495376e-07
+      },
+      "max_tension_N": 0.01659615195862026
+    },
+    {
+      "time_s": 0.8,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05724437802933745,
+        "lock_pivot_elbow_internal_shaft": 0.025854932711950527,
+        "lock_pivot_camera_internal_shaft": 0.0003658680997561735,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.7980717785256588e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.8365579476853853e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 1.4443809524521624e-07,
+        "joint_elbow_2_internal_shaft": 4.331769748030822e-06,
+        "joint_elbow_1_internal_shaft": 6.499693694614543e-07,
+        "lock_pivot_elbow_internal_shaft": 5.030713994696265e-07,
+        "joint_camera_0_internal_shaft": 1.4608380177208098e-07,
+        "joint_camera_1_internal_shaft": 9.511405339592521e-07,
+        "lock_pivot_camera_internal_shaft": 3.278891991287179e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 2.759721244890367e-07,
+        "PadSwingAndSpin": 9.552436055993782e-08
+      },
+      "max_tension_N": 0.0165206658662612
+    },
+    {
+      "time_s": 0.9,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05713690700607168,
+        "lock_pivot_elbow_internal_shaft": 0.025768766844500322,
+        "lock_pivot_camera_internal_shaft": 0.000363418244354164,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.645651565554349e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.976574232761761e-07,
+        "joint_base_1_internal_shaft": 2.3791962101401056e-07,
+        "joint_elbow_0_internal_shaft": 1.7797525637229754e-07,
+        "joint_elbow_2_internal_shaft": 4.5607362128120665e-06,
+        "joint_elbow_1_internal_shaft": 8.75099518475356e-07,
+        "lock_pivot_elbow_internal_shaft": 1.0949681353947507e-07,
+        "joint_camera_0_internal_shaft": 7.081354783711732e-07,
+        "joint_camera_1_internal_shaft": 1.0950407762148285e-06,
+        "lock_pivot_camera_internal_shaft": 7.938818983209419e-08,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 2.535706717224426e-07,
+        "PadSwingAndSpin": 8.244394174265705e-07
+      },
+      "max_tension_N": 0.01653369768285622
+    },
+    {
+      "time_s": 1.0,
+      "targets_deg": {
+        "BaseSwivel": 0.0,
+        "joint_base_0_internal_shaft": 0.0,
+        "lock_pivot_elbow_internal_shaft": 0.0,
+        "lock_pivot_camera_internal_shaft": 0.0,
+        "CameraRoll": 0.0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05719674755408632,
+        "lock_pivot_elbow_internal_shaft": 0.025835538038774856,
+        "lock_pivot_camera_internal_shaft": 0.00036565009699485374,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 1.2602642504856594e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 7.472723098645521e-07,
+        "joint_base_1_internal_shaft": 2.3678763475270364e-07,
+        "joint_elbow_0_internal_shaft": 3.189464798917855e-07,
+        "joint_elbow_2_internal_shaft": 4.860577408529569e-06,
+        "joint_elbow_1_internal_shaft": 9.064570621932097e-07,
+        "lock_pivot_elbow_internal_shaft": 3.3521975898584754e-07,
+        "joint_camera_0_internal_shaft": 2.4937996229678546e-07,
+        "joint_camera_1_internal_shaft": 5.26807950468666e-07,
+        "lock_pivot_camera_internal_shaft": 3.5761569483608975e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 7.018445198493986e-07,
+        "PadSwingAndSpin": 5.593334090264029e-07
+      },
+      "max_tension_N": 0.01651228034593596
+    },
+    {
+      "time_s": 1.1,
+      "targets_deg": {
+        "BaseSwivel": 0.8362277061412284,
+        "joint_base_0_internal_shaft": 0.3135853898029607,
+        "lock_pivot_elbow_internal_shaft": 0.3135853898029607,
+        "lock_pivot_camera_internal_shaft": 0.6271707796059214,
+        "CameraRoll": 1.2543415592118428
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.1761026978820257,
+        "lock_pivot_elbow_internal_shaft": 0.14507830296159074,
+        "lock_pivot_camera_internal_shaft": 0.23945064666101293,
+        "BaseSwivel": 0.3216828757790434,
+        "CameraRoll": 0.4781562147671471
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.350160896903111e-07,
+        "joint_base_1_internal_shaft": 3.165712379424778e-07,
+        "joint_elbow_0_internal_shaft": 2.8687399657529934e-07,
+        "joint_elbow_2_internal_shaft": 4.644539252604102e-06,
+        "joint_elbow_1_internal_shaft": 6.276585750042091e-07,
+        "lock_pivot_elbow_internal_shaft": 5.720798395556545e-07,
+        "joint_camera_0_internal_shaft": 1.7703151177276424e-07,
+        "joint_camera_1_internal_shaft": 4.957465606931302e-07,
+        "lock_pivot_camera_internal_shaft": 5.030533540949118e-07,
+        "BaseSwivel": 6.913096654737835e-07,
+        "CameraRoll": 5.501290181960671e-07,
+        "PadSwingAndSpin": 1.606322400424358e-07
+      },
+      "max_tension_N": 0.05027440111131899
+    },
+    {
+      "time_s": 1.2,
+      "targets_deg": {
+        "BaseSwivel": 1.6632935265420743,
+        "joint_base_0_internal_shaft": 0.6237350724532779,
+        "lock_pivot_elbow_internal_shaft": 0.6237350724532779,
+        "lock_pivot_camera_internal_shaft": 1.2474701449065557,
+        "CameraRoll": 2.4949402898131114
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.41730914398353436,
+        "lock_pivot_elbow_internal_shaft": 0.3862451330041538,
+        "lock_pivot_camera_internal_shaft": 0.7215447475478675,
+        "BaseSwivel": 0.9644829842910425,
+        "CameraRoll": 1.4423657926938938
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.2928204458843574e-07,
+        "joint_base_1_internal_shaft": 1.9959103367706305e-07,
+        "joint_elbow_0_internal_shaft": 5.282481260618237e-07,
+        "joint_elbow_2_internal_shaft": 4.778594383147829e-06,
+        "joint_elbow_1_internal_shaft": 6.400109630731371e-07,
+        "lock_pivot_elbow_internal_shaft": 1.6707350310229874e-07,
+        "joint_camera_0_internal_shaft": 2.5427517719147466e-07,
+        "joint_camera_1_internal_shaft": 6.03964190154092e-07,
+        "lock_pivot_camera_internal_shaft": 4.6210195819463705e-07,
+        "BaseSwivel": 5.159701955709841e-07,
+        "CameraRoll": 8.593043056662492e-07,
+        "PadSwingAndSpin": 3.5773790287100307e-07
+      },
+      "max_tension_N": 0.121102963790072
+    },
+    {
+      "time_s": 1.3,
+      "targets_deg": {
+        "BaseSwivel": 2.4721359549995796,
+        "joint_base_0_internal_shaft": 0.9270509831248424,
+        "lock_pivot_elbow_internal_shaft": 0.9270509831248424,
+        "lock_pivot_camera_internal_shaft": 1.8541019662496847,
+        "CameraRoll": 3.7082039324993694
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.6998889019963832,
+        "lock_pivot_elbow_internal_shaft": 0.6687768633046788,
+        "lock_pivot_camera_internal_shaft": 1.2861266725244214,
+        "BaseSwivel": 1.7172188088411158,
+        "CameraRoll": 2.571532752327341
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 9.237341608080934e-07,
+        "joint_base_1_internal_shaft": 2.3140709051396907e-07,
+        "joint_elbow_0_internal_shaft": 5.945543726293294e-07,
+        "joint_elbow_2_internal_shaft": 4.824437076503097e-06,
+        "joint_elbow_1_internal_shaft": 3.598451323372624e-07,
+        "lock_pivot_elbow_internal_shaft": 1.8873847028332513e-07,
+        "joint_camera_0_internal_shaft": 6.397352813177956e-07,
+        "joint_camera_1_internal_shaft": 1.2319349904776344e-06,
+        "lock_pivot_camera_internal_shaft": 4.2758361912927286e-07,
+        "BaseSwivel": 1.4388702268117045e-07,
+        "CameraRoll": 5.435323531996345e-07,
+        "PadSwingAndSpin": 5.171366324067948e-07
+      },
+      "max_tension_N": 0.20538628701064274
+    },
+    {
+      "time_s": 1.4,
+      "targets_deg": {
+        "BaseSwivel": 3.2538931446064012,
+        "joint_base_0_internal_shaft": 1.2202099292274005,
+        "lock_pivot_elbow_internal_shaft": 1.2202099292274005,
+        "lock_pivot_camera_internal_shaft": 2.440419858454801,
+        "CameraRoll": 4.880839716909602
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.9920717605596181,
+        "lock_pivot_elbow_internal_shaft": 0.9609219501085721,
+        "lock_pivot_camera_internal_shaft": 1.8698758731583345,
+        "BaseSwivel": 2.4955038750565657,
+        "CameraRoll": 3.739056358801004
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.054685336363248e-07,
+        "joint_base_1_internal_shaft": 3.8047384269158634e-07,
+        "joint_elbow_0_internal_shaft": 2.6214074056572814e-07,
+        "joint_elbow_2_internal_shaft": 5.05814050957789e-06,
+        "joint_elbow_1_internal_shaft": 5.520128188141306e-07,
+        "lock_pivot_elbow_internal_shaft": 4.5267868217740616e-07,
+        "joint_camera_0_internal_shaft": 1.2796494807815064e-06,
+        "joint_camera_1_internal_shaft": 1.5233463851889524e-06,
+        "lock_pivot_camera_internal_shaft": 6.768430419400961e-07,
+        "BaseSwivel": 7.604348176735556e-07,
+        "CameraRoll": 4.469202185768015e-07,
+        "PadSwingAndSpin": 4.5493734606784864e-07
+      },
+      "max_tension_N": 0.29441551085484363
+    },
+    {
+      "time_s": 1.5,
+      "targets_deg": {
+        "BaseSwivel": 3.9999999999999996,
+        "joint_base_0_internal_shaft": 1.4999999999999998,
+        "lock_pivot_elbow_internal_shaft": 1.4999999999999998,
+        "lock_pivot_camera_internal_shaft": 2.9999999999999996,
+        "CameraRoll": 5.999999999999999
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 1.279794198054213,
+        "lock_pivot_elbow_internal_shaft": 1.2487462394586595,
+        "lock_pivot_camera_internal_shaft": 2.4453968389752854,
+        "BaseSwivel": 3.262779128072755,
+        "CameraRoll": 4.890067289402928
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.4174585759578244e-07,
+        "joint_base_1_internal_shaft": 2.384576645102892e-07,
+        "joint_elbow_0_internal_shaft": 1.8099455400375785e-07,
+        "joint_elbow_2_internal_shaft": 4.850169077098223e-06,
+        "joint_elbow_1_internal_shaft": 6.528700491346801e-07,
+        "lock_pivot_elbow_internal_shaft": 2.439554925870539e-07,
+        "joint_camera_0_internal_shaft": 5.360851418606386e-07,
+        "joint_camera_1_internal_shaft": 6.709464550144929e-07,
+        "lock_pivot_camera_internal_shaft": 1.9914151366181017e-07,
+        "BaseSwivel": 4.366611203101817e-07,
+        "CameraRoll": 1.7759442494069118e-07,
+        "PadSwingAndSpin": 1.8848296912760083e-07
+      },
+      "max_tension_N": 0.38320565422933006
+    },
+    {
+      "time_s": 1.6,
+      "targets_deg": {
+        "BaseSwivel": 4.702282018339786,
+        "joint_base_0_internal_shaft": 1.7633557568774196,
+        "lock_pivot_elbow_internal_shaft": 1.7633557568774196,
+        "lock_pivot_camera_internal_shaft": 3.5267115137548393,
+        "CameraRoll": 7.0534230275096785
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 1.5564647900781394,
+        "lock_pivot_elbow_internal_shaft": 1.5255028423831556,
+        "lock_pivot_camera_internal_shaft": 2.9986213371472554,
+        "BaseSwivel": 4.000322723776829,
+        "CameraRoll": 5.996520560262123
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.7529989660749284e-07,
+        "joint_base_1_internal_shaft": 3.8729920830217675e-07,
+        "joint_elbow_0_internal_shaft": 5.663152801556673e-07,
+        "joint_elbow_2_internal_shaft": 4.878666263153098e-06,
+        "joint_elbow_1_internal_shaft": 5.679718534617693e-07,
+        "lock_pivot_elbow_internal_shaft": 2.9070697036798225e-07,
+        "joint_camera_0_internal_shaft": 1.589116930788979e-07,
+        "joint_camera_1_internal_shaft": 7.525464932480455e-07,
+        "lock_pivot_camera_internal_shaft": 6.222558882217015e-07,
+        "BaseSwivel": 1.2475331564572292e-07,
+        "CameraRoll": 4.2407802037579007e-07,
+        "PadSwingAndSpin": 1.0152563933583914e-06
+      },
+      "max_tension_N": 0.4694270567957719
+    },
+    {
+      "time_s": 1.7,
+      "targets_deg": {
+        "BaseSwivel": 5.353044850870866,
+        "joint_base_0_internal_shaft": 2.0073918190765747,
+        "lock_pivot_elbow_internal_shaft": 2.0073918190765747,
+        "lock_pivot_camera_internal_shaft": 4.014783638153149,
+        "CameraRoll": 8.029567276306299
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 1.8175586860081503,
+        "lock_pivot_elbow_internal_shaft": 1.7866648182287068,
+        "lock_pivot_camera_internal_shaft": 3.520659970083905,
+        "BaseSwivel": 4.696231101396548,
+        "CameraRoll": 7.04055254333863
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.5257284013488476e-07,
+        "joint_base_1_internal_shaft": 1.417023255095664e-07,
+        "joint_elbow_0_internal_shaft": 4.691915071969271e-07,
+        "joint_elbow_2_internal_shaft": 5.1476255731537475e-06,
+        "joint_elbow_1_internal_shaft": 6.549691367386409e-07,
+        "lock_pivot_elbow_internal_shaft": 3.4985756839101095e-07,
+        "joint_camera_0_internal_shaft": 5.480233110986266e-07,
+        "joint_camera_1_internal_shaft": 1.3445391453152413e-06,
+        "lock_pivot_camera_internal_shaft": 7.498571876845495e-07,
+        "BaseSwivel": 3.6190804627798525e-07,
+        "CameraRoll": 7.312482296252469e-07,
+        "PadSwingAndSpin": 3.969669082839872e-07
+      },
+      "max_tension_N": 0.5523838212800719
+    },
+    {
+      "time_s": 1.8,
+      "targets_deg": {
+        "BaseSwivel": 5.945158603819153,
+        "joint_base_0_internal_shaft": 2.2294344764321825,
+        "lock_pivot_elbow_internal_shaft": 2.2294344764321825,
+        "lock_pivot_camera_internal_shaft": 4.458868952864365,
+        "CameraRoll": 8.91773790572873
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.0595576267001836,
+        "lock_pivot_elbow_internal_shaft": 2.028771551577689,
+        "lock_pivot_camera_internal_shaft": 4.0047179080472,
+        "BaseSwivel": 5.341534879147113,
+        "CameraRoll": 8.00869932617344
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.4662163741600272e-07,
+        "joint_base_1_internal_shaft": 2.2277883460366404e-07,
+        "joint_elbow_0_internal_shaft": 7.759041252546235e-07,
+        "joint_elbow_2_internal_shaft": 4.9242164267539875e-06,
+        "joint_elbow_1_internal_shaft": 8.278692444690171e-07,
+        "lock_pivot_elbow_internal_shaft": 5.306231311577068e-07,
+        "joint_camera_0_internal_shaft": 2.63283564977998e-07,
+        "joint_camera_1_internal_shaft": 1.1341465466410916e-06,
+        "lock_pivot_camera_internal_shaft": 1.6021192769781801e-07,
+        "BaseSwivel": 1.376977305959719e-07,
+        "CameraRoll": 3.523822470439641e-07,
+        "PadSwingAndSpin": 4.817263328469724e-07
+      },
+      "max_tension_N": 0.6304559392718472
+    },
+    {
+      "time_s": 1.9,
+      "targets_deg": {
+        "BaseSwivel": 6.472135954999579,
+        "joint_base_0_internal_shaft": 2.427050983124842,
+        "lock_pivot_elbow_internal_shaft": 2.427050983124842,
+        "lock_pivot_camera_internal_shaft": 4.854101966249684,
+        "CameraRoll": 9.708203932499368
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.2797565191808897,
+        "lock_pivot_elbow_internal_shaft": 2.2490570087296082,
+        "lock_pivot_camera_internal_shaft": 4.445128663059023,
+        "BaseSwivel": 5.928654404044261,
+        "CameraRoll": 8.889560025186427
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.1150715257418676e-07,
+        "joint_base_1_internal_shaft": 3.2603242433698895e-07,
+        "joint_elbow_0_internal_shaft": 1.9309568484232155e-07,
+        "joint_elbow_2_internal_shaft": 4.857533527712209e-06,
+        "joint_elbow_1_internal_shaft": 4.778171947436952e-07,
+        "lock_pivot_elbow_internal_shaft": 1.8009868237415196e-07,
+        "joint_camera_0_internal_shaft": 2.1878412658397643e-07,
+        "joint_camera_1_internal_shaft": 8.262417330909115e-07,
+        "lock_pivot_camera_internal_shaft": 8.127654547596188e-07,
+        "BaseSwivel": 2.4291289341599224e-07,
+        "CameraRoll": 6.531988656296703e-07,
+        "PadSwingAndSpin": 8.42063249626563e-07
+      },
+      "max_tension_N": 0.7025967084139609
+    },
+    {
+      "time_s": 2.0,
+      "targets_deg": {
+        "BaseSwivel": 6.928203230275509,
+        "joint_base_0_internal_shaft": 2.598076211353316,
+        "lock_pivot_elbow_internal_shaft": 2.598076211353316,
+        "lock_pivot_camera_internal_shaft": 5.196152422706632,
+        "CameraRoll": 10.392304845413264
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.4756458505697148,
+        "lock_pivot_elbow_internal_shaft": 2.4450333430174624,
+        "lock_pivot_camera_internal_shaft": 4.836915931591098,
+        "BaseSwivel": 6.4509311761928805,
+        "CameraRoll": 9.673171840113431
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.164680972844222e-07,
+        "joint_base_1_internal_shaft": 2.883405648920836e-07,
+        "joint_elbow_0_internal_shaft": 1.9759816587718902e-07,
+        "joint_elbow_2_internal_shaft": 5.269596735327681e-06,
+        "joint_elbow_1_internal_shaft": 2.9805482383246607e-07,
+        "lock_pivot_elbow_internal_shaft": 1.9950002816863825e-07,
+        "joint_camera_0_internal_shaft": 3.0866285277781165e-07,
+        "joint_camera_1_internal_shaft": 9.651343232737475e-07,
+        "lock_pivot_camera_internal_shaft": 5.506399802212441e-07,
+        "BaseSwivel": 4.810916503816403e-07,
+        "CameraRoll": 8.797474396711617e-07,
+        "PadSwingAndSpin": 8.373425080403363e-07
+      },
+      "max_tension_N": 0.7665756700974069
+    },
+    {
+      "time_s": 2.1,
+      "targets_deg": {
+        "BaseSwivel": 7.308363661140807,
+        "joint_base_0_internal_shaft": 2.7406363729278027,
+        "lock_pivot_elbow_internal_shaft": 2.7406363729278027,
+        "lock_pivot_camera_internal_shaft": 5.481272745855605,
+        "CameraRoll": 10.96254549171121
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.645103122313316,
+        "lock_pivot_elbow_internal_shaft": 2.614576028970943,
+        "lock_pivot_camera_internal_shaft": 5.175749548072182,
+        "BaseSwivel": 6.902601166636714,
+        "CameraRoll": 10.350855292428857
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.341769835613278e-07,
+        "joint_base_1_internal_shaft": 3.70185663300729e-07,
+        "joint_elbow_0_internal_shaft": 4.5117154088984597e-07,
+        "joint_elbow_2_internal_shaft": 5.375768317105213e-06,
+        "joint_elbow_1_internal_shaft": 5.994898079016065e-07,
+        "lock_pivot_elbow_internal_shaft": 1.0434096532660972e-07,
+        "joint_camera_0_internal_shaft": 3.632476179252633e-07,
+        "joint_camera_1_internal_shaft": 6.891270534626174e-07,
+        "lock_pivot_camera_internal_shaft": 3.891946907958259e-07,
+        "BaseSwivel": 2.8743214707268504e-07,
+        "CameraRoll": 7.143865027027065e-07,
+        "PadSwingAndSpin": 2.517923906451083e-07
+      },
+      "max_tension_N": 0.8231189280229716
+    },
+    {
+      "time_s": 2.2,
+      "targets_deg": {
+        "BaseSwivel": 7.608452130361229,
+        "joint_base_0_internal_shaft": 2.853169548885461,
+        "lock_pivot_elbow_internal_shaft": 2.853169548885461,
+        "lock_pivot_camera_internal_shaft": 5.706339097770922,
+        "CameraRoll": 11.412678195541844
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.7862034187445004,
+        "lock_pivot_elbow_internal_shaft": 2.755710525253467,
+        "lock_pivot_camera_internal_shaft": 5.457922854633173,
+        "BaseSwivel": 7.278709053048847,
+        "CameraRoll": 10.915143163413854
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.164947030111737e-07,
+        "joint_base_1_internal_shaft": 5.798519256420961e-07,
+        "joint_elbow_0_internal_shaft": 3.9416263644865637e-07,
+        "joint_elbow_2_internal_shaft": 5.479520758696476e-06,
+        "joint_elbow_1_internal_shaft": 5.570446217594632e-07,
+        "lock_pivot_elbow_internal_shaft": 5.556190762623567e-07,
+        "joint_camera_0_internal_shaft": 1.1169802383320314e-06,
+        "joint_camera_1_internal_shaft": 1.2682600704915675e-06,
+        "lock_pivot_camera_internal_shaft": 4.3704845141980886e-07,
+        "BaseSwivel": 2.994771616814228e-07,
+        "CameraRoll": 5.647508620056275e-07,
+        "PadSwingAndSpin": 5.025299926935351e-07
+      },
+      "max_tension_N": 0.87042976277812
+    },
+    {
+      "time_s": 2.3,
+      "targets_deg": {
+        "BaseSwivel": 7.825180805870445,
+        "joint_base_0_internal_shaft": 2.9344428022014166,
+        "lock_pivot_elbow_internal_shaft": 2.9344428022014166,
+        "lock_pivot_camera_internal_shaft": 5.868885604402833,
+        "CameraRoll": 11.737771208805666
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.897394328001925,
+        "lock_pivot_elbow_internal_shaft": 2.8669482819443712,
+        "lock_pivot_camera_internal_shaft": 5.680290170644196,
+        "BaseSwivel": 7.575097173223704,
+        "CameraRoll": 11.359874504562798
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.4763908330174958e-07,
+        "joint_base_1_internal_shaft": 3.759656694840893e-07,
+        "joint_elbow_0_internal_shaft": 4.845553233132293e-07,
+        "joint_elbow_2_internal_shaft": 5.365012409541453e-06,
+        "joint_elbow_1_internal_shaft": 9.437948269545177e-07,
+        "lock_pivot_elbow_internal_shaft": 3.7227721011662536e-07,
+        "joint_camera_0_internal_shaft": 8.177736836157488e-07,
+        "joint_camera_1_internal_shaft": 1.259329119190643e-06,
+        "lock_pivot_camera_internal_shaft": 5.042540343095604e-07,
+        "BaseSwivel": 1.3841104266563028e-07,
+        "CameraRoll": 5.792861301075303e-07,
+        "PadSwingAndSpin": 6.170024375781235e-07
+      },
+      "max_tension_N": 0.9079741191151705
+    },
+    {
+      "time_s": 2.4,
+      "targets_deg": {
+        "BaseSwivel": 7.956175162946186,
+        "joint_base_0_internal_shaft": 2.9835656861048196,
+        "lock_pivot_elbow_internal_shaft": 2.9835656861048196,
+        "lock_pivot_camera_internal_shaft": 5.967131372209639,
+        "CameraRoll": 11.934262744419279
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.9774107355536827,
+        "lock_pivot_elbow_internal_shaft": 2.9470331771426777,
+        "lock_pivot_camera_internal_shaft": 5.8404126172446995,
+        "BaseSwivel": 7.788540285821078,
+        "CameraRoll": 11.680157912441075
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.1729582934488905e-07,
+        "joint_base_1_internal_shaft": 1.4893784156965217e-07,
+        "joint_elbow_0_internal_shaft": 4.5334037579611504e-07,
+        "joint_elbow_2_internal_shaft": 5.440810763439984e-06,
+        "joint_elbow_1_internal_shaft": 4.549173333697729e-07,
+        "lock_pivot_elbow_internal_shaft": 3.7503085128197606e-07,
+        "joint_camera_0_internal_shaft": 9.114069130551226e-07,
+        "joint_camera_1_internal_shaft": 1.4301812531730585e-06,
+        "lock_pivot_camera_internal_shaft": 6.447824770871327e-07,
+        "BaseSwivel": 3.457464821633797e-07,
+        "CameraRoll": 5.340026308588521e-07,
+        "PadSwingAndSpin": 5.836291344091505e-07
+      },
+      "max_tension_N": 0.9355447481498429
+    },
+    {
+      "time_s": 2.5,
+      "targets_deg": {
+        "BaseSwivel": 8.0,
+        "joint_base_0_internal_shaft": 3.0,
+        "lock_pivot_elbow_internal_shaft": 3.0,
+        "lock_pivot_camera_internal_shaft": 6.0,
+        "CameraRoll": 12.0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 3.0254385566785893,
+        "lock_pivot_elbow_internal_shaft": 2.995121830958998,
+        "lock_pivot_camera_internal_shaft": 5.936566536666563,
+        "BaseSwivel": 7.916669752481851,
+        "CameraRoll": 11.872457379143043
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.8566651761418294e-07,
+        "joint_base_1_internal_shaft": 1.9853889507477818e-07,
+        "joint_elbow_0_internal_shaft": 9.36513764901611e-07,
+        "joint_elbow_2_internal_shaft": 5.480546719178019e-06,
+        "joint_elbow_1_internal_shaft": 7.069166248442054e-07,
+        "lock_pivot_elbow_internal_shaft": 9.120477348935532e-07,
+        "joint_camera_0_internal_shaft": 2.475082312874118e-07,
+        "joint_camera_1_internal_shaft": 6.723880348436803e-07,
+        "lock_pivot_camera_internal_shaft": 2.283164618264091e-07,
+        "BaseSwivel": 4.156226709813215e-07,
+        "CameraRoll": 3.391544539981489e-07,
+        "PadSwingAndSpin": 6.403042376415081e-07
+      },
+      "max_tension_N": 0.9517772502136117
+    },
+    {
+      "time_s": 2.6,
+      "targets_deg": {
+        "BaseSwivel": 7.956175162946187,
+        "joint_base_0_internal_shaft": 2.98356568610482,
+        "lock_pivot_elbow_internal_shaft": 2.98356568610482,
+        "lock_pivot_camera_internal_shaft": 5.96713137220964,
+        "CameraRoll": 11.93426274441928
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 3.0410378084259437,
+        "lock_pivot_elbow_internal_shaft": 3.0107235306993965,
+        "lock_pivot_camera_internal_shaft": 5.9676584408433255,
+        "BaseSwivel": 7.958100775134835,
+        "CameraRoll": 11.934649853659383
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.739393596410724e-07,
+        "joint_base_1_internal_shaft": 8.073807835283915e-07,
+        "joint_elbow_0_internal_shaft": 5.886731153381716e-07,
+        "joint_elbow_2_internal_shaft": 5.306887604456097e-06,
+        "joint_elbow_1_internal_shaft": 6.622783100079915e-07,
+        "lock_pivot_elbow_internal_shaft": 3.4408213954874296e-07,
+        "joint_camera_0_internal_shaft": 6.011139857427317e-07,
+        "joint_camera_1_internal_shaft": 1.2022396984994141e-06,
+        "lock_pivot_camera_internal_shaft": 6.458666519388124e-07,
+        "BaseSwivel": 9.98403919422045e-07,
+        "CameraRoll": 5.652353200080784e-07,
+        "PadSwingAndSpin": 3.450717362885067e-07
+      },
+      "max_tension_N": 0.9564289188218648
+    },
+    {
+      "time_s": 2.7,
+      "targets_deg": {
+        "BaseSwivel": 7.825180805870445,
+        "joint_base_0_internal_shaft": 2.9344428022014166,
+        "lock_pivot_elbow_internal_shaft": 2.9344428022014166,
+        "lock_pivot_camera_internal_shaft": 5.868885604402833,
+        "CameraRoll": 11.737771208805666
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 3.023783969630355,
+        "lock_pivot_elbow_internal_shaft": 2.993510335026533,
+        "lock_pivot_camera_internal_shaft": 5.933393221404186,
+        "BaseSwivel": 7.912418772167357,
+        "CameraRoll": 11.866130942311877
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.4274367307946826e-07,
+        "joint_base_1_internal_shaft": 2.6049699643407807e-07,
+        "joint_elbow_0_internal_shaft": 1.8230329480528857e-07,
+        "joint_elbow_2_internal_shaft": 5.281947084419512e-06,
+        "joint_elbow_1_internal_shaft": 4.196747097116695e-07,
+        "lock_pivot_elbow_internal_shaft": 3.66862714353688e-07,
+        "joint_camera_0_internal_shaft": 2.1899197037960174e-07,
+        "joint_camera_1_internal_shaft": 7.794730122329106e-07,
+        "lock_pivot_camera_internal_shaft": 1.625058079517726e-07,
+        "BaseSwivel": 1.3529394799162006e-07,
+        "CameraRoll": 4.7477002489870433e-07,
+        "PadSwingAndSpin": 1.019496481220887e-06
+      },
+      "max_tension_N": 0.9512806840172311
+    },
+    {
+      "time_s": 2.8,
+      "targets_deg": {
+        "BaseSwivel": 7.608452130361229,
+        "joint_base_0_internal_shaft": 2.853169548885461,
+        "lock_pivot_elbow_internal_shaft": 2.853169548885461,
+        "lock_pivot_camera_internal_shaft": 5.706339097770922,
+        "CameraRoll": 11.412678195541844
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.974275430135875,
+        "lock_pivot_elbow_internal_shaft": 2.9439417984940563,
+        "lock_pivot_camera_internal_shaft": 5.834152816318316,
+        "BaseSwivel": 7.780055046355229,
+        "CameraRoll": 11.667601361764547
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.030803358781418e-07,
+        "joint_base_1_internal_shaft": 4.916305302007854e-07,
+        "joint_elbow_0_internal_shaft": 3.8188046956896154e-07,
+        "joint_elbow_2_internal_shaft": 5.170056491298648e-06,
+        "joint_elbow_1_internal_shaft": 7.188822409010556e-07,
+        "lock_pivot_elbow_internal_shaft": 2.8938737686344584e-07,
+        "joint_camera_0_internal_shaft": 2.9293052784247715e-07,
+        "joint_camera_1_internal_shaft": 1.1773449124893426e-06,
+        "lock_pivot_camera_internal_shaft": 1.9788561289766844e-07,
+        "BaseSwivel": 7.704021520862256e-07,
+        "CameraRoll": 2.5888835992296134e-07,
+        "PadSwingAndSpin": 4.371529504386944e-07
+      },
+      "max_tension_N": 0.9346512077812319
+    },
+    {
+      "time_s": 2.9,
+      "targets_deg": {
+        "BaseSwivel": 7.308363661140808,
+        "joint_base_0_internal_shaft": 2.7406363729278027,
+        "lock_pivot_elbow_internal_shaft": 2.7406363729278027,
+        "lock_pivot_camera_internal_shaft": 5.481272745855605,
+        "CameraRoll": 10.96254549171121
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.892667512768373,
+        "lock_pivot_elbow_internal_shaft": 2.8623329869234406,
+        "lock_pivot_camera_internal_shaft": 5.670955106807215,
+        "BaseSwivel": 7.562495031977361,
+        "CameraRoll": 11.34122357081546
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 7.808440338881216e-07,
+        "joint_base_1_internal_shaft": 9.559431611057006e-07,
+        "joint_elbow_0_internal_shaft": 1.0298679002749974e-06,
+        "joint_elbow_2_internal_shaft": 5.8490825964476785e-06,
+        "joint_elbow_1_internal_shaft": 3.149086745064626e-07,
+        "lock_pivot_elbow_internal_shaft": 6.133879968369419e-07,
+        "joint_camera_0_internal_shaft": 1.030793767764878e-06,
+        "joint_camera_1_internal_shaft": 1.4099152940352245e-06,
+        "lock_pivot_camera_internal_shaft": 5.583895094420079e-07,
+        "BaseSwivel": 8.481441361696841e-07,
+        "CameraRoll": 3.758561307849518e-07,
+        "PadSwingAndSpin": 1.5867366166481427e-07
+      },
+      "max_tension_N": 0.9077816282931908
+    },
+    {
+      "time_s": 3.0,
+      "targets_deg": {
+        "BaseSwivel": 6.92820323027551,
+        "joint_base_0_internal_shaft": 2.598076211353316,
+        "lock_pivot_elbow_internal_shaft": 2.598076211353316,
+        "lock_pivot_camera_internal_shaft": 5.196152422706632,
+        "CameraRoll": 10.392304845413264
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.780000368100855,
+        "lock_pivot_elbow_internal_shaft": 2.749617468215865,
+        "lock_pivot_camera_internal_shaft": 5.445631757213126,
+        "BaseSwivel": 7.262164319157504,
+        "CameraRoll": 10.890601344825981
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 6.462026394010381e-07,
+        "joint_base_1_internal_shaft": 3.015318274366252e-07,
+        "joint_elbow_0_internal_shaft": 5.032122602936826e-07,
+        "joint_elbow_2_internal_shaft": 4.9499083838949685e-06,
+        "joint_elbow_1_internal_shaft": 3.088408910138612e-07,
+        "lock_pivot_elbow_internal_shaft": 2.5116478840540785e-07,
+        "joint_camera_0_internal_shaft": 7.515263967012963e-07,
+        "joint_camera_1_internal_shaft": 1.8108839855296045e-06,
+        "lock_pivot_camera_internal_shaft": 8.90141937130214e-07,
+        "BaseSwivel": 1.5502652909372426e-07,
+        "CameraRoll": 1.7684583285530816e-07,
+        "PadSwingAndSpin": 3.680346476538025e-07
+      },
+      "max_tension_N": 0.8695117612261025
+    },
+    {
+      "time_s": 3.1,
+      "targets_deg": {
+        "BaseSwivel": 6.47213595499958,
+        "joint_base_0_internal_shaft": 2.4270509831248424,
+        "lock_pivot_elbow_internal_shaft": 2.4270509831248424,
+        "lock_pivot_camera_internal_shaft": 4.854101966249685,
+        "CameraRoll": 9.70820393249937
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.637512877075125,
+        "lock_pivot_elbow_internal_shaft": 2.6070860656426524,
+        "lock_pivot_camera_internal_shaft": 5.160646575365172,
+        "BaseSwivel": 6.8822558819179145,
+        "CameraRoll": 10.320644713427978
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.5892967460165373e-07,
+        "joint_base_1_internal_shaft": 1.208450806948071e-07,
+        "joint_elbow_0_internal_shaft": 4.19184267672278e-07,
+        "joint_elbow_2_internal_shaft": 5.135440502614978e-06,
+        "joint_elbow_1_internal_shaft": 4.1896832441532726e-07,
+        "lock_pivot_elbow_internal_shaft": 3.098614277595117e-07,
+        "joint_camera_0_internal_shaft": 5.680982119830971e-07,
+        "joint_camera_1_internal_shaft": 7.041053606710664e-07,
+        "lock_pivot_camera_internal_shaft": 4.508299625202787e-07,
+        "BaseSwivel": 4.949912192705059e-07,
+        "CameraRoll": 6.711857962299497e-07,
+        "PadSwingAndSpin": 4.997397537964498e-07
+      },
+      "max_tension_N": 0.822388331569615
+    },
+    {
+      "time_s": 3.2,
+      "targets_deg": {
+        "BaseSwivel": 5.945158603819154,
+        "joint_base_0_internal_shaft": 2.229434476432183,
+        "lock_pivot_elbow_internal_shaft": 2.229434476432183,
+        "lock_pivot_camera_internal_shaft": 4.458868952864366,
+        "CameraRoll": 8.917737905728732
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.466746878244094,
+        "lock_pivot_elbow_internal_shaft": 2.4362759838269223,
+        "lock_pivot_camera_internal_shaft": 4.819148433173313,
+        "BaseSwivel": 6.4270104367745295,
+        "CameraRoll": 9.637624526588242
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.3174487381084217e-07,
+        "joint_base_1_internal_shaft": 3.090124816362636e-07,
+        "joint_elbow_0_internal_shaft": 1.2597201433761008e-07,
+        "joint_elbow_2_internal_shaft": 5.003669443755305e-06,
+        "joint_elbow_1_internal_shaft": 3.47365132586882e-07,
+        "lock_pivot_elbow_internal_shaft": 1.6402173671068516e-07,
+        "joint_camera_0_internal_shaft": 1.5310398852381068e-07,
+        "joint_camera_1_internal_shaft": 7.7828608785877e-07,
+        "lock_pivot_camera_internal_shaft": 3.4355868824778365e-07,
+        "BaseSwivel": 3.3662657043143524e-07,
+        "CameraRoll": 1.1620835675886655e-06,
+        "PadSwingAndSpin": 4.3423286874853325e-07
+      },
+      "max_tension_N": 0.76619482557203
+    },
+    {
+      "time_s": 3.3,
+      "targets_deg": {
+        "BaseSwivel": 5.353044850870867,
+        "joint_base_0_internal_shaft": 2.007391819076575,
+        "lock_pivot_elbow_internal_shaft": 2.007391819076575,
+        "lock_pivot_camera_internal_shaft": 4.01478363815315,
+        "CameraRoll": 8.0295672763063
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.26969190546413,
+        "lock_pivot_elbow_internal_shaft": 2.239122704436118,
+        "lock_pivot_camera_internal_shaft": 4.424853720053717,
+        "BaseSwivel": 5.901376392261579,
+        "CameraRoll": 8.849003357337294
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.735140580348603e-07,
+        "joint_base_1_internal_shaft": 2.7265610696294323e-07,
+        "joint_elbow_0_internal_shaft": 3.5311337134523063e-07,
+        "joint_elbow_2_internal_shaft": 5.314843320838942e-06,
+        "joint_elbow_1_internal_shaft": 7.049355929150576e-07,
+        "lock_pivot_elbow_internal_shaft": 1.0876433229782715e-07,
+        "joint_camera_0_internal_shaft": 6.2447472343045e-07,
+        "joint_camera_1_internal_shaft": 8.452004852045864e-07,
+        "lock_pivot_camera_internal_shaft": 3.6817360608479054e-07,
+        "BaseSwivel": 2.3141624598526904e-07,
+        "CameraRoll": 5.079604044861268e-07,
+        "PadSwingAndSpin": 6.371468920779541e-07
+      },
+      "max_tension_N": 0.701767180547926
+    },
+    {
+      "time_s": 3.4,
+      "targets_deg": {
+        "BaseSwivel": 4.702282018339786,
+        "joint_base_0_internal_shaft": 1.7633557568774196,
+        "lock_pivot_elbow_internal_shaft": 1.7633557568774196,
+        "lock_pivot_camera_internal_shaft": 3.5267115137548393,
+        "CameraRoll": 7.0534230275096785
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 2.048266830523893,
+        "lock_pivot_elbow_internal_shaft": 2.017652178788609,
+        "lock_pivot_camera_internal_shaft": 3.982056873943749,
+        "BaseSwivel": 5.311121154736414,
+        "CameraRoll": 7.963398951697944
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.011020114107449e-07,
+        "joint_base_1_internal_shaft": 3.5739126361086807e-07,
+        "joint_elbow_0_internal_shaft": 9.292815303357123e-07,
+        "joint_elbow_2_internal_shaft": 4.793996475885165e-06,
+        "joint_elbow_1_internal_shaft": 8.626714010959997e-07,
+        "lock_pivot_elbow_internal_shaft": 9.19773018066772e-07,
+        "joint_camera_0_internal_shaft": 1.1132635711832292e-07,
+        "joint_camera_1_internal_shaft": 6.015873290967327e-07,
+        "lock_pivot_camera_internal_shaft": 4.927995824599103e-07,
+        "BaseSwivel": 2.0861769682227614e-08,
+        "CameraRoll": 4.0288819005911716e-07,
+        "PadSwingAndSpin": 2.543256175813301e-07
+      },
+      "max_tension_N": 0.6296912801611638
+    },
+    {
+      "time_s": 3.5,
+      "targets_deg": {
+        "BaseSwivel": 3.9999999999999996,
+        "joint_base_0_internal_shaft": 1.4999999999999998,
+        "lock_pivot_elbow_internal_shaft": 1.4999999999999998,
+        "lock_pivot_camera_internal_shaft": 2.9999999999999996,
+        "CameraRoll": 5.999999999999999
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 1.805048076838,
+        "lock_pivot_elbow_internal_shaft": 1.7743676529207217,
+        "lock_pivot_camera_internal_shaft": 3.495652317746558,
+        "BaseSwivel": 4.662666801199143,
+        "CameraRoll": 6.990598962362309
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.979095872965327e-07,
+        "joint_base_1_internal_shaft": 1.5931591486726478e-07,
+        "joint_elbow_0_internal_shaft": 2.3096015700121026e-07,
+        "joint_elbow_2_internal_shaft": 5.145792635362963e-06,
+        "joint_elbow_1_internal_shaft": 5.537491426325903e-07,
+        "lock_pivot_elbow_internal_shaft": 1.5141416918257754e-07,
+        "joint_camera_0_internal_shaft": 2.0394775709489648e-07,
+        "joint_camera_1_internal_shaft": 4.881308584756199e-07,
+        "lock_pivot_camera_internal_shaft": 2.4536784395089734e-07,
+        "BaseSwivel": 4.6987557096202905e-07,
+        "CameraRoll": 3.40926949003151e-07,
+        "PadSwingAndSpin": 6.803584533460268e-07
+      },
+      "max_tension_N": 0.5517273251622258
+    },
+    {
+      "time_s": 3.6,
+      "targets_deg": {
+        "BaseSwivel": 3.2538931446064034,
+        "joint_base_0_internal_shaft": 1.2202099292274013,
+        "lock_pivot_elbow_internal_shaft": 1.2202099292274013,
+        "lock_pivot_camera_internal_shaft": 2.4404198584548027,
+        "CameraRoll": 4.880839716909605
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 1.54272691441024,
+        "lock_pivot_elbow_internal_shaft": 1.5119426326769614,
+        "lock_pivot_camera_internal_shaft": 2.9709403361914095,
+        "BaseSwivel": 3.963222234505337,
+        "CameraRoll": 5.9411996929423365
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 8.523383395329542e-07,
+        "joint_base_1_internal_shaft": 6.598311060405078e-07,
+        "joint_elbow_0_internal_shaft": 2.91037224117392e-07,
+        "joint_elbow_2_internal_shaft": 4.7391801344925315e-06,
+        "joint_elbow_1_internal_shaft": 9.448048455717007e-07,
+        "lock_pivot_elbow_internal_shaft": 1.7381822332241083e-07,
+        "joint_camera_0_internal_shaft": 4.496877324432647e-07,
+        "joint_camera_1_internal_shaft": 5.279669427322768e-07,
+        "lock_pivot_camera_internal_shaft": 1.444429366662787e-07,
+        "BaseSwivel": 7.92250587115853e-07,
+        "CameraRoll": 3.133538208421563e-07,
+        "PadSwingAndSpin": 5.405366636915569e-08
+      },
+      "max_tension_N": 0.46796303836448544
+    },
+    {
+      "time_s": 3.6999999999999997,
+      "targets_deg": {
+        "BaseSwivel": 2.47213595499958,
+        "joint_base_0_internal_shaft": 0.9270509831248426,
+        "lock_pivot_elbow_internal_shaft": 0.9270509831248426,
+        "lock_pivot_camera_internal_shaft": 1.8541019662496852,
+        "CameraRoll": 3.7082039324993703
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 1.264150481692153,
+        "lock_pivot_elbow_internal_shaft": 1.2332618276586884,
+        "lock_pivot_camera_internal_shaft": 2.413702442829623,
+        "BaseSwivel": 3.220323249763392,
+        "CameraRoll": 4.8266775139588
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 6.812672081935333e-07,
+        "joint_base_1_internal_shaft": 2.600572978566101e-07,
+        "joint_elbow_0_internal_shaft": 6.042282256773792e-07,
+        "joint_elbow_2_internal_shaft": 4.911016932291923e-06,
+        "joint_elbow_1_internal_shaft": 5.046378720486242e-07,
+        "lock_pivot_elbow_internal_shaft": 2.925291848141846e-07,
+        "joint_camera_0_internal_shaft": 7.755259992563464e-07,
+        "joint_camera_1_internal_shaft": 1.1740426357403996e-06,
+        "lock_pivot_camera_internal_shaft": 4.122299022766084e-07,
+        "BaseSwivel": 5.239701110820773e-07,
+        "CameraRoll": 5.719100087841725e-07,
+        "PadSwingAndSpin": 2.88627072585629e-07
+      },
+      "max_tension_N": 0.38167749132995443
+    },
+    {
+      "time_s": 3.8,
+      "targets_deg": {
+        "BaseSwivel": 1.6632935265420745,
+        "joint_base_0_internal_shaft": 0.623735072453278,
+        "lock_pivot_elbow_internal_shaft": 0.623735072453278,
+        "lock_pivot_camera_internal_shaft": 1.247470144906556,
+        "CameraRoll": 2.494940289813112
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.9722010680699481,
+        "lock_pivot_elbow_internal_shaft": 0.9412453227731787,
+        "lock_pivot_camera_internal_shaft": 1.8300053580142153,
+        "BaseSwivel": 2.4421739855074143,
+        "CameraRoll": 3.659311668166596
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 8.071529280675352e-07,
+        "joint_base_1_internal_shaft": 3.9428653334964137e-07,
+        "joint_elbow_0_internal_shaft": 7.840282821908774e-07,
+        "joint_elbow_2_internal_shaft": 4.6235921655334185e-06,
+        "joint_elbow_1_internal_shaft": 4.7411685247205435e-07,
+        "lock_pivot_elbow_internal_shaft": 4.1194343440940436e-07,
+        "joint_camera_0_internal_shaft": 6.544719080073124e-07,
+        "joint_camera_1_internal_shaft": 1.005274214889282e-06,
+        "lock_pivot_camera_internal_shaft": 3.5961945518187266e-07,
+        "BaseSwivel": 7.152193609536861e-07,
+        "CameraRoll": 2.310198490152725e-07,
+        "PadSwingAndSpin": 2.775105181544836e-07
+      },
+      "max_tension_N": 0.2912250028229868
+    },
+    {
+      "time_s": 3.9,
+      "targets_deg": {
+        "BaseSwivel": 0.8362277061412299,
+        "joint_base_0_internal_shaft": 0.3135853898029612,
+        "lock_pivot_elbow_internal_shaft": 0.3135853898029612,
+        "lock_pivot_camera_internal_shaft": 0.6271707796059224,
+        "CameraRoll": 1.2543415592118448
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.6703185891418156,
+        "lock_pivot_elbow_internal_shaft": 0.6392521483934807,
+        "lock_pivot_camera_internal_shaft": 1.2262827259779068,
+        "BaseSwivel": 1.637278345837125,
+        "CameraRoll": 2.4518166540230055
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.5115149371523936e-07,
+        "joint_base_1_internal_shaft": 1.611649394831581e-07,
+        "joint_elbow_0_internal_shaft": 1.5038841773879147e-07,
+        "joint_elbow_2_internal_shaft": 4.623389721481047e-06,
+        "joint_elbow_1_internal_shaft": 8.518309966216783e-07,
+        "lock_pivot_elbow_internal_shaft": 3.618517464256275e-07,
+        "joint_camera_0_internal_shaft": 2.6031757462876185e-07,
+        "joint_camera_1_internal_shaft": 6.545902375292752e-07,
+        "lock_pivot_camera_internal_shaft": 4.2232359811305837e-07,
+        "BaseSwivel": 4.488447402763743e-07,
+        "CameraRoll": 2.0251653335197428e-07,
+        "PadSwingAndSpin": 2.6693585466862237e-07
+      },
+      "max_tension_N": 0.20009652548665763
+    },
+    {
+      "time_s": 4.0,
+      "targets_deg": {
+        "BaseSwivel": 9.797174393178826e-16,
+        "joint_base_0_internal_shaft": 3.6739403974420594e-16,
+        "lock_pivot_elbow_internal_shaft": 3.6739403974420594e-16,
+        "lock_pivot_camera_internal_shaft": 7.347880794884119e-16,
+        "CameraRoll": 1.4695761589768238e-15
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.3616761103973764,
+        "lock_pivot_elbow_internal_shaft": 0.33051821577131374,
+        "lock_pivot_camera_internal_shaft": 0.609126558878391,
+        "BaseSwivel": 0.8144784270372114,
+        "CameraRoll": 1.2174906822825091
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.2556687885500366e-07,
+        "joint_base_1_internal_shaft": 3.556284789268691e-07,
+        "joint_elbow_0_internal_shaft": 4.319602081347826e-07,
+        "joint_elbow_2_internal_shaft": 4.56165412865181e-06,
+        "joint_elbow_1_internal_shaft": 5.524798830362999e-07,
+        "lock_pivot_elbow_internal_shaft": 2.516200731628664e-07,
+        "joint_camera_0_internal_shaft": 8.230666701513983e-08,
+        "joint_camera_1_internal_shaft": 6.871248309588618e-07,
+        "lock_pivot_camera_internal_shaft": 1.757650651729632e-07,
+        "BaseSwivel": 2.6960454215885954e-07,
+        "CameraRoll": 4.1717270275032564e-07,
+        "PadSwingAndSpin": 4.917480714139017e-07
+      },
+      "max_tension_N": 0.10763384993408258
+    },
+    {
+      "time_s": 4.1,
+      "targets_deg": {
+        "BaseSwivel": -0.8362277061412209,
+        "joint_base_0_internal_shaft": -0.3135853898029578,
+        "lock_pivot_elbow_internal_shaft": -0.3135853898029578,
+        "lock_pivot_camera_internal_shaft": -0.6271707796059156,
+        "CameraRoll": -1.2543415592118312
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.04977661496920915,
+        "lock_pivot_elbow_internal_shaft": 0.018473175153130742,
+        "lock_pivot_camera_internal_shaft": -0.014695452232632545,
+        "BaseSwivel": -0.017211220293445482,
+        "CameraRoll": -0.030166043997910102
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.25939870397403e-07,
+        "joint_base_1_internal_shaft": 4.311772184994722e-07,
+        "joint_elbow_0_internal_shaft": 2.3772007229015263e-07,
+        "joint_elbow_2_internal_shaft": 4.4911666829998906e-06,
+        "joint_elbow_1_internal_shaft": 4.302577348031006e-07,
+        "lock_pivot_elbow_internal_shaft": 2.98281577084219e-07,
+        "joint_camera_0_internal_shaft": 7.887295546537928e-07,
+        "joint_camera_1_internal_shaft": 9.712412430891728e-07,
+        "lock_pivot_camera_internal_shaft": 4.301146659346099e-07,
+        "BaseSwivel": 6.666403981533927e-07,
+        "CameraRoll": 4.886214951898163e-07,
+        "PadSwingAndSpin": 4.960103659507953e-07
+      },
+      "max_tension_N": 0.0158020035339806
+    },
+    {
+      "time_s": 4.2,
+      "targets_deg": {
+        "BaseSwivel": -1.6632935265420725,
+        "joint_base_0_internal_shaft": -0.6237350724532772,
+        "lock_pivot_elbow_internal_shaft": -0.6237350724532772,
+        "lock_pivot_camera_internal_shaft": -1.2474701449065544,
+        "CameraRoll": -2.494940289813109
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.2620988423822937,
+        "lock_pivot_elbow_internal_shaft": -0.2935327137381927,
+        "lock_pivot_camera_internal_shaft": -0.6383767844204055,
+        "BaseSwivel": -0.8487420447018501,
+        "CameraRoll": -1.2775256521554843
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.7420877263286305e-07,
+        "joint_base_1_internal_shaft": 2.1358491340673484e-07,
+        "joint_elbow_0_internal_shaft": 3.107267593289153e-07,
+        "joint_elbow_2_internal_shaft": 4.257164981202917e-06,
+        "joint_elbow_1_internal_shaft": 9.596258051650878e-07,
+        "lock_pivot_elbow_internal_shaft": 4.2932132053607387e-07,
+        "joint_camera_0_internal_shaft": 7.98691239707441e-07,
+        "joint_camera_1_internal_shaft": 1.0697049382364213e-06,
+        "lock_pivot_camera_internal_shaft": 3.8081673094064903e-07,
+        "BaseSwivel": 3.447224487709774e-07,
+        "CameraRoll": 5.223149458634914e-07,
+        "PadSwingAndSpin": 6.488077054099444e-07
+      },
+      "max_tension_N": 0.05930045922688546
+    },
+    {
+      "time_s": 4.3,
+      "targets_deg": {
+        "BaseSwivel": -2.4721359549995783,
+        "joint_base_0_internal_shaft": -0.9270509831248419,
+        "lock_pivot_elbow_internal_shaft": -0.9270509831248419,
+        "lock_pivot_camera_internal_shaft": -1.8541019662496838,
+        "CameraRoll": -3.7082039324993676
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.570495067743462,
+        "lock_pivot_elbow_internal_shaft": -0.6020702134774021,
+        "lock_pivot_camera_internal_shaft": -1.2550624481609394,
+        "BaseSwivel": -1.6709677767267386,
+        "CameraRoll": -2.510869220333229
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.379168162271322e-07,
+        "joint_base_1_internal_shaft": 2.959217615908125e-07,
+        "joint_elbow_0_internal_shaft": 6.234591137859198e-07,
+        "joint_elbow_2_internal_shaft": 4.4647989244053475e-06,
+        "joint_elbow_1_internal_shaft": 6.573878900777163e-07,
+        "lock_pivot_elbow_internal_shaft": 5.938110952076438e-07,
+        "joint_camera_0_internal_shaft": 9.20069157654427e-08,
+        "joint_camera_1_internal_shaft": 8.566308460109279e-07,
+        "lock_pivot_camera_internal_shaft": 4.0497396478914543e-07,
+        "BaseSwivel": 4.877135403347387e-07,
+        "CameraRoll": 7.114381157416117e-07,
+        "PadSwingAndSpin": 1.748951553575446e-07
+      },
+      "max_tension_N": 0.1226005129581572
+    },
+    {
+      "time_s": 4.4,
+      "targets_deg": {
+        "BaseSwivel": -3.2538931446064048,
+        "joint_base_0_internal_shaft": -1.2202099292274018,
+        "lock_pivot_elbow_internal_shaft": -1.2202099292274018,
+        "lock_pivot_camera_internal_shaft": -2.4404198584548036,
+        "CameraRoll": -4.880839716909607
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.8718812406246313,
+        "lock_pivot_elbow_internal_shaft": -0.9036812760931584,
+        "lock_pivot_camera_internal_shaft": -1.8579720053594087,
+        "BaseSwivel": -2.4748656757822527,
+        "CameraRoll": -3.716733177717118
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.980190904784638e-07,
+        "joint_base_1_internal_shaft": 1.39981305606252e-07,
+        "joint_elbow_0_internal_shaft": 3.525140648655355e-07,
+        "joint_elbow_2_internal_shaft": 4.460622236194016e-06,
+        "joint_elbow_1_internal_shaft": 9.853921433400044e-07,
+        "lock_pivot_elbow_internal_shaft": 4.5192838247628e-08,
+        "joint_camera_0_internal_shaft": 6.08053368382751e-07,
+        "joint_camera_1_internal_shaft": 2.6793662825387277e-07,
+        "lock_pivot_camera_internal_shaft": 3.2617912233653256e-07,
+        "BaseSwivel": 3.96386725341622e-07,
+        "CameraRoll": 4.992196614227848e-07,
+        "PadSwingAndSpin": 9.76628674721226e-07
+      },
+      "max_tension_N": 0.18526121393591402
+    },
+    {
+      "time_s": 4.5,
+      "targets_deg": {
+        "BaseSwivel": -3.999999999999998,
+        "joint_base_0_internal_shaft": -1.4999999999999991,
+        "lock_pivot_elbow_internal_shaft": -1.4999999999999991,
+        "lock_pivot_camera_internal_shaft": -2.9999999999999982,
+        "CameraRoll": -5.9999999999999964
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.1631658244274736,
+        "lock_pivot_elbow_internal_shaft": -1.1951563426471539,
+        "lock_pivot_camera_internal_shaft": -2.4405278288701693,
+        "BaseSwivel": -3.2516359344749417,
+        "CameraRoll": -4.881829923811612
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.5803793136854124e-07,
+        "joint_base_1_internal_shaft": 2.346912229223932e-07,
+        "joint_elbow_0_internal_shaft": 4.6053642669547506e-07,
+        "joint_elbow_2_internal_shaft": 4.206926150424034e-06,
+        "joint_elbow_1_internal_shaft": 6.248219667033523e-07,
+        "lock_pivot_elbow_internal_shaft": 2.799677136256996e-07,
+        "joint_camera_0_internal_shaft": 5.358884958742466e-07,
+        "joint_camera_1_internal_shaft": 8.45617615934946e-07,
+        "lock_pivot_camera_internal_shaft": 1.1291790451754395e-07,
+        "BaseSwivel": 6.402832527569929e-07,
+        "CameraRoll": 9.009102990766208e-08,
+        "PadSwingAndSpin": 1.4335370991589263e-07
+      },
+      "max_tension_N": 0.24636603442950145
+    },
+    {
+      "time_s": 4.6,
+      "targets_deg": {
+        "BaseSwivel": -4.7022820183397815,
+        "joint_base_0_internal_shaft": -1.763355756877418,
+        "lock_pivot_elbow_internal_shaft": -1.763355756877418,
+        "lock_pivot_camera_internal_shaft": -3.526711513754836,
+        "CameraRoll": -7.053423027509672
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.440912048707803,
+        "lock_pivot_elbow_internal_shaft": -1.4731533989961505,
+        "lock_pivot_camera_internal_shaft": -2.9963494047350077,
+        "BaseSwivel": -3.9927697374338917,
+        "CameraRoll": -5.993469411575122
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 9.590497273108197e-07,
+        "joint_base_1_internal_shaft": 4.847145338748727e-07,
+        "joint_elbow_0_internal_shaft": 8.423293900489338e-07,
+        "joint_elbow_2_internal_shaft": 4.310513960231316e-06,
+        "joint_elbow_1_internal_shaft": 4.1629567472042907e-07,
+        "lock_pivot_elbow_internal_shaft": 3.57675083171019e-07,
+        "joint_camera_0_internal_shaft": 3.7023386907176096e-07,
+        "joint_camera_1_internal_shaft": 9.661524651451658e-07,
+        "lock_pivot_camera_internal_shaft": 1.803497322721987e-07,
+        "BaseSwivel": 9.652695683829657e-07,
+        "CameraRoll": 4.1886890767381534e-07,
+        "PadSwingAndSpin": 2.045929758182751e-07
+      },
+      "max_tension_N": 0.30520686020701443
+    },
+    {
+      "time_s": 4.7,
+      "targets_deg": {
+        "BaseSwivel": -5.353044850870866,
+        "joint_base_0_internal_shaft": -2.0073918190765747,
+        "lock_pivot_elbow_internal_shaft": -2.0073918190765747,
+        "lock_pivot_camera_internal_shaft": -4.014783638153149,
+        "CameraRoll": -8.029567276306299
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.7024327264026429,
+        "lock_pivot_elbow_internal_shaft": -1.7348713571304162,
+        "lock_pivot_camera_internal_shaft": -3.5193253057087572,
+        "BaseSwivel": -4.6900984350423265,
+        "CameraRoll": -7.039440894632054
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.4552737359103847e-07,
+        "joint_base_1_internal_shaft": 2.3692299210485374e-07,
+        "joint_elbow_0_internal_shaft": 1.68968166921637e-07,
+        "joint_elbow_2_internal_shaft": 4.118740309230903e-06,
+        "joint_elbow_1_internal_shaft": 9.795760051361163e-07,
+        "lock_pivot_elbow_internal_shaft": 3.8119607324809097e-07,
+        "joint_camera_0_internal_shaft": 6.265185619817826e-07,
+        "joint_camera_1_internal_shaft": 7.636831773436055e-07,
+        "lock_pivot_camera_internal_shaft": 8.822873468815624e-08,
+        "BaseSwivel": 1.9312704063399613e-07,
+        "CameraRoll": 2.939990648782528e-07,
+        "PadSwingAndSpin": 4.453971080039278e-07
+      },
+      "max_tension_N": 0.3609489081478918
+    },
+    {
+      "time_s": 4.8,
+      "targets_deg": {
+        "BaseSwivel": -5.945158603819152,
+        "joint_base_0_internal_shaft": -2.229434476432182,
+        "lock_pivot_elbow_internal_shaft": -2.229434476432182,
+        "lock_pivot_camera_internal_shaft": -4.458868952864364,
+        "CameraRoll": -8.917737905728728
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.9446857692106791,
+        "lock_pivot_elbow_internal_shaft": -1.9772770348179347,
+        "lock_pivot_camera_internal_shaft": -4.003755855098043,
+        "BaseSwivel": -5.336022337479154,
+        "CameraRoll": -8.008267857386217
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.571843689582913e-07,
+        "joint_base_1_internal_shaft": 2.807704885028832e-07,
+        "joint_elbow_0_internal_shaft": 3.5514645043789093e-07,
+        "joint_elbow_2_internal_shaft": 4.220709930655071e-06,
+        "joint_elbow_1_internal_shaft": 5.693880485817873e-07,
+        "lock_pivot_elbow_internal_shaft": 2.3477533991513704e-07,
+        "joint_camera_0_internal_shaft": 3.269799408487312e-07,
+        "joint_camera_1_internal_shaft": 8.214242588197234e-07,
+        "lock_pivot_camera_internal_shaft": 5.919804340372162e-07,
+        "BaseSwivel": 5.706858964729613e-07,
+        "CameraRoll": 5.661919275123308e-07,
+        "PadSwingAndSpin": 4.852810294396534e-07
+      },
+      "max_tension_N": 0.41299202798781887
+    },
+    {
+      "time_s": 4.9,
+      "targets_deg": {
+        "BaseSwivel": -6.472135954999583,
+        "joint_base_0_internal_shaft": -2.4270509831248437,
+        "lock_pivot_elbow_internal_shaft": -2.4270509831248437,
+        "lock_pivot_camera_internal_shaft": -4.854101966249687,
+        "CameraRoll": -9.708203932499375
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.1649514710361832,
+        "lock_pivot_elbow_internal_shaft": -2.197709224058829,
+        "lock_pivot_camera_internal_shaft": -4.44429577121839,
+        "BaseSwivel": -5.923454005177065,
+        "CameraRoll": -8.889407188676145
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.576660218437244e-07,
+        "joint_base_1_internal_shaft": 2.470984257799239e-07,
+        "joint_elbow_0_internal_shaft": 4.1947669490126843e-07,
+        "joint_elbow_2_internal_shaft": 3.781254046284786e-06,
+        "joint_elbow_1_internal_shaft": 3.9091239242626583e-07,
+        "lock_pivot_elbow_internal_shaft": 5.695390750772622e-07,
+        "joint_camera_0_internal_shaft": 3.450112743210958e-07,
+        "joint_camera_1_internal_shaft": 4.770022797782211e-07,
+        "lock_pivot_camera_internal_shaft": 5.587085863244997e-07,
+        "BaseSwivel": 2.795797852972024e-07,
+        "CameraRoll": 1.0728051311675382e-06,
+        "PadSwingAndSpin": 2.686611516903035e-07
+      },
+      "max_tension_N": 0.4608005125305774
+    },
+    {
+      "time_s": 5.0,
+      "targets_deg": {
+        "BaseSwivel": -6.928203230275508,
+        "joint_base_0_internal_shaft": -2.5980762113533156,
+        "lock_pivot_elbow_internal_shaft": -2.5980762113533156,
+        "lock_pivot_camera_internal_shaft": -5.196152422706631,
+        "CameraRoll": -10.392304845413262
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.360813097725795,
+        "lock_pivot_elbow_internal_shaft": -2.3937542607830693,
+        "lock_pivot_camera_internal_shaft": -4.836143854262588,
+        "BaseSwivel": -6.445992814561001,
+        "CameraRoll": -9.673112624223407
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.1096750054605646e-07,
+        "joint_base_1_internal_shaft": 2.529085568382925e-07,
+        "joint_elbow_0_internal_shaft": 2.622596243678047e-07,
+        "joint_elbow_2_internal_shaft": 3.949726557392053e-06,
+        "joint_elbow_1_internal_shaft": 4.54440857180006e-07,
+        "lock_pivot_elbow_internal_shaft": 2.208201367141973e-07,
+        "joint_camera_0_internal_shaft": 2.973238062752685e-07,
+        "joint_camera_1_internal_shaft": 4.926167141076939e-07,
+        "lock_pivot_camera_internal_shaft": 3.1045590271292736e-07,
+        "BaseSwivel": 1.0904436655421044e-07,
+        "CameraRoll": 4.297955097009526e-07,
+        "PadSwingAndSpin": 8.027634879119651e-07
+      },
+      "max_tension_N": 0.5033234229736899
+    },
+    {
+      "time_s": 5.1,
+      "targets_deg": {
+        "BaseSwivel": -7.308363661140804,
+        "joint_base_0_internal_shaft": -2.740636372927802,
+        "lock_pivot_elbow_internal_shaft": -2.740636372927802,
+        "lock_pivot_camera_internal_shaft": -5.481272745855604,
+        "CameraRoll": -10.962545491711207
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.5302555162498876,
+        "lock_pivot_elbow_internal_shaft": -2.563340017079487,
+        "lock_pivot_camera_internal_shaft": -5.175005668833725,
+        "BaseSwivel": -6.897816026681359,
+        "CameraRoll": -10.350812660195437
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.1796745347611677e-07,
+        "joint_base_1_internal_shaft": 1.0647743804464788e-07,
+        "joint_elbow_0_internal_shaft": 2.3914525214771694e-07,
+        "joint_elbow_2_internal_shaft": 3.5854230874296964e-06,
+        "joint_elbow_1_internal_shaft": 4.7163481139163005e-07,
+        "lock_pivot_elbow_internal_shaft": 6.737785027402218e-07,
+        "joint_camera_0_internal_shaft": 9.258217752438899e-07,
+        "joint_camera_1_internal_shaft": 6.712354143676627e-07,
+        "lock_pivot_camera_internal_shaft": 7.231749843030416e-07,
+        "BaseSwivel": 5.37815955501752e-07,
+        "CameraRoll": 4.635157633271522e-07,
+        "PadSwingAndSpin": 5.362492839242514e-07
+      },
+      "max_tension_N": 0.5405338422282261
+    },
+    {
+      "time_s": 5.2,
+      "targets_deg": {
+        "BaseSwivel": -7.608452130361228,
+        "joint_base_0_internal_shaft": -2.8531695488854605,
+        "lock_pivot_elbow_internal_shaft": -2.8531695488854605,
+        "lock_pivot_camera_internal_shaft": -5.706339097770921,
+        "CameraRoll": -11.412678195541842
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.671386109310874,
+        "lock_pivot_elbow_internal_shaft": -2.704581906408116,
+        "lock_pivot_camera_internal_shaft": -5.457178343164358,
+        "BaseSwivel": -7.274074843583036,
+        "CameraRoll": -10.915149940128444
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.461674017905609e-07,
+        "joint_base_1_internal_shaft": 3.829663434183175e-07,
+        "joint_elbow_0_internal_shaft": 5.39832297279245e-07,
+        "joint_elbow_2_internal_shaft": 3.3868356559732732e-06,
+        "joint_elbow_1_internal_shaft": 4.119456173310847e-07,
+        "lock_pivot_elbow_internal_shaft": 1.942664844945171e-07,
+        "joint_camera_0_internal_shaft": 4.68951401887083e-07,
+        "joint_camera_1_internal_shaft": 1.1270634557866474e-06,
+        "lock_pivot_camera_internal_shaft": 4.4786552072475914e-07,
+        "BaseSwivel": 1.929746166967587e-07,
+        "CameraRoll": 2.971193234117199e-07,
+        "PadSwingAndSpin": 1.1735788623288376e-07
+      },
+      "max_tension_N": 0.5714358858314813
+    },
+    {
+      "time_s": 5.3,
+      "targets_deg": {
+        "BaseSwivel": -7.825180805870445,
+        "joint_base_0_internal_shaft": -2.9344428022014166,
+        "lock_pivot_elbow_internal_shaft": -2.9344428022014166,
+        "lock_pivot_camera_internal_shaft": -5.868885604402833,
+        "CameraRoll": -11.737771208805666
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.782566542027179,
+        "lock_pivot_elbow_internal_shaft": -2.815836511984991,
+        "lock_pivot_camera_internal_shaft": -5.67954356161818,
+        "BaseSwivel": -7.570598457474839,
+        "CameraRoll": -11.35988253848249
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.2603754518853907e-07,
+        "joint_base_1_internal_shaft": 2.56622595001331e-07,
+        "joint_elbow_0_internal_shaft": 1.1489569195130866e-07,
+        "joint_elbow_2_internal_shaft": 3.518552645010121e-06,
+        "joint_elbow_1_internal_shaft": 4.68297111153122e-07,
+        "lock_pivot_elbow_internal_shaft": 5.676662179288007e-07,
+        "joint_camera_0_internal_shaft": 8.604047196061674e-07,
+        "joint_camera_1_internal_shaft": 7.949061729251739e-07,
+        "lock_pivot_camera_internal_shaft": 3.349853146174355e-07,
+        "BaseSwivel": 6.637827402203718e-07,
+        "CameraRoll": 4.148350524474006e-07,
+        "PadSwingAndSpin": 7.590138370598598e-07
+      },
+      "max_tension_N": 0.5964096588502695
+    },
+    {
+      "time_s": 5.4,
+      "targets_deg": {
+        "BaseSwivel": -7.956175162946187,
+        "joint_base_0_internal_shaft": -2.98356568610482,
+        "lock_pivot_elbow_internal_shaft": -2.98356568610482,
+        "lock_pivot_camera_internal_shaft": -5.96713137220964,
+        "CameraRoll": -11.93426274441928
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.862604821714314,
+        "lock_pivot_elbow_internal_shaft": -2.8959890219132256,
+        "lock_pivot_camera_internal_shaft": -5.839686374461648,
+        "BaseSwivel": -7.784145187885375,
+        "CameraRoll": -11.680132366209708
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.896489806367892e-07,
+        "joint_base_1_internal_shaft": 4.5495392734472106e-07,
+        "joint_elbow_0_internal_shaft": 5.875941577329606e-07,
+        "joint_elbow_2_internal_shaft": 4.137228210842444e-06,
+        "joint_elbow_1_internal_shaft": 5.442397855236648e-07,
+        "lock_pivot_elbow_internal_shaft": 2.3545358105824985e-07,
+        "joint_camera_0_internal_shaft": 2.409407881807085e-07,
+        "joint_camera_1_internal_shaft": 5.753654816882963e-07,
+        "lock_pivot_camera_internal_shaft": 1.5752657880274817e-07,
+        "BaseSwivel": 5.90936755924277e-07,
+        "CameraRoll": 6.510125425268648e-07,
+        "PadSwingAndSpin": 3.0102335180424784e-07
+      },
+      "max_tension_N": 0.6140012757667979
+    },
+    {
+      "time_s": 5.5,
+      "targets_deg": {
+        "BaseSwivel": -8.0,
+        "joint_base_0_internal_shaft": -3.0,
+        "lock_pivot_elbow_internal_shaft": -3.0,
+        "lock_pivot_camera_internal_shaft": -6.0,
+        "CameraRoll": -12.0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.910691512626707,
+        "lock_pivot_elbow_internal_shaft": -2.944116645683178,
+        "lock_pivot_camera_internal_shaft": -5.9358207285483875,
+        "BaseSwivel": -7.912348427325273,
+        "CameraRoll": -11.872437796846787
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.9892236681019563e-07,
+        "joint_base_1_internal_shaft": 5.177810826853286e-07,
+        "joint_elbow_0_internal_shaft": 1.460580118920565e-07,
+        "joint_elbow_2_internal_shaft": 3.809344911147943e-06,
+        "joint_elbow_1_internal_shaft": 6.421056781352156e-07,
+        "lock_pivot_elbow_internal_shaft": 2.638509058247915e-07,
+        "joint_camera_0_internal_shaft": 5.997604464803828e-07,
+        "joint_camera_1_internal_shaft": 1.105216002732357e-06,
+        "lock_pivot_camera_internal_shaft": 4.951622235674506e-07,
+        "BaseSwivel": 2.713195018707882e-07,
+        "CameraRoll": 4.109559440092052e-07,
+        "PadSwingAndSpin": 9.697604060365789e-07
+      },
+      "max_tension_N": 0.6248298271057331
+    },
+    {
+      "time_s": 5.6,
+      "targets_deg": {
+        "BaseSwivel": -7.956175162946187,
+        "joint_base_0_internal_shaft": -2.98356568610482,
+        "lock_pivot_elbow_internal_shaft": -2.98356568610482,
+        "lock_pivot_camera_internal_shaft": -5.96713137220964,
+        "CameraRoll": -11.93426274441928
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.926310066103939,
+        "lock_pivot_elbow_internal_shaft": -2.959761707841878,
+        "lock_pivot_camera_internal_shaft": -5.966933624723048,
+        "BaseSwivel": -7.953850622939665,
+        "CameraRoll": -11.93461550257901
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.8991585999125545e-07,
+        "joint_base_1_internal_shaft": 2.416930643119939e-07,
+        "joint_elbow_0_internal_shaft": 1.5208639789652136e-07,
+        "joint_elbow_2_internal_shaft": 3.962107916825191e-06,
+        "joint_elbow_1_internal_shaft": 4.283652260948797e-07,
+        "lock_pivot_elbow_internal_shaft": 1.3629152424618772e-07,
+        "joint_camera_0_internal_shaft": 8.332579060552412e-07,
+        "joint_camera_1_internal_shaft": 1.2626989111875496e-06,
+        "lock_pivot_camera_internal_shaft": 2.921006831766562e-07,
+        "BaseSwivel": 4.583678580778878e-07,
+        "CameraRoll": 6.043771857803345e-08,
+        "PadSwingAndSpin": 1.57245526713992e-07
+      },
+      "max_tension_N": 0.6283586597239512
+    },
+    {
+      "time_s": 5.7,
+      "targets_deg": {
+        "BaseSwivel": -7.825180805870445,
+        "joint_base_0_internal_shaft": -2.9344428022014166,
+        "lock_pivot_elbow_internal_shaft": -2.9344428022014166,
+        "lock_pivot_camera_internal_shaft": -5.868885604402833,
+        "CameraRoll": -11.737771208805666
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.909120452122847,
+        "lock_pivot_elbow_internal_shaft": -2.9425953502975357,
+        "lock_pivot_camera_internal_shaft": -5.932663409135499,
+        "BaseSwivel": -7.90814212674066,
+        "CameraRoll": -11.866110466986608
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.316454864947503e-07,
+        "joint_base_1_internal_shaft": 4.534462208642815e-07,
+        "joint_elbow_0_internal_shaft": 3.988944344304847e-07,
+        "joint_elbow_2_internal_shaft": 3.752425031934692e-06,
+        "joint_elbow_1_internal_shaft": 6.490186731474444e-07,
+        "lock_pivot_elbow_internal_shaft": 1.2347059351100146e-07,
+        "joint_camera_0_internal_shaft": 3.9064498967455555e-07,
+        "joint_camera_1_internal_shaft": 3.7492273123066934e-07,
+        "lock_pivot_camera_internal_shaft": 1.4118502498759546e-07,
+        "BaseSwivel": 4.2910716395649405e-07,
+        "CameraRoll": 3.629252387677124e-07,
+        "PadSwingAndSpin": 9.607496919218428e-07
+      },
+      "max_tension_N": 0.6244670244874112
+    },
+    {
+      "time_s": 5.8,
+      "targets_deg": {
+        "BaseSwivel": -7.608452130361229,
+        "joint_base_0_internal_shaft": -2.853169548885461,
+        "lock_pivot_elbow_internal_shaft": -2.853169548885461,
+        "lock_pivot_camera_internal_shaft": -5.706339097770922,
+        "CameraRoll": -11.412678195541844
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.859446319897988,
+        "lock_pivot_elbow_internal_shaft": -2.8929378869182245,
+        "lock_pivot_camera_internal_shaft": -5.833396550122042,
+        "BaseSwivel": -7.775797785793483,
+        "CameraRoll": -11.667602669914729
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 9.321295666607594e-07,
+        "joint_base_1_internal_shaft": 8.036831023509688e-07,
+        "joint_elbow_0_internal_shaft": 8.306183422466728e-07,
+        "joint_elbow_2_internal_shaft": 3.6203192710428137e-06,
+        "joint_elbow_1_internal_shaft": 3.725058890121074e-07,
+        "lock_pivot_elbow_internal_shaft": 4.3949554950414674e-07,
+        "joint_camera_0_internal_shaft": 1.1772553876097049e-06,
+        "joint_camera_1_internal_shaft": 1.3961557749649509e-06,
+        "lock_pivot_camera_internal_shaft": 1.1158122951377112e-06,
+        "BaseSwivel": 8.477203332494369e-07,
+        "CameraRoll": 6.22669712681226e-07,
+        "PadSwingAndSpin": 2.0921438238082148e-07
+      },
+      "max_tension_N": 0.613762075287964
+    },
+    {
+      "time_s": 5.9,
+      "targets_deg": {
+        "BaseSwivel": -7.308363661140806,
+        "joint_base_0_internal_shaft": -2.7406363729278023,
+        "lock_pivot_elbow_internal_shaft": -2.7406363729278023,
+        "lock_pivot_camera_internal_shaft": -5.4812727458556045,
+        "CameraRoll": -10.962545491711209
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.777912285572641,
+        "lock_pivot_elbow_internal_shaft": -2.811363304159116,
+        "lock_pivot_camera_internal_shaft": -5.670183240969007,
+        "BaseSwivel": -7.558188290450599,
+        "CameraRoll": -11.341200152924648
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.2039590735749053e-07,
+        "joint_base_1_internal_shaft": 2.866007700259835e-07,
+        "joint_elbow_0_internal_shaft": 6.648166697415338e-07,
+        "joint_elbow_2_internal_shaft": 3.657408082617171e-06,
+        "joint_elbow_1_internal_shaft": 3.899342915431458e-07,
+        "lock_pivot_elbow_internal_shaft": 4.6399222684096183e-07,
+        "joint_camera_0_internal_shaft": 4.872838699794382e-08,
+        "joint_camera_1_internal_shaft": 5.835408003885859e-07,
+        "lock_pivot_camera_internal_shaft": 3.93850848626061e-08,
+        "BaseSwivel": 3.007951664837846e-07,
+        "CameraRoll": 4.982409868093784e-07,
+        "PadSwingAndSpin": 7.052004112411286e-07
+      },
+      "max_tension_N": 0.5958499044747868
+    },
+    {
+      "time_s": 6.0,
+      "targets_deg": {
+        "BaseSwivel": -6.928203230275509,
+        "joint_base_0_internal_shaft": -2.598076211353316,
+        "lock_pivot_elbow_internal_shaft": -2.598076211353316,
+        "lock_pivot_camera_internal_shaft": -5.196152422706632,
+        "CameraRoll": -10.392304845413264
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.665293009432621,
+        "lock_pivot_elbow_internal_shaft": -2.6986556936249526,
+        "lock_pivot_camera_internal_shaft": -5.444883205933629,
+        "BaseSwivel": -7.25776088064221,
+        "CameraRoll": -10.89059495669623
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.7710788680894784e-07,
+        "joint_base_1_internal_shaft": 5.563362211928424e-07,
+        "joint_elbow_0_internal_shaft": 1.5896127967855163e-07,
+        "joint_elbow_2_internal_shaft": 4.137437836181945e-06,
+        "joint_elbow_1_internal_shaft": 4.22112246442632e-07,
+        "lock_pivot_elbow_internal_shaft": 3.65877688705804e-07,
+        "joint_camera_0_internal_shaft": 9.109595505811724e-07,
+        "joint_camera_1_internal_shaft": 1.4231701999333486e-06,
+        "lock_pivot_camera_internal_shaft": 5.6840069085957e-07,
+        "BaseSwivel": 9.097986163241987e-07,
+        "CameraRoll": 4.08938447415555e-07,
+        "PadSwingAndSpin": 2.1818416148083116e-07
+      },
+      "max_tension_N": 0.5710111011894928
+    },
+    {
+      "time_s": 6.1,
+      "targets_deg": {
+        "BaseSwivel": -6.472135954999585,
+        "joint_base_0_internal_shaft": -2.427050983124844,
+        "lock_pivot_elbow_internal_shaft": -2.427050983124844,
+        "lock_pivot_camera_internal_shaft": -4.854101966249688,
+        "CameraRoll": -9.708203932499377
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.522696703963182,
+        "lock_pivot_elbow_internal_shaft": -2.556021706712822,
+        "lock_pivot_camera_internal_shaft": -5.1598949395187,
+        "BaseSwivel": -6.877759536554801,
+        "CameraRoll": -10.320638366206703
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.612508017953341e-07,
+        "joint_base_1_internal_shaft": 2.686220039610231e-07,
+        "joint_elbow_0_internal_shaft": 2.1264001709703854e-07,
+        "joint_elbow_2_internal_shaft": 4.112206117527404e-06,
+        "joint_elbow_1_internal_shaft": 2.5858501816874317e-07,
+        "lock_pivot_elbow_internal_shaft": 2.5284125846343326e-07,
+        "joint_camera_0_internal_shaft": 3.479286652712276e-07,
+        "joint_camera_1_internal_shaft": 5.359705329739771e-07,
+        "lock_pivot_camera_internal_shaft": 5.839019845527991e-07,
+        "BaseSwivel": 3.076034500343967e-07,
+        "CameraRoll": 3.892645912039231e-07,
+        "PadSwingAndSpin": 6.455284439920572e-07
+      },
+      "max_tension_N": 0.5398415199182068
+    },
+    {
+      "time_s": 6.2,
+      "targets_deg": {
+        "BaseSwivel": -5.945158603819157,
+        "joint_base_0_internal_shaft": -2.229434476432184,
+        "lock_pivot_elbow_internal_shaft": -2.229434476432184,
+        "lock_pivot_camera_internal_shaft": -4.458868952864368,
+        "CameraRoll": -8.917737905728735
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.3520006165978478,
+        "lock_pivot_elbow_internal_shaft": -2.385190489616553,
+        "lock_pivot_camera_internal_shaft": -4.818405845609042,
+        "BaseSwivel": -6.4223893298071255,
+        "CameraRoll": -9.637614662676794
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.787148558389917e-07,
+        "joint_base_1_internal_shaft": 5.5131607340509e-07,
+        "joint_elbow_0_internal_shaft": 4.3154873570565133e-07,
+        "joint_elbow_2_internal_shaft": 3.996152973384688e-06,
+        "joint_elbow_1_internal_shaft": 5.817703970732686e-07,
+        "lock_pivot_elbow_internal_shaft": 2.5284770848481904e-07,
+        "joint_camera_0_internal_shaft": 3.556033196639248e-07,
+        "joint_camera_1_internal_shaft": 4.866933659976069e-07,
+        "lock_pivot_camera_internal_shaft": 6.162105684320146e-07,
+        "BaseSwivel": 5.944762138277246e-07,
+        "CameraRoll": 6.554267159956346e-07,
+        "PadSwingAndSpin": 6.438568232578598e-07
+      },
+      "max_tension_N": 0.5025166319434747
+    },
+    {
+      "time_s": 6.3,
+      "targets_deg": {
+        "BaseSwivel": -5.35304485087087,
+        "joint_base_0_internal_shaft": -2.0073918190765765,
+        "lock_pivot_elbow_internal_shaft": -2.0073918190765765,
+        "lock_pivot_camera_internal_shaft": -4.014783638153153,
+        "CameraRoll": -8.029567276306306
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -2.1548451442422625,
+        "lock_pivot_elbow_internal_shaft": -2.1879054715171,
+        "lock_pivot_camera_internal_shaft": -4.424099530047463,
+        "BaseSwivel": -5.89661082827621,
+        "CameraRoll": -8.849004782793576
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.205117327198461e-07,
+        "joint_base_1_internal_shaft": 1.886243160909027e-07,
+        "joint_elbow_0_internal_shaft": 4.817255129871634e-07,
+        "joint_elbow_2_internal_shaft": 3.991618824578952e-06,
+        "joint_elbow_1_internal_shaft": 6.483257557454548e-07,
+        "lock_pivot_elbow_internal_shaft": 8.228388338163988e-07,
+        "joint_camera_0_internal_shaft": 9.716940906912612e-07,
+        "joint_camera_1_internal_shaft": 7.150729059122151e-07,
+        "lock_pivot_camera_internal_shaft": 4.121260214387648e-07,
+        "BaseSwivel": 1.283641353214905e-07,
+        "CameraRoll": 1.9265594478372222e-07,
+        "PadSwingAndSpin": 9.600142679778162e-07
+      },
+      "max_tension_N": 0.45961521305437364
+    },
+    {
+      "time_s": 6.4,
+      "targets_deg": {
+        "BaseSwivel": -4.702282018339787,
+        "joint_base_0_internal_shaft": -1.76335575687742,
+        "lock_pivot_elbow_internal_shaft": -1.76335575687742,
+        "lock_pivot_camera_internal_shaft": -3.52671151375484,
+        "CameraRoll": -7.05342302750968
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.9334178358137977,
+        "lock_pivot_elbow_internal_shaft": -1.9663515575198447,
+        "lock_pivot_camera_internal_shaft": -3.9813136130120417,
+        "BaseSwivel": -5.306180792439508,
+        "CameraRoll": -7.963394534499727
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.09366242101206e-07,
+        "joint_base_1_internal_shaft": 1.8976788187809068e-07,
+        "joint_elbow_0_internal_shaft": 4.297300722389628e-07,
+        "joint_elbow_2_internal_shaft": 3.6569213911727975e-06,
+        "joint_elbow_1_internal_shaft": 9.149915444253451e-07,
+        "lock_pivot_elbow_internal_shaft": 4.577604678178588e-07,
+        "joint_camera_0_internal_shaft": 4.6995685681104155e-07,
+        "joint_camera_1_internal_shaft": 1.2514232547221262e-06,
+        "lock_pivot_camera_internal_shaft": 2.3679571678132974e-07,
+        "BaseSwivel": 4.346537619604656e-07,
+        "CameraRoll": 2.6166097726135834e-07,
+        "PadSwingAndSpin": 5.02393248664401e-07
+      },
+      "max_tension_N": 0.4120239684583315
+    },
+    {
+      "time_s": 6.5,
+      "targets_deg": {
+        "BaseSwivel": -4.0000000000000036,
+        "joint_base_0_internal_shaft": -1.5000000000000013,
+        "lock_pivot_elbow_internal_shaft": -1.5000000000000013,
+        "lock_pivot_camera_internal_shaft": -3.0000000000000027,
+        "CameraRoll": -6.000000000000005
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.6902209222605638,
+        "lock_pivot_elbow_internal_shaft": -1.7230089960019184,
+        "lock_pivot_camera_internal_shaft": -3.4949071168702686,
+        "BaseSwivel": -4.657594007345508,
+        "CameraRoll": -6.990575977026189
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.9494931970891425e-07,
+        "joint_base_1_internal_shaft": 1.0861214341750304e-07,
+        "joint_elbow_0_internal_shaft": 3.0125620174559283e-07,
+        "joint_elbow_2_internal_shaft": 4.304743714813945e-06,
+        "joint_elbow_1_internal_shaft": 6.232253496432805e-07,
+        "lock_pivot_elbow_internal_shaft": 3.7036839238743667e-07,
+        "joint_camera_0_internal_shaft": 6.071372042415536e-07,
+        "joint_camera_1_internal_shaft": 7.61345315842987e-07,
+        "lock_pivot_camera_internal_shaft": 2.8637158996462794e-07,
+        "BaseSwivel": 1.6497934149722108e-07,
+        "CameraRoll": 4.865484150894503e-07,
+        "PadSwingAndSpin": 6.333711378728079e-07
+      },
+      "max_tension_N": 0.35950460619924884
+    },
+    {
+      "time_s": 6.6,
+      "targets_deg": {
+        "BaseSwivel": -3.2538931446064012,
+        "joint_base_0_internal_shaft": -1.2202099292274005,
+        "lock_pivot_elbow_internal_shaft": -1.2202099292274005,
+        "lock_pivot_camera_internal_shaft": -2.440419858454801,
+        "CameraRoll": -4.880839716909602
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.427716182254657,
+        "lock_pivot_elbow_internal_shaft": -1.4603850794635576,
+        "lock_pivot_camera_internal_shaft": -2.9701860602112196,
+        "BaseSwivel": -3.957969435299705,
+        "CameraRoll": -5.941183584618388
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.202561180433618e-07,
+        "joint_base_1_internal_shaft": 3.7455507023335906e-07,
+        "joint_elbow_0_internal_shaft": 3.0405647540231276e-07,
+        "joint_elbow_2_internal_shaft": 4.369211758045796e-06,
+        "joint_elbow_1_internal_shaft": 8.682732689920794e-07,
+        "lock_pivot_elbow_internal_shaft": 3.240261516660636e-07,
+        "joint_camera_0_internal_shaft": 9.508768446513971e-07,
+        "joint_camera_1_internal_shaft": 5.363497663719868e-07,
+        "lock_pivot_camera_internal_shaft": 2.4354130571407095e-07,
+        "BaseSwivel": 5.993740031960585e-07,
+        "CameraRoll": 2.864657597816638e-07,
+        "PadSwingAndSpin": 5.154775920755557e-07
+      },
+      "max_tension_N": 0.30397020224314364
+    },
+    {
+      "time_s": 6.7,
+      "targets_deg": {
+        "BaseSwivel": -2.4721359549995743,
+        "joint_base_0_internal_shaft": -0.9270509831248404,
+        "lock_pivot_elbow_internal_shaft": -0.9270509831248404,
+        "lock_pivot_camera_internal_shaft": -1.8541019662496807,
+        "CameraRoll": -3.7082039324993614
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -1.1492853338060245,
+        "lock_pivot_elbow_internal_shaft": -1.1817195767448592,
+        "lock_pivot_camera_internal_shaft": -2.412934805171134,
+        "BaseSwivel": -3.2149207382676996,
+        "CameraRoll": -4.826663106288217
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.186891192451045e-06,
+        "joint_base_1_internal_shaft": 8.214993549431849e-07,
+        "joint_elbow_0_internal_shaft": 5.533086404337679e-07,
+        "joint_elbow_2_internal_shaft": 4.146718013109559e-06,
+        "joint_elbow_1_internal_shaft": 3.7106871801379913e-07,
+        "lock_pivot_elbow_internal_shaft": 2.2699389296783613e-07,
+        "joint_camera_0_internal_shaft": 7.831710536678334e-07,
+        "joint_camera_1_internal_shaft": 1.4949621130764013e-06,
+        "lock_pivot_camera_internal_shaft": 1.4183696346189127e-07,
+        "BaseSwivel": 1.034478032427773e-06,
+        "CameraRoll": 3.442590438377289e-07,
+        "PadSwingAndSpin": 7.377858100673146e-07
+      },
+      "max_tension_N": 0.2448896861419242
+    },
+    {
+      "time_s": 6.8,
+      "targets_deg": {
+        "BaseSwivel": -1.663293526542079,
+        "joint_base_0_internal_shaft": -0.6237350724532796,
+        "lock_pivot_elbow_internal_shaft": -0.6237350724532796,
+        "lock_pivot_camera_internal_shaft": -1.2474701449065593,
+        "CameraRoll": -2.4949402898131186
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.8574844398581986,
+        "lock_pivot_elbow_internal_shaft": -0.8897096926271394,
+        "lock_pivot_camera_internal_shaft": -1.8292395162759312,
+        "BaseSwivel": -2.4366253180898494,
+        "CameraRoll": -3.6592989459036542
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.790040438431928e-07,
+        "joint_base_1_internal_shaft": 3.6604030012447106e-07,
+        "joint_elbow_0_internal_shaft": 1.815747490746139e-07,
+        "joint_elbow_2_internal_shaft": 4.232335556595947e-06,
+        "joint_elbow_1_internal_shaft": 6.057971209856001e-07,
+        "lock_pivot_elbow_internal_shaft": 5.016017509535667e-07,
+        "joint_camera_0_internal_shaft": 1.1846448913314143e-06,
+        "joint_camera_1_internal_shaft": 1.0847576212740057e-06,
+        "lock_pivot_camera_internal_shaft": 8.579903200839486e-07,
+        "BaseSwivel": 4.933899379209793e-07,
+        "CameraRoll": 4.4687130601542606e-07,
+        "PadSwingAndSpin": 5.975563159810326e-07
+      },
+      "max_tension_N": 0.18384115859495237
+    },
+    {
+      "time_s": 6.8999999999999995,
+      "targets_deg": {
+        "BaseSwivel": -0.8362277061412344,
+        "joint_base_0_internal_shaft": -0.3135853898029629,
+        "lock_pivot_elbow_internal_shaft": -0.3135853898029629,
+        "lock_pivot_camera_internal_shaft": -0.6271707796059258,
+        "CameraRoll": -1.2543415592118516
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.5555999796002666,
+        "lock_pivot_elbow_internal_shaft": -0.5876319268665736,
+        "lock_pivot_camera_internal_shaft": -1.225513699834813,
+        "BaseSwivel": -1.6315925317795619,
+        "CameraRoll": -2.451808654244502
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.5976168927825364e-07,
+        "joint_base_1_internal_shaft": 2.946726292547799e-07,
+        "joint_elbow_0_internal_shaft": 4.881353700882281e-07,
+        "joint_elbow_2_internal_shaft": 4.2675323805722634e-06,
+        "joint_elbow_1_internal_shaft": 3.579123639520658e-07,
+        "lock_pivot_elbow_internal_shaft": 1.2927745838392906e-07,
+        "joint_camera_0_internal_shaft": 1.5440993547062045e-07,
+        "joint_camera_1_internal_shaft": 6.685369178264145e-07,
+        "lock_pivot_camera_internal_shaft": 2.0461541777871247e-07,
+        "BaseSwivel": 6.354360974294045e-07,
+        "CameraRoll": 6.465782084658549e-07,
+        "PadSwingAndSpin": 1.5595516174755377e-07
+      },
+      "max_tension_N": 0.12117869766558133
+    },
+    {
+      "time_s": 7.0,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.2470549134811639,
+        "lock_pivot_elbow_internal_shaft": -0.2788559993782545,
+        "lock_pivot_camera_internal_shaft": -0.608359706215664,
+        "BaseSwivel": -0.8087078818420275,
+        "CameraRoll": -1.217468851180012
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 6.432762415409799e-07,
+        "joint_base_1_internal_shaft": 3.7167203841645685e-07,
+        "joint_elbow_0_internal_shaft": 2.4262369014397535e-07,
+        "joint_elbow_2_internal_shaft": 4.54467974788739e-06,
+        "joint_elbow_1_internal_shaft": 3.9079982891085893e-07,
+        "lock_pivot_elbow_internal_shaft": 2.3741829403643626e-07,
+        "joint_camera_0_internal_shaft": 4.301413158471186e-07,
+        "joint_camera_1_internal_shaft": 1.0918730501612591e-06,
+        "lock_pivot_camera_internal_shaft": 3.1590746462717627e-07,
+        "BaseSwivel": 7.881276557706839e-07,
+        "CameraRoll": 5.539803051907263e-07,
+        "PadSwingAndSpin": 4.890196618171574e-07
+      },
+      "max_tension_N": 0.05758754159236079
+    },
+    {
+      "time_s": 7.1,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": -0.05399802688230486,
+        "lock_pivot_elbow_internal_shaft": -0.08598831553646358,
+        "lock_pivot_camera_internal_shaft": -0.22357744748445438,
+        "BaseSwivel": -0.29563904303957156,
+        "CameraRoll": -0.4479628192756162
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.0094391253651188e-06,
+        "joint_base_1_internal_shaft": 7.13362667294781e-07,
+        "joint_elbow_0_internal_shaft": 1.0842300469719841e-06,
+        "joint_elbow_2_internal_shaft": 4.725459034591404e-06,
+        "joint_elbow_1_internal_shaft": 4.3347999796300116e-07,
+        "lock_pivot_elbow_internal_shaft": 5.188734909868187e-07,
+        "joint_camera_0_internal_shaft": 1.0015701441915952e-06,
+        "joint_camera_1_internal_shaft": 1.8576500493035205e-06,
+        "lock_pivot_camera_internal_shaft": 5.120048322074331e-07,
+        "BaseSwivel": 8.552280102495526e-07,
+        "CameraRoll": 4.461678971536204e-07,
+        "PadSwingAndSpin": 3.4649087456125295e-07
+      },
+      "max_tension_N": 0.017892976898516978
+    },
+    {
+      "time_s": 7.2,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.01649074100001852,
+        "lock_pivot_elbow_internal_shaft": -0.01521473270066492,
+        "lock_pivot_camera_internal_shaft": -0.0820182611317771,
+        "BaseSwivel": -0.10688139509388112,
+        "CameraRoll": -0.16482762520041114
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.207531108856982e-07,
+        "joint_base_1_internal_shaft": 1.8475152343569316e-07,
+        "joint_elbow_0_internal_shaft": 8.885617287085079e-07,
+        "joint_elbow_2_internal_shaft": 4.241263145628134e-06,
+        "joint_elbow_1_internal_shaft": 5.559758776845125e-07,
+        "lock_pivot_elbow_internal_shaft": 7.299233247589779e-07,
+        "joint_camera_0_internal_shaft": 8.06179398515877e-07,
+        "joint_camera_1_internal_shaft": 5.997103217547432e-07,
+        "lock_pivot_camera_internal_shaft": 6.432415664709445e-07,
+        "BaseSwivel": 1.883357170471759e-07,
+        "CameraRoll": 3.8426087770354396e-07,
+        "PadSwingAndSpin": 9.062129671844425e-07
+      },
+      "max_tension_N": 0.0045793842133484905
+    },
+    {
+      "time_s": 7.3,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.04224591697605863,
+        "lock_pivot_elbow_internal_shaft": 0.01070372925986925,
+        "lock_pivot_camera_internal_shaft": -0.029937518652380445,
+        "BaseSwivel": -0.03744705328532757,
+        "CameraRoll": -0.06064800843996604
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.54423311001917e-07,
+        "joint_base_1_internal_shaft": 2.3065528333179383e-07,
+        "joint_elbow_0_internal_shaft": 8.088082676283978e-07,
+        "joint_elbow_2_internal_shaft": 4.561796108102685e-06,
+        "joint_elbow_1_internal_shaft": 6.017331087566918e-07,
+        "lock_pivot_elbow_internal_shaft": 6.34697503152048e-07,
+        "joint_camera_0_internal_shaft": 1.3890235217989383e-07,
+        "joint_camera_1_internal_shaft": 7.773446239848704e-07,
+        "lock_pivot_camera_internal_shaft": 4.167566622314695e-07,
+        "BaseSwivel": 3.5152481207526433e-07,
+        "CameraRoll": 3.797616858466457e-07,
+        "PadSwingAndSpin": 5.371053397899593e-07
+      },
+      "max_tension_N": 0.011889823480762153
+    },
+    {
+      "time_s": 7.3999999999999995,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.0516660480911194,
+        "lock_pivot_elbow_internal_shaft": 0.020235340565472493,
+        "lock_pivot_camera_internal_shaft": -0.01075432895567909,
+        "BaseSwivel": -0.011897838598077814,
+        "CameraRoll": -0.022297360231647377
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 4.179376906551076e-07,
+        "joint_base_1_internal_shaft": 4.223965634281226e-07,
+        "joint_elbow_0_internal_shaft": 4.546800117193505e-07,
+        "joint_elbow_2_internal_shaft": 4.938898433668079e-06,
+        "joint_elbow_1_internal_shaft": 8.24377263352316e-07,
+        "lock_pivot_elbow_internal_shaft": 4.4987430657035005e-07,
+        "joint_camera_0_internal_shaft": 3.0552000050137923e-07,
+        "joint_camera_1_internal_shaft": 5.406589870007048e-07,
+        "lock_pivot_camera_internal_shaft": 2.2053723428135418e-07,
+        "BaseSwivel": 3.2262514986447553e-07,
+        "CameraRoll": 5.836893161263265e-07,
+        "PadSwingAndSpin": 6.970015651751998e-07
+      },
+      "max_tension_N": 0.01520163935661858
+    },
+    {
+      "time_s": 7.5,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.055182416719542035,
+        "lock_pivot_elbow_internal_shaft": 0.023774179982085565,
+        "lock_pivot_camera_internal_shaft": -0.0037127054506225408,
+        "BaseSwivel": -0.0025065513761733083,
+        "CameraRoll": -0.008200810484734965
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.146602971595076e-07,
+        "joint_base_1_internal_shaft": 2.6418382873404324e-07,
+        "joint_elbow_0_internal_shaft": 4.116456036059474e-07,
+        "joint_elbow_2_internal_shaft": 4.339595199472699e-06,
+        "joint_elbow_1_internal_shaft": 6.314998125446855e-07,
+        "lock_pivot_elbow_internal_shaft": 1.1530234096813133e-07,
+        "joint_camera_0_internal_shaft": 5.38345830192257e-07,
+        "joint_camera_1_internal_shaft": 6.936717643057779e-07,
+        "lock_pivot_camera_internal_shaft": 1.547010567154941e-07,
+        "BaseSwivel": 2.1759493839403012e-07,
+        "CameraRoll": 2.7251383270255377e-07,
+        "PadSwingAndSpin": 8.641802932908916e-07
+      },
+      "max_tension_N": 0.016113516428595622
+    },
+    {
+      "time_s": 7.6,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.0564489315380346,
+        "lock_pivot_elbow_internal_shaft": 0.02506284353111701,
+        "lock_pivot_camera_internal_shaft": -0.0011127254442908042,
+        "BaseSwivel": 0.0009238475879085381,
+        "CameraRoll": -0.003009403926678451
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.093889485566033e-07,
+        "joint_base_1_internal_shaft": 2.2014179118479548e-07,
+        "joint_elbow_0_internal_shaft": 3.540088632927453e-07,
+        "joint_elbow_2_internal_shaft": 4.869826692864174e-06,
+        "joint_elbow_1_internal_shaft": 5.182128067126891e-07,
+        "lock_pivot_elbow_internal_shaft": 3.015595099779451e-07,
+        "joint_camera_0_internal_shaft": 3.2574906769339554e-07,
+        "joint_camera_1_internal_shaft": 1.1646799339494936e-06,
+        "lock_pivot_camera_internal_shaft": 2.393036102228683e-07,
+        "BaseSwivel": 5.573654952105393e-07,
+        "CameraRoll": 2.6195993539586707e-07,
+        "PadSwingAndSpin": 4.3298771750676e-07
+      },
+      "max_tension_N": 0.016629550084783926
+    },
+    {
+      "time_s": 7.7,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05689656442941626,
+        "lock_pivot_elbow_internal_shaft": 0.02553151317965542,
+        "lock_pivot_camera_internal_shaft": -0.00017401597271005925,
+        "BaseSwivel": 0.0022109777433899093,
+        "CameraRoll": -0.0010966288878147142
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 8.46332849855028e-07,
+        "joint_base_1_internal_shaft": 4.6633999800207197e-07,
+        "joint_elbow_0_internal_shaft": 1.0642803394533217e-06,
+        "joint_elbow_2_internal_shaft": 4.305753374322879e-06,
+        "joint_elbow_1_internal_shaft": 6.399465157501392e-07,
+        "lock_pivot_elbow_internal_shaft": 6.457874258249865e-07,
+        "joint_camera_0_internal_shaft": 3.234285330319494e-07,
+        "joint_camera_1_internal_shaft": 4.3384984383919455e-07,
+        "lock_pivot_camera_internal_shaft": 3.057808101302798e-07,
+        "BaseSwivel": 6.974287037436581e-07,
+        "CameraRoll": 9.481502585529802e-07,
+        "PadSwingAndSpin": 6.159414494091343e-07
+      },
+      "max_tension_N": 0.016356157185995816
+    },
+    {
+      "time_s": 7.8,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.057092920944328,
+        "lock_pivot_elbow_internal_shaft": 0.025705665518738072,
+        "lock_pivot_camera_internal_shaft": 0.0001695421707346743,
+        "BaseSwivel": 0.0026832815319679255,
+        "CameraRoll": -0.00038397712511687316
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.927376847202689e-07,
+        "joint_base_1_internal_shaft": 4.946092474488033e-07,
+        "joint_elbow_0_internal_shaft": 1.7604073502473993e-07,
+        "joint_elbow_2_internal_shaft": 4.27383806748501e-06,
+        "joint_elbow_1_internal_shaft": 5.494905155225853e-07,
+        "lock_pivot_elbow_internal_shaft": 2.547339002362638e-07,
+        "joint_camera_0_internal_shaft": 1.4706028806008868e-07,
+        "joint_camera_1_internal_shaft": 8.445241835334072e-07,
+        "lock_pivot_camera_internal_shaft": 1.4140764689696343e-07,
+        "BaseSwivel": 8.224739310394811e-07,
+        "CameraRoll": 5.479342408839954e-07,
+        "PadSwingAndSpin": 6.593036120564404e-07
+      },
+      "max_tension_N": 0.016681659889958844
+    },
+    {
+      "time_s": 7.8999999999999995,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05709791577905282,
+        "lock_pivot_elbow_internal_shaft": 0.025727290056216743,
+        "lock_pivot_camera_internal_shaft": 0.00029852084062961765,
+        "BaseSwivel": 0.002858682154029595,
+        "CameraRoll": -0.00012767542637050238
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.9230248046988516e-07,
+        "joint_base_1_internal_shaft": 2.5222349122700084e-07,
+        "joint_elbow_0_internal_shaft": 4.5509165379136996e-07,
+        "joint_elbow_2_internal_shaft": 4.541749155119034e-06,
+        "joint_elbow_1_internal_shaft": 5.262897875997687e-07,
+        "lock_pivot_elbow_internal_shaft": 2.9566557879548607e-07,
+        "joint_camera_0_internal_shaft": 4.336876016544745e-07,
+        "joint_camera_1_internal_shaft": 6.321148454492472e-07,
+        "lock_pivot_camera_internal_shaft": 1.0430838087301952e-07,
+        "BaseSwivel": 5.367157491033371e-07,
+        "CameraRoll": 4.5268681018639175e-07,
+        "PadSwingAndSpin": 6.46483851211566e-07
+      },
+      "max_tension_N": 0.01675816425845293
+    },
+    {
+      "time_s": 8.0,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.057199831033854856,
+        "lock_pivot_elbow_internal_shaft": 0.025834842051298455,
+        "lock_pivot_camera_internal_shaft": 0.00034224680323009375,
+        "BaseSwivel": 0.0029242109045883907,
+        "CameraRoll": -4.6165450645260145e-05
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 5.132149514118174e-07,
+        "joint_base_1_internal_shaft": 2.648733152848638e-07,
+        "joint_elbow_0_internal_shaft": 6.972934074848347e-07,
+        "joint_elbow_2_internal_shaft": 4.665944072276664e-06,
+        "joint_elbow_1_internal_shaft": 3.761424747529959e-07,
+        "lock_pivot_elbow_internal_shaft": 4.2542832698596804e-07,
+        "joint_camera_0_internal_shaft": 9.351226299071445e-07,
+        "joint_camera_1_internal_shaft": 9.848902773515463e-07,
+        "lock_pivot_camera_internal_shaft": 8.201015087162635e-07,
+        "BaseSwivel": 7.523395986315474e-07,
+        "CameraRoll": 7.219582553692495e-07,
+        "PadSwingAndSpin": 8.770726449961912e-07
+      },
+      "max_tension_N": 0.01642251833159536
+    },
+    {
+      "time_s": 8.1,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05715552933761622,
+        "lock_pivot_elbow_internal_shaft": 0.025792943550005182,
+        "lock_pivot_camera_internal_shaft": 0.00036192766188208425,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -2.1907073734185893e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.665201261505832e-07,
+        "joint_base_1_internal_shaft": 2.3678763475270364e-07,
+        "joint_elbow_0_internal_shaft": 5.626720669905792e-07,
+        "joint_elbow_2_internal_shaft": 4.453135561209622e-06,
+        "joint_elbow_1_internal_shaft": 1.1854674687813338e-06,
+        "lock_pivot_elbow_internal_shaft": 4.63899212053694e-07,
+        "joint_camera_0_internal_shaft": 4.737473676178028e-07,
+        "joint_camera_1_internal_shaft": 5.309079833893055e-07,
+        "lock_pivot_camera_internal_shaft": 9.501299760574939e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 4.175145726026472e-07,
+        "PadSwingAndSpin": 4.2620569470860415e-07
+      },
+      "max_tension_N": 0.017053019247271345
+    },
+    {
+      "time_s": 8.2,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05724437802933745,
+        "lock_pivot_elbow_internal_shaft": 0.02585408922163201,
+        "lock_pivot_camera_internal_shaft": 0.00036180931954092046,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.4695877662790465e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.8365579476853853e-07,
+        "joint_base_1_internal_shaft": 3.4623399746719457e-07,
+        "joint_elbow_0_internal_shaft": 5.723947082497741e-07,
+        "joint_elbow_2_internal_shaft": 4.468936924161957e-06,
+        "joint_elbow_1_internal_shaft": 5.739296032374196e-07,
+        "lock_pivot_elbow_internal_shaft": 1.4498127939606077e-07,
+        "joint_camera_0_internal_shaft": 1.8463135587379897e-07,
+        "joint_camera_1_internal_shaft": 7.860723939106141e-07,
+        "lock_pivot_camera_internal_shaft": 4.935877204814775e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 9.092412236682483e-07,
+        "PadSwingAndSpin": 2.8655680412543345e-07
+      },
+      "max_tension_N": 0.016296467566312693
+    },
+    {
+      "time_s": 8.3,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05717626893095691,
+        "lock_pivot_elbow_internal_shaft": 0.025811287390463327,
+        "lock_pivot_camera_internal_shaft": 0.0003617454278575991,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 7.84861991744623e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.3880494086840705e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 1.8113943805391798e-07,
+        "joint_elbow_2_internal_shaft": 4.215048020266746e-06,
+        "joint_elbow_1_internal_shaft": 4.3020683735312174e-07,
+        "lock_pivot_elbow_internal_shaft": 2.987683614598441e-07,
+        "joint_camera_0_internal_shaft": 2.2186118336028168e-07,
+        "joint_camera_1_internal_shaft": 4.0023319447855733e-07,
+        "lock_pivot_camera_internal_shaft": 6.099550725809185e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 9.611309083625516e-07,
+        "PadSwingAndSpin": 9.187748841065582e-07
+      },
+      "max_tension_N": 0.01642966889659103
+    },
+    {
+      "time_s": 8.4,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05722012871702141,
+        "lock_pivot_elbow_internal_shaft": 0.0258334902442027,
+        "lock_pivot_camera_internal_shaft": 0.00036359287027969633,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -4.202511402013316e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.3439816047543125e-07,
+        "joint_base_1_internal_shaft": 2.8205434338635586e-07,
+        "joint_elbow_0_internal_shaft": 1.2345064753519486e-07,
+        "joint_elbow_2_internal_shaft": 4.458599814057276e-06,
+        "joint_elbow_1_internal_shaft": 2.3118109315367e-07,
+        "lock_pivot_elbow_internal_shaft": 1.733093484638752e-07,
+        "joint_camera_0_internal_shaft": 1.7501395833818716e-07,
+        "joint_camera_1_internal_shaft": 4.406023414077006e-07,
+        "lock_pivot_camera_internal_shaft": 1.3569861966758457e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 7.13899220433892e-07,
+        "PadSwingAndSpin": 2.3611442062440244e-07
+      },
+      "max_tension_N": 0.016612566600902177
+    },
+    {
+      "time_s": 8.5,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05717626893095691,
+        "lock_pivot_elbow_internal_shaft": 0.025812262563792633,
+        "lock_pivot_camera_internal_shaft": 0.0003597210152952653,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 1.0670430215136817e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.3880494086840705e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 3.303723261977481e-07,
+        "joint_elbow_2_internal_shaft": 4.5122247541335775e-06,
+        "joint_elbow_1_internal_shaft": 6.361843124655123e-07,
+        "lock_pivot_elbow_internal_shaft": 3.822270551886192e-07,
+        "joint_camera_0_internal_shaft": 8.425044554319487e-07,
+        "joint_camera_1_internal_shaft": 1.2795533410024598e-06,
+        "lock_pivot_camera_internal_shaft": 7.423008362772767e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 4.286053882100409e-07,
+        "PadSwingAndSpin": 5.911798142947424e-07
+      },
+      "max_tension_N": 0.016547210530936402
+    },
+    {
+      "time_s": 8.6,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05719674755408632,
+        "lock_pivot_elbow_internal_shaft": 0.025813133512902736,
+        "lock_pivot_camera_internal_shaft": 0.00036137436069889526,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -8.744535176905905e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 7.472723098645521e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 4.872360778774707e-07,
+        "joint_elbow_2_internal_shaft": 4.552478388931065e-06,
+        "joint_elbow_1_internal_shaft": 5.570660677564908e-07,
+        "lock_pivot_elbow_internal_shaft": 1.9913143430837534e-07,
+        "joint_camera_0_internal_shaft": 7.696884053758821e-07,
+        "joint_camera_1_internal_shaft": 1.1189769885308135e-06,
+        "lock_pivot_camera_internal_shaft": 9.743119557321969e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 6.444921197323398e-07,
+        "PadSwingAndSpin": 5.74536687684291e-07
+      },
+      "max_tension_N": 0.016612566600902177
+    },
+    {
+      "time_s": 8.7,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05717626893095691,
+        "lock_pivot_elbow_internal_shaft": 0.025812884399639236,
+        "lock_pivot_camera_internal_shaft": 0.0003642752390292973,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -3.896571343840716e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.3880494086840705e-07,
+        "joint_base_1_internal_shaft": 2.570239626693077e-07,
+        "joint_elbow_0_internal_shaft": 3.098098851066559e-07,
+        "joint_elbow_2_internal_shaft": 4.673192420295388e-06,
+        "joint_elbow_1_internal_shaft": 4.768379353768761e-07,
+        "lock_pivot_elbow_internal_shaft": 1.5481200697269115e-07,
+        "joint_camera_0_internal_shaft": 1.197358711240509e-07,
+        "joint_camera_1_internal_shaft": 6.640890729887035e-07,
+        "lock_pivot_camera_internal_shaft": 4.563916983418788e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 8.351803798957037e-07,
+        "PadSwingAndSpin": 6.22982675217284e-07
+      },
+      "max_tension_N": 0.01699033845750611
+    },
+    {
+      "time_s": 8.8,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.057287050631101594,
+        "lock_pivot_elbow_internal_shaft": 0.02587592193298923,
+        "lock_pivot_camera_internal_shaft": 0.0003650345552176204,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.0959872542520843e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 6.153023065918759e-07,
+        "joint_base_1_internal_shaft": 8.726670240121432e-08,
+        "joint_elbow_0_internal_shaft": 3.784795971061524e-07,
+        "joint_elbow_2_internal_shaft": 4.139067310812092e-06,
+        "joint_elbow_1_internal_shaft": 7.22155754691829e-07,
+        "lock_pivot_elbow_internal_shaft": 2.316811041511963e-07,
+        "joint_camera_0_internal_shaft": 5.042600957055587e-07,
+        "joint_camera_1_internal_shaft": 5.726528071411963e-07,
+        "lock_pivot_camera_internal_shaft": 2.9977432423058466e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 1.2398836317525753e-07,
+        "PadSwingAndSpin": 6.246608683320366e-07
+      },
+      "max_tension_N": 0.01702956659307933
+    },
+    {
+      "time_s": 8.9,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05719674755408632,
+        "lock_pivot_elbow_internal_shaft": 0.025811753859110286,
+        "lock_pivot_camera_internal_shaft": 0.0003632007796592931,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -1.8836895839266933e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 7.472723098645521e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 1.0485398755259413e-06,
+        "joint_elbow_2_internal_shaft": 4.5070553432591674e-06,
+        "joint_elbow_1_internal_shaft": 3.0323798514611366e-07,
+        "lock_pivot_elbow_internal_shaft": 3.975627695877794e-07,
+        "joint_camera_0_internal_shaft": 5.971897120561581e-07,
+        "joint_camera_1_internal_shaft": 7.680947409942017e-07,
+        "lock_pivot_camera_internal_shaft": 1.9401654994632137e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 4.157437935914316e-07,
+        "PadSwingAndSpin": 9.409046661456668e-07
+      },
+      "max_tension_N": 0.016612566600902177
+    },
+    {
+      "time_s": 9.0,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05726695562638653,
+        "lock_pivot_elbow_internal_shaft": 0.02585427620754814,
+        "lock_pivot_camera_internal_shaft": 0.00036420108791172166,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 1.3947417615496549e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.5136227136520284e-07,
+        "joint_base_1_internal_shaft": 4.5110783083732964e-07,
+        "joint_elbow_0_internal_shaft": 2.516686931805664e-07,
+        "joint_elbow_2_internal_shaft": 4.259674357705974e-06,
+        "joint_elbow_1_internal_shaft": 4.1601413406042383e-07,
+        "lock_pivot_elbow_internal_shaft": 5.084778925289269e-07,
+        "joint_camera_0_internal_shaft": 2.2069169392717224e-07,
+        "joint_camera_1_internal_shaft": 4.3238289856558453e-07,
+        "lock_pivot_camera_internal_shaft": 5.152634507476506e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 2.7645163875701683e-07,
+        "PadSwingAndSpin": 2.0450918095404827e-07
+      },
+      "max_tension_N": 0.016525331724216736
+    },
+    {
+      "time_s": 9.1,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05719674755408632,
+        "lock_pivot_elbow_internal_shaft": 0.02581314786068745,
+        "lock_pivot_camera_internal_shaft": 0.00036590422078074553,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 6.775358476838627e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 7.472723098645521e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 5.586465612384978e-07,
+        "joint_elbow_2_internal_shaft": 4.45063834532536e-06,
+        "joint_elbow_1_internal_shaft": 3.3286368966894715e-07,
+        "lock_pivot_elbow_internal_shaft": 7.298380355070845e-08,
+        "joint_camera_0_internal_shaft": 3.372762239783824e-07,
+        "joint_camera_1_internal_shaft": 8.7622761488614e-07,
+        "lock_pivot_camera_internal_shaft": 1.3641136804008936e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 3.4679889739457566e-07,
+        "PadSwingAndSpin": 8.239752091854877e-07
+      },
+      "max_tension_N": 0.016621842651413383
+    },
+    {
+      "time_s": 9.2,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05722012871702141,
+        "lock_pivot_elbow_internal_shaft": 0.02583555072910193,
+        "lock_pivot_camera_internal_shaft": 0.00036489452340328284,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -3.2729157543759333e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.3439816047543125e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 4.905452860586248e-07,
+        "joint_elbow_2_internal_shaft": 4.372652440788336e-06,
+        "joint_elbow_1_internal_shaft": 6.881796476996939e-07,
+        "lock_pivot_elbow_internal_shaft": 3.983775849427731e-07,
+        "joint_camera_0_internal_shaft": 1.1728385986076865e-06,
+        "joint_camera_1_internal_shaft": 1.7474153979719492e-06,
+        "lock_pivot_camera_internal_shaft": 7.009131276780465e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 2.1107397280319265e-07,
+        "PadSwingAndSpin": 4.884946771004887e-07
+      },
+      "max_tension_N": 0.016407042608681085
+    },
+    {
+      "time_s": 9.3,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05724437802933745,
+        "lock_pivot_elbow_internal_shaft": 0.025853077463213813,
+        "lock_pivot_camera_internal_shaft": 0.00036154619548270253,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -1.3310248184240133e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.8365579476853853e-07,
+        "joint_base_1_internal_shaft": 2.8205434338635586e-07,
+        "joint_elbow_0_internal_shaft": 4.919361509591619e-07,
+        "joint_elbow_2_internal_shaft": 4.321953023499606e-06,
+        "joint_elbow_1_internal_shaft": 6.211355701054135e-07,
+        "lock_pivot_elbow_internal_shaft": 3.127408288711495e-07,
+        "joint_camera_0_internal_shaft": 6.596910917439804e-07,
+        "joint_camera_1_internal_shaft": 1.179863016266207e-06,
+        "lock_pivot_camera_internal_shaft": 7.405967379817149e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 6.044474363792848e-07,
+        "PadSwingAndSpin": 4.135085790065258e-07
+      },
+      "max_tension_N": 0.01631016242884264
+    },
+    {
+      "time_s": 9.4,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05717626893095691,
+        "lock_pivot_elbow_internal_shaft": 0.02581088222226234,
+        "lock_pivot_camera_internal_shaft": 0.00036318142143915714,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.0101015530081087e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.3880494086840705e-07,
+        "joint_base_1_internal_shaft": 2.3678763475270364e-07,
+        "joint_elbow_0_internal_shaft": 2.7519312110602556e-07,
+        "joint_elbow_2_internal_shaft": 4.526563594936494e-06,
+        "joint_elbow_1_internal_shaft": 4.960563310116606e-07,
+        "lock_pivot_elbow_internal_shaft": 2.4570676788849777e-07,
+        "joint_camera_0_internal_shaft": 9.438905920587374e-08,
+        "joint_camera_1_internal_shaft": 8.918647049982463e-07,
+        "lock_pivot_camera_internal_shaft": 2.907664976060776e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 3.567224957627841e-07,
+        "PadSwingAndSpin": 7.496924146565433e-07
+      },
+      "max_tension_N": 0.016873054609138006
+    },
+    {
+      "time_s": 9.5,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05715552933761622,
+        "lock_pivot_elbow_internal_shaft": 0.02579090169560737,
+        "lock_pivot_camera_internal_shaft": 0.0003620577482205045,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -3.136312724740685e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.665201261505832e-07,
+        "joint_base_1_internal_shaft": 3.5204847413029945e-07,
+        "joint_elbow_0_internal_shaft": 3.7674375100571136e-07,
+        "joint_elbow_2_internal_shaft": 4.4592410425422426e-06,
+        "joint_elbow_1_internal_shaft": 2.8766741082857415e-07,
+        "lock_pivot_elbow_internal_shaft": 6.898791241996901e-08,
+        "joint_camera_0_internal_shaft": 3.895330226161443e-07,
+        "joint_camera_1_internal_shaft": 8.027606287305743e-07,
+        "lock_pivot_camera_internal_shaft": 6.708103814095796e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 5.499078691354329e-07,
+        "PadSwingAndSpin": 4.534967216928533e-07
+      },
+      "max_tension_N": 0.01689874530193113
+    },
+    {
+      "time_s": 9.6,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05724437802933745,
+        "lock_pivot_elbow_internal_shaft": 0.025853019113042542,
+        "lock_pivot_camera_internal_shaft": 0.00036486708819232936,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": -1.6205463422923872e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 3.8365579476853853e-07,
+        "joint_base_1_internal_shaft": 8.726670240121432e-08,
+        "joint_elbow_0_internal_shaft": 1.809225996455884e-07,
+        "joint_elbow_2_internal_shaft": 4.24830279321213e-06,
+        "joint_elbow_1_internal_shaft": 1.1292340599948935e-06,
+        "lock_pivot_elbow_internal_shaft": 6.108955685097269e-07,
+        "joint_camera_0_internal_shaft": 4.4281203021224103e-07,
+        "joint_camera_1_internal_shaft": 5.063572479131853e-07,
+        "lock_pivot_camera_internal_shaft": 5.867596308563211e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 9.425779329686301e-07,
+        "PadSwingAndSpin": 8.840111079866841e-07
+      },
+      "max_tension_N": 0.016559161861648148
+    },
+    {
+      "time_s": 9.7,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05719674755408632,
+        "lock_pivot_elbow_internal_shaft": 0.025811045838687405,
+        "lock_pivot_camera_internal_shaft": 0.0003607536129446751,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.9898189525084433e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 7.472723098645521e-07,
+        "joint_base_1_internal_shaft": 2.3678763475270364e-07,
+        "joint_elbow_0_internal_shaft": 1.1593302221837426e-06,
+        "joint_elbow_2_internal_shaft": 4.631620628509392e-06,
+        "joint_elbow_1_internal_shaft": 6.5314793485674e-07,
+        "lock_pivot_elbow_internal_shaft": 6.082893126601868e-07,
+        "joint_camera_0_internal_shaft": 7.896445984967321e-07,
+        "joint_camera_1_internal_shaft": 1.1102160668922472e-06,
+        "lock_pivot_camera_internal_shaft": 4.855338978996561e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 3.176269034848504e-07,
+        "PadSwingAndSpin": 4.560052084024695e-07
+      },
+      "max_tension_N": 0.016321861399219185
+    },
+    {
+      "time_s": 9.8,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05717626893095691,
+        "lock_pivot_elbow_internal_shaft": 0.025811640905222394,
+        "lock_pivot_camera_internal_shaft": 0.0003625888648081358,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 2.5781393798385543e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.3880494086840705e-07,
+        "joint_base_1_internal_shaft": 1.82705800618987e-07,
+        "joint_elbow_0_internal_shaft": 2.862917399993364e-07,
+        "joint_elbow_2_internal_shaft": 4.300315210964849e-06,
+        "joint_elbow_1_internal_shaft": 3.586006963909175e-07,
+        "lock_pivot_elbow_internal_shaft": 3.8991208286645484e-07,
+        "joint_camera_0_internal_shaft": 5.032313743065664e-07,
+        "joint_camera_1_internal_shaft": 6.396355825111675e-07,
+        "lock_pivot_camera_internal_shaft": 5.18452086080357e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 6.424794576545387e-07,
+        "PadSwingAndSpin": 5.444098941034484e-07
+      },
+      "max_tension_N": 0.01659263340489364
+    },
+    {
+      "time_s": 9.9,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05726695562638653,
+        "lock_pivot_elbow_internal_shaft": 0.025875629417844957,
+        "lock_pivot_camera_internal_shaft": 0.0003631905820712752,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 8.70315762772244e-07
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 2.5136227136520284e-07,
+        "joint_base_1_internal_shaft": 8.726670240121432e-08,
+        "joint_elbow_0_internal_shaft": 2.516686931805664e-07,
+        "joint_elbow_2_internal_shaft": 4.565545065779601e-06,
+        "joint_elbow_1_internal_shaft": 5.335288894381098e-07,
+        "lock_pivot_elbow_internal_shaft": 3.5398592469968637e-07,
+        "joint_camera_0_internal_shaft": 2.6742739325725346e-07,
+        "joint_camera_1_internal_shaft": 8.33944489415382e-07,
+        "lock_pivot_camera_internal_shaft": 3.5316190890322046e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 5.160003144155224e-07,
+        "PadSwingAndSpin": 6.672464230697223e-07
+      },
+      "max_tension_N": 0.016296467566312693
+    },
+    {
+      "time_s": 9.995833333333334,
+      "targets_deg": {
+        "BaseSwivel": 0,
+        "joint_base_0_internal_shaft": 0,
+        "lock_pivot_elbow_internal_shaft": 0,
+        "lock_pivot_camera_internal_shaft": 0,
+        "CameraRoll": 0
+      },
+      "angles_deg": {
+        "joint_base_0_internal_shaft": 0.05717626893095691,
+        "lock_pivot_elbow_internal_shaft": 0.025811287390463327,
+        "lock_pivot_camera_internal_shaft": 0.00036502480224830607,
+        "BaseSwivel": 0.002942948885442352,
+        "CameraRoll": 3.972838146365266e-06
+      },
+      "anchor_gaps_m": {
+        "joint_base_0_internal_shaft": 1.3880494086840705e-07,
+        "joint_base_1_internal_shaft": 1.998879501082486e-07,
+        "joint_elbow_0_internal_shaft": 1.8113943805391798e-07,
+        "joint_elbow_2_internal_shaft": 4.215048020266746e-06,
+        "joint_elbow_1_internal_shaft": 4.3020683735312174e-07,
+        "lock_pivot_elbow_internal_shaft": 2.987683614598441e-07,
+        "joint_camera_0_internal_shaft": 2.185333525807147e-07,
+        "joint_camera_1_internal_shaft": 5.818373113965851e-07,
+        "lock_pivot_camera_internal_shaft": 4.712838021888874e-07,
+        "BaseSwivel": 6.242987917895676e-07,
+        "CameraRoll": 2.6713656925208504e-07,
+        "PadSwingAndSpin": 1.35824164871685e-06
+      },
+      "max_tension_N": 0.016613815721112573
+    }
+  ]
+}

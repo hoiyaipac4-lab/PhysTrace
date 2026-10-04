@@ -1,0 +1,159 @@
+{
+  "asset": "airfryer",
+  "urdf": "airfryer.urdf",
+  "source": "../../../../../external_sources/source_0039/airfryer.usda",
+  "source_usd_version": [
+    0,
+    25,
+    11
+  ],
+  "moving_link": "drawer",
+  "opening_joint": "opening_joint",
+  "joint_kind": "slide",
+  "positive_coordinate": "opening",
+  "limit": 0.16,
+  "profile": "../../../../../external_sources/source_0048/A04.json",
+  "base_fixture": "fixed for joint/force benchmark",
+  "auxiliary_knobs": "fixed in opening-task variant; untouched USD retains original joints",
+  "source_door_drive": "replaced by one explicit shared resistance model; no duplicate brake",
+  "inertias": {
+    "base": {
+      "mass_kg": 2.5,
+      "com_m": [
+        0.0,
+        0.0,
+        0.14499999582767487
+      ],
+      "diagonal_inertia": [
+        0.017999999225139618,
+        0.017999999225139618,
+        0.014999999664723873
+      ],
+      "source": "source_explicit",
+      "mass_origin": "source engineering nominal; base fixed by fixture"
+    },
+    "drawer": {
+      "mass_kg": 0.6000000238418579,
+      "com_m": [
+        0.0,
+        -0.014999999664723873,
+        0.07999999821186066
+      ],
+      "diagonal_inertia": [
+        0.0010999999940395355,
+        0.0010000000474974513,
+        0.0017000000225380063
+      ],
+      "source": "source_explicit",
+      "mass_origin": "source engineering nominal; base fixed by fixture"
+    },
+    "knob": {
+      "mass_kg": 0.03999999910593033,
+      "com_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diagonal_inertia": [
+        6.000000212225132e-06,
+        1.1000000085914508e-05,
+        6.000000212225132e-06
+      ],
+      "source": "source_explicit",
+      "mass_origin": "source engineering nominal; base fixed by fixture"
+    }
+  },
+  "collisions": [
+    {
+      "source_obj": "../meshes/base_001.obj",
+      "source_sha256": "21b1c697f7b7e2984d3e4890a747369986c15aeb527320f5fb35539262f60e18",
+      "pieces": [
+        "airfryer_collision_0000.obj",
+        "airfryer_collision_0001.obj",
+        "airfryer_collision_0002.obj",
+        "airfryer_collision_0003.obj",
+        "airfryer_collision_0004.obj",
+        "airfryer_collision_0005.obj",
+        "airfryer_collision_0006.obj",
+        "airfryer_collision_0007.obj",
+        "airfryer_collision_0008.obj",
+        "airfryer_collision_0009.obj",
+        "airfryer_collision_0010.obj",
+        "airfryer_collision_0011.obj",
+        "airfryer_collision_0012.obj",
+        "airfryer_collision_0013.obj",
+        "airfryer_collision_0014.obj",
+        "airfryer_collision_0015.obj",
+        "airfryer_collision_0016.obj",
+        "airfryer_collision_0017.obj",
+        "airfryer_collision_0018.obj",
+        "airfryer_collision_0019.obj",
+        "airfryer_collision_0020.obj",
+        "airfryer_collision_0021.obj",
+        "airfryer_collision_0022.obj",
+        "airfryer_collision_0023.obj",
+        "airfryer_collision_0024.obj",
+        "airfryer_collision_0025.obj",
+        "airfryer_collision_0026.obj",
+        "airfryer_collision_0027.obj",
+        "airfryer_collision_0028.obj",
+        "airfryer_collision_0029.obj",
+        "airfryer_collision_0030.obj",
+        "airfryer_collision_0031.obj",
+        "airfryer_collision_0032.obj",
+        "airfryer_collision_0033.obj"
+      ],
+      "method": "shared VHACD, resolution300000 concavity0.001; geometric acceptance pending",
+      "source_approximation": "sdf"
+    },
+    {
+      "source_obj": "../meshes/knob_002.obj",
+      "source_sha256": "47cacf9b6f479f8269811f9e1ba85c1b535b0f9dea2a0288249ecd4606ba2eb0",
+      "pieces": [
+        "airfryer_collision_0060.obj"
+      ],
+      "method": "shared VHACD, resolution300000 concavity0.001; geometric acceptance pending",
+      "source_approximation": "convexHull"
+    },
+    {
+      "source_obj": "../meshes/drawer_003.obj",
+      "source_sha256": "a6192b99a4fa031c3f5a5c4eda64c3070a3725300b9d69f091c702c96e4d1acb",
+      "pieces": [
+        "airfryer_collision_0034.obj",
+        "airfryer_collision_0035.obj",
+        "airfryer_collision_0036.obj",
+        "airfryer_collision_0037.obj",
+        "airfryer_collision_0038.obj",
+        "airfryer_collision_0039.obj",
+        "airfryer_collision_0040.obj",
+        "airfryer_collision_0041.obj",
+        "airfryer_collision_0042.obj",
+        "airfryer_collision_0043.obj",
+        "airfryer_collision_0044.obj",
+        "airfryer_collision_0045.obj",
+        "airfryer_collision_0046.obj",
+        "airfryer_collision_0047.obj",
+        "airfryer_collision_0048.obj",
+        "airfryer_collision_0049.obj",
+        "airfryer_collision_0050.obj",
+        "airfryer_collision_0051.obj",
+        "airfryer_collision_0052.obj",
+        "airfryer_collision_0053.obj",
+        "airfryer_collision_0054.obj",
+        "airfryer_collision_0055.obj",
+        "airfryer_collision_0056.obj",
+        "airfryer_collision_0057.obj",
+        "airfryer_collision_0058.obj",
+        "airfryer_collision_0059.obj"
+      ],
+      "method": "shared VHACD, resolution300000 concavity0.001; geometric acceptance pending",
+      "source_approximation": "sdf"
+    }
+  ],
+  "status": "generated; native imports and clearance tests required",
+  "tactile_units": "source raw U; engineering gain supplied separately, no calibrated N comparison",
+  "note": "Shared collision decomposition is a declared geometry approximation, not exact source SDF equivalence",
+  "naming": "globally unique collision mesh basename across all links; identical vertices to v2",
+  "source_common_v2": "../../../../../external_sources/source_0049/common_v2",
+  "normals": "vertex normals added for Gazebo/DART OBJ compatibility; vertex positions and topology unchanged"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "asset_file": "asset.usda",
+  "asset_sha256": "7cff01fc817d646cc01a877072215486f2fbcbb366ce0e940ce424d2400f57ea",
+  "dependency_fingerprint": "ffd282bf21d45a1a3315a2a2de199a48b73ef3d2a0a7cc308ef158c0a35807ee",
+  "dependencies": [
+    {
+      "path": "asset.usda",
+      "sha256": "7cff01fc817d646cc01a877072215486f2fbcbb366ce0e940ce424d2400f57ea"
+    },
+    {
+      "path": "geometry.usdc",
+      "sha256": "e079a65f61bc0209f5486f4999a79b8b0e2bd2569cba1eb9501dc315991f03e3"
+    },
+    {
+      "path": "textures/013.png",
+      "sha256": "4cfaa7dbd92458743f8e8d3c4e76dc38a592c88c96a5e3d1e8b3676ba2057491"
+    }
+  ],
+  "default_prim": "/root",
+  "up_axis": "Z",
+  "meters_per_unit": 1.0,
+  "mesh_count": 162,
+  "vertex_count": 15372,
+  "face_count": 15536,
+  "bodies": [],
+  "joints": [],
+  "enabled_collider_count": 162,
+  "scope": "Default-time structural checks and local dependency hashing only. No appearance, manifold, animation, cooked-collider, collision-clearance or actual simulation acceptance is implied."
+}

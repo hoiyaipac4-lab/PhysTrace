@@ -1,0 +1,78 @@
+{
+  "asset_id": "robot_arm_part_c_clamp",
+  "name": "机械臂零件（扫描形状为C形螺旋夹具）",
+  "version": "black_final_v1",
+  "status": "frozen_engineering_release_isaac_scoped_pass",
+  "training_ready": false,
+  "original_source": "../../../../external_sources/source_0032/机械臂零件.obj",
+  "source_sha256": "992b3c2bd4e517a08b2cd0030486a0729aebde3065cd5b7d4bdcd40f0c386626",
+  "source_to_obj_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_to_blender_scale": 0.001,
+  "units": "OBJ与逐件偏差沿用原数值；暂估毫米，未实测标定。Blender坐标以米保存，乘0.001。",
+  "assumptions": [
+    "frame inner bore",
+    "spindle hidden inside boss",
+    "handle passage",
+    "pad underside closure and spindle connection",
+    "夹体内孔按螺杆轴线推定；内螺纹没有可见扫描依据，未伪造标准牙型",
+    "压盘隐藏连接为可修改的推定凹座；不能证明真实内部机构"
+  ],
+  "geometry_checks": {
+    "closed_parts": 4,
+    "self_intersection_faces": {
+      "frame": 0,
+      "screw": 0,
+      "pad": 0,
+      "handle": 0
+    },
+    "discrete_motion_positions_estimated_mm": [
+      0,
+      4.5,
+      9,
+      13.5,
+      18
+    ],
+    "discrete_motion_intersection_volumes": "全部为0；不等同连续路径或动力学验证"
+  },
+  "limitations": [
+    "尺寸、物性及几何容差未标定；隐藏结构为推定等效机构",
+    "测试范围与步频、接触包络见验收报告；机器人任务尚未验证"
+  ],
+  "isaac_acceptance": {
+    "motion_480": "PASS",
+    "drop_960": "PASS",
+    "clamp_480": "PASS",
+    "probe_480": "PASS"
+  },
+  "asset_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc",
+  "color": "black user specified",
+  "handle_slide_limits_m": [
+    -0.045,
+    0.008
+  ]
+}

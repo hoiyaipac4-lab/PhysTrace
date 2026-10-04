@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "asset_id": "01_door",
+  "name": "门",
+  "description": "米灰色平板门，深灰窄框，银色横向把手，锁孔位于把手上方。门向室内打开。",
+  "sources": [
+    {
+      "id": "V01",
+      "path": "../../evidence/source.qt",
+      "kind": "appearance_video",
+      "sha256": "ffb80ae2531995f9cc15f044cebb5987cbbb0a5dcc1fe604707130598cb30c29",
+      "fps": 30,
+      "frame_count": 894,
+      "width": 960,
+      "height": 540,
+      "original_path": "../../../../../../external_sources/source_0038/Feishu20260924-230046.qt"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E08",
+      "source_id": "V01",
+      "frame": 449,
+      "time_seconds": 14.966666666666667,
+      "image_path": "../../evidence/008.png",
+      "observation": "米灰色平板门，深灰窄框，银色横向把手，锁孔位于把手上方。门向室内打开。"
+    },
+    {
+      "id": "E09",
+      "source_id": "V01",
+      "frame": 509,
+      "time_seconds": 16.966666666666665,
+      "image_path": "../../evidence/009.png",
+      "observation": "米灰色平板门，深灰窄框，银色横向把手，锁孔位于把手上方。门向室内打开。"
+    },
+    {
+      "id": "E10",
+      "source_id": "V01",
+      "frame": 569,
+      "time_seconds": 18.966666666666665,
+      "image_path": "../../evidence/010.png",
+      "observation": "米灰色平板门，深灰窄框，银色横向把手，锁孔位于把手上方。门向室内打开。"
+    }
+  ],
+  "appearance": [
+    {
+      "id": "A01",
+      "statement": "米灰色平板门，深灰窄框，银色横向把手，锁孔位于把手上方。门向室内打开。",
+      "certainty": "observed",
+      "evidence_ids": [
+        "E08",
+        "E09",
+        "E10"
+      ]
+    }
+  ],
+  "structure": [
+    {
+      "id": "S01",
+      "statement": "一片门扇、三处近似铰链、窄门框、两侧把手及锁饰盖",
+      "certainty": "inferred",
+      "basis": "可见轮廓与遮挡处的最小合理补全",
+      "evidence_ids": [
+        "E08",
+        "E09",
+        "E10"
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "I01",
+      "statement": "仅观察到开启状态，未观察到连续开关、闭门器或门锁动作。",
+      "certainty": "unknown",
+      "missing_evidence": "无受控交互测量",
+      "evidence_ids": [
+        "E08",
+        "E09",
+        "E10"
+      ]
+    }
+  ],
+  "preserve": [
+    "米灰色平板门，深灰窄框，银色横向把手，锁孔位于把手上方。门向室内打开。"
+  ],
+  "known_defects": [],
+  "requirements": [
+    {
+      "id": "R01",
+      "domain": "appearance",
+      "criterion": "保留源视频的主体轮廓、颜色和可见细节；尺寸为估计",
+      "claim_ids": [
+        "A01"
+      ],
+      "required": true,
+      "method": "源帧与Blender/USD预览人工对照"
+    },
+    {
+      "id": "R02",
+      "domain": "structure",
+      "criterion": "可编辑分件、独立USD、米制Z向上、无丢失依赖",
+      "claim_ids": [
+        "S01"
+      ],
+      "required": true,
+      "method": "模型重开、USD结构及依赖检查"
+    },
+    {
+      "id": "R03",
+      "domain": "interaction",
+      "criterion": "在Isaac Sim实际步进中验证所配置的基础碰撞/关节，不扩大到真实物理标定",
+      "claim_ids": [
+        "I01"
+      ],
+      "required": true,
+      "method": "引擎真实位姿记录与测试画面"
+    }
+  ],
+  "limitations": [
+    "仅观察到开启状态，未观察到连续开关、闭门器或门锁动作。",
+    "所有尺寸、质量、摩擦、隐藏结构及房间外部环境均未实测。"
+  ]
+}

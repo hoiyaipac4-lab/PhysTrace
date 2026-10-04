@@ -1,0 +1,181 @@
+{
+  "axis_origin": [
+    115.39186740230157,
+    300.83467886854095,
+    2090.0
+  ],
+  "axis_direction": [
+    0.05767214948580592,
+    -0.03564355557575782,
+    0.9976990829501674
+  ],
+  "axis_fit": [
+    115.39186740230157,
+    300.83467886854095,
+    0.05780515435102039,
+    -0.03572575758049296,
+    4.893950152492344
+  ],
+  "thread_pitch_estimated": 3.005,
+  "thread_handed_fit": -1,
+  "thread_radial_fit": [
+    4.894188759608477,
+    0.031108136591816188,
+    0.2713850044386134,
+    0.04644308206212325,
+    -0.005491734275377268
+  ],
+  "thread_radial_rms_robust": 0.21915846094319186,
+  "handle_origin": [
+    128.75672917855442,
+    314.7644419262507,
+    2004.5337828431873
+  ],
+  "handle_axis": [
+    0.8608088993493531,
+    0.5077182129658725,
+    -0.035074991428308736
+  ],
+  "handle_radius": 2.4009541881087926,
+  "frame_grid_step": 0.4,
+  "units": "estimated mm, not calibrated",
+  "evidence": "frame rebuilt from measured silhouette and paired surface fields; rotational pieces from measured axes and radial profiles",
+  "inferred": [
+    "frame inner bore",
+    "spindle hidden inside boss",
+    "handle passage",
+    "pad underside closure and spindle connection"
+  ],
+  "status": "final_engineering_release",
+  "pad_reconstruction": "screened Poisson from segmented scan normals, retaining asymmetric recessed top; underside clipping and spindle recess inferred",
+  "sim_source_origin_raw": [
+    143.0,
+    305.0,
+    1997.2685575
+  ],
+  "part_properties": {
+    "frame": {
+      "center": [
+        0.01218782860313072,
+        -0.003565930615110332,
+        0.10455657513522482
+      ],
+      "mass": 0.307382531041049,
+      "inertia": [
+        0.000684634551618718,
+        0.0008867422553006758,
+        0.00021003354323279885
+      ],
+      "bounds": [
+        [
+          -0.04059194183,
+          -0.017886291500000026,
+          0.03853954797000006
+        ],
+        [
+          0.05059138489,
+          0.007729766849999976,
+          0.17812328819999992
+        ]
+      ],
+      "faces": 273436
+    },
+    "screw": {
+      "center": [
+        -0.029258713764797807,
+        -0.0031478553995132872,
+        0.06417534666734104
+      ],
+      "mass": 0.07240721866981283,
+      "inertia": [
+        9.302210643544832e-05,
+        9.320722441315466e-05,
+        1.3006049880966555e-06
+      ],
+      "bounds": [
+        [
+          -0.03784993744000001,
+          -0.01045910644999998,
+          -0.0002524442200001431
+        ],
+        [
+          -0.020689781190000006,
+          0.00403582763999998,
+          0.12610815147999985
+        ]
+      ],
+      "faces": 229096
+    },
+    "pad": {
+      "center": [
+        -0.02558418788408438,
+        -0.005757638738714816,
+        0.13073240924443721
+      ],
+      "mass": 0.010581433432455623,
+      "inertia": [
+        2.687775545013419e-07,
+        2.622188625010665e-07,
+        4.119609766248389e-07
+      ],
+      "bounds": [
+        [
+          -0.03496630096,
+          -0.014913055419999979,
+          0.12573144249999996
+        ],
+        [
+          -0.016252891539999995,
+          0.0036682434100000025,
+          0.13575146202999985
+        ]
+      ],
+      "faces": 10368
+    },
+    "handle": {
+      "center": [
+        -0.017213153560315688,
+        0.008012759807159136,
+        0.007386237813816201
+      ],
+      "mass": 0.010981875809430913,
+      "inertia": [
+        1.5072104203649215e-06,
+        4.255798867123825e-06,
+        5.715076360461726e-06
+      ],
+      "bounds": [
+        [
+          -0.04970639783,
+          -0.012689716939999983,
+          0.0031487485200000264
+        ],
+        [
+          0.017129951419999997,
+          0.02948028247000002,
+          0.012077039130000003
+        ]
+      ],
+      "faces": 64768
+    }
+  },
+  "unit_scale": 0.001,
+  "density_assumption_kg_m3": 7800,
+  "handle_slide_limits_m": [
+    -0.045,
+    0.008
+  ],
+  "handle_retention_basis": {
+    "axis_closest_gap_mm": 0.11333786,
+    "handle_projected_extent_mm": [
+      -40.0781391,
+      35.5218609
+    ],
+    "screw_passage_region_projected_mm": [
+      -26.1964625,
+      -16.3673684
+    ],
+    "min_end_overhang_mm": 5.8816766,
+    "note": "Conservative travel derived from scan-supported rod ends and sleeve extent; internal stop construction inferred."
+  }
+}

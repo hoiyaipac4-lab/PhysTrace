@@ -1,0 +1,5 @@
+# Run in the Isaac Sim 5.1 Python environment. Check bundled packages first.
+# The scene also requires Isaac Sim's own isaacsim, omni, carb and pxr modules.
+# This file lists auxiliary imports; it is not a replacement Isaac Sim environment.
+numpy
+Pillow

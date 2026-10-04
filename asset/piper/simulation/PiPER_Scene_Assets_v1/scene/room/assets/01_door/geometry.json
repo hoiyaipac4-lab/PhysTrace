@@ -1,0 +1,105 @@
+{
+  "mesh_count": 20,
+  "objects": [
+    {
+      "name": "Door_panel",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Handle_neck",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Handle_neck.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Handle_rosette",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Handle_rosette.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Hinge_barrel",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Hinge_barrel.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Hinge_barrel.002",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Hinge_leaf",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Hinge_leaf.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Hinge_leaf.002",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Jamb",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Jamb.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Key_rosette",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Key_rosette.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Key_slot",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Key_slot.001",
+      "vertices": 96,
+      "polygons": 98
+    },
+    {
+      "name": "Lever",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Lever.001",
+      "vertices": 64,
+      "polygons": 34
+    },
+    {
+      "name": "Lintel",
+      "vertices": 96,
+      "polygons": 98
+    }
+  ]
+}

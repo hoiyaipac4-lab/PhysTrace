@@ -1,0 +1,8 @@
+{
+  "layers": 11,
+  "images": 7,
+  "runtime_shader_dependencies": [
+    "OmniPBR.mdl"
+  ],
+  "source": "../../../../external_sources/source_0042/piper_two_plates_red_chili_scene_20260921"
+}

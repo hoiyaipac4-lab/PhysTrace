@@ -1,0 +1,324 @@
+{
+  "schema": "piper-scene-kit-v1",
+  "source_root": ".",
+  "build_time_unix": 1790236912.6656187,
+  "native_platforms": [
+    "pybullet",
+    "mujoco",
+    "drake",
+    "newton",
+    "gazebo",
+    "isaacsim"
+  ],
+  "base_validation": "16 native integration steps each",
+  "combined_validation": "1 second each, 240 records, all refined assets present",
+  "scope": "scene and asset handoff; model training and task completion evaluated by next module",
+  "dependencies": "six existing native runtime environments on48; dependencies recorded per engine config; OmniPBR.mdl supplied by Isaac installation",
+  "records": [
+    {
+      "engine": "pybullet",
+      "status": "passed",
+      "source": "../../external_sources/source_0020/all_assets",
+      "all_dynamic_assets_supported": true
+    },
+    {
+      "engine": "mujoco",
+      "status": "passed",
+      "source": "../../external_sources/source_0021/all_assets",
+      "all_dynamic_assets_supported": true
+    },
+    {
+      "engine": "drake",
+      "status": "passed",
+      "source": "../../external_sources/source_0022/all_assets",
+      "all_dynamic_assets_supported": true
+    },
+    {
+      "engine": "newton",
+      "status": "passed",
+      "source": "../../external_sources/source_0023/all_assets",
+      "all_dynamic_assets_supported": true
+    },
+    {
+      "engine": "gazebo",
+      "status": "passed",
+      "source": "../../external_sources/source_0024/all_assets",
+      "all_dynamic_assets_supported": true
+    },
+    {
+      "engine": "isaacsim",
+      "status": "passed",
+      "source": "../../external_sources/source_0025/all_assets",
+      "all_dynamic_assets_supported": true
+    }
+  ],
+  "original_build_root": "../../external_sources/source_0026/piper_training_scenes_20260924",
+  "cube_visual_revision": "original_mesh_uv_texture_restored",
+  "cube_visual_validation": [
+    {
+      "engine": "pybullet",
+      "case": "all_assets",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.0016169244401503559,
+      "joint_hold_max_error_rad": 1.777075123339522e-18
+    },
+    {
+      "engine": "mujoco",
+      "case": "all_assets",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.0028545348655329393,
+      "joint_hold_max_error_rad": 2.2763753104726447e-09
+    },
+    {
+      "engine": "drake",
+      "case": "all_assets",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.002679419583840284,
+      "joint_hold_max_error_rad": 1.7110065534536867e-19
+    },
+    {
+      "engine": "newton",
+      "case": "all_assets",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.0026358813735970106,
+      "joint_hold_max_error_rad": 0.005487784067040313
+    },
+    {
+      "engine": "gazebo",
+      "case": "all_assets",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.002577579613302225,
+      "joint_hold_max_error_rad": 1.0522693827397234e-11
+    },
+    {
+      "engine": "isaacsim",
+      "case": "all_assets",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.0027881284001597013,
+      "joint_hold_max_error_rad": 2.080564609485691e-08
+    }
+  ],
+  "appliance_layout_validation": [
+    {
+      "engine": "pybullet",
+      "case": "interact_microwave",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -1.0291730262851004e-05,
+      "joint_hold_max_error_rad": 1.777075123339522e-18
+    },
+    {
+      "engine": "pybullet",
+      "case": "interact_airfryer",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -1.0291730262851004e-05,
+      "joint_hold_max_error_rad": 1.777075123339522e-18
+    },
+    {
+      "engine": "mujoco",
+      "case": "interact_microwave",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.00010775542021618408,
+      "joint_hold_max_error_rad": 2.2763753104726447e-09
+    },
+    {
+      "engine": "mujoco",
+      "case": "interact_airfryer",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -0.00010775542021618408,
+      "joint_hold_max_error_rad": 2.2763753104726447e-09
+    },
+    {
+      "engine": "drake",
+      "case": "interact_microwave",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -8.437454539437367e-07,
+      "joint_hold_max_error_rad": 1.7110065534536867e-19
+    },
+    {
+      "engine": "drake",
+      "case": "interact_airfryer",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -8.437454539437367e-07,
+      "joint_hold_max_error_rad": 1.7110065534536867e-19
+    },
+    {
+      "engine": "newton",
+      "case": "interact_microwave",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -1.7397105693886528e-07,
+      "joint_hold_max_error_rad": 0.005487784067040313
+    },
+    {
+      "engine": "newton",
+      "case": "interact_airfryer",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -1.7210841178963432e-07,
+      "joint_hold_max_error_rad": 0.005487784067040313
+    },
+    {
+      "engine": "gazebo",
+      "case": "interact_microwave",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -3.983914987886611e-07,
+      "joint_hold_max_error_rad": 1.0522693827397234e-11
+    },
+    {
+      "engine": "gazebo",
+      "case": "interact_airfryer",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -3.983914987886611e-07,
+      "joint_hold_max_error_rad": 1.0522693827397234e-11
+    },
+    {
+      "engine": "isaacsim",
+      "case": "interact_microwave",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -1.6763806350017507e-09,
+      "joint_hold_max_error_rad": 2.080564609485691e-08
+    },
+    {
+      "engine": "isaacsim",
+      "case": "interact_airfryer",
+      "status": "passed",
+      "rows": 240,
+      "settled_height_error_m": -1.6763806350017507e-09,
+      "joint_hold_max_error_rad": 2.080564609485691e-08
+    }
+  ],
+  "camera_material_revision": "v4_drake_visual_gltf",
+  "camera_material_validation": [
+    {
+      "engine": "pybullet",
+      "case": "place_green_aluminum",
+      "status": "passed",
+      "rows": 48,
+      "settled_height_error_m": -1.0291756439531619e-05,
+      "joint_hold_max_error_rad": 1.7550522667109103e-18
+    },
+    {
+      "engine": "mujoco",
+      "case": "place_green_aluminum",
+      "status": "passed",
+      "rows": 48,
+      "settled_height_error_m": -0.00011150483865824193,
+      "joint_hold_max_error_rad": 2.260531317688219e-09
+    },
+    {
+      "engine": "drake",
+      "case": "place_green_aluminum",
+      "status": "passed",
+      "rows": 48,
+      "settled_height_error_m": -8.437454537980199e-07,
+      "joint_hold_max_error_rad": 1.7110065534536867e-19
+    },
+    {
+      "engine": "newton",
+      "case": "place_green_aluminum",
+      "status": "passed",
+      "rows": 48,
+      "settled_height_error_m": -1.5813857317040214e-07,
+      "joint_hold_max_error_rad": 0.005452438512688507
+    },
+    {
+      "engine": "gazebo",
+      "case": "place_green_aluminum",
+      "status": "passed",
+      "rows": 48,
+      "settled_height_error_m": -2.2497565140651085e-05,
+      "joint_hold_max_error_rad": 4.0898891471297105e-06
+    },
+    {
+      "engine": "isaacsim",
+      "case": "place_green_aluminum",
+      "status": "passed",
+      "rows": 48,
+      "settled_height_error_m": -2.6077032096172292e-09,
+      "joint_hold_max_error_rad": 2.080564609485691e-08
+    }
+  ],
+  "camera_latest_visual_evidence": "camera_material_evidence/",
+  "previous_visual_evidence_note": "evidence/ retains v2 scene/layout preflight; use camera_material_evidence/ for the repaired camera closeups",
+  "revision": "v4_drake_camera_uv_fix",
+  "latest_camera_montage": "camera_materials_six_platforms_v4.jpg",
+  "base_validation_v4": [
+    {
+      "bodies": 1,
+      "joints": 12,
+      "native": "PyBullet URDF",
+      "status": "passed",
+      "scope": "clean base native load plus 16 physical steps",
+      "engine": "pybullet",
+      "wall_s": 1.6559412479400635
+    },
+    {
+      "bodies": 13,
+      "nq": 8,
+      "native": "MuJoCo MJCF",
+      "status": "passed",
+      "scope": "clean base native load plus 16 physical steps",
+      "engine": "mujoco",
+      "wall_s": 3.513845682144165
+    },
+    {
+      "bodies": 14,
+      "nq": 8,
+      "native": "Drake MultibodyPlant",
+      "status": "passed",
+      "scope": "clean base native load plus 16 physical steps",
+      "engine": "drake",
+      "wall_s": 2.576714277267456
+    },
+    {
+      "bodies": 8,
+      "joint_dof": 8,
+      "native": "Newton XPBD",
+      "status": "passed",
+      "scope": "clean base native load plus 16 physical steps",
+      "engine": "newton",
+      "wall_s": 1790245258.267709
+    },
+    {
+      "steps": 16,
+      "native": "Gazebo Sim8/DART SDF",
+      "status": "passed",
+      "scope": "clean base native load plus 16 physical steps",
+      "engine": "gazebo",
+      "wall_s": 4.037511110305786
+    },
+    {
+      "steps": 16,
+      "native": "Isaac Sim/PhysX USD",
+      "prim_count": 4265,
+      "status": "passed",
+      "scope": "clean base native load plus 16 physical steps",
+      "engine": "isaacsim",
+      "wall_s": 54.00487160682678
+    }
+  ],
+  "drake_camera_validation_v4": {
+    "engine": "drake",
+    "case": "place_green_aluminum",
+    "status": "passed",
+    "rows": 240,
+    "settled_height_error_m": -8.437454538032241e-07,
+    "joint_hold_max_error_rad": 1.7110065534536867e-19
+  },
+  "camera_material_validation_scope": "five unchanged engines retain verified v3 nearviews; Drake nearview replaced by v4 1-second native run; all six bases rerun in v4"
+}

@@ -1,0 +1,7 @@
+newmtl Black_UserSpecified
+Ka 0.006 0.006 0.006
+Kd 0.006 0.006 0.006
+Ks 0.04 0.04 0.04
+Ns 40
+d 1
+illum 2

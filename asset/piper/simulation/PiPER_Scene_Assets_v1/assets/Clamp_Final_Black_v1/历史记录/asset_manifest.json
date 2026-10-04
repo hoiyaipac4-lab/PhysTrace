@@ -1,0 +1,75 @@
+{
+  "asset_id": "robot_arm_part_c_clamp",
+  "name": "机械臂零件（扫描形状为C形螺旋夹具）",
+  "version": "v3",
+  "status": "reconstructed_candidate_geometry_checked",
+  "training_ready": false,
+  "original_source": "../../../../../external_sources/source_0032/机械臂零件.obj",
+  "source_sha256": "992b3c2bd4e517a08b2cd0030486a0729aebde3065cd5b7d4bdcd40f0c386626",
+  "source_to_obj_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_to_blender_scale": 0.001,
+  "units": "OBJ与逐件偏差沿用原数值；暂估毫米，未实测标定。Blender坐标以米保存，乘0.001。",
+  "assumptions": [
+    "frame inner bore",
+    "spindle hidden inside boss",
+    "handle passage",
+    "pad underside closure and spindle connection",
+    "夹体内孔按螺杆轴线推定；内螺纹没有可见扫描依据，未伪造标准牙型",
+    "压盘隐藏连接为可修改的推定凹座；不能证明真实内部机构",
+    "检查材质不代表实物颜色；没有照片或贴图来源"
+  ],
+  "geometry_checks": {
+    "closed_parts": 4,
+    "self_intersection_faces": {
+      "frame": 0,
+      "screw": 0,
+      "pad": 0,
+      "handle": 0
+    },
+    "discrete_motion_positions_estimated_mm": [
+      0,
+      4.5,
+      9,
+      13.5,
+      18
+    ],
+    "discrete_motion_intersection_volumes": "全部为0；不等同连续路径或动力学验证"
+  },
+  "limitations": [
+    "未确定用户验收容差，不能以五档颜色直接判定通过",
+    "螺杆连接过渡处仍有大于1个原单位的局部偏差，位置见region_diagnostics.json",
+    "全部模型到扫描统计包含不可见补面，最大值不能直接解释为重建错误或准确",
+    "未验证连续运动、碰撞代理、关节驱动、摩擦质量或Isaac运行"
+  ],
+  "artifacts": {
+    "repaired_candidate.blend": "19c88587a083fe8568a7c5f27b52fd7595886f9ac12b76bc90d8e7788b077374",
+    "repaired_candidate.obj": "67875d611a40b0c7bac2a6bc31a09f122fc2c8fad778d524436f0c8f8128e8f8",
+    "validation.json": "60dac7be25fc67842ebb12d5220d9322dffcf40f5d927629501da43582445b36",
+    "assembly_check.json": "9d5fe840f3f9000ecb253040d754c53db379cede8e7d6012e3d6ff5c86052598"
+  }
+}

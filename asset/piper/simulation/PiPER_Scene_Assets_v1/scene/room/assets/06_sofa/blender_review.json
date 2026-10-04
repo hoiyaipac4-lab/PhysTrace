@@ -1,0 +1,37 @@
+{
+  "stage": "blender",
+  "valid": true,
+  "blender_file": "model.blend",
+  "blender_sha256": "bbe80448e35911bc4b2804fb6e8d61898ae900ec62b0baf9e567013db12feca7",
+  "checks": [
+    {
+      "domain": "structure",
+      "status": "pass",
+      "notes": "Reviewed user-measured 2.18 m overall sofa length, X-axis-only adjustment. Existing fabric mapping, depth, height and parts preserved."
+    },
+    {
+      "domain": "geometry",
+      "status": "pass",
+      "notes": "Reviewed user-measured 2.18 m overall sofa length, X-axis-only adjustment. Existing fabric mapping, depth, height and parts preserved."
+    },
+    {
+      "domain": "appearance",
+      "status": "pass",
+      "notes": "Reviewed user-measured 2.18 m overall sofa length, X-axis-only adjustment. Existing fabric mapping, depth, height and parts preserved."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "preview.png",
+      "sha256": "5beffa39174af242cea25687843a85d97a71352ef4a8551e0eff26b24e346613"
+    },
+    {
+      "path": "geometry.json",
+      "sha256": "520e6466434939ced2dc0f5cc972e76a7f9bdd6eea1d182da13095a6edd1b1a3"
+    },
+    {
+      "path": "asset_spec.json",
+      "sha256": "8443786adfe31c79b5d0b596d56fb298c6a881cecad0fb55826c0c18f6d0e08d"
+    }
+  ]
+}

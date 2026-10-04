@@ -1,0 +1,1097 @@
+[
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link_0_0",
+    "source": "visual_refresh\\base_link_0_0.obj",
+    "faces": 5478
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link_1_0",
+    "source": "visual_refresh\\base_link_1_0.obj",
+    "faces": 2270
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link_2_0",
+    "source": "visual_refresh\\base_link_2_0.obj",
+    "faces": 1106
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link_3_0",
+    "source": "visual_refresh\\base_link_3_0.obj",
+    "faces": 1066
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link_4_0",
+    "source": "visual_refresh\\base_link_4_0.obj",
+    "faces": 1866
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link_5_0",
+    "source": "visual_refresh\\base_link_5_0.obj",
+    "faces": 360
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link1_0_0",
+    "source": "visual_refresh\\link1_0_0.obj",
+    "faces": 3258
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link1_1_0",
+    "source": "visual_refresh\\link1_1_0.obj",
+    "faces": 1196
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link1_2_0",
+    "source": "visual_refresh\\link1_2_0.obj",
+    "faces": 1876
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link1_3_0",
+    "source": "visual_refresh\\link1_3_0.obj",
+    "faces": 2264
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link1_4_0",
+    "source": "visual_refresh\\link1_4_0.obj",
+    "faces": 360
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_0_0",
+    "source": "visual_refresh\\link2_0_0.obj",
+    "faces": 2572
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_1_0",
+    "source": "visual_refresh\\link2_1_0.obj",
+    "faces": 2180
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_2_0",
+    "source": "visual_refresh\\link2_2_0.obj",
+    "faces": 2212
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_3_0",
+    "source": "visual_refresh\\link2_3_0.obj",
+    "faces": 2028
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_4_0",
+    "source": "visual_refresh\\link2_4_0.obj",
+    "faces": 2550
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_5_0",
+    "source": "visual_refresh\\link2_5_0.obj",
+    "faces": 360
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_6_0",
+    "source": "visual_refresh\\link2_6_0.obj",
+    "faces": 5716
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_7_0",
+    "source": "visual_refresh\\link2_7_0.obj",
+    "faces": 4443
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_8_0",
+    "source": "visual_refresh\\link2_8_0.obj",
+    "faces": 13520
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_9_0",
+    "source": "visual_refresh\\link2_9_0.obj",
+    "faces": 5538
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_10_0",
+    "source": "visual_refresh\\link2_10_0.obj",
+    "faces": 4264
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_11_0",
+    "source": "visual_refresh\\link2_11_0.obj",
+    "faces": 13568
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_12_0",
+    "source": "visual_refresh\\link2_12_0.obj",
+    "faces": 70
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_13_0",
+    "source": "visual_refresh\\link2_13_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_14_0",
+    "source": "visual_refresh\\link2_14_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_15_0",
+    "source": "visual_refresh\\link2_15_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_16_0",
+    "source": "visual_refresh\\link2_16_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_17_0",
+    "source": "visual_refresh\\link2_17_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_18_0",
+    "source": "visual_refresh\\link2_18_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_19_0",
+    "source": "visual_refresh\\link2_19_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_20_0",
+    "source": "visual_refresh\\link2_20_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_21_0",
+    "source": "visual_refresh\\link2_21_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_22_0",
+    "source": "visual_refresh\\link2_22_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_23_0",
+    "source": "visual_refresh\\link2_23_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_24_0",
+    "source": "visual_refresh\\link2_24_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_25_0",
+    "source": "visual_refresh\\link2_25_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_26_0",
+    "source": "visual_refresh\\link2_26_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_27_0",
+    "source": "visual_refresh\\link2_27_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_28_0",
+    "source": "visual_refresh\\link2_28_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_29_0",
+    "source": "visual_refresh\\link2_29_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_30_0",
+    "source": "visual_refresh\\link2_30_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_31_0",
+    "source": "visual_refresh\\link2_31_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_32_0",
+    "source": "visual_refresh\\link2_32_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_33_0",
+    "source": "visual_refresh\\link2_33_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_34_0",
+    "source": "visual_refresh\\link2_34_0.obj",
+    "faces": 3437
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_35_0",
+    "source": "visual_refresh\\link2_35_0.obj",
+    "faces": 3437
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_36_0",
+    "source": "visual_refresh\\link2_36_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_37_0",
+    "source": "visual_refresh\\link2_37_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_38_0",
+    "source": "visual_refresh\\link2_38_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_39_0",
+    "source": "visual_refresh\\link2_39_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_40_0",
+    "source": "visual_refresh\\link2_40_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_41_0",
+    "source": "visual_refresh\\link2_41_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_42_0",
+    "source": "visual_refresh\\link2_42_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_43_0",
+    "source": "visual_refresh\\link2_43_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_44_0",
+    "source": "visual_refresh\\link2_44_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_45_0",
+    "source": "visual_refresh\\link2_45_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_46_0",
+    "source": "visual_refresh\\link2_46_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_47_0",
+    "source": "visual_refresh\\link2_47_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_48_0",
+    "source": "visual_refresh\\link2_48_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_49_0",
+    "source": "visual_refresh\\link2_49_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_50_0",
+    "source": "visual_refresh\\link2_50_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_51_0",
+    "source": "visual_refresh\\link2_51_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_52_0",
+    "source": "visual_refresh\\link2_52_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_53_0",
+    "source": "visual_refresh\\link2_53_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_54_0",
+    "source": "visual_refresh\\link2_54_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_55_0",
+    "source": "visual_refresh\\link2_55_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_56_0",
+    "source": "visual_refresh\\link2_56_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_57_0",
+    "source": "visual_refresh\\link2_57_0.obj",
+    "faces": 70
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_58_0",
+    "source": "visual_refresh\\link2_58_0.obj",
+    "faces": 70
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_59_0",
+    "source": "visual_refresh\\link2_59_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_60_0",
+    "source": "visual_refresh\\link2_60_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_61_0",
+    "source": "visual_refresh\\link2_61_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_62_0",
+    "source": "visual_refresh\\link2_62_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_63_0",
+    "source": "visual_refresh\\link2_63_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_64_0",
+    "source": "visual_refresh\\link2_64_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_65_0",
+    "source": "visual_refresh\\link2_65_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_66_0",
+    "source": "visual_refresh\\link2_66_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_67_0",
+    "source": "visual_refresh\\link2_67_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_68_0",
+    "source": "visual_refresh\\link2_68_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_69_0",
+    "source": "visual_refresh\\link2_69_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_70_0",
+    "source": "visual_refresh\\link2_70_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_71_0",
+    "source": "visual_refresh\\link2_71_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_72_0",
+    "source": "visual_refresh\\link2_72_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_73_0",
+    "source": "visual_refresh\\link2_73_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_74_0",
+    "source": "visual_refresh\\link2_74_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_75_0",
+    "source": "visual_refresh\\link2_75_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_76_0",
+    "source": "visual_refresh\\link2_76_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_77_0",
+    "source": "visual_refresh\\link2_77_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_78_0",
+    "source": "visual_refresh\\link2_78_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_79_0",
+    "source": "visual_refresh\\link2_79_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_80_0",
+    "source": "visual_refresh\\link2_80_0.obj",
+    "faces": 3437
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_81_0",
+    "source": "visual_refresh\\link2_81_0.obj",
+    "faces": 3437
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_82_0",
+    "source": "visual_refresh\\link2_82_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_83_0",
+    "source": "visual_refresh\\link2_83_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_84_0",
+    "source": "visual_refresh\\link2_84_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_85_0",
+    "source": "visual_refresh\\link2_85_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_86_0",
+    "source": "visual_refresh\\link2_86_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_87_0",
+    "source": "visual_refresh\\link2_87_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_88_0",
+    "source": "visual_refresh\\link2_88_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_89_0",
+    "source": "visual_refresh\\link2_89_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_90_0",
+    "source": "visual_refresh\\link2_90_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_91_0",
+    "source": "visual_refresh\\link2_91_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_92_0",
+    "source": "visual_refresh\\link2_92_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_93_0",
+    "source": "visual_refresh\\link2_93_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_94_0",
+    "source": "visual_refresh\\link2_94_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_95_0",
+    "source": "visual_refresh\\link2_95_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_96_0",
+    "source": "visual_refresh\\link2_96_0.obj",
+    "faces": 74
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_97_0",
+    "source": "visual_refresh\\link2_97_0.obj",
+    "faces": 16
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_98_0",
+    "source": "visual_refresh\\link2_98_0.obj",
+    "faces": 59
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_99_0",
+    "source": "visual_refresh\\link2_99_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_100_0",
+    "source": "visual_refresh\\link2_100_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_101_0",
+    "source": "visual_refresh\\link2_101_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_102_0",
+    "source": "visual_refresh\\link2_102_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_103_0",
+    "source": "visual_refresh\\link2_103_0.obj",
+    "faces": 70
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_104_0",
+    "source": "visual_refresh\\link2_104_0.obj",
+    "faces": 22
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_105_0",
+    "source": "visual_refresh\\link2_105_0.obj",
+    "faces": 27
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_106_0",
+    "source": "visual_refresh\\link2_106_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_107_0",
+    "source": "visual_refresh\\link2_107_0.obj",
+    "faces": 29
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_108_0",
+    "source": "visual_refresh\\link2_108_0.obj",
+    "faces": 31
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_109_0",
+    "source": "visual_refresh\\link2_109_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_110_0",
+    "source": "visual_refresh\\link2_110_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_111_0",
+    "source": "visual_refresh\\link2_111_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_112_0",
+    "source": "visual_refresh\\link2_112_0.obj",
+    "faces": 58
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_113_0",
+    "source": "visual_refresh\\link2_113_0.obj",
+    "faces": 37
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_114_0",
+    "source": "visual_refresh\\link2_114_0.obj",
+    "faces": 39
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_115_0",
+    "source": "visual_refresh\\link2_115_0.obj",
+    "faces": 24
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_116_0",
+    "source": "visual_refresh\\link2_116_0.obj",
+    "faces": 27
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_117_0",
+    "source": "visual_refresh\\link2_117_0.obj",
+    "faces": 31
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_118_0",
+    "source": "visual_refresh\\link2_118_0.obj",
+    "faces": 36
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_119_0",
+    "source": "visual_refresh\\link2_119_0.obj",
+    "faces": 31
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_120_0",
+    "source": "visual_refresh\\link2_120_0.obj",
+    "faces": 37
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_121_0",
+    "source": "visual_refresh\\link2_121_0.obj",
+    "faces": 12
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_122_0",
+    "source": "visual_refresh\\link2_122_0.obj",
+    "faces": 2
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_123_0",
+    "source": "visual_refresh\\link2_123_0.obj",
+    "faces": 2
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_124_0",
+    "source": "visual_refresh\\link2_124_0.obj",
+    "faces": 23
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_125_0",
+    "source": "visual_refresh\\link2_125_0.obj",
+    "faces": 27
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_126_0",
+    "source": "visual_refresh\\link2_126_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_127_0",
+    "source": "visual_refresh\\link2_127_0.obj",
+    "faces": 29
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_128_0",
+    "source": "visual_refresh\\link2_128_0.obj",
+    "faces": 31
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_129_0",
+    "source": "visual_refresh\\link2_129_0.obj",
+    "faces": 46
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_130_0",
+    "source": "visual_refresh\\link2_130_0.obj",
+    "faces": 18
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_131_0",
+    "source": "visual_refresh\\link2_131_0.obj",
+    "faces": 28
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_132_0",
+    "source": "visual_refresh\\link2_132_0.obj",
+    "faces": 58
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_133_0",
+    "source": "visual_refresh\\link2_133_0.obj",
+    "faces": 12
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_134_0",
+    "source": "visual_refresh\\link2_134_0.obj",
+    "faces": 35
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_135_0",
+    "source": "visual_refresh\\link2_135_0.obj",
+    "faces": 39
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_136_0",
+    "source": "visual_refresh\\link2_136_0.obj",
+    "faces": 24
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_137_0",
+    "source": "visual_refresh\\link2_137_0.obj",
+    "faces": 2
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_138_0",
+    "source": "visual_refresh\\link2_138_0.obj",
+    "faces": 2
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_139_0",
+    "source": "visual_refresh\\link2_139_0.obj",
+    "faces": 26
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_140_0",
+    "source": "visual_refresh\\link2_140_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_141_0",
+    "source": "visual_refresh\\link2_141_0.obj",
+    "faces": 35
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_142_0",
+    "source": "visual_refresh\\link2_142_0.obj",
+    "faces": 30
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_143_0",
+    "source": "visual_refresh\\link2_143_0.obj",
+    "faces": 38
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_144_0",
+    "source": "visual_refresh\\link2_144_0.obj",
+    "faces": 2219
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2_145_0",
+    "source": "visual_refresh\\link2_145_0.obj",
+    "faces": 2241
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_0_0",
+    "source": "visual_refresh\\link3_0_0.obj",
+    "faces": 1478
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_1_0",
+    "source": "visual_refresh\\link3_1_0.obj",
+    "faces": 2134
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_2_0",
+    "source": "visual_refresh\\link3_2_0.obj",
+    "faces": 1678
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_3_0",
+    "source": "visual_refresh\\link3_3_0.obj",
+    "faces": 1788
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_4_0",
+    "source": "visual_refresh\\link3_4_0.obj",
+    "faces": 1488
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_5_0",
+    "source": "visual_refresh\\link3_5_0.obj",
+    "faces": 10378
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_6_0",
+    "source": "visual_refresh\\link3_6_0.obj",
+    "faces": 10280
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_7_0",
+    "source": "visual_refresh\\link3_7_0.obj",
+    "faces": 1882
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_8_0",
+    "source": "visual_refresh\\link3_8_0.obj",
+    "faces": 1936
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_9_0",
+    "source": "visual_refresh\\link3_9_0.obj",
+    "faces": 75
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_10_0",
+    "source": "visual_refresh\\link3_10_0.obj",
+    "faces": 115
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_11_0",
+    "source": "visual_refresh\\link3_11_0.obj",
+    "faces": 99
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_12_0",
+    "source": "visual_refresh\\link3_12_0.obj",
+    "faces": 84
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_13_0",
+    "source": "visual_refresh\\link3_13_0.obj",
+    "faces": 51
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_14_0",
+    "source": "visual_refresh\\link3_14_0.obj",
+    "faces": 17
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_15_0",
+    "source": "visual_refresh\\link3_15_0.obj",
+    "faces": 75
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_16_0",
+    "source": "visual_refresh\\link3_16_0.obj",
+    "faces": 116
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_17_0",
+    "source": "visual_refresh\\link3_17_0.obj",
+    "faces": 99
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_18_0",
+    "source": "visual_refresh\\link3_18_0.obj",
+    "faces": 84
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_19_0",
+    "source": "visual_refresh\\link3_19_0.obj",
+    "faces": 51
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_20_0",
+    "source": "visual_refresh\\link3_20_0.obj",
+    "faces": 17
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_21_0",
+    "source": "visual_refresh\\link3_21_0.obj",
+    "faces": 1493
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3_22_0",
+    "source": "visual_refresh\\link3_22_0.obj",
+    "faces": 1496
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_0_0",
+    "source": "visual_refresh\\link4_0_0.obj",
+    "faces": 4662
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_1_0",
+    "source": "visual_refresh\\link4_1_0.obj",
+    "faces": 4030
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_2_0",
+    "source": "visual_refresh\\link4_2_0.obj",
+    "faces": 72
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_3_0",
+    "source": "visual_refresh\\link4_3_0.obj",
+    "faces": 72
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_4_0",
+    "source": "visual_refresh\\link4_4_0.obj",
+    "faces": 1950
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_5_0",
+    "source": "visual_refresh\\link4_5_0.obj",
+    "faces": 4842
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4_6_0",
+    "source": "visual_refresh\\link4_6_0.obj",
+    "faces": 1930
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5_0_0",
+    "source": "visual_refresh\\link5_0_0.obj",
+    "faces": 2384
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5_1_0",
+    "source": "visual_refresh\\link5_1_0.obj",
+    "faces": 4958
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5_2_0",
+    "source": "visual_refresh\\link5_2_0.obj",
+    "faces": 528
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5_3_0",
+    "source": "visual_refresh\\link5_3_0.obj",
+    "faces": 5780
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5_4_0",
+    "source": "visual_refresh\\link5_4_0.obj",
+    "faces": 1406
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5_5_0",
+    "source": "visual_refresh\\link5_5_0.obj",
+    "faces": 1616
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link6_0_0",
+    "source": "visual_refresh\\link6_0_0.obj",
+    "faces": 1176
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/gripper_base",
+    "source": "meshes\\gripper_base.obj",
+    "faces": 12988
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/camera_body",
+    "source": "visual_refresh\\camera_body.obj",
+    "faces": 60000
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_bracket",
+    "source": "visual_refresh\\mount_bracket.obj",
+    "faces": 60000
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_screw_01",
+    "source": "visual_refresh\\mount_screw_01.obj",
+    "faces": 20738
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_screw_02",
+    "source": "visual_refresh\\mount_screw_02.obj",
+    "faces": 20738
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link7/link7_0_0",
+    "source": "visual_refresh\\link7_0_0.obj",
+    "faces": 504
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link7/link7_1_0",
+    "source": "visual_refresh\\link7_1_0.obj",
+    "faces": 1578
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link7/link7_2_0",
+    "source": "visual_refresh\\link7_2_0.obj",
+    "faces": 4
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link7/link7",
+    "source": "meshes\\link7.obj",
+    "faces": 2086
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link8/link8_0_0",
+    "source": "visual_refresh\\link8_0_0.obj",
+    "faces": 504
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link8/link8_1_0",
+    "source": "visual_refresh\\link8_1_0.obj",
+    "faces": 1578
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link8/link8_2_0",
+    "source": "visual_refresh\\link8_2_0.obj",
+    "faces": 4
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link8/link8",
+    "source": "meshes\\link8.obj",
+    "faces": 2086
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link6",
+    "source": "meshes\\link6.obj",
+    "faces": 1176
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/gripper_base_1",
+    "source": "meshes\\gripper_base.obj",
+    "faces": 12988
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/camera_body_collision",
+    "source": "visual_refresh\\camera_body_collision.obj",
+    "faces": 60000
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_bracket_collision",
+    "source": "visual_refresh\\mount_bracket_collision.obj",
+    "faces": 60000
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_screw_01_collision",
+    "source": "visual_refresh\\mount_screw_01_collision.obj",
+    "faces": 20738
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_screw_02_collision",
+    "source": "visual_refresh\\mount_screw_02_collision.obj",
+    "faces": 20738
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5",
+    "source": "meshes\\link5.obj",
+    "faces": 16672
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link4/link4",
+    "source": "meshes\\link4.obj",
+    "faces": 17558
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link3/link3",
+    "source": "meshes\\link3.obj",
+    "faces": 36914
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link2/link2",
+    "source": "meshes\\link2.obj",
+    "faces": 73166
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/link1/link1",
+    "source": "meshes\\link1.obj",
+    "faces": 8954
+  },
+  {
+    "prim": "/piper/Geometry/dummy_link/base_link",
+    "source": "meshes\\base_link.obj",
+    "faces": 12146
+  }
+]

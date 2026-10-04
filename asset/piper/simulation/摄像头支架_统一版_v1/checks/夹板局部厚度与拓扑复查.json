@@ -1,0 +1,31 @@
+{
+  "before": {
+    "rays": 847,
+    "missing_second_hit": 0,
+    "axis_thickness_quantiles_mm": [
+      2.8960494995117188,
+      2.9009170532226562,
+      2.90093994140625,
+      2.9196792602539063,
+      12.145370483398438
+    ]
+  },
+  "after": {
+    "rays": 847,
+    "missing_second_hit": 0,
+    "axis_thickness_quantiles_mm": [
+      1.426544189453125,
+      1.4532279968261719,
+      1.5076370239257812,
+      2.0314659118652343,
+      12.145523071289062
+    ]
+  },
+  "topology": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "volume_mm3": 7043.88504929197
+  },
+  "scope": "847 rays through the scan-fit patch footprint in original clamp frame. Axis thickness, not minimum wall thickness or continuous-volume proof. Thickness reduction represents the measured intermediate scan layer; not accepted solely from this test."
+}

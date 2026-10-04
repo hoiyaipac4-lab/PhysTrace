@@ -1,0 +1,31 @@
+{
+  "source_dir": "../../../../../external_sources/source_0033/source",
+  "mesh_count": 1,
+  "meshes": [
+    {
+      "source": "../原始扫描/scan.obj",
+      "sha256": "992b3c2bd4e517a08b2cd0030486a0729aebde3065cd5b7d4bdcd40f0c386626",
+      "vertices": 72338,
+      "triangles": 140974,
+      "bounds_raw": [
+        [
+          93.3230445,
+          287.0055437,
+          1997.2685575
+        ],
+        [
+          193.2126582,
+          334.1212869,
+          2175.0974655
+        ]
+      ],
+      "finite": true,
+      "boundary_edges": 4020,
+      "nonmanifold_edges": 0,
+      "watertight": false,
+      "uv_present": false
+    }
+  ],
+  "photos": [],
+  "unit_status": "unknown; OBJ coordinates do not establish real-world scale"
+}

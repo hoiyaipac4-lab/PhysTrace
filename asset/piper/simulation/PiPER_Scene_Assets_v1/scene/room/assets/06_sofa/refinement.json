@@ -1,0 +1,20 @@
+{
+  "changed": [
+    "Existing cushions gain up to 9 mm interior crown, original seams preserved",
+    "Button recesses reduced by up to 7 mm",
+    "Less glossy cloth and fine Blender woven normals"
+  ],
+  "preserved": [
+    "Three separate cushions",
+    "Continuous back",
+    "Curved arms",
+    "Piping",
+    "Feet",
+    "Rigid body mass"
+  ],
+  "limitations": [
+    "Cloth bump procedural and Blender-only",
+    "Cushion geometry is visual approximation, not calibrated foam",
+    "USD remains rigid-body upholstery"
+  ]
+}

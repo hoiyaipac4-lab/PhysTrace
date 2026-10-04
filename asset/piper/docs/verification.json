@@ -1,0 +1,68 @@
+{
+  "python_files": 32,
+  "json_files": 127,
+  "numerical_json_values_preserved": 122,
+  "usd_layers": 87,
+  "usd_dependency_references": 401,
+  "missing_usd_references": [],
+  "remaining_private_path_hits": [],
+  "remaining_identity_hits": [],
+  "binary_files_for_scope": [
+    "simulation/source_v4/assets/piper/drake_camera/camera_body.bin",
+    "simulation/source_v4/assets/piper/drake_camera/mount_bracket.bin",
+    "simulation/source_v4/assets/piper/drake_camera/mount_screw_01.bin",
+    "simulation/source_v4/assets/piper/drake_camera/mount_screw_02.bin",
+    "simulation/source_v4/assets/piper/meshes/base_link.STL",
+    "simulation/source_v4/assets/piper/meshes/gripper_base.STL",
+    "simulation/source_v4/assets/piper/meshes/link1.STL",
+    "simulation/source_v4/assets/piper/meshes/link2.STL",
+    "simulation/source_v4/assets/piper/meshes/link3.STL",
+    "simulation/source_v4/assets/piper/meshes/link4.STL",
+    "simulation/source_v4/assets/piper/meshes/link5.STL",
+    "simulation/source_v4/assets/piper/meshes/link6.STL",
+    "simulation/source_v4/assets/piper/meshes/link7.STL",
+    "simulation/source_v4/assets/piper/meshes/link8.STL"
+  ],
+  "secret_pattern_hits": [],
+  "array_files_inspected": 40,
+  "supported_entry_dependency_closure": {
+    "scene_training.usda": {
+      "layers": 70,
+      "assets": 64,
+      "unresolved": []
+    },
+    "scene.usda": {
+      "layers": 69,
+      "assets": 52,
+      "unresolved": []
+    }
+  },
+  "training_config_byte_identical": true,
+  "dynamic_runtime_test": "Not performed; static file validation only.",
+  "geometry_semantics": {
+    "geometry_and_scene_files_verified": 1781,
+    "usd_files_with_path_only_changes": [
+      "simulation/摄像头支架_统一版_v1/camera_mount.usdc",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/base.usda",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/materials.usda",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/robot.usda",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/mujoco.usda",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physics.usda",
+      "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physx.usda",
+      "simulation/source_v4/assets/isaac_piper_visual/scene_physics_interactive_20260922.usdc"
+    ],
+    "all_other_geometry_files_byte_identical": true,
+    "usd_non_path_content_unchanged": true
+  },
+  "git_attributes": {
+    "lfs_files": 1368,
+    "lfs_bytes": 1700788429,
+    "total_files": 2223,
+    "uncovered_over_50MiB": [],
+    "unexpected_ignored_files": []
+  },
+  "binary_header_and_identity_scan": "10 binary STL headers empty; BIN/NPY/STL known identity/path byte scan had zero hits.",
+  "shell_validation": "Git Bash syntax and --help passed; no simulator launched.",
+  "usdc_format_version": "Changed binary USD files retain crate 0.8.0 headers."
+}

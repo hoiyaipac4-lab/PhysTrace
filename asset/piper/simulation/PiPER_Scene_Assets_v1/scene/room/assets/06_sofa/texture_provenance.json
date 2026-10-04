@@ -1,0 +1,259 @@
+{
+  "source": "../../evidence/002.png",
+  "frame": 89,
+  "time_seconds": 2.966666666666667,
+  "source_sha256": "1bfa36f3c5eb796b490f3dc05197daeb63d124cace758bd0d022d26c63f84eb4",
+  "mappings": [
+    {
+      "object": "Continuous_tufted_back",
+      "projection_axes": [
+        0,
+        2
+      ],
+      "source_quad_pixels": [
+        [
+          218,
+          539
+        ],
+        [
+          345,
+          523
+        ],
+        [
+          350,
+          569
+        ],
+        [
+          220,
+          585
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    },
+    {
+      "object": "Curved_arm",
+      "projection_axes": [
+        1,
+        2
+      ],
+      "source_quad_pixels": [
+        [
+          218,
+          539
+        ],
+        [
+          345,
+          523
+        ],
+        [
+          350,
+          569
+        ],
+        [
+          220,
+          585
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    },
+    {
+      "object": "Curved_arm.001",
+      "projection_axes": [
+        1,
+        2
+      ],
+      "source_quad_pixels": [
+        [
+          218,
+          539
+        ],
+        [
+          345,
+          523
+        ],
+        [
+          350,
+          569
+        ],
+        [
+          220,
+          585
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    },
+    {
+      "object": "Seat_cushion_1",
+      "projection_axes": [
+        0,
+        1
+      ],
+      "source_quad_pixels": [
+        [
+          220,
+          712
+        ],
+        [
+          378,
+          688
+        ],
+        [
+          431,
+          759
+        ],
+        [
+          231,
+          776
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    },
+    {
+      "object": "Seat_cushion_2",
+      "projection_axes": [
+        0,
+        1
+      ],
+      "source_quad_pixels": [
+        [
+          220,
+          712
+        ],
+        [
+          378,
+          688
+        ],
+        [
+          431,
+          759
+        ],
+        [
+          231,
+          776
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    },
+    {
+      "object": "Seat_cushion_3",
+      "projection_axes": [
+        0,
+        1
+      ],
+      "source_quad_pixels": [
+        [
+          220,
+          712
+        ],
+        [
+          378,
+          688
+        ],
+        [
+          431,
+          759
+        ],
+        [
+          231,
+          776
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    },
+    {
+      "object": "Upholstered_base",
+      "projection_axes": [
+        0,
+        2
+      ],
+      "source_quad_pixels": [
+        [
+          218,
+          539
+        ],
+        [
+          345,
+          523
+        ],
+        [
+          350,
+          569
+        ],
+        [
+          220,
+          585
+        ]
+      ],
+      "note": "Approximate material mapping; hidden surfaces inferred; original frame lighting remains"
+    }
+  ],
+  "limitations": [
+    "Source pixels unmodified; material patches exclude buttons, seams and background",
+    "Mapping is appearance approximation, not calibrated albedo or exact surface correspondence",
+    "Hidden surfaces reuse visible fabric",
+    "Small source patches do not recover true weave detail"
+  ],
+  "seat_side_mapping": {
+    "source_quad_pixels": [
+      [
+        233,
+        807
+      ],
+      [
+        434,
+        787
+      ],
+      [
+        434,
+        801
+      ],
+      [
+        233,
+        820
+      ]
+    ],
+    "method": "Separate XZ/YZ projection for side faces to prevent vertical texture stretching"
+  },
+  "back_arm_base_adjustment": "Same-fabric seat pixels reused for back/arms/base to avoid doubling photographed backrest shadow. This is explicitly inferred material placement, not exact photo registration.",
+  "back_arm_base_source_quad_pixels": [
+    [
+      220,
+      712
+    ],
+    [
+      378,
+      688
+    ],
+    [
+      431,
+      759
+    ],
+    [
+      231,
+      776
+    ]
+  ],
+  "geometry_unchanged_since_v4": false,
+  "geometry_change_v5": "User-measured overall length 2.18 m, X scale only. Earlier vertex hashes describe V4 texture-only revision.",
+  "v4_texture_edit_preserved_local_vertices": true,
+  "v4_local_vertex_hashes": {
+    "Continuous_tufted_back": "af469ad523dd61ddf2c52703ebe439ad6da7cf614bf374505beb2cf712e1f98c",
+    "Covered_button": "b218937fafe5f5853f071877df3bbbc4b92fc118e34b2c78940dac2ef2a55665",
+    "Covered_button.001": "b218937fafe5f5853f071877df3bbbc4b92fc118e34b2c78940dac2ef2a55665",
+    "Covered_button.002": "b218937fafe5f5853f071877df3bbbc4b92fc118e34b2c78940dac2ef2a55665",
+    "Covered_button.003": "b218937fafe5f5853f071877df3bbbc4b92fc118e34b2c78940dac2ef2a55665",
+    "Covered_button.004": "b218937fafe5f5853f071877df3bbbc4b92fc118e34b2c78940dac2ef2a55665",
+    "Covered_button.005": "b218937fafe5f5853f071877df3bbbc4b92fc118e34b2c78940dac2ef2a55665",
+    "Curved_arm": "0a61bcb99ecf065829970c6712b91ad7407d6d7c1498f06f24c089e7a4c2cf2e",
+    "Curved_arm.001": "a716b55053d9783b6e0fab7260170536acf8d84c8f6f3140990f257586329d7d",
+    "PreviewGround": "a3f1a0cd3fba21472a065e06d78e170862e81c2bee707764a7b559283274eaa9",
+    "Seat_cushion_1": "fa1df5247cd2afc8c2cd8b04418358223138ff1f6d14e57a3aac77c5a40d3050",
+    "Seat_cushion_2": "7e015181e566858ddcb6968d23831f1bda091fc1bd0629abf78cb2e2494ebe6b",
+    "Seat_cushion_3": "4c6f8374b985800f3aa921e52fd4df3df1c0cfb207f6c28c85324d22618f08b6",
+    "Upholstered_base": "0737dfac333298af0d31c4e6a75ade871dedee5c7b21966a2d76d308cf532209",
+    "Walnut_foot": "d2db5739ff5e624084883d78a513af69e4c6adcf67acc6ca79f767aa6ce75084",
+    "Walnut_foot.001": "d2db5739ff5e624084883d78a513af69e4c6adcf67acc6ca79f767aa6ce75084",
+    "Walnut_foot.002": "d2db5739ff5e624084883d78a513af69e4c6adcf67acc6ca79f767aa6ce75084",
+    "Walnut_foot.003": "d2db5739ff5e624084883d78a513af69e4c6adcf67acc6ca79f767aa6ce75084"
+  }
+}

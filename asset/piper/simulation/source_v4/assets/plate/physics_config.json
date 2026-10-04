@@ -1,0 +1,62 @@
+{
+  "asset_id": "tayohya_plate",
+  "source_object_name": "E__A棣栭挗浠跨湡璧勪骇_TAYOHYA椁愬叿濂楄__60fd83b",
+  "source_mesh_objects": 1,
+  "source_vertices": 1792164,
+  "source_faces": 3584324,
+  "visual_faces": 120000,
+  "dimensions_m": [
+    0.2057441771030426,
+    0.2058418095111847,
+    0.04090007022023201
+  ],
+  "source_units": "FBX local millimetres converted to metres (0.001 object scale)",
+  "axis_conversion": "source local [x,y,z] to [x,z,-y]; plate concavity facing +Z",
+  "center_offset_m": [
+    -0.0005469665527343751,
+    0.000188720703125,
+    -0.000377288818359375
+  ],
+  "texture": "embedded original 4096x4096 PNG",
+  "collision_input_faces": 6000,
+  "open_side_up": true,
+  "mass_kg": 0.237,
+  "mass_source": "User confirmed per individual plate, no ballast, 20260922",
+  "desktop_force_N": 0.45,
+  "ballast_mass_kg": 0,
+  "mu_dynamic": 0.1935508845275423,
+  "friction_source": "user uniform-push convention: F/(m*g), desktop pair only",
+  "g_m_s2": 9.81,
+  "mu_static": 0.1935508845275423,
+  "static_friction_source": "unmeasured, equal-to-dynamic baseline",
+  "restitution": 0,
+  "restitution_source": "unmeasured baseline",
+  "center_of_mass_m": [
+    -4.394744303621091e-05,
+    -0.0005805882716965429,
+    -0.0010755163274642132
+  ],
+  "inertia_kg_m2": [
+    [
+      0.0006616687650968824,
+      6.014592350449563e-08,
+      1.4174142048285366e-05
+    ],
+    [
+      6.014592350449563e-08,
+      0.0006581484469163828,
+      2.8029290955338536e-05
+    ],
+    [
+      1.4174142048285366e-05,
+      2.8029290955338536e-05,
+      0.0012669555161242765
+    ]
+  ],
+  "inertia_source": "uniform surface-lamina estimate, not measured",
+  "collision_hulls": 48,
+  "collision_method": "CoACD on 6000-triangle LOD; approximate concavity and thickness",
+  "source_archive_sha256": "274bbc69b52b697a2208987e1975a7792a623784a2f0c6eaa553ec0820901e8b",
+  "component_note": "Archive name mentions four pieces but FBX has one mesh; inspect preview, not four independently articulated meshes",
+  "collision_limit_warning": "CoACD reported maximum concavity 0.0309503 above requested 0.02 at 48-hull cap; approximate concave collision geometry."
+}

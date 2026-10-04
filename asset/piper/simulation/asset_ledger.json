@@ -1,0 +1,85 @@
+[
+  {
+    "asset": "PiPER arm and wrist camera",
+    "source": "PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+    "action": "Supplied robot retained; 5.1 nested-body compatibility override; moved left 72 mm and down 8.588688 mm",
+    "audit": "V4 camera textures restored; vendor-derived URDF, nine principal-axis rotations corrected and native inertia verified"
+  },
+  {
+    "asset": "Lift table",
+    "source": "PiPER_Scene_Assets_v1/scene/desk/lift_table.usda",
+    "action": "Supplied lift table retained",
+    "audit": "Hollow leg collision shapes restored, self-collision enabled"
+  },
+  {
+    "asset": "Black pressure plate",
+    "source": "PiPER_Scene_Assets_v1/scene/scene.usda: /World/Desk/TopLink/Board",
+    "action": "Moved left 72 mm and up 4 mm; right edge clearance 80 mm; underside aligned with robot flange top"
+  },
+  {
+    "asset": "Two movable black screw clamps",
+    "source": "PiPER_Scene_Assets_v1/assets/Clamp_Final_Black_v1/IsaacSim/Clamp.usdc",
+    "action": "Replaced embedded static meshes with source articulation: screw feed/turn, pad swivel and handle slide. Fitted around plate and tabletop per final screenshot. Installed neutral screw position retracted 18.042 mm; frame attached to table as explicit fixture."
+  },
+  {
+    "asset": "Camera mount and camera body",
+    "source": "摄像头支架_统一版_v1/camera_mount.usdc",
+    "action": "Seated front-right tabletop clamp with about 35 mm insertion and adjusted lower pad; physical camera head and virtual optics aimed 30 degrees inward to table edge and 30 degrees down. Shared spring runtime retained."
+  },
+  {
+    "asset": "Room background",
+    "source": "PiPER_Scene_Assets_v1/scene/room",
+    "action": "Background geometry preserved, invalid physics-material links masked; light stand relocated between table and sofa as explicitly requested",
+    "audit": "Static environment collision enabled"
+  },
+  {
+    "asset": "microwave",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "airfryer",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "support_microwave",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "support_airfryer",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "plate",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "cube_wood",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "cube_aluminum",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "cube_iron",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "cube_brass",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  },
+  {
+    "asset": "green_region",
+    "source": "source_v4",
+    "action": "Placed with source geometry; see evidence/task_asset_placement.json"
+  }
+]

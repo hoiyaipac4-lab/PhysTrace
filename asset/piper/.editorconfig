@@ -1,0 +1,12 @@
+root = true
+
+[*.{py,sh,md,yml,json}]
+charset = utf-8
+insert_final_newline = true
+
+[scripts/*.sh]
+end_of_line = lf
+
+[tools/*.py]
+indent_style = space
+indent_size = 4

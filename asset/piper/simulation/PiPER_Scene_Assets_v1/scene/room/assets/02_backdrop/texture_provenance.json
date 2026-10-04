@@ -1,0 +1,1575 @@
+[
+  {
+    "object": "Oak_floor_plank",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      22.225191933861794,
+      713.6029925633034,
+      118.79535637491206,
+      945.7347287911991
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.001",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      33.85275143950973,
+      739.4117321606773,
+      109.01732478457352,
+      945.0067030590283
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.002",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      18.266865166825138,
+      728.633851674624,
+      104.52755789141442,
+      945.193359870558
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.003",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      21.847913563802738,
+      721.8016566290562,
+      117.20703547904628,
+      927.7596649624161
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.004",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      34.19144071216674,
+      733.974046240856,
+      111.78518494414993,
+      926.7769630398708
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.005",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      45.0250868322375,
+      732.1556177966437,
+      136.41468504000673,
+      935.2257240867034
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.006",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      16.664533355224233,
+      720.3361988570861,
+      106.98662383383812,
+      928.3390618400803
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.007",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      16.376842293919445,
+      695.104098385445,
+      109.72042795959624,
+      946.3709141031296
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.008",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      34.87204664645816,
+      696.1583532191094,
+      123.25612241634224,
+      942.5878871255057
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.009",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.35683801071984,
+      721.5483558220359,
+      119.61220400925828,
+      945.6291047511338
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.010",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      33.53503213548453,
+      733.8750367527127,
+      118.96452277650522,
+      934.9001209535995
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.011",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      26.925847265031464,
+      705.403793022516,
+      102.24247243941755,
+      945.385862119919
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.012",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      18.659383417002548,
+      723.9678167528832,
+      107.82676859386703,
+      940.5332156406153
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.013",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      40.71628701299081,
+      696.143957879876,
+      117.09155726507015,
+      934.9921570461345
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.014",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      32.57139254571791,
+      709.9821892085523,
+      111.5860547448334,
+      936.7524747616237
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.015",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.677720197139436,
+      741.0012559547324,
+      125.23785472217618,
+      933.0862134157168
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.016",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      28.369120241011025,
+      702.7017517537903,
+      102.64375475339966,
+      928.506376191696
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.017",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      46.1336574868069,
+      718.5872980865504,
+      125.48707506817159,
+      944.0956365458618
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.018",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.5670764163787,
+      739.4202698425763,
+      117.08684320346501,
+      923.858032140297
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.019",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      46.728475377774785,
+      739.5804113974149,
+      140.77078307537312,
+      925.5218625583034
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.020",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.370304133082634,
+      708.6348707846015,
+      96.03548784505364,
+      931.4099241378765
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.021",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.456991855940707,
+      716.7097662966352,
+      110.74457616025856,
+      940.4824012134128
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.022",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      35.232089073011956,
+      703.2739430659034,
+      134.70685025413027,
+      940.8246343274965
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.023",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      41.784578853325314,
+      740.5775242307734,
+      120.05645199527156,
+      935.9152347930781
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.024",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      32.65929400249707,
+      730.8813913772218,
+      133.42099936188214,
+      948.0217355221221
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.025",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.97669427156776,
+      714.2209647505089,
+      126.94359691366364,
+      937.3707596979258
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.026",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      30.136238644675295,
+      744.1054437064524,
+      130.5115229716085,
+      946.4217787280411
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.027",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.17223941666141,
+      704.0992585600417,
+      121.65972638969724,
+      947.0473565761315
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.028",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      30.00210385619281,
+      730.0566773401696,
+      110.18816492227518,
+      936.7361918541321
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.029",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.545551482155535,
+      724.6411558985353,
+      97.2752340005543,
+      945.2593190492773
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.030",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      33.690793778612225,
+      733.7987459100067,
+      133.2629567760286,
+      935.3113149025709
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.031",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      24.084329061834755,
+      743.4104413151346,
+      125.34249794708069,
+      935.1867083368414
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.032",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      16.880590339585893,
+      712.2191352409593,
+      98.59120375575628,
+      948.9993573183125
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.033",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.8275941361441,
+      716.1257630323942,
+      132.38996156892813,
+      941.7621013594517
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.034",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      26.51663286077686,
+      720.7118151858072,
+      123.61786151769138,
+      928.7817121632804
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.035",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      37.036101758765064,
+      698.8068855461823,
+      125.68105691158817,
+      942.3906506503986
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.036",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      45.84734255622686,
+      706.8181404826631,
+      143.10399553184305,
+      937.0246741142539
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.037",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      37.16794935201153,
+      721.6780579580187,
+      123.35227387499995,
+      938.8481371301382
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.038",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.07056058475161,
+      700.5217674149865,
+      128.67835726220565,
+      931.0465018964442
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.039",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      40.63523417037304,
+      710.7261182058683,
+      126.28437679285942,
+      944.5165317256657
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.040",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      18.79221106267532,
+      708.9443816427749,
+      98.34234959674447,
+      924.3248227644151
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.041",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      39.96648467634422,
+      704.2297723041327,
+      135.85531618092136,
+      948.425894821439
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.042",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.19374059262539,
+      701.6049619568811,
+      134.2944603710822,
+      941.6492497100072
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.043",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.285423898653992,
+      732.7770644259733,
+      97.62901113111921,
+      949.6662412014849
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.044",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.44434608360538,
+      698.8420897083415,
+      101.5781539302962,
+      944.1347090497962
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.045",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      47.56594339589148,
+      734.3942278281338,
+      143.07412850268997,
+      948.2946362879828
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.046",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      16.919607671635628,
+      698.989178193989,
+      103.79642761861047,
+      947.0342742175092
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.047",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      42.75850532466634,
+      702.9991736228127,
+      132.7633806390368,
+      936.5055734282441
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.048",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      27.326594196457886,
+      730.1534625168786,
+      120.0341834569386,
+      927.4824795903127
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.049",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      21.266790066441295,
+      695.6825305709712,
+      116.94885823204902,
+      948.0957698789299
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.050",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      47.19061229906189,
+      714.0219954459002,
+      127.09107497956478,
+      930.1285749978074
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.051",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      23.418381647394305,
+      739.1502954737026,
+      110.45873144260557,
+      938.7340021715677
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.052",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      45.213285833872106,
+      697.4044994189939,
+      144.93297833903787,
+      927.9524796636672
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.053",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.30154991914778,
+      717.2850668804879,
+      128.90459625922017,
+      931.1631320013602
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.054",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.50571752045978,
+      718.3244691135834,
+      129.88926496332394,
+      939.6511083599045
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.055",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      35.93104692301583,
+      708.2712446167742,
+      118.89488681024557,
+      945.5150016975199
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.056",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.56001693990824,
+      724.7738024636689,
+      132.35538063931676,
+      935.5925265985006
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.057",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.59062332714785,
+      715.3728525823085,
+      128.986965760705,
+      937.9909054066931
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.058",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      24.680464822841053,
+      697.3469865848299,
+      124.2811399935872,
+      939.5000716849896
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.059",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      34.68044537868039,
+      710.1562345140086,
+      110.88740541322993,
+      940.7191107826292
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.060",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      40.15037800587817,
+      705.3259129195758,
+      116.38456978308393,
+      932.2967644297948
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.061",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      34.58061373784416,
+      700.1890893933133,
+      133.01760420623208,
+      926.2529068863902
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.062",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      23.5103616384761,
+      721.0860223927062,
+      106.38293038742529,
+      932.9055343370335
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.063",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.98671504728671,
+      698.5089368635421,
+      139.92401366860486,
+      942.4940152851004
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.064",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.50355705931848,
+      721.486539518773,
+      132.41291414145275,
+      949.9473208619505
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.065",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      36.73217459136987,
+      740.8255027278935,
+      129.30832493763927,
+      926.1379194399743
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.066",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.03241913114987,
+      710.2787022463554,
+      132.59910513612095,
+      942.770209785022
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.067",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      21.16719737285181,
+      707.463589659175,
+      104.4608151163545,
+      928.6434003373088
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.068",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      40.60925272102888,
+      716.9130051369276,
+      132.61005574318594,
+      943.6037511712253
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.069",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      47.123376914789866,
+      710.0660957400055,
+      127.66658876017615,
+      935.6455803364934
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.070",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      34.118892600628975,
+      733.4656071496769,
+      134.85590251880075,
+      936.9880944379604
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.071",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      33.724961060536714,
+      717.2040772030401,
+      109.47229634593872,
+      944.4391182909554
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.072",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.270064114104233,
+      739.0654873210315,
+      109.36951096026935,
+      946.2181626056862
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.073",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      46.231312254073266,
+      707.9362927548901,
+      138.93860276933728,
+      941.6466423826073
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.074",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      37.73831065214493,
+      742.1494470709706,
+      115.46403099997421,
+      943.9613536141177
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.075",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      39.20794336892723,
+      719.0856735899245,
+      132.05141554922898,
+      937.0463022313368
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.076",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      47.88722126379662,
+      741.5745710191784,
+      132.93991938963788,
+      934.8593948067827
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.077",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      31.457527378245803,
+      700.5673821307764,
+      118.16933995891901,
+      930.452440597044
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.078",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      36.34252212854009,
+      737.7850119647271,
+      133.34362017594543,
+      932.990092513272
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.079",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      32.753142187023826,
+      715.8419827296267,
+      126.58344332129329,
+      929.1874738871034
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.080",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      36.07629555550339,
+      705.7933045813699,
+      122.08421603680303,
+      927.7623793297925
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.081",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.7621250087559,
+      702.9831274634598,
+      128.42414591817226,
+      929.7076513322937
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.082",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      27.45814357772209,
+      728.4558916949713,
+      104.95422277803777,
+      938.6554999170339
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.083",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      21.287360622815157,
+      717.3396054818351,
+      104.7045410954046,
+      944.9141141723173
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.084",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      28.804163859591554,
+      700.7132370655379,
+      114.5027516285896,
+      929.3223608215878
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.085",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      37.34065951580243,
+      736.2046806829546,
+      114.11495200253371,
+      938.4432988372962
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.086",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      32.844788309575755,
+      696.5027469827818,
+      129.64311708293965,
+      931.7272176975993
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.087",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      17.957911100349087,
+      719.6553555142889,
+      108.6219712892026,
+      934.1659736037699
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.088",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      28.78828420511824,
+      699.4462524766182,
+      115.84711902580803,
+      946.1569767638425
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.089",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      27.3388644704837,
+      727.1617870636545,
+      119.88716964525862,
+      948.8546447558708
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.090",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      25.02814172354338,
+      720.9051723543631,
+      123.13650721052478,
+      928.0949165699645
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.091",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      31.16607228633672,
+      725.567515274222,
+      127.88130993403342,
+      925.8292867169249
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.092",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.98381698094302,
+      698.8096396708089,
+      110.39856125475664,
+      947.6679537031904
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.093",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.04082519265502,
+      698.289483346071,
+      96.17790681777284,
+      949.3033643967369
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.094",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      35.278126025969215,
+      707.8142230667657,
+      114.61622737645547,
+      946.2259317404154
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.095",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      28.356807169072475,
+      706.101687600426,
+      104.2424773124109,
+      930.5065259323064
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.096",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.70954633196023,
+      731.5143751020585,
+      135.18276691570125,
+      934.8507120402885
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.097",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      20.731034105107806,
+      723.0968123789793,
+      113.67522701650994,
+      932.1196075641483
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.098",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      39.69215003031153,
+      729.9618835554386,
+      114.95461896901992,
+      937.7610397059872
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.099",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      33.0345157842727,
+      706.3226356985674,
+      119.03578037862233,
+      931.4081658371962
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.100",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      24.825132176526274,
+      696.471789632449,
+      106.0889161115168,
+      942.4682611731192
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.101",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      22.510682301822268,
+      742.6968410719801,
+      110.9315933175151,
+      932.7200760948555
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.102",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      34.38603767258965,
+      712.9791888969714,
+      117.01892953571138,
+      928.8658773369874
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.103",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      33.18152357088759,
+      715.6951799763783,
+      121.89654291981218,
+      942.5906739915594
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.104",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.21938534139407,
+      709.6172445923801,
+      141.81410459136845,
+      932.9243524535538
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.105",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      32.04260782084192,
+      724.8399275721821,
+      112.90454174036816,
+      932.9265406150639
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.106",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      16.403879904711626,
+      724.0847409086456,
+      90.43849105735079,
+      924.7721620254562
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.107",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      35.60609766204619,
+      738.9677740158853,
+      114.36006750728262,
+      943.9119588663184
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.108",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.910448465091406,
+      709.7828074604762,
+      136.5477336109119,
+      949.7726955864274
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.109",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      35.625571840993715,
+      722.8543132638682,
+      118.07816643752979,
+      931.2144239936243
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.110",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      38.528384832228255,
+      730.4049729116072,
+      140.3065365119814,
+      935.2076834888944
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.111",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      40.26003108261491,
+      735.8861407024352,
+      123.41525472085664,
+      923.6372898111009
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.112",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      26.991805903224115,
+      724.8865608827377,
+      107.9907678224333,
+      936.595012370194
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.113",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      21.623415667066006,
+      707.9494381950503,
+      120.27133336214743,
+      931.693703584456
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.114",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      43.83643584264679,
+      706.5843240181495,
+      121.84833104470151,
+      936.9369399816243
+    ],
+    "mirror": false,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.115",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      27.173679989275755,
+      729.9740844779549,
+      118.80441442186425,
+      937.2911822285731
+    ],
+    "mirror": true,
+    "flip": false
+  },
+  {
+    "object": "Oak_floor_plank.116",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      16.655064097366164,
+      697.1328713081602,
+      109.10679139578751,
+      936.468297729359
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.117",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      30.95670537256985,
+      727.6250753451512,
+      130.36729500171293,
+      941.5080888963462
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.118",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      27.02766286373834,
+      696.2339806513169,
+      120.37833321076333,
+      949.454794886958
+    ],
+    "mirror": true,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.119",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      44.353475236017005,
+      714.5612558698663,
+      126.56296304138435,
+      942.8104098728317
+    ],
+    "mirror": false,
+    "flip": true
+  },
+  {
+    "object": "Oak_floor_plank.120",
+    "source_frame": 749,
+    "source_image": "../../evidence/013.png",
+    "pixel_rect": [
+      35.420282768501025,
+      723.2159894676997,
+      121.25130382691891,
+      946.5589541550717
+    ],
+    "mirror": false,
+    "flip": false
+  }
+]

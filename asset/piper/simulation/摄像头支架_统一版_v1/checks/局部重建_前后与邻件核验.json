@@ -1,0 +1,70 @@
+{
+  "regions": {
+    "original_selected_scan": {
+      "before": {
+        "p95_mm": 0.41341838835493055,
+        "max_sample_mm": 0.9550370573997498,
+        "within_1mm_fraction": 1.0
+      },
+      "after": {
+        "p95_mm": 0.3991192548664362,
+        "max_sample_mm": 0.9351873993873596,
+        "within_1mm_fraction": 1.0
+      }
+    },
+    "connected_pending_patch": {
+      "before": {
+        "p95_mm": 3.9014803750554816,
+        "max_sample_mm": 4.3371477127075195,
+        "within_1mm_fraction": 0.1284698587752169
+      },
+      "after": {
+        "p95_mm": 0.2578051520874173,
+        "max_sample_mm": 0.6670145988464355,
+        "within_1mm_fraction": 1.0
+      }
+    }
+  },
+  "changed_region_reverse": {},
+  "neighbor_crossings": {},
+  "geometry": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_mm3": 2904.1313004193353,
+    "nonadjacent_self_intersections": 0,
+    "scan_to_model": {
+      "p95_mm": 0.39378752199366485,
+      "max_sample_mm": 0.9351873993873596,
+      "area_fractions": [
+        0.9726728490695011,
+        0.027327150930510448,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "model_to_scan": {
+      "p95_mm": 5.634976013681305,
+      "max_sample_mm": 7.956358432769775,
+      "area_fractions": [
+        0.5637942164533389,
+        0.05646331877673726,
+        0.07572345143860744,
+        0.2134320307728012,
+        0.09058698255851673
+      ]
+    },
+    "full_roi_to_model": {
+      "p95_mm": 3.0714447362035306,
+      "max_sample_mm": 4.6239705085754395,
+      "area_fractions": [
+        0.6670986008195675,
+        0.06629582256967666,
+        0.0940822882948887,
+        0.17252328831586045,
+        0.0
+      ]
+    }
+  },
+  "status": "Candidate only; not installed. Expanded same-part assignment is under review."
+}

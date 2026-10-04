@@ -1,0 +1,7 @@
+{
+  "result": "piper/piper.usda",
+  "source": "work\\piper_desk\\source\\PiPER_delivery\\robot\\piper.urdf",
+  "fix_base": false,
+  "joint_stiffness": 800,
+  "joint_damping": 40
+}

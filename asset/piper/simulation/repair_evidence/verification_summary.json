@@ -1,0 +1,239 @@
+{
+  "status": "PASS",
+  "runtime_scope": "Simulation interface, cameras, contact recording, reset, small joint actions and appliance controls. Not VLA training or real robot calibration.",
+  "repeats": 2,
+  "seconds_each": 3.0,
+  "reset_joint_max_error": 0.0,
+  "resolution": [
+    320,
+    240
+  ],
+  "urdf_count": 16,
+  "missing_resources": 0,
+  "cameras": {
+    "head": {
+      "intrinsics": [
+        [
+          274.87473256842173,
+          0,
+          160.0
+        ],
+        [
+          0,
+          282.5228224338865,
+          120.0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "world_from_camera_row_matrix": [
+        [
+          0.5223826223989143,
+          0.8522741746662721,
+          0.02729701471879291,
+          0.0
+        ],
+        [
+          -0.4430118524272131,
+          0.24390338142607834,
+          0.8627002023518563,
+          0.0
+        ],
+        [
+          0.7285992687511036,
+          -0.4627524951049422,
+          0.5049784488960967,
+          0.0
+        ],
+        [
+          0.6518047944255428,
+          -0.44950013872118566,
+          1.3283896553068646,
+          1.0
+        ]
+      ],
+      "time_s": 0.0,
+      "resize_and_pad": {
+        "scale": 0.7,
+        "offset_xy": [
+          0,
+          28
+        ]
+      },
+      "depth_convention": "distance to image plane, metres; invalid values masked",
+      "camera_axes": "USD +X right, +Y up, -Z forward",
+      "rgb_shape": [
+        240,
+        320,
+        3
+      ],
+      "depth_valid_fraction": 0.8409765625
+    },
+    "hand": {
+      "intrinsics": [
+        [
+          274.87473256842173,
+          0,
+          160.0
+        ],
+        [
+          0,
+          274.8747242286153,
+          120.0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "world_from_camera_row_matrix": [
+        [
+          0.999999991887462,
+          1.8526437663757278e-05,
+          -0.0001260232008811757,
+          0.0
+        ],
+        [
+          0.00011660612341699051,
+          0.26503840945053453,
+          0.9642378482091144,
+          0.0
+        ],
+        [
+          5.126488110321463e-05,
+          -0.9642378550817752,
+          0.26503840514010446,
+          0.0
+        ],
+        [
+          -0.0400397607853004,
+          -0.18186269390438756,
+          1.137087836163901,
+          1.0
+        ]
+      ],
+      "time_s": 0.0,
+      "resize_and_pad": {
+        "scale": 0.7,
+        "offset_xy": [
+          0,
+          28
+        ]
+      },
+      "depth_convention": "distance to image plane, metres; invalid values masked",
+      "camera_axes": "USD +X right, +Y up, -Z forward",
+      "rgb_shape": [
+        240,
+        320,
+        3
+      ],
+      "depth_valid_fraction": 0.9999348958333333
+    }
+  },
+  "usd_static": {
+    "rigid_bodies": 51,
+    "colliders": 669,
+    "joints": 45,
+    "cameras": 5,
+    "articulations": 6,
+    "meshes": 892,
+    "materials": 534,
+    "missing_relationship_targets": 0,
+    "missing_connections": 0,
+    "unresolved": 2,
+    "invalid_meshes": 0
+  },
+  "runtime_builtin_materials": {
+    "OmniPBR.mdl": "../../external_sources/source_0018/OmniPBR.mdl",
+    "OmniPBR_Opacity.mdl": "../../external_sources/source_0019/OmniPBR_Opacity.mdl"
+  },
+  "missing_usd_assets": [],
+  "reset_object_pose_max_component_error": {
+    "cube_wood": 0.0,
+    "cube_aluminum": 0.0,
+    "cube_iron": 0.0,
+    "cube_brass": 0.0,
+    "plate": 0.0
+  },
+  "appliance_observed_ranges": {
+    "airfryer": [
+      9.714796966875383e-09,
+      0.11743421107530594
+    ],
+    "microwave": [
+      7.672996460428294e-09,
+      1.2212682962417603
+    ]
+  },
+  "contact_frames": 2880,
+  "contact_points": 169920,
+  "repeat_validation2.log": {
+    "critical_patterns": {
+      "Unable to create triangle mesh": 0,
+      "Out of GPU memory": 0,
+      "Traceback": 0,
+      "Invalid PhysX transform": 0,
+      "TRAINING_INTERFACE_FAILED": 0,
+      "RUN_FAILED": 0
+    }
+  },
+  "native_final.log": {
+    "critical_patterns": {
+      "Unable to create triangle mesh": 0,
+      "Out of GPU memory": 0,
+      "Traceback": 0,
+      "Invalid PhysX transform": 0,
+      "TRAINING_INTERFACE_FAILED": 0,
+      "RUN_FAILED": 0
+    }
+  },
+  "native": {
+    "status": "PASS",
+    "simulation_seconds": 10.002083333332926,
+    "height_range_m": [
+      0.6350000063690209,
+      0.7128613686561585
+    ],
+    "mount_max_anchor_gap_mm": 0.6442447646867353,
+    "clamp_checks": [
+      {
+        "feed_range_m": [
+          -0.0015024382155388594,
+          -1.5675857278907301e-09
+        ],
+        "coupling_max_error_m": 5.17808901008901e-10,
+        "final_feed_m": -2.9988553862381195e-09
+      },
+      {
+        "feed_range_m": [
+          -0.0015024287858977914,
+          -1.5198390324044908e-09
+        ],
+        "coupling_max_error_m": 8.192244432869018e-10,
+        "final_feed_m": -1.9056827227359463e-08
+      }
+    ],
+    "render_views": [
+      "initial",
+      "raised",
+      "returned",
+      "overview",
+      "workspace_camera",
+      "mount_detail"
+    ],
+    "scope": "10-second lift and return, small robot joint motion, two half-turn screw loosen/return cycles, camera spring hold and 30/30-degree optical pose. Fixed assembly fixtures remain; no full friction holding, collision workspace, payload or real-camera calibration certification."
+  },
+  "high_resolution": {
+    "status": "PASS",
+    "resolution": [
+      1280,
+      960
+    ],
+    "seconds": 0.2,
+    "repeats": 1
+  }
+}

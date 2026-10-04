@@ -1,0 +1,21 @@
+{
+  "engine": "Isaac Sim 5.1 PhysX",
+  "duration_s": 8,
+  "physics_hz": 240.0,
+  "asset_sha256": "73025cab3338d30ccd373c79c5cca5754acff4af10f0ebf89e9f163ccbbce1a7",
+  "geometry_sha256": "a5bf1915791f321638d718e01e14463e414aed98143d4cdbcaff68ae78cd983a",
+  "body_path": "/World/Item/Asset/Body",
+  "sample_count": 1920,
+  "finite": true,
+  "scope": "Driven door open/close or free-body rest stability; not calibrated physical properties or robot manipulation.",
+  "pass": true,
+  "body_translation_drift_m": 7.726654428288147e-06,
+  "probe_final_z": [
+    0.5710700154304504,
+    0.5734973549842834
+  ],
+  "probe_min_z": 0.5710698962211609,
+  "probe_max_y": -0.11999999731779099,
+  "probe_expected_center_z": 0.57,
+  "support_pass": true
+}

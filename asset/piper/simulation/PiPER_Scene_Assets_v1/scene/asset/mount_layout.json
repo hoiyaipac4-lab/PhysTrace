@@ -1,0 +1,14 @@
+{
+  "basis": "Latest user correction: robot over LEFT LARGE OPENING; clamps on both sides of robot",
+  "robot_origin_plate_local_xy_m": [
+    -0.3,
+    -0.0015
+  ],
+  "clamp_centers_relative_robot_x_m": [
+    -0.048,
+    0.048
+  ],
+  "robot_yaw_deg": 90,
+  "plate_right_gap_m": 0.008,
+  "physical_mount_fit": "visual positioning and fixed-joint motion only; exact fastening/contact not validated"
+}

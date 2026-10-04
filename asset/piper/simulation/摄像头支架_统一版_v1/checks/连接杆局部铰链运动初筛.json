@@ -1,0 +1,561 @@
+{
+  "scope": "Geometry-only discrete hinge rotation relative to scanned pose; fixed camera sideplates, shaft and cap. 0.5-degree samples over +/-15 degrees, not continuous proof or full assembly dynamics. Axis dimensions inferred.",
+  "tested_neighbors": [
+    "侧板_camera_front",
+    "侧板_camera_back",
+    "lock_pivot_camera_back_cap_重建候选",
+    "lock_pivot_camera_internal_shaft"
+  ],
+  "poses": [
+    {
+      "angle_deg": -15.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -14.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -14.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -13.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -13.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -12.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -12.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -11.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -11.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -10.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -10.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -9.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -9.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -8.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -8.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -7.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -7.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -6.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -6.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -5.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -5.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -4.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -4.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -3.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -3.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -2.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -2.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -1.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -1.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": -0.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 0.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 0.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 1.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 1.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 2.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 2.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 3.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 3.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 4.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 4.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 5.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 5.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 6.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 6.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 7.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 7.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 8.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 8.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 9.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 9.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 10.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 10.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 11.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 11.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 12.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 12.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 13.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 13.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 14.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 14.5,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    },
+    {
+      "angle_deg": 15.0,
+      "surface_crossing_pairs": {
+        "侧板_camera_front": 0,
+        "侧板_camera_back": 0,
+        "lock_pivot_camera_back_cap_重建候选": 0,
+        "lock_pivot_camera_internal_shaft": 0
+      }
+    }
+  ],
+  "poses_with_crossings": 0
+}

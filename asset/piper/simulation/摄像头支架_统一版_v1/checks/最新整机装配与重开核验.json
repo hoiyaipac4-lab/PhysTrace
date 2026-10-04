@@ -1,0 +1,37 @@
+{
+  "baseline_surface_difference_mm": 0.0,
+  "other_meshes_unchanged": 106,
+  "reopen_max_coordinate_error_mm": 0.0001220703125,
+  "crossings": {
+    "压盘": {
+      "before_pairs": 0,
+      "after_pairs": 0
+    },
+    "螺杆": {
+      "before_pairs": 0,
+      "after_pairs": 0
+    },
+    "base_upper": {
+      "before_pairs": 0,
+      "after_pairs": 0
+    },
+    "侧板_base_front": {
+      "before_pairs": 0,
+      "after_pairs": 0
+    },
+    "侧板_base_back": {
+      "before_pairs": 0,
+      "after_pairs": 0
+    },
+    "插接外壳": {
+      "before_pairs": 556,
+      "after_pairs": 4318,
+      "new_crossing_face_center_distance_to_old_clamp_max_mm": 0.0011335557792335749
+    },
+    "扫描约束旋转内柱": {
+      "before_pairs": 0,
+      "after_pairs": 0
+    }
+  },
+  "status": "Review candidate, not delivered. Fixed socket overlap remains to classify; sampled crossing counts depend on topology and are not volumetric overlap."
+}
