@@ -1,0 +1,53 @@
+{
+  "shared_inputs": {
+    "radius_m": 0.010049897571124499,
+    "length_m": 0.128989013
+  },
+  "case_results": [
+    {
+      "case_id": "l3_h240",
+      "declared_case": {
+        "video_id": "l3",
+        "release_count": 1,
+        "angle_deg": 60,
+        "seconds": 22,
+        "iterations": 100,
+        "gap_m": 0.0,
+        "id": "l3_h240",
+        "hz": 240,
+        "group": "nominal"
+      },
+      "first_peak_D_recomputed": 2.458523417141328,
+      "first_peak_s_recomputed": 0.375,
+      "first_outgoing_motion_s_recomputed": 0.2,
+      "R21_recomputed": 0.995025361002028,
+      "max_potential_over_initial_energy_recomputed": 1.1088020791050468,
+      "max_initial_readback_error_m_recomputed": 2.7755575615628914e-17,
+      "max_hinge_radius_error_m_recomputed": 5.551115123125783e-17
+    },
+    {
+      "case_id": "l3_gap100um",
+      "declared_case": {
+        "video_id": "l3",
+        "release_count": 1,
+        "angle_deg": 60,
+        "seconds": 22,
+        "iterations": 100,
+        "gap_m": 0.0001,
+        "id": "l3_gap100um",
+        "hz": 240,
+        "group": "gap_control"
+      },
+      "first_peak_D_recomputed": 5.472007006994762,
+      "first_peak_s_recomputed": 0.3958333333333333,
+      "first_outgoing_motion_s_recomputed": 0.20833333333333334,
+      "R21_recomputed": 0.04049757405308297,
+      "max_potential_over_initial_energy_recomputed": 0.9999999999999996,
+      "max_initial_readback_error_m_recomputed": 2.7755575615628914e-17,
+      "max_hinge_radius_error_m_recomputed": 5.551115123125783e-17
+    }
+  ],
+  "isolated_pair_recalculation": {
+    "effective_relative_velocity_ratio_recomputed": 0.9588206754153843
+  }
+}

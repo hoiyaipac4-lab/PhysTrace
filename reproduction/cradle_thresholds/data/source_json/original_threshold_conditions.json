@@ -1,0 +1,508 @@
+{
+  "cradle": [
+    {
+      "platform": "drake",
+      "condition": "l1_gap100um",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.33605085202228435,
+      "energy_ratio": 0.9999999999999967
+    },
+    {
+      "platform": "drake",
+      "condition": "l1_matched",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 1.1927904280381114,
+      "energy_ratio": 0.9999999999999967
+    },
+    {
+      "platform": "drake",
+      "condition": "l2_gap100um",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 1.5931836245339965,
+      "energy_ratio": 1.0000000000000002
+    },
+    {
+      "platform": "drake",
+      "condition": "l2_matched",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 2.585120565420213,
+      "energy_ratio": 1.0000000000000002
+    },
+    {
+      "platform": "drake",
+      "condition": "l3_gap100um",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 4.040413769157902,
+      "energy_ratio": 0.9999999999999998
+    },
+    {
+      "platform": "drake",
+      "condition": "l3_matched",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 3.9849454043252894,
+      "energy_ratio": 0.9999999999999998
+    },
+    {
+      "platform": "drake",
+      "condition": "l4_gap100um",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.0001475945036202,
+      "energy_ratio": 0.9999999999999964
+    },
+    {
+      "platform": "drake",
+      "condition": "l4_matched",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 2.093290851392711,
+      "energy_ratio": 1.059280228980684
+    },
+    {
+      "platform": "drake",
+      "condition": "l5_gap100um",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 3.0925345330821226,
+      "energy_ratio": 0.9999999999999994
+    },
+    {
+      "platform": "drake",
+      "condition": "l5_matched",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 4.078040450664712,
+      "energy_ratio": 1.007754330051385
+    },
+    {
+      "platform": "drake",
+      "condition": "l6_gap100um",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 5.461224394794507,
+      "energy_ratio": 1.0
+    },
+    {
+      "platform": "drake",
+      "condition": "l6_matched",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 6.0687214211580525,
+      "energy_ratio": 1.0
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l1_gap100um",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 1.074053348784761,
+      "energy_ratio": 0.9999999999999967
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l1_matched",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.512911474924646,
+      "energy_ratio": 0.9999999999999967
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l2_gap100um",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 2.490986313701068,
+      "energy_ratio": 1.0000000000000002
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l2_matched",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 1.2040123023876355,
+      "energy_ratio": 1.0000000000000002
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l3_gap100um",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 4.1712656111446025,
+      "energy_ratio": 0.9999999999999998
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l3_matched",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 2.0802050764849946,
+      "energy_ratio": 0.9999999999999998
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l4_gap100um",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.2620719170863035,
+      "energy_ratio": 0.9999999999999964
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l4_matched",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.0136294225086493,
+      "energy_ratio": 0.9999999999999964
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l5_gap100um",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.600649911683402,
+      "energy_ratio": 0.9999999999999994
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l5_matched",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.100879123555168,
+      "energy_ratio": 0.9999999999999994
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l6_gap100um",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 4.30044594876077,
+      "energy_ratio": 1.0
+    },
+    {
+      "platform": "gazebo",
+      "condition": "l6_matched",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 3.5594106169422206,
+      "energy_ratio": 1.0
+    },
+    {
+      "platform": "isaac",
+      "condition": "l1_gap100um",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 1.1848470605338268,
+      "energy_ratio": 0.9999990747285281
+    },
+    {
+      "platform": "isaac",
+      "condition": "l1_matched",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.5132730691457364,
+      "energy_ratio": 0.9999990747285281
+    },
+    {
+      "platform": "isaac",
+      "condition": "l2_gap100um",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 2.7376198547045223,
+      "energy_ratio": 0.9999997897811472
+    },
+    {
+      "platform": "isaac",
+      "condition": "l2_matched",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 1.204747558630071,
+      "energy_ratio": 0.9999997897811472
+    },
+    {
+      "platform": "isaac",
+      "condition": "l3_gap100um",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 4.5348383107146075,
+      "energy_ratio": 0.9999999111639153
+    },
+    {
+      "platform": "isaac",
+      "condition": "l3_matched",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 2.0810070411112567,
+      "energy_ratio": 0.9999999111639153
+    },
+    {
+      "platform": "isaac",
+      "condition": "l4_gap100um",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 2.0183805492500957,
+      "energy_ratio": 1.201105004309175
+    },
+    {
+      "platform": "isaac",
+      "condition": "l4_matched",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.1420419436136884,
+      "energy_ratio": 0.9999991222477586
+    },
+    {
+      "platform": "isaac",
+      "condition": "l5_gap100um",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 4.47464812630699,
+      "energy_ratio": 1.3343162398325779
+    },
+    {
+      "platform": "isaac",
+      "condition": "l5_matched",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.3556693780073394,
+      "energy_ratio": 0.9999999757518598
+    },
+    {
+      "platform": "isaac",
+      "condition": "l6_gap100um",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 4.622209676330527,
+      "energy_ratio": 0.9999999139505781
+    },
+    {
+      "platform": "isaac",
+      "condition": "l6_matched",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 3.5223324700388714,
+      "energy_ratio": 1.1337950543165047
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l1_gap100um",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.853335748125486,
+      "energy_ratio": 1.1366446261421344
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l1_matched",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.5331546863834575,
+      "energy_ratio": 0.9999999999999967
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l2_gap100um",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 1.7503149462049472,
+      "energy_ratio": 1.0718787251080468
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l2_matched",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 1.2469479597870838,
+      "energy_ratio": 1.0000000000000002
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l3_gap100um",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 2.670109612285114,
+      "energy_ratio": 1.0158806949474328
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l3_matched",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 2.2076095355558527,
+      "energy_ratio": 0.9999999999999996
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l4_gap100um",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.4536102944793268,
+      "energy_ratio": 1.0724055979531042
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l4_matched",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.1994392562889629,
+      "energy_ratio": 0.9999999999999964
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l5_gap100um",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.838194149153774,
+      "energy_ratio": 1.1063825802376583
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l5_matched",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.475880704821012,
+      "energy_ratio": 1.0
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l6_gap100um",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 4.433652929224926,
+      "energy_ratio": 1.1443316151424574
+    },
+    {
+      "platform": "mujoco",
+      "condition": "l6_matched",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 4.228676370815097,
+      "energy_ratio": 1.066945550836914
+    },
+    {
+      "platform": "newton",
+      "condition": "l1_gap100um",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.4246154290063785,
+      "energy_ratio": 1.0000105738494482
+    },
+    {
+      "platform": "newton",
+      "condition": "l1_matched",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.3446941808077743,
+      "energy_ratio": 1.0000105738494482
+    },
+    {
+      "platform": "newton",
+      "condition": "l2_gap100um",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 0.991880431168472,
+      "energy_ratio": 1.0000020924516602
+    },
+    {
+      "platform": "newton",
+      "condition": "l2_matched",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 0.8440405177963426,
+      "energy_ratio": 1.0000020924516602
+    },
+    {
+      "platform": "newton",
+      "condition": "l3_gap100um",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 1.2659902703748462,
+      "energy_ratio": 1.0000005175028874
+    },
+    {
+      "platform": "newton",
+      "condition": "l3_matched",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 1.1548470645066735,
+      "energy_ratio": 1.0000005175028874
+    },
+    {
+      "platform": "newton",
+      "condition": "l4_gap100um",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 0.816040859504664,
+      "energy_ratio": 1.0000043305580741
+    },
+    {
+      "platform": "newton",
+      "condition": "l4_matched",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 0.6443230746604554,
+      "energy_ratio": 1.0000043305580741
+    },
+    {
+      "platform": "newton",
+      "condition": "l5_gap100um",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 1.6816179168460466,
+      "energy_ratio": 0.9999999757518598
+    },
+    {
+      "platform": "newton",
+      "condition": "l5_matched",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 1.8556046642843493,
+      "energy_ratio": 0.9999999757518598
+    },
+    {
+      "platform": "newton",
+      "condition": "l6_gap100um",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 2.2813572171303633,
+      "energy_ratio": 0.9999999139505781
+    },
+    {
+      "platform": "newton",
+      "condition": "l6_matched",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 2.054957173521868,
+      "energy_ratio": 0.9999999139505781
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l1_gap100um",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 1.2804719120456534,
+      "energy_ratio": 1.0000000000000087
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l1_matched",
+      "real_peak_D": 1.1916666666666667,
+      "sim_peak_D": 0.6022345319151489,
+      "energy_ratio": 1.0000000000000087
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l2_gap100um",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 3.0334596293571363,
+      "energy_ratio": 1.0000000000000024
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l2_matched",
+      "real_peak_D": 3.125,
+      "sim_peak_D": 1.3168622725820498,
+      "energy_ratio": 1.0000000000000024
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l3_gap100um",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 5.105321592782686,
+      "energy_ratio": 1.0000000000000004
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l3_matched",
+      "real_peak_D": 5.125,
+      "sim_peak_D": 2.196935977733705,
+      "energy_ratio": 1.0000000000000004
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l4_gap100um",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.4338393176759348,
+      "energy_ratio": 0.9999999999999974
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l4_matched",
+      "real_peak_D": 1.4416666666666667,
+      "sim_peak_D": 1.1498633754559635,
+      "energy_ratio": 0.9999999999999974
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l5_gap100um",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.9981722001081317,
+      "energy_ratio": 1.0000000000000016
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l5_matched",
+      "real_peak_D": 3.2083333333333335,
+      "sim_peak_D": 2.3330187517169945,
+      "energy_ratio": 1.0000000000000016
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l6_gap100um",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 4.916178554608821,
+      "energy_ratio": 1.0000000000000004
+    },
+    {
+      "platform": "pybullet",
+      "condition": "l6_matched",
+      "real_peak_D": 5.025,
+      "sim_peak_D": 3.8908771643487863,
+      "energy_ratio": 1.0000000000000004
+    }
+  ]
+}

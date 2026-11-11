@@ -1,0 +1,23 @@
+{
+  "openusd_version": [
+    0,
+    26,
+    11
+  ],
+  "layers_resolved": 72,
+  "assets_resolved": 65,
+  "simulator_supplied_modules": [
+    "OmniPBR.mdl",
+    "OmniPBR_Opacity.mdl"
+  ],
+  "default_prim": "/World",
+  "active_prim_count": 2217,
+  "static_prim_check": {
+    "/World/Desk/TopLink": true,
+    "/World/Piper/Geometry/dummy_link": true,
+    "/World/TaskAssets/cube_wood/cube_wood__block": true,
+    "/World/CameraMount/Links/CameraBody/WorkspaceCamera": true,
+    "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/DatasetWristCamera": true
+  },
+  "scope": "Static composition and readback from independently unpacked archives"
+}

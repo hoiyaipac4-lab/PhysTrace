@@ -1,0 +1,28 @@
+{
+  "video_id": "l4",
+  "release_count": 2,
+  "angle_deg": 13.334543530840323,
+  "angles_deg": [
+    0,
+    0,
+    0,
+    13.334543530840323,
+    13.334543530840323
+  ],
+  "radius_m": 0.010049897571124499,
+  "length_m": 0.13265186944038004,
+  "mass_kg": 0.03319999948,
+  "rod_radius_m": 0.00015,
+  "rod_mass_kg": 8.6662227181517e-06,
+  "joint_damping_Nms": 6.006888434569098e-05,
+  "hz": 960,
+  "seconds": 22,
+  "iterations": 100,
+  "restitution": 0.95,
+  "friction": 0.1,
+  "gap_m": 0.0001,
+  "drake_stiffness": 1000000.0,
+  "drake_relaxation": 0.0,
+  "id": "l4_gap100um",
+  "group": "video_matched"
+}

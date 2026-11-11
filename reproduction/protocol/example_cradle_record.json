@@ -1,0 +1,129 @@
+{
+  "schema": "PhysTrace_record_contract_candidate_20261108",
+  "identity": {
+    "task": "cradle",
+    "case": "pybullet_l3_h240",
+    "platform": "PyBullet/Bullet",
+    "package_version": "3.2.7",
+    "version_provenance": "archived installed environment manifest / manuscript Table1",
+    "record_kind": "contract sample from archived run; new-engine execution not performed"
+  },
+  "condition": {
+    "units": {
+      "length": "m",
+      "mass": "kg",
+      "time": "s",
+      "angle": "rad",
+      "force": "N",
+      "torque": "N m"
+    },
+    "radius_m": 0.010049897571124499,
+    "pendulum_length_m": 0.128989013,
+    "ball_mass_kg": 0.03319999948,
+    "gravity_m_s2": [
+      0,
+      0,
+      -9.80665
+    ],
+    "gap_m": 0,
+    "joint_axis": [
+      0,
+      1,
+      0
+    ],
+    "joint_angles_rad": [
+      0,
+      0,
+      0,
+      0,
+      -1.0471975511965976
+    ],
+    "initial_com_positions_m": [
+      [
+        -0.040199590284497995,
+        0.0,
+        0.04000000000000001
+      ],
+      [
+        -0.020099795142248997,
+        0.0,
+        0.04000000000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.04000000000000001
+      ],
+      [
+        0.020099795142248997,
+        0.0,
+        0.04000000000000001
+      ],
+      [
+        0.1519073523515792,
+        0.0,
+        0.10449450649999997
+      ]
+    ],
+    "pair_material": {
+      "mu": 0.1,
+      "restitution": 0.95
+    },
+    "physics_hz": 240,
+    "dt_s": 0.004166666666666667,
+    "duration_s": 22,
+    "iterations_requested": 100
+  },
+  "applied_input": {
+    "kind": "passive release",
+    "post_initialization_pose_forcing": false,
+    "motor_force_limit_Nm": 0,
+    "prescribed_gravity_m_s2": [
+      0,
+      0,
+      -9.80665
+    ]
+  },
+  "actual_observation": {
+    "clock": {
+      "samples": 5281,
+      "intervals": 5280,
+      "start_s": 0.0,
+      "end_s": 22.0,
+      "max_step_error_s": 3.3159239243296668e-15
+    },
+    "max_initial_position_error_m": 2.7755575615628914e-17,
+    "max_hinge_radius_error_m": 5.551115123125783e-17,
+    "first_peak_D": 2.458523417141328,
+    "contact_raw_available_in_local_archive": false,
+    "contact_aggregate_source_only": {
+      "engine": "pybullet",
+      "case": "l3_h240",
+      "records": 691,
+      "max_reported_point_force_N_first2s": 14.28117264248672,
+      "first_nonzero_timestamp_s": 0.19583333333333333
+    }
+  },
+  "sources": [
+    {
+      "bytes": 866746,
+      "sha256": "30a80ad8483a844548bdf76e2e04defe95e5d35d02936a82cfbd65fc2ea4f774",
+      "archive_id": "reference_01"
+    },
+    {
+      "bytes": 535519,
+      "sha256": "b3d5c26b9a0e8e771cf20706706968890719b6b9cc33cb7dda30d161ffc53b46",
+      "archive_id": "reference_02"
+    },
+    {
+      "bytes": 17135,
+      "sha256": "c30b4183126ace9aff29e2bbdf4b9d3a51b9ed6543626810ee9eb70d96d6b444",
+      "archive_id": "reference_03"
+    },
+    {
+      "bytes": 57609,
+      "sha256": "b46effef9b0d0a850fb7d07f474b84ea1ff9a4420be85879d58e796524ed2d08",
+      "archive_id": "reference_04"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/checkpoints/
+/models/*/12000/params/
+/outputs/
+*.tar.part[0-9][0-9][0-9]
+__pycache__/

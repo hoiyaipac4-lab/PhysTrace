@@ -1,0 +1,18 @@
+{
+  "scope": "Recorded versions in the historical six-model standalone export verification environment",
+  "python": "3.11.15",
+  "openpi_revision": "aa6420561529593114160d05e5ad155792b272f3",
+  "packages": {
+    "jax": "0.5.3",
+    "jaxlib": "0.5.3",
+    "flax": "0.10.2",
+    "orbax-checkpoint": "0.11.13",
+    "numpy": "1.26.4",
+    "ml-dtypes": "0.4.1",
+    "torch": "2.7.1",
+    "transformers": "4.53.2",
+    "sentencepiece": "0.2.0",
+    "opencv-python": "4.11.0.86",
+    "tensorstore": "0.1.74"
+  }
+}

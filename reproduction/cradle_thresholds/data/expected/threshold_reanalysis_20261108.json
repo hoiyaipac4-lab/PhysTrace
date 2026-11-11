@@ -1,0 +1,652 @@
+{
+  "sensitivity_counts": [
+    {
+      "platform": "mujoco",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.5,
+      "threshold": 0.05,
+      "passing_conditions": 1,
+      "evaluated_conditions": 12,
+      "percentage": 8.333333333333334
+    },
+    {
+      "platform": "pybullet",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.5,
+      "threshold": 0.05,
+      "passing_conditions": 4,
+      "evaluated_conditions": 12,
+      "percentage": 33.333333333333336
+    },
+    {
+      "platform": "gazebo",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.5,
+      "threshold": 0.05,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "drake",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.5,
+      "threshold": 0.05,
+      "passing_conditions": 2,
+      "evaluated_conditions": 12,
+      "percentage": 16.666666666666668
+    },
+    {
+      "platform": "isaac",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.5,
+      "threshold": 0.05,
+      "passing_conditions": 1,
+      "evaluated_conditions": 12,
+      "percentage": 8.333333333333334
+    },
+    {
+      "platform": "newton",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.5,
+      "threshold": 0.05,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.75,
+      "threshold": 0.07500000000000001,
+      "passing_conditions": 1,
+      "evaluated_conditions": 12,
+      "percentage": 8.333333333333334
+    },
+    {
+      "platform": "pybullet",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.75,
+      "threshold": 0.07500000000000001,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.75,
+      "threshold": 0.07500000000000001,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "drake",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.75,
+      "threshold": 0.07500000000000001,
+      "passing_conditions": 2,
+      "evaluated_conditions": 12,
+      "percentage": 16.666666666666668
+    },
+    {
+      "platform": "isaac",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.75,
+      "threshold": 0.07500000000000001,
+      "passing_conditions": 1,
+      "evaluated_conditions": 12,
+      "percentage": 8.333333333333334
+    },
+    {
+      "platform": "newton",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 0.75,
+      "threshold": 0.07500000000000001,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.0,
+      "threshold": 0.1,
+      "passing_conditions": 1,
+      "evaluated_conditions": 12,
+      "percentage": 8.333333333333334
+    },
+    {
+      "platform": "pybullet",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.0,
+      "threshold": 0.1,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.0,
+      "threshold": 0.1,
+      "passing_conditions": 1,
+      "evaluated_conditions": 12,
+      "percentage": 8.333333333333334
+    },
+    {
+      "platform": "drake",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.0,
+      "threshold": 0.1,
+      "passing_conditions": 3,
+      "evaluated_conditions": 12,
+      "percentage": 25.0
+    },
+    {
+      "platform": "isaac",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.0,
+      "threshold": 0.1,
+      "passing_conditions": 2,
+      "evaluated_conditions": 12,
+      "percentage": 16.666666666666668
+    },
+    {
+      "platform": "newton",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.0,
+      "threshold": 0.1,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.25,
+      "threshold": 0.125,
+      "passing_conditions": 3,
+      "evaluated_conditions": 12,
+      "percentage": 25.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.25,
+      "threshold": 0.125,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.25,
+      "threshold": 0.125,
+      "passing_conditions": 2,
+      "evaluated_conditions": 12,
+      "percentage": 16.666666666666668
+    },
+    {
+      "platform": "drake",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.25,
+      "threshold": 0.125,
+      "passing_conditions": 3,
+      "evaluated_conditions": 12,
+      "percentage": 25.0
+    },
+    {
+      "platform": "isaac",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.25,
+      "threshold": 0.125,
+      "passing_conditions": 4,
+      "evaluated_conditions": 12,
+      "percentage": 33.333333333333336
+    },
+    {
+      "platform": "newton",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.25,
+      "threshold": 0.125,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.5,
+      "threshold": 0.15000000000000002,
+      "passing_conditions": 3,
+      "evaluated_conditions": 12,
+      "percentage": 25.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.5,
+      "threshold": 0.15000000000000002,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.5,
+      "threshold": 0.15000000000000002,
+      "passing_conditions": 3,
+      "evaluated_conditions": 12,
+      "percentage": 25.0
+    },
+    {
+      "platform": "drake",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.5,
+      "threshold": 0.15000000000000002,
+      "passing_conditions": 3,
+      "evaluated_conditions": 12,
+      "percentage": 25.0
+    },
+    {
+      "platform": "isaac",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.5,
+      "threshold": 0.15000000000000002,
+      "passing_conditions": 4,
+      "evaluated_conditions": 12,
+      "percentage": 33.333333333333336
+    },
+    {
+      "platform": "newton",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 1.5,
+      "threshold": 0.15000000000000002,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 2.0,
+      "threshold": 0.2,
+      "passing_conditions": 5,
+      "evaluated_conditions": 12,
+      "percentage": 41.666666666666664
+    },
+    {
+      "platform": "pybullet",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 2.0,
+      "threshold": 0.2,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 2.0,
+      "threshold": 0.2,
+      "passing_conditions": 5,
+      "evaluated_conditions": 12,
+      "percentage": 41.666666666666664
+    },
+    {
+      "platform": "drake",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 2.0,
+      "threshold": 0.2,
+      "passing_conditions": 4,
+      "evaluated_conditions": 12,
+      "percentage": 33.333333333333336
+    },
+    {
+      "platform": "isaac",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 2.0,
+      "threshold": 0.2,
+      "passing_conditions": 4,
+      "evaluated_conditions": 12,
+      "percentage": 33.333333333333336
+    },
+    {
+      "platform": "newton",
+      "metric": "first_peak_absolute_relative_error",
+      "multiplier": 2.0,
+      "threshold": 0.2,
+      "passing_conditions": 0,
+      "evaluated_conditions": 12,
+      "percentage": 0.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.5,
+      "threshold": 1.025,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.5,
+      "threshold": 1.025,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.5,
+      "threshold": 1.025,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "drake",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.5,
+      "threshold": 1.025,
+      "passing_conditions": 11,
+      "evaluated_conditions": 12,
+      "percentage": 91.66666666666667
+    },
+    {
+      "platform": "isaac",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.5,
+      "threshold": 1.025,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "newton",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.5,
+      "threshold": 1.025,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.75,
+      "threshold": 1.0375,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.75,
+      "threshold": 1.0375,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.75,
+      "threshold": 1.0375,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "drake",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.75,
+      "threshold": 1.0375,
+      "passing_conditions": 11,
+      "evaluated_conditions": 12,
+      "percentage": 91.66666666666667
+    },
+    {
+      "platform": "isaac",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.75,
+      "threshold": 1.0375,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "newton",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 0.75,
+      "threshold": 1.0375,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.0,
+      "threshold": 1.05,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.0,
+      "threshold": 1.05,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.0,
+      "threshold": 1.05,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "drake",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.0,
+      "threshold": 1.05,
+      "passing_conditions": 11,
+      "evaluated_conditions": 12,
+      "percentage": 91.66666666666667
+    },
+    {
+      "platform": "isaac",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.0,
+      "threshold": 1.05,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "newton",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.0,
+      "threshold": 1.05,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.25,
+      "threshold": 1.0625,
+      "passing_conditions": 6,
+      "evaluated_conditions": 12,
+      "percentage": 50.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.25,
+      "threshold": 1.0625,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.25,
+      "threshold": 1.0625,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "drake",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.25,
+      "threshold": 1.0625,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "isaac",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.25,
+      "threshold": 1.0625,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "newton",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.25,
+      "threshold": 1.0625,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.5,
+      "threshold": 1.075,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.5,
+      "threshold": 1.075,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.5,
+      "threshold": 1.075,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "drake",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.5,
+      "threshold": 1.075,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "isaac",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.5,
+      "threshold": 1.075,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "newton",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 1.5,
+      "threshold": 1.075,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "mujoco",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 2.0,
+      "threshold": 1.1,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "pybullet",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 2.0,
+      "threshold": 1.1,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "gazebo",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 2.0,
+      "threshold": 1.1,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "drake",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 2.0,
+      "threshold": 1.1,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    },
+    {
+      "platform": "isaac",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 2.0,
+      "threshold": 1.1,
+      "passing_conditions": 9,
+      "evaluated_conditions": 12,
+      "percentage": 75.0
+    },
+    {
+      "platform": "newton",
+      "metric": "max_potential_over_initial_energy",
+      "multiplier": 2.0,
+      "threshold": 1.1,
+      "passing_conditions": 12,
+      "evaluated_conditions": 12,
+      "percentage": 100.0
+    }
+  ]
+}

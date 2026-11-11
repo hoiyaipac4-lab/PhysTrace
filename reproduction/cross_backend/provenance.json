@@ -1,0 +1,21 @@
+{
+  "input_sha256": {
+    "cross_backend_saved_summary": "d76f9b591f7528fd104a7242282daeedcdcbdc8288cb91d3ef2982fb0b2a51d8",
+    "same_backend_saved_summary": "fd21a06d9b093bc39b5cb475da86c872af64d6b9bd3886fb3e87097f91b9ebbf",
+    "fixed_closure_saved_summary": "cf85fd618a6357ae476640f701454287713a5ace7285e12f1e4daad09987d2f5"
+  },
+  "scope": "Archived summaries only. Physical trajectories, images and policy inference inputs are outside this package.",
+  "design": {
+    "engine": "MuJoCo 3.10.0",
+    "independent_scene_group": "3 training scenes",
+    "changed": "active contact pair solref time constant",
+    "fixed": [
+      "geometry, mass and inertia",
+      "pair friction and solimp",
+      "controller, guards and original command sequence",
+      "native timestep",
+      "pair margin 0.0005 m and detection gap 0 m"
+    ],
+    "readout": "Arithmetic mean of 32 native substep reported contact forces at the selected 21.6 mm commanded aperture, sampled at 960 Hz."
+  }
+}

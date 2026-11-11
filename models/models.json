@@ -1,0 +1,250 @@
+{
+  "schema": "phystrace_six_piper_models_release_metadata_v1",
+  "scope": "Frozen 12,000-update policies used in the 150 cross-backend episodes and 30 matched same-backend reruns.",
+  "weight_payload_status": "standalone_release_parts_verified",
+  "checkpoint_source_protocol_sha256": "c758bce35ad7431a1e25577ed138fc4064b831a8cfff54561f6d9c9d37a6fa7d",
+  "full_export_models_bytes": 32681702966,
+  "archived_full_export_verification": {
+    "all_export_files_sha256_checked": 199,
+    "compared_inference_cases": 36,
+    "original_and_export_outputs_bit_identical": true
+  },
+  "models": [
+    {
+      "engine": "isaacsim",
+      "cohort": "isaac_nominal_v2_20261013_seed1",
+      "checkpoint": "isaacsim/12000",
+      "file_bytes": 5446982750,
+      "format": "standard_openpi_orbax_params_and_assets",
+      "external_shared_base_required": false,
+      "normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec",
+      "all71_raw_and_effective_bf16_exact": true,
+      "checkpoint_file_manifest_sha256": "c5f487e48fe7c0debf10c17e60fe2326a585f88f1a11df55da839d6b3021bbfd",
+      "normalization_file": "isaacsim/12000/assets/piper_three_tasks/norm_stats.json",
+      "training_updates": 12000,
+      "training_seed": 1,
+      "same_backend_retest": {
+        "successes": 4,
+        "episodes": 5
+      },
+      "release": {
+        "manifest": "phystrace-isaacsim-12000-release-manifest.json",
+        "manifest_sha256": "cd68f8d35a9889947569e2c8dda15ff8459f915d188cd8ad9e8f3bc93121e575",
+        "parts": [
+          {
+            "name": "phystrace-isaacsim-12000.tar.part001",
+            "bytes": 1992294400,
+            "sha256": "ef38e88c78818679fbb45d6c2bf9148fd8b67fd3b4d2f5253b6a31a64243bb21"
+          },
+          {
+            "name": "phystrace-isaacsim-12000.tar.part002",
+            "bytes": 1992294400,
+            "sha256": "43860654c14f62d7d79535ab9d4cb56b60eee55d61d52c5b5f170242f9c922ff"
+          },
+          {
+            "name": "phystrace-isaacsim-12000.tar.part003",
+            "bytes": 1462415360,
+            "sha256": "059e3b3fc601d8eb0525cd96eded9a55ef1407eff607981643027910d44476a6"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "mujoco",
+      "cohort": "mujoco_contact_anticipatory_hold_v12_20261016_seed0",
+      "checkpoint": "mujoco/12000",
+      "file_bytes": 5446945217,
+      "format": "standard_openpi_orbax_params_and_assets",
+      "external_shared_base_required": false,
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "all71_raw_and_effective_bf16_exact": true,
+      "checkpoint_file_manifest_sha256": "86e1d608fea27ebd3350b9661160e60792b9f40451f82231bd8d4a7f1187cea7",
+      "normalization_file": "mujoco/12000/assets/piper_three_tasks/norm_stats.json",
+      "training_updates": 12000,
+      "training_seed": 0,
+      "same_backend_retest": {
+        "successes": 4,
+        "episodes": 5
+      },
+      "release": {
+        "manifest": "phystrace-mujoco-12000-release-manifest.json",
+        "manifest_sha256": "ecbcf8dc955b774755955450f7128d41e24ad8e570a5e73cc83683ba1124d4f5",
+        "parts": [
+          {
+            "name": "phystrace-mujoco-12000.tar.part001",
+            "bytes": 1992294400,
+            "sha256": "544c73528e0e9da1dd747850c953ab151b3d4d96705801d99ce355061c9f117c"
+          },
+          {
+            "name": "phystrace-mujoco-12000.tar.part002",
+            "bytes": 1992294400,
+            "sha256": "3022cf5c4a45fe01d827b795a41f347731e2e5adab0dbdf79d1f86230377d2c8"
+          },
+          {
+            "name": "phystrace-mujoco-12000.tar.part003",
+            "bytes": 1462374400,
+            "sha256": "5ed8d0099540cb4161f28e680612aeb5d09f0ea3e18788c61b6b30dc4a1b6a98"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "pybullet",
+      "cohort": "pybullet_semantic_nominal_v9_20261015_seed0",
+      "checkpoint": "pybullet/12000",
+      "file_bytes": 5446943962,
+      "format": "standard_openpi_orbax_params_and_assets",
+      "external_shared_base_required": false,
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "all71_raw_and_effective_bf16_exact": true,
+      "checkpoint_file_manifest_sha256": "61fb9946b748649aafdae1ebb6069fd84491cc2b6e19f74716b8fc1cc825b767",
+      "normalization_file": "pybullet/12000/assets/piper_three_tasks/norm_stats.json",
+      "training_updates": 12000,
+      "training_seed": 0,
+      "same_backend_retest": {
+        "successes": 3,
+        "episodes": 5
+      },
+      "release": {
+        "manifest": "phystrace-pybullet-12000-release-manifest.json",
+        "manifest_sha256": "0a06e4d2dafd2dcda0832e2d8a3e3025a82bc6114432279523c60681af32d53e",
+        "parts": [
+          {
+            "name": "phystrace-pybullet-12000.tar.part001",
+            "bytes": 1992294400,
+            "sha256": "4444b65044ffdf4bc3931702ee8a3ca9876a2bc3fd79eee2d495a6a874cc0bda"
+          },
+          {
+            "name": "phystrace-pybullet-12000.tar.part002",
+            "bytes": 1992294400,
+            "sha256": "2d16b558a81a3ae57f2979d6fa3b3480ab079c14797700679b9807c9daf171f6"
+          },
+          {
+            "name": "phystrace-pybullet-12000.tar.part003",
+            "bytes": 1462374400,
+            "sha256": "0c86f57d30c2ef93c937d984e0598f27ed30f594d1150eba7e33ff0097243aaa"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "drake",
+      "cohort": "drake_qualified_hold_nominal_v5_20261015_seed0",
+      "checkpoint": "drake/12000",
+      "file_bytes": 5446942526,
+      "format": "standard_openpi_orbax_params_and_assets",
+      "external_shared_base_required": false,
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "all71_raw_and_effective_bf16_exact": true,
+      "checkpoint_file_manifest_sha256": "1ce619c47c4d19f513b9cd0ff7b5e29252ac287f527d8f81a5cf918c5b1ba065",
+      "normalization_file": "drake/12000/assets/piper_three_tasks/norm_stats.json",
+      "training_updates": 12000,
+      "training_seed": 0,
+      "same_backend_retest": {
+        "successes": 4,
+        "episodes": 5
+      },
+      "release": {
+        "manifest": "phystrace-drake-12000-release-manifest.json",
+        "manifest_sha256": "9d0ac56630c6464ba008bd53a6d5fd39a0199a29b0958014542e0effe52eefc3",
+        "parts": [
+          {
+            "name": "phystrace-drake-12000.tar.part001",
+            "bytes": 1992294400,
+            "sha256": "d7202db578ecf1a6042797cf393921f5a0598ecb10cd6b10cfc43b3a3423c4de"
+          },
+          {
+            "name": "phystrace-drake-12000.tar.part002",
+            "bytes": 1992294400,
+            "sha256": "b98f4dd1b89c86f8568dc070d96bd2be2b45acb702064d7d8fa069ff405a51f7"
+          },
+          {
+            "name": "phystrace-drake-12000.tar.part003",
+            "bytes": 1462374400,
+            "sha256": "631ca9b147e05d70123a6e79d9578ef98d9afb4a1bf516f4a756a5ca18fc151e"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "newton",
+      "cohort": "newton_gap_feedback_nominal_v3_20261015_seed0",
+      "checkpoint": "newton/12000",
+      "file_bytes": 5446943568,
+      "format": "standard_openpi_orbax_params_and_assets",
+      "external_shared_base_required": false,
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "all71_raw_and_effective_bf16_exact": true,
+      "checkpoint_file_manifest_sha256": "39e2653a6437e857659cb0ba840f2ed4cec4ac28c98eb10a32e786eb9a56308e",
+      "normalization_file": "newton/12000/assets/piper_three_tasks/norm_stats.json",
+      "training_updates": 12000,
+      "training_seed": 0,
+      "same_backend_retest": {
+        "successes": 3,
+        "episodes": 5
+      },
+      "release": {
+        "manifest": "phystrace-newton-12000-release-manifest.json",
+        "manifest_sha256": "4274301890fa73fcfcdc8687e3356dc04871801d0d5606441668fee1d40ad660",
+        "parts": [
+          {
+            "name": "phystrace-newton-12000.tar.part001",
+            "bytes": 1992294400,
+            "sha256": "cd5ed6b84b8f6e46560fdfd17504ceed2bca874d58da13511e1799dda7018547"
+          },
+          {
+            "name": "phystrace-newton-12000.tar.part002",
+            "bytes": 1992294400,
+            "sha256": "a6dd27fb27b5260b3c19acfeeff6004325738a38aa21040202d98b9f1469f932"
+          },
+          {
+            "name": "phystrace-newton-12000.tar.part003",
+            "bytes": 1462374400,
+            "sha256": "8183253b74a3321abb65988b08fab91b60b8ec9293ab9ef6ce835ef41ab28bbf"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "gazebo",
+      "cohort": "gazebo_anticipatory_hold_nominal_v6_20261016_seed0",
+      "checkpoint": "gazebo/12000",
+      "file_bytes": 5446944943,
+      "format": "standard_openpi_orbax_params_and_assets",
+      "external_shared_base_required": false,
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "all71_raw_and_effective_bf16_exact": true,
+      "checkpoint_file_manifest_sha256": "b4a38a858a75f3aeccb8b5cd7aefc443cf1d5233d6e702a487d0284ea70fc8e1",
+      "normalization_file": "gazebo/12000/assets/piper_three_tasks/norm_stats.json",
+      "training_updates": 12000,
+      "training_seed": 0,
+      "same_backend_retest": {
+        "successes": 2,
+        "episodes": 5
+      },
+      "release": {
+        "manifest": "phystrace-gazebo-12000-release-manifest.json",
+        "manifest_sha256": "c2b831dc46374036d3928d6643bcccc7410a1dfe02021e77943be47e004bdccc",
+        "parts": [
+          {
+            "name": "phystrace-gazebo-12000.tar.part001",
+            "bytes": 1992294400,
+            "sha256": "a661af2bea98c1131897e093ba3a10363915b7ef7bb15166f8a3465a331b2295"
+          },
+          {
+            "name": "phystrace-gazebo-12000.tar.part002",
+            "bytes": 1992294400,
+            "sha256": "72d21a4f47e30d940a5fc101f1410e40d5b8ab02ecb851dce60de65a01ac50d9"
+          },
+          {
+            "name": "phystrace-gazebo-12000.tar.part003",
+            "bytes": 1462374400,
+            "sha256": "54e2a5a550cd327ca74496c14b230c050234aa69590a5e20e3791c3de95e539c"
+          }
+        ]
+      }
+    }
+  ],
+  "input": "NPZ head,wrist,state,prompt,seed?,frame?",
+  "output": "NPY actions[16,7], six absolute joints rad plus full gripper width m"
+}

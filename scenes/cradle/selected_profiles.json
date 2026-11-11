@@ -1,0 +1,58 @@
+{
+  "mujoco": {
+    "parameters": {
+      "mj_stiffness": 10000,
+      "mj_damping": 3.266
+    },
+    "selection_case": "pair1",
+    "effective_probe_ratio": 0.9517386760887945,
+    "target": 0.95,
+    "selection_basis": "closest isolated-pair response to common nominal restitution target; not fit to five-ball validation outcome",
+    "residual": 0.0017386760887945218
+  },
+  "pybullet": {
+    "parameters": {},
+    "selection_case": "pair0",
+    "effective_probe_ratio": 1.0283762969164645,
+    "target": 0.95,
+    "selection_basis": "closest isolated-pair response to common nominal restitution target; not fit to five-ball validation outcome",
+    "residual": 0.07837629691646453
+  },
+  "drake": {
+    "parameters": {
+      "drake_stiffness": 1000000.0,
+      "drake_relaxation": 0.0
+    },
+    "selection_case": "pair6_float",
+    "effective_probe_ratio": 0.9328547347297649,
+    "target": 0.95,
+    "selection_basis": "closest isolated-pair response to common nominal restitution target; not fit to five-ball validation outcome",
+    "residual": -0.017145265270235077,
+    "note": "SAP compliant contact parameters; physical material stiffness remains an estimation range"
+  },
+  "newton": {
+    "parameters": {},
+    "selection_case": "pair0",
+    "effective_probe_ratio": 0.07658309372050562,
+    "target": 0.95,
+    "selection_basis": "closest isolated-pair response to common nominal restitution target; not fit to five-ball validation outcome",
+    "residual": -0.8734169062794943,
+    "note": "XPBD single configured restitution response retained; report measured probe discrepancy"
+  },
+  "gazebo": {
+    "parameters": {},
+    "selection_case": "pair0",
+    "effective_probe_ratio": 0.9020997772796143,
+    "target": 0.95,
+    "selection_basis": "closest isolated-pair response to common nominal restitution target; not fit to five-ball validation outcome",
+    "residual": -0.04790022272038563
+  },
+  "isaac": {
+    "parameters": {},
+    "selection_case": "pair0",
+    "effective_probe_ratio": 0.9499605426086427,
+    "target": 0.95,
+    "selection_basis": "closest isolated-pair response to common nominal restitution target; not fit to five-ball validation outcome",
+    "residual": -3.945739135724491e-05
+  }
+}

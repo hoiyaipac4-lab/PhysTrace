@@ -1,0 +1,155 @@
+{
+  "diameter_m": 0.020099795142248997,
+  "sphere_mass_kg": 0.03319999948,
+  "length_m": 0.13265186944038004,
+  "length_from_px": 395.97976547,
+  "diameter_px": 60,
+  "diameter_mass_source": "inherited canonical asset; image scale consistency checked, independent physical remeasurement pending",
+  "rod_radius_m": 0.00015,
+  "rod_density_kg_m3": 1000,
+  "rod_mass_kg": 8.6662227181517e-06,
+  "annotations": {
+    "l1": {
+      "frame": 117,
+      "centers": [
+        [
+          1086.5,
+          825.5
+        ]
+      ],
+      "method": "visible-circle candidate checked against image",
+      "uncertainty_deg": 3,
+      "angles_deg": [
+        0,
+        0,
+        0,
+        0,
+        12.035070536287355
+      ]
+    },
+    "l2": {
+      "frame": 0,
+      "centers": [
+        [
+          1191.5,
+          784.5
+        ]
+      ],
+      "method": "visible-circle candidate checked against image",
+      "uncertainty_deg": 3,
+      "angles_deg": [
+        0,
+        0,
+        0,
+        0,
+        28.593090849284867
+      ]
+    },
+    "l3": {
+      "frame": 0,
+      "centers": [
+        [
+          1300,
+          681
+        ]
+      ],
+      "method": "manual partially occluded held-sphere center estimate",
+      "uncertainty_deg": 4,
+      "angles_deg": [
+        0,
+        0,
+        0,
+        0,
+        50.988835339886954
+      ]
+    },
+    "l4": {
+      "frame": 0,
+      "centers": [
+        [
+          1036,
+          827
+        ],
+        [
+          1096,
+          827
+        ]
+      ],
+      "method": "manual center estimates; right sphere hand/frame occlusion",
+      "uncertainty_deg": 4,
+      "angles_deg": [
+        0,
+        0,
+        0,
+        13.334543530840323,
+        13.334543530840323
+      ]
+    },
+    "l5": {
+      "frame": 0,
+      "centers": [
+        [
+          1127,
+          784
+        ],
+        [
+          1186,
+          780
+        ]
+      ],
+      "method": "manual partially occluded held-sphere center estimates",
+      "uncertainty_deg": 4,
+      "angles_deg": [
+        0,
+        0,
+        0,
+        28.044615117887375,
+        28.193624141014823
+      ]
+    },
+    "l6": {
+      "frame": 0,
+      "centers": [
+        [
+          1245.5,
+          704.5
+        ],
+        [
+          1305.5,
+          690.5
+        ]
+      ],
+      "method": "left manual/right candidate center estimates under hand occlusion",
+      "uncertainty_deg": 4,
+      "angles_deg": [
+        0,
+        0,
+        0,
+        48.865482743631944,
+        50.413466727923925
+      ]
+    }
+  },
+  "common_damping": {
+    "value_Nms": 6.006888434569098e-05,
+    "envelope_lambda_s": 0.05141084519598939,
+    "calibration_video": "l1",
+    "window_s_after_outgoing": [
+      15,
+      35
+    ],
+    "peak_count": 25,
+    "method": "robust log envelope slope; effective pendulum dissipation estimate, includes unresolved contact losses; used equally in six engines",
+    "holdout_videos": [
+      "l2",
+      "l3",
+      "l4",
+      "l5",
+      "l6"
+    ]
+  },
+  "gap_m": 0,
+  "gap_uncertainty_control_m": 0.0001,
+  "release_velocity": "zero; initial hand-induced velocity remains an uncertainty",
+  "clock": "AVI pts; l3 user35s vs saved29.421322s unresolved"
+}

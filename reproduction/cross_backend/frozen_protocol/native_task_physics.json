@@ -1,0 +1,1036 @@
+{
+  "scope": "authored parameters in exact current native task scene, not independently measured physical truth",
+  "base_world": [
+    [
+      2.220446049250313e-16,
+      -1.0,
+      0.0,
+      -0.10004712172472245
+    ],
+    [
+      1.0,
+      2.220446049250313e-16,
+      0.0,
+      -0.34122165668283017
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.635
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "records": [
+    {
+      "path": "/World/Desk/TopLink",
+      "type": "Xform",
+      "attributes": {
+        "physics:centerOfMass": [
+          0.024100398644804955,
+          -0.04144608974456787,
+          0.5856618881225586
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          2.110058307647705,
+          9.58520793914795,
+          10.901327133178711
+        ],
+        "physics:mass": 42.389461517333984,
+        "physics:principalAxes": "(0.9991474, -0.030988043, -0.0031205325, -0.02710163)",
+        "physics:rigidBodyEnabled": true,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 64,
+        "physxRigidBody:solverVelocityIterationCount": 0,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Top_014/Mesh_022",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "sdf",
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0005000000237487257,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0,
+        "physxConvexDecompositionCollision:hullVertexLimit": 64,
+        "physxConvexDecompositionCollision:maxConvexHulls": 32,
+        "physxConvexDecompositionCollision:voxelResolution": 100000,
+        "physxSDFMeshCollision:sdfBitsPerSubgridPixel": "BitsPerPixel16",
+        "physxSDFMeshCollision:sdfEnableRemeshing": false,
+        "physxSDFMeshCollision:sdfMargin": 0.009999999776482582,
+        "physxSDFMeshCollision:sdfNarrowBandThickness": 0.009999999776482582,
+        "physxSDFMeshCollision:sdfResolution": 256,
+        "physxSDFMeshCollision:sdfSubgridResolution": 6,
+        "physxSDFMeshCollision:sdfTriangleCountReductionFactor": 1.0
+      },
+      "material": {
+        "path": "/World/Desk/_materials/DeskPBR",
+        "attributes": {}
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Top_015/Mesh_023",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "sdf",
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0005000000237487257,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0,
+        "physxConvexDecompositionCollision:hullVertexLimit": 64,
+        "physxConvexDecompositionCollision:maxConvexHulls": 32,
+        "physxConvexDecompositionCollision:voxelResolution": 100000,
+        "physxSDFMeshCollision:sdfBitsPerSubgridPixel": "BitsPerPixel16",
+        "physxSDFMeshCollision:sdfEnableRemeshing": false,
+        "physxSDFMeshCollision:sdfMargin": 0.009999999776482582,
+        "physxSDFMeshCollision:sdfNarrowBandThickness": 0.009999999776482582,
+        "physxSDFMeshCollision:sdfResolution": 256,
+        "physxSDFMeshCollision:sdfSubgridResolution": 6,
+        "physxSDFMeshCollision:sdfTriangleCountReductionFactor": 1.0
+      },
+      "material": {
+        "path": "/World/Desk/_materials/DeskPBR",
+        "attributes": {}
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top_001",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top_002",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top_003",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top_006",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top_014",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": false,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Colliders/Top_015",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": false,
+        "physxCollision:contactOffset": 0.0010000000474974513,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/Desk/PhysicsMaterial",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.5,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.6499999761581421,
+          "physxMaterial:compliantContactAccelerationSpring": false,
+          "physxMaterial:compliantContactDamping": 0.0,
+          "physxMaterial:compliantContactStiffness": 0.0,
+          "physxMaterial:dampingCombineMode": "average",
+          "physxMaterial:frictionCombineMode": "average",
+          "physxMaterial:restitutionCombineMode": "average"
+        }
+      }
+    },
+    {
+      "path": "/World/Desk/TopLink/Board",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "sdf",
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0005000000237487257,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0,
+        "physxConvexDecompositionCollision:hullVertexLimit": 64,
+        "physxConvexDecompositionCollision:maxConvexHulls": 32,
+        "physxConvexDecompositionCollision:voxelResolution": 100000,
+        "physxSDFMeshCollision:sdfBitsPerSubgridPixel": "BitsPerPixel16",
+        "physxSDFMeshCollision:sdfEnableRemeshing": false,
+        "physxSDFMeshCollision:sdfMargin": 0.009999999776482582,
+        "physxSDFMeshCollision:sdfNarrowBandThickness": 0.009999999776482582,
+        "physxSDFMeshCollision:sdfResolution": 256,
+        "physxSDFMeshCollision:sdfSubgridResolution": 6,
+        "physxSDFMeshCollision:sdfTriangleCountReductionFactor": 1.0
+      },
+      "material": {
+        "path": "/World/Black",
+        "attributes": {}
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:centerOfMass": [
+          -0.004736411850899458,
+          2.568291347415652e-05,
+          0.04145151749253273
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0008793938322924078,
+          0.002691171830520034,
+          0.002826124429702759
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 1.0199999809265137,
+        "physics:principalAxes": "(0.525074, -0.52202547, -0.47658396, -0.47397724)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          3.637948666271318e-12,
+          -8.084327478286024e-12,
+          -2.7126505301566795e-05
+        ],
+        "physics:centerOfMass": [
+          0.00012150473048677668,
+          0.00010463216312928125,
+          -0.004385973326861858
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0004045508394483477,
+          0.0004398869350552559,
+          0.0004892622237093747
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.7099999785423279,
+        "physics:principalAxes": "(-0.4722058, -0.52920246, -0.49244472, -0.5044449)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          3.2960101314927215e-09,
+          2.8383220218586303e-09,
+          5.921137230969088e-16
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          3.652189661806915e-12,
+          -8.084330947732976e-12,
+          -2.71265089395456e-05
+        ],
+        "physics:centerOfMass": [
+          0.19866614043712616,
+          -0.010926923714578152,
+          0.0014212171081453562
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.001119661028496921,
+          0.06774502247571945,
+          0.06790322810411453
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 1.1699999570846558,
+        "physics:principalAxes": "(0.7320014, 0.681167, 0.0105669955, 0.008587546)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -5.379587491916027e-06,
+          3.8591167594859144e-08,
+          -8.490985692333197e-13
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          -8.541195711586624e-06,
+          4.995260455276096e-11,
+          -2.712653804337606e-05
+        ],
+        "physics:centerOfMass": [
+          -0.020273765549063683,
+          -0.1339149922132492,
+          -0.0004586826544255018
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0002446852740831673,
+          0.013803205452859402,
+          0.013822679407894611
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.5,
+        "physics:principalAxes": "(-0.461784, -0.47458988, -0.5370491, -0.522588)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -4.08962932851864e-06,
+          2.5971385753109644e-07,
+          -1.124367145166616e-06
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          -8.51714958116645e-06,
+          0.0024364101700484753,
+          0.0001858784380601719
+        ],
+        "physics:centerOfMass": [
+          -9.666357800597325e-05,
+          0.0008760644705034792,
+          -0.004968808963894844
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.00015286286361515522,
+          0.0001850515545811504,
+          0.00019158558279741555
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.3799999952316284,
+        "physics:principalAxes": "(0.42088088, -0.5502786, -0.5550167, -0.46044454)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -8.344839557139494e-07,
+          2.0788306187569106e-07,
+          5.9588714407254884e-08
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          -0.022835327312350273,
+          0.0024365587159991264,
+          0.0001857974857557565
+        ],
+        "physics:centerOfMass": [
+          -4.105541302124038e-05,
+          -0.05664866790175438,
+          -0.0037205792032182217
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.00018502780585549772,
+          0.0016432818956673145,
+          0.0016616903012618423
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.382999986410141,
+        "physics:principalAxes": "(-0.5008032, -0.499175, -0.5027069, -0.49729896)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          7.000289201641863e-07,
+          0.00011466255091363564,
+          -0.001299776486121118
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          -0.02283531241118908,
+          0.003208656795322895,
+          0.0002532986691221595
+        ],
+        "physics:centerOfMass": [
+          -0.014334185048937798,
+          -0.0059253377839922905,
+          0.03088289499282837
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.000959009921643883,
+          0.001052757492288947,
+          0.001373571460135281
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.5769999623298645,
+        "physics:principalAxes": "(-0.6134972, -0.7072337, -0.12928073, -0.32669273)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          4.82879659102764e-05,
+          0.0005683505441993475,
+          -0.0027654573787003756
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link7",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          -0.02283531241118908,
+          0.003208656795322895,
+          0.0002532986691221595
+        ],
+        "physics:centerOfMass": [
+          0.0006512318504974246,
+          -0.04919298738241196,
+          0.009722587652504444
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          5.088598300062586e-06,
+          7.367825310211629e-05,
+          7.745314360363409e-05
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.02500000037252903,
+        "physics:principalAxes": "(0.10930237, -0.70415515, -0.70100594, -0.028446993)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          4.014726528112078e-06,
+          0.00035722035681828856,
+          -0.004082276951521635
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link7/link7/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      },
+      "material": {
+        "path": "/World/CalibrationLooks/BlackGripper",
+        "attributes": {}
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link8",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          -0.02283531241118908,
+          0.003208656795322895,
+          0.0002532986691221595
+        ],
+        "physics:centerOfMass": [
+          0.0006512318504974246,
+          -0.04919298738241196,
+          0.009722587652504444
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          5.088598300062586e-06,
+          7.367825310211629e-05,
+          7.745314360363409e-05
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.02500000037252903,
+        "physics:principalAxes": "(0.10930237, -0.70415515, -0.70100594, -0.028446993)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -3.533126800903119e-05,
+          0.00037197343772277236,
+          -0.0040153092704713345
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 4.999999873689376e-05,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 32,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link8/link8/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      },
+      "material": {
+        "path": "/World/CalibrationLooks/BlackGripper",
+        "attributes": {}
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/link6/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/gripper_base_1/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/camera_body_collision/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_bracket_collision/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_screw_01_collision/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link6/mount_screw_02_collision/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link5/link5/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link4/link4/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link3/link3/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link2/link2/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/link1/link1/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/Piper/Geometry/dummy_link/base_link/SourceMesh",
+      "type": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true,
+        "physxConvexHullCollision:hullVertexLimit": 64,
+        "physxConvexHullCollision:minThickness": 0.0010000000474974513
+      }
+    },
+    {
+      "path": "/World/TaskAssets/cube_wood/cube_wood__block",
+      "type": "Xform",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.0009759246604517102,
+          -0.0005579015123657882,
+          1.7217081449416582e-06
+        ],
+        "physics:centerOfMass": [
+          "-Infinity",
+          "-Infinity",
+          "-Infinity"
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          6.24999984211172e-07,
+          6.24999984211172e-07,
+          6.24999984211172e-07
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.006000000052154064,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -4.793557764060097e-06,
+          -8.521368727087975e-06,
+          -5.642961696139537e-06
+        ],
+        "physxContactReport:threshold": 0.0,
+        "physxRigidBody:angularDamping": 0.05000000074505806,
+        "physxRigidBody:cfmScale": 0.02500000037252903,
+        "physxRigidBody:contactSlopCoefficient": 0.0,
+        "physxRigidBody:disableGravity": false,
+        "physxRigidBody:enableCCD": true,
+        "physxRigidBody:enableGyroscopicForces": true,
+        "physxRigidBody:enableSpeculativeCCD": false,
+        "physxRigidBody:linearDamping": 0.0,
+        "physxRigidBody:lockedPosAxis": 0,
+        "physxRigidBody:lockedRotAxis": 0,
+        "physxRigidBody:maxAngularVelocity": 5729.580078125,
+        "physxRigidBody:maxContactImpulse": "Infinity",
+        "physxRigidBody:maxDepenetrationVelocity": 3.0,
+        "physxRigidBody:maxLinearVelocity": "Infinity",
+        "physxRigidBody:retainAccelerations": false,
+        "physxRigidBody:sleepThreshold": 0.0,
+        "physxRigidBody:solveContact": true,
+        "physxRigidBody:solverPositionIterationCount": 64,
+        "physxRigidBody:solverVelocityIterationCount": 4,
+        "physxRigidBody:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/TaskAssets/cube_wood/cube_wood__block/collisions/mesh_0/box",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": false
+      }
+    },
+    {
+      "path": "/World/TaskAssets/cube_wood/cube_wood__block/ExactURDFBox",
+      "type": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true,
+        "physxCollision:contactOffset": 0.0005000000237487257,
+        "physxCollision:minTorsionalPatchRadius": 0.0,
+        "physxCollision:restOffset": 0.0,
+        "physxCollision:torsionalPatchRadius": 0.0
+      },
+      "material": {
+        "path": "/World/TaskAssets/cube_wood/Contact",
+        "attributes": {
+          "physics:density": 0.0,
+          "physics:dynamicFriction": 0.4000000059604645,
+          "physics:restitution": 0.0,
+          "physics:staticFriction": 0.5
+        }
+      }
+    }
+  ]
+}

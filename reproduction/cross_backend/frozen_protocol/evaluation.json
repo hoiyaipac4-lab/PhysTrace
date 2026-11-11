@@ -1,0 +1,68 @@
+{
+  "scope": "Development-scene grasp-lift protocol for the Figure 7 rebuttal matrix.",
+  "experiment_source_sha256": "c758bce35ad7431a1e25577ed138fc4064b831a8cfff54561f6d9c9d37a6fa7d",
+  "baseline_source_sha256": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+  "policy_options_source_sha256": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686",
+  "task": "grasp_lift",
+  "maximum_model_frames": 900,
+  "policy_action_shape": [
+    16,
+    7
+  ],
+  "render_scope": "Same calibrated RTX renderer, GPU0 for Isaac destination and GPU1 for others, matching frozen native reference. Not a six-native-renderer comparison.",
+  "destination_physics": "Actual native destination feedback, solver and contacts; not playback.",
+  "control": "Original decoder, table projection, shared max joint component0.30rad/s, each finger2mm/s, original motor caps and all guards unchanged.",
+  "score": "Original legacy guards AND native endpoint-inclusive full1s stable full grasp/lift criterion; original900framebudget.",
+  "initialization": "Full task start. No expert pregrasp.",
+  "backend_order": [
+    "isaacsim",
+    "mujoco",
+    "pybullet",
+    "drake",
+    "newton",
+    "gazebo"
+  ],
+  "development_scenes": [
+    "scene_01",
+    "scene_02",
+    "scene_03",
+    "scene_04",
+    "scene_05"
+  ],
+  "cross_backend_trials": 150,
+  "same_backend_trials": 30,
+  "same_backend_origin": "Archived same-backend references, marked separately in the trial table.",
+  "policy_options": {
+    "denoise_steps": 20,
+    "replan_every_frames": 4,
+    "temporal_ensemble": true,
+    "noise_mode": "fixed"
+  },
+  "frozen_baseline_scoring_and_guards": {
+    "grasp_lift": "Start from fixed ready pose. Model performs grasp and lift. Same height, bilateral contact, speed and final stability requirements as lift_only.",
+    "policy_input": "Head RGB, wrist RGB, absolute measured joints and full gripper width, requested task prompt",
+    "policy_forbidden_inputs": [
+      "object pose",
+      "expert actions",
+      "expert phase",
+      "scene seed as information"
+    ],
+    "fps": 30,
+    "physics_hz": 960,
+    "minimum_closing_fingertip_clearance_m": 0.008,
+    "minimum_visible_gripper_table_clearance_m": 0.005,
+    "maximum_gripper_table_contacts": 0,
+    "maximum_robot_object_force_N": 12,
+    "maximum_per_finger_force_N": 12,
+    "maximum_unexpected_force_N": 8,
+    "maximum_penetration_m": 0.002,
+    "controller": "Coordinated joints at 0.30 rad/s, fingers at 0.002 m/s, native gravity compensation, table-only world-Z projection to 10 mm target clearance (maximum 20 mm correction), model XY/orientation/finger goals preserved"
+  },
+  "measurement_and_recording_amendment": {
+    "source_sha256": "8a95ba5aa9d5bdc21b5718573f40d46f31df5b7d92aba638887b959ce5282961",
+    "scope": "Post-hoc measurement and raw-evidence ordering only; native physics/control/policy frame loop unchanged.",
+    "original_control_and_score_unchanged": true,
+    "preserved_existing_scored_trials": 100,
+    "infrastructure_interruption_excluded_from_scored_trials": true
+  }
+}

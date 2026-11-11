@@ -1,0 +1,367 @@
+#usda 1.0
+(
+    endTimeCode = 1000000
+    metersPerUnit = 1
+    startTimeCode = 0
+    timeCodesPerSecond = 960
+    upAxis = "Z"
+)
+
+def "Render" (
+    hide_in_stage_window = true
+    no_delete = true
+)
+{
+    def "OmniverseKit"
+    {
+        def "HydraTextures" (
+            hide_in_stage_window = true
+            no_delete = true
+        )
+        {
+            def RenderProduct "omni_kit_widget_viewport_ViewportTexture_0" (
+                prepend apiSchemas = ["OmniRtxSettingsCommonAdvancedAPI_1", "OmniRtxSettingsRtAdvancedAPI_1", "OmniRtxSettingsPtAdvancedAPI_1", "OmniRtxPostColorGradingAPI_1", "OmniRtxPostChromaticAberrationAPI_1", "OmniRtxPostBloomPhysicalAPI_1", "OmniRtxPostMatteObjectAPI_1", "OmniRtxPostCompositingAPI_1", "OmniRtxPostDofAPI_1", "OmniRtxPostMotionBlurAPI_1", "OmniRtxPostTvNoiseAPI_1", "OmniRtxPostTonemapIrayReinhardAPI_1", "OmniRtxPostDebugSettingsAPI_1", "OmniRtxDebugSettingsAPI_1"]
+                hide_in_stage_window = true
+                no_delete = true
+            )
+            {
+                rel camera = </OmniverseKit_Persp>
+                token omni:rtx:background:source:texture:textureMode = "repeatMirrored"
+                token omni:rtx:background:source:type = "domeLight"
+                bool omni:rtx:post:registeredCompositing:invertColorCorrection = 1
+                bool omni:rtx:post:registeredCompositing:invertToneMap = 1
+                int omni:rtx:pt:maxSamplesPerLaunch = 2073600
+                int omni:rtx:pt:mgpu:maxPixelsPerRegionExponent = 12
+                color3f omni:rtx:rt:ambientLight:color = (0.1, 0.1, 0.1)
+                bool omni:rtx:rt:demoire = 0
+                uint omni:rtx:viewTile:limit = 4294967295
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+        }
+    }
+
+    def RenderSettings "OmniverseGlobalRenderSettings" (
+        prepend apiSchemas = ["OmniRtxSettingsGlobalRtAdvancedAPI_1", "OmniRtxSettingsGlobalPtAdvancedAPI_1"]
+        no_delete = true
+    )
+    {
+        rel products = </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0>
+    }
+
+    def "Vars"
+    {
+        def RenderVar "LdrColor" (
+            hide_in_stage_window = true
+            no_delete = true
+        )
+        {
+            uniform string sourceName = "LdrColor"
+        }
+    }
+}
+
+def PhysicsScene "physicsScene" (
+    prepend apiSchemas = ["PhysxSceneAPI"]
+)
+{
+    vector3f physics:gravityDirection = (0, 0, -1)
+    float physics:gravityMagnitude = 9.80665
+    uniform token physxScene:broadphaseType = "MBP"
+    bool physxScene:enableCCD = 1
+    bool physxScene:enableGPUDynamics = 0
+    bool physxScene:enableStabilization = 0
+    uniform token physxScene:solverType = "TGS"
+    uint physxScene:timeStepsPerSecond = 960
+}
+
+def "World"
+{
+    def Material "steel" (
+        prepend apiSchemas = ["PhysicsMaterialAPI", "PhysxMaterialAPI"]
+    )
+    {
+        float physics:dynamicFriction = 0.1
+        float physics:restitution = 0.95
+        float physics:staticFriction = 0.1
+        uniform token physxMaterial:frictionCombineMode = "average"
+        uniform token physxMaterial:restitutionCombineMode = "average"
+    }
+
+    def Xform "ball0" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysxContactReportAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.000018619918)
+        float3 physics:diagonalInertia = (0.000001396249, 0.000001396249, 0.000001341286)
+        float physics:mass = 0.033208665
+        float physxContactReport:threshold = 0
+        float physxRigidBody:angularDamping = 0
+        float physxRigidBody:linearDamping = 0
+        float physxRigidBody:sleepThreshold = 0
+        int physxRigidBody:solverPositionIterationCount = 100
+        int physxRigidBody:solverVelocityIterationCount = 8
+        quatf xformOp:orient = (1, 0, -0, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (-0.04019958898425102, 0, 0.03999999910593033)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Sphere "Geom" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI", "PhysxContactReportAPI"]
+        )
+        {
+            rel material:binding:physics = </World/steel>
+            float physxCollision:contactOffset = 0.00001
+            float physxCollision:restOffset = 0
+            float physxContactReport:threshold = 0
+            double radius = 0.010049897571124499
+        }
+
+        def Cylinder "Rod"
+        {
+            uniform token axis = "Z"
+            double height = 0.12260197186925555
+            double radius = 0.00015
+            double3 xformOp:translate = (0, 0, 0.07135088350575228)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def PhysicsRevoluteJoint "hinge0" (
+        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+    )
+    {
+        float drive:angular:physics:damping = 0.0000010483998
+        float drive:angular:physics:stiffness = 0
+        float drive:angular:physics:targetVelocity = 0
+        uniform token drive:angular:physics:type = "force"
+        uniform token physics:axis = "Y"
+        rel physics:body1 = </World/ball0>
+        point3f physics:localPos0 = (-0.04019959, 0, 0.17265187)
+        point3f physics:localPos1 = (0, 0, 0.13265187)
+        quatf physics:localRot0 = (1, 0, 0, 0)
+        quatf physics:localRot1 = (1, 0, 0, 0)
+    }
+
+    def Xform "ball1" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysxContactReportAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.000018619918)
+        float3 physics:diagonalInertia = (0.000001396249, 0.000001396249, 0.000001341286)
+        float physics:mass = 0.033208665
+        float physxContactReport:threshold = 0
+        float physxRigidBody:angularDamping = 0
+        float physxRigidBody:linearDamping = 0
+        float physxRigidBody:sleepThreshold = 0
+        int physxRigidBody:solverPositionIterationCount = 100
+        int physxRigidBody:solverVelocityIterationCount = 8
+        quatf xformOp:orient = (1, 0, -0, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (-0.02009979449212551, 0, 0.03999999910593033)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Sphere "Geom" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI", "PhysxContactReportAPI"]
+        )
+        {
+            rel material:binding:physics = </World/steel>
+            float physxCollision:contactOffset = 0.00001
+            float physxCollision:restOffset = 0
+            float physxContactReport:threshold = 0
+            double radius = 0.010049897571124499
+        }
+
+        def Cylinder "Rod"
+        {
+            uniform token axis = "Z"
+            double height = 0.12260197186925555
+            double radius = 0.00015
+            double3 xformOp:translate = (0, 0, 0.07135088350575228)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def PhysicsRevoluteJoint "hinge1" (
+        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+    )
+    {
+        float drive:angular:physics:damping = 0.0000010483998
+        float drive:angular:physics:stiffness = 0
+        float drive:angular:physics:targetVelocity = 0
+        uniform token drive:angular:physics:type = "force"
+        uniform token physics:axis = "Y"
+        rel physics:body1 = </World/ball1>
+        point3f physics:localPos0 = (-0.020099794, 0, 0.17265187)
+        point3f physics:localPos1 = (0, 0, 0.13265187)
+        quatf physics:localRot0 = (1, 0, 0, 0)
+        quatf physics:localRot1 = (1, 0, 0, 0)
+    }
+
+    def Xform "ball2" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysxContactReportAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.000018619918)
+        float3 physics:diagonalInertia = (0.000001396249, 0.000001396249, 0.000001341286)
+        float physics:mass = 0.033208665
+        float physxContactReport:threshold = 0
+        float physxRigidBody:angularDamping = 0
+        float physxRigidBody:linearDamping = 0
+        float physxRigidBody:sleepThreshold = 0
+        int physxRigidBody:solverPositionIterationCount = 100
+        int physxRigidBody:solverVelocityIterationCount = 8
+        quatf xformOp:orient = (1, 0, -0, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, 0, 0.03999999910593033)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Sphere "Geom" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI", "PhysxContactReportAPI"]
+        )
+        {
+            rel material:binding:physics = </World/steel>
+            float physxCollision:contactOffset = 0.00001
+            float physxCollision:restOffset = 0
+            float physxContactReport:threshold = 0
+            double radius = 0.010049897571124499
+        }
+
+        def Cylinder "Rod"
+        {
+            uniform token axis = "Z"
+            double height = 0.12260197186925555
+            double radius = 0.00015
+            double3 xformOp:translate = (0, 0, 0.07135088350575228)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def PhysicsRevoluteJoint "hinge2" (
+        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+    )
+    {
+        float drive:angular:physics:damping = 0.0000010483998
+        float drive:angular:physics:stiffness = 0
+        float drive:angular:physics:targetVelocity = 0
+        uniform token drive:angular:physics:type = "force"
+        uniform token physics:axis = "Y"
+        rel physics:body1 = </World/ball2>
+        point3f physics:localPos0 = (0, 0, 0.17265187)
+        point3f physics:localPos1 = (0, 0, 0.13265187)
+        quatf physics:localRot0 = (1, 0, 0, 0)
+        quatf physics:localRot1 = (1, 0, 0, 0)
+    }
+
+    def Xform "ball3" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysxContactReportAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.000018619918)
+        float3 physics:diagonalInertia = (0.000001396249, 0.000001396249, 0.000001341286)
+        float physics:mass = 0.033208665
+        float physxContactReport:threshold = 0
+        float physxRigidBody:angularDamping = 0
+        float physxRigidBody:linearDamping = 0
+        float physxRigidBody:sleepThreshold = 0
+        int physxRigidBody:solverPositionIterationCount = 100
+        int physxRigidBody:solverVelocityIterationCount = 8
+        quatf xformOp:orient = (0.9104474, 0, -0.41362485, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.12000883370637894, 0, 0.08538960665464401)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Sphere "Geom" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI", "PhysxContactReportAPI"]
+        )
+        {
+            rel material:binding:physics = </World/steel>
+            float physxCollision:contactOffset = 0.00001
+            float physxCollision:restOffset = 0
+            float physxContactReport:threshold = 0
+            double radius = 0.010049897571124499
+        }
+
+        def Cylinder "Rod"
+        {
+            uniform token axis = "Z"
+            double height = 0.12260197186925555
+            double radius = 0.00015
+            double3 xformOp:translate = (0, 0, 0.07135088350575228)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def PhysicsRevoluteJoint "hinge3" (
+        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+    )
+    {
+        float drive:angular:physics:damping = 0.0000010483998
+        float drive:angular:physics:stiffness = 0
+        float drive:angular:physics:targetVelocity = 0
+        uniform token drive:angular:physics:type = "force"
+        uniform token physics:axis = "Y"
+        rel physics:body1 = </World/ball3>
+        point3f physics:localPos0 = (0.020099794, 0, 0.17265187)
+        point3f physics:localPos1 = (0, 0, 0.13265187)
+        quatf physics:localRot0 = (1, 0, 0, 0)
+        quatf physics:localRot1 = (1, 0, 0, 0)
+    }
+
+    def Xform "ball4" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysxContactReportAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.000018619918)
+        float3 physics:diagonalInertia = (0.000001396249, 0.000001396249, 0.000001341286)
+        float physics:mass = 0.033208665
+        float physxContactReport:threshold = 0
+        float physxRigidBody:angularDamping = 0
+        float physxRigidBody:linearDamping = 0
+        float physxRigidBody:sleepThreshold = 0
+        int physxRigidBody:solverPositionIterationCount = 100
+        int physxRigidBody:solverVelocityIterationCount = 8
+        quatf xformOp:orient = (0.904777, 0, -0.42588568, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.14242948591709137, 0, 0.08812040835618973)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Sphere "Geom" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI", "PhysxContactReportAPI"]
+        )
+        {
+            rel material:binding:physics = </World/steel>
+            float physxCollision:contactOffset = 0.00001
+            float physxCollision:restOffset = 0
+            float physxContactReport:threshold = 0
+            double radius = 0.010049897571124499
+        }
+
+        def Cylinder "Rod"
+        {
+            uniform token axis = "Z"
+            double height = 0.12260197186925555
+            double radius = 0.00015
+            double3 xformOp:translate = (0, 0, 0.07135088350575228)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def PhysicsRevoluteJoint "hinge4" (
+        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+    )
+    {
+        float drive:angular:physics:damping = 0.0000010483998
+        float drive:angular:physics:stiffness = 0
+        float drive:angular:physics:targetVelocity = 0
+        uniform token drive:angular:physics:type = "force"
+        uniform token physics:axis = "Y"
+        rel physics:body1 = </World/ball4>
+        point3f physics:localPos0 = (0.04019959, 0, 0.17265187)
+        point3f physics:localPos1 = (0, 0, 0.13265187)
+        quatf physics:localRot0 = (1, 0, 0, 0)
+        quatf physics:localRot1 = (1, 0, 0, 0)
+    }
+}
+

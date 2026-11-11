@@ -1,0 +1,28 @@
+{
+  "video_id": "l6",
+  "release_count": 2,
+  "angle_deg": 49.63947473577794,
+  "angles_deg": [
+    0,
+    0,
+    0,
+    48.865482743631944,
+    50.413466727923925
+  ],
+  "radius_m": 0.010049897571124499,
+  "length_m": 0.13265186944038004,
+  "mass_kg": 0.03319999948,
+  "rod_radius_m": 0.00015,
+  "rod_mass_kg": 8.6662227181517e-06,
+  "joint_damping_Nms": 6.006888434569098e-05,
+  "hz": 240,
+  "seconds": 8,
+  "iterations": 100,
+  "restitution": 0.95,
+  "friction": 0.1,
+  "gap_m": 0.0,
+  "mj_stiffness": 10000,
+  "mj_damping": 3.266,
+  "id": "l6_h240",
+  "group": "timestep_control"
+}

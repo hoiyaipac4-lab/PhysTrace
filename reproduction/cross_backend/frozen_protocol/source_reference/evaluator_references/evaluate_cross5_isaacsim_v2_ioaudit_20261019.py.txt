@@ -1,0 +1,154 @@
+# Historical evaluator source reference. Native runtime dependencies are external.
+from pathlib import Path
+import os,sys,json,time,traceback,hashlib,io,urllib.request,subprocess
+import numpy as np
+OUT=Path(os.environ['PIPER_EVAL_OUT']);OUT.mkdir(parents=True,exist_ok=True)
+P=Path(os.environ['PHYSTRACE_HISTORICAL_RUNTIME_ROOT']);ROOT=P.parent/'baseline';LEARN=ROOT/'learning'
+sys.path[:0]=[str(P),str(LEARN),str(ROOT),str(ROOT/'src')]
+from isaac_native_trace_observer_v1_20261015 import StepObserver,schema
+from cross6_float32_command_audit_v2_20261019 import audit_sent_commands
+from isaac_live_strict_measurement_v1_20261016 import geometry_from_runtime,strict_metrics,verified_physical_guard
+from record_native_policy_request_v1_20261016 import save_query_request
+os.environ['SCENE_APPLIANCES_PRESENT']='0';os.environ['PLATE_CENTER_BASE']=json.dumps([.3,-.2,.02])
+split=os.environ.get('PIPER_EVAL_SPLIT','dev');screen=os.environ.get('PIPER_EVAL_SCREEN','0')=='1'
+assert split=='dev' and not screen, 'Only a repeat of existing DEV20; sealed final/test forbidden'
+from task_contract import PROMPTS,acceptance
+protocol=json.loads((ROOT/'evaluation_protocol.json').read_text())
+options=json.loads(Path(os.environ['PIPER_INFERENCE_OPTIONS']).read_text())
+tasks=[r for r in json.loads((ROOT/'task_index.json').read_text()) if r['split']==split and r['task']=='grasp_lift']
+if screen:
+    seeds=sorted({r['seed'] for r in tasks});chosen={seeds[i] for i in [0,6,12,19]}
+    tasks=[r for r in tasks if r['seed'] in chosen]
+assert len(tasks)==20
+tasks=[r for r in tasks if r['seed'] in json.loads(os.environ['PHYSTRACE_HISTORICAL_DEV_SCENE_IDS'])]
+assert [r['seed'] for r in tasks]==json.loads(os.environ['PHYSTRACE_HISTORICAL_DEV_SCENE_IDS'])
+(OUT/'scenarios.json').write_text(json.dumps(tasks,indent=2));(OUT/'inference_options.json').write_text(json.dumps(options,indent=2))
+sources=[ROOT/n for n in ['training_runtime.py','calibrated_runtime.py','kinematics.py','geometry.json','accepted_calibration.json','dataset_requirements.json','task_contract.py','evaluation_protocol.json','frozen_splits.json','task_index.json','src/data_contract.py','room_layout_calibration.py','tool_group_trial.py','tool_group_trial.json','reports/scene_preparation.json']]
+sources += [Path(__file__),P/'isaac_native_trace_observer_v1_20261015.py',P/'isaac_live_strict_measurement_v1_20261016.py',P/'record_native_policy_request_v1_20261016.py',P/'strict_native_full1s_metric_v1_20261016.py',LEARN/'config_inference.py',LEARN/'policy_server_inference.py']
+sources += [LEARN/n for n in ['config_multitask.py','policy_server.py','evaluate.py','audit_evaluation.py','table_clearance_filter.py']]
+sources += [Path(__file__).with_name('cross6_float32_command_audit_v2_20261019.py')]
+snapshot=OUT/'implementation_snapshot';snapshot.mkdir(exist_ok=True);hashes={}
+for p in sources:
+    key=str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else "P/"+p.name;q=snapshot/key;q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(p.read_bytes());hashes[key]=hashlib.sha256(p.read_bytes()).hexdigest()
+checkpoint=Path(os.environ['PIPER_CHECKPOINT'])
+provenance=dict(checkpoint=str(checkpoint),implementation_sha256=hashes,
+                dataset_hash_list_sha256=hashlib.sha256((ROOT/'prepared/dataset_hashes.json').read_bytes()).hexdigest(),
+                checkpoint_normalization_sha256=hashlib.sha256((checkpoint/'assets/piper_three_tasks/norm_stats.json').read_bytes()).hexdigest())
+provenance.update(cross_engine_pilot_scope='Frozen old-model cross-engine pilot. Five fixed already-used paired DEV scenes, full independent policy grasp_lift; no teacher pregrasp, retraining, tuning, final-holdout or real-robot operation. Rows=model source, columns=native physics destination.',source_model=os.environ['PIPER_SOURCE_MODEL'],destination_engine='isaacsim',paired_DEV_seeds=json.loads(os.environ['PHYSTRACE_HISTORICAL_DEV_SCENE_IDS']))
+provenance['posthoc_measurement_amendment']=str(P/'old_model_cross6_simple5_20261019/amendments/measurement_ioaudit_v2_20261019.json')
+(OUT/'provenance.json').write_text(json.dumps(provenance,indent=2))
+from isaacsim import SimulationApp
+app=SimulationApp({'active_gpu':0,'physics_gpu':0,'multi_gpu':False,'limit_cpu_threads':16,'headless':True,
+                   'width':640,'height':480,'renderer':'RayTracedLighting',
+                   'extra_args':['--/renderer/multiGpu/enabled=false','--/exts/isaacsim.physics.newton/auto_switch_on_startup=false','--/app/tokens/cache='+os.environ['PHYSTRACE_KIT_CACHE'],'--/app/tokens/data='+os.environ['PHYSTRACE_KIT_DATA'],'--portable-root',os.environ['PHYSTRACE_KIT_RUNTIME']]})
+rt=None;results=[]
+def publish(current=None):
+    counts={task:dict(completed=sum(r['task']==task for r in results),successes=sum(r['task']==task and r['success'] for r in results),planned=5 if task=='grasp_lift' else 0) for task in PROMPTS}
+    data=dict(split=split,screen=screen,checkpoint=str(checkpoint),completed=len(results),planned=len(tasks),counts=counts,current=current,results=results,updated=time.time())
+    tmp=OUT/'status.tmp';tmp.write_text(json.dumps(data,indent=2));tmp.replace(OUT/'status.json')
+try:
+    from calibrated_runtime import initialize
+    from data_contract import encode
+    from kinematics import Kinematics
+    from table_clearance_filter import project_target
+    rt=initialize(app);kin=Kinematics();observer=StepObserver(rt);(OUT/'joint_limits.json').write_text(json.dumps(rt.limits.tolist()));(OUT/'trace_schema.json').write_text(json.dumps(schema(),indent=2));(OUT/'native_link_names.json').write_text(json.dumps(list(rt.robot.shared_metatype.link_names)));(OUT/'camera_metadata.json').write_text(json.dumps(rt.camera_meta,indent=2))
+    scenes={r['seed']:r for r in json.loads((ROOT/'plans/index.json').read_text())}
+    opener=urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    # Read-only observer native smoke on TRAIN only, before any DEV policy query.
+    smoke=[]
+    for scene in [r for r in scenes.values() if r['split']=='train'][:3]:
+        plan=np.load(ROOT/scene['plan']);rt.model_control=False;rt.speed_scale=1.;rt.reset(scene,plan['initial_qpos']);rt.model_control=True;observer.reset_records();goal=rt.q().copy()
+        for micro in range(32):observer.micro=micro;rt.step(goal,'grasp_hold')
+        proof=audit_sent_commands(observer.arrays(),rt.dt,rt.limits);proof['seed']=scene['seed'];smoke.append(proof)
+        rgb,cam=rt.capture();assert cam.shape==(2,4,4)
+    assert len(smoke)==3;(OUT/'native_observer_TRAIN3_smoke.json').write_text(json.dumps({'passed':True,'samples':smoke,'policy_calls':0,'no_final':True},indent=2))
+    for row in tasks:
+        folder=OUT/row['name'];folder.mkdir(exist_ok=True);saved=folder/'result.json'
+        if saved.exists():results.append(json.loads(saved.read_text()));publish();continue
+        observer.reset_records();states=[];actions=[];raw_targets=[];protected=[];shifts=[];objects=[];contacts=[];chunks=[];queries=[];inference_states=[];observation_times=[];camera_poses=[];query_wall_times=[];input_hashes=[];last_rgb=None
+        error=None;success=False;writer=None;metrics={};setup=None;infrastructure_error=False;call_in_progress=False;setup_in_progress=True;advance_in_progress=False;per_geometry=[];first_legacy_success_frame=None
+        try:
+            scene=scenes[row['seed']];plan=np.load(ROOT/scene['plan']);rt.model_control=False;rt.speed_scale=1.;rt.reset(scene,plan['initial_qpos'])
+            if row['task']=='lift_only':
+                # This is task initialization only. Policy control has not begun.
+                native=np.load(ROOT/row['source_path']/'trajectory.npz');meta=json.loads((ROOT/row['source_path']/'episode.json').read_text())
+                rt.speed_scale=meta['teacher_speed_scale'];setup_q=[];setup_pose=[];setup_contacts=[]
+                for i in range(row['source_start']):
+                    setup_q.append(rt.q());setup_pose.append(rt.object_pose())
+                    for _ in range(32):rt.step(native['source_targets'][i],str(native['phases'][i]));setup_contacts.append(rt.last.copy())
+                setup=acceptance(setup_contacts,setup_pose,'grasp_only',rt)
+                if not setup['success']:raise RuntimeError('INITIALIZATION_FAILURE: pregrasp not stable on table')
+                if np.max(np.abs(rt.q()-np.asarray(row['initial_joints_rad_m'])))>1e-4:raise RuntimeError('INITIALIZATION_FAILURE: pregrasp differs from saved start')
+                np.savez_compressed(folder/'setup.npz',actual_q=np.asarray(setup_q),object_base_pose=np.asarray(setup_pose),contact_substeps=np.asarray(setup_contacts),
+                                    source_targets=native['source_targets'][:row['source_start']],final_q=rt.q(),final_object_pose=rt.object_pose())
+                (folder/'setup.json').write_text(json.dumps(dict(metrics=setup,policy_calls=0,frames=row['source_start'],scope='Excluded from model completion and timing'),indent=2))
+            setup_in_progress=False;observer.reset_records();rt.model_control=True;rt.speed_scale=1.;rt.closing_tip_min=1.;rt.audit_min=1.;rt.audit_contacts=0;rt.audit_pairs=set();rt.audit_worst={}
+            rt.metrics={k:0. for k in rt.metrics};rt.stable_hold_s=0.
+            for _ in range(3):rt.capture()
+            writer=subprocess.Popen(['ffmpeg','-y','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s','1280x480','-r','30','-i','-','-an','-c:v','libx264','-preset','ultrafast','-crf','23','-pix_fmt','yuv420p',str(folder/'rollout.mp4')],stdin=subprocess.PIPE)
+            for frame in range(protocol['maximum_model_frames'][row['task']]):
+                rgb,cam=rt.capture();q=rt.q();writer.stdin.write(np.concatenate(rgb,axis=1).tobytes());observation_times.append(float(rt.t));camera_poses.append(cam);last_rgb=rgb
+                if frame==0 or frame%150==0:
+                    from PIL import Image
+                    for view,img in zip(('head','wrist'),rgb):Image.fromarray(img).save(folder/(view+'_'+str(frame).zfill(6)+'.png'))
+                if frame%options['replan_every_frames']==0:
+                    state=encode(q);payload=io.BytesIO();np.savez(payload,head=rgb[0],wrist=rgb[1],state=state,prompt=np.array(PROMPTS[row['task']]),seed=np.array(row['seed']),frame=np.array(frame))
+                    request=urllib.request.Request('http://127.0.0.1:18810/',data=payload.getvalue(),method='POST')
+                    save_query_request(folder,row['seed'],frame,payload.getvalue());call_in_progress=True
+                    wall_start=time.time()
+                    with opener.open(request,timeout=120) as response:chunk=np.load(io.BytesIO(response.read()),allow_pickle=False)
+                    query_wall_times.append([wall_start,time.time()]);input_hashes.append({'frame':frame,'head':hashlib.sha256(rgb[0].tobytes()).hexdigest(),'wrist':hashlib.sha256(rgb[1].tobytes()).hexdigest(),'state':hashlib.sha256(state.tobytes()).hexdigest()})
+                    assert chunk.shape==(16,7) and np.isfinite(chunk).all();call_in_progress=False;chunks.append(chunk);queries.append(frame);inference_states.append(state)
+                candidates=[c[frame-f] for f,c in zip(queries,chunks) if 0<=frame-f<16]
+                action=np.mean(candidates,axis=0) if options['temporal_ensemble'] else candidates[-1].copy()
+                width=float(np.clip(action[6],0,.07));target=np.clip(np.r_[action[:6],width/2-.004,-width/2-.004],rt.limits[:,0],rt.limits[:,1]);goal,shift=project_target(target,kin)
+                states.append(q);actions.append(action);raw_targets.append(target);protected.append(goal);shifts.append(shift);objects.append(rt.object_pose())
+                observer.frame=frame
+                advance_in_progress=True
+                for micro in range(32):observer.micro=micro;rt.step(goal,'grasp_hold');contacts.append(rt.last.copy())
+                advance_in_progress=False;per_geometry.append(geometry_from_runtime(rt))
+                if len(objects)>=30:
+                    metrics=acceptance(contacts,objects,row['task'],rt)
+                    if metrics['success'] and first_legacy_success_frame is None:first_legacy_success_frame=frame
+                    if metrics['success'] and strict_metrics(observer.arrays(),geometry_from_runtime(rt))['strict_pass']:success=True;break
+                if frame%15==0:publish(dict(name=row['name'],task=row['task'],seed=row['seed'],frame=frame,stable_hold_s=metrics.get('stable_hold_s',0)))
+        except Exception as exc:
+            error=str(exc);traceback.print_exc()
+            infrastructure_error=call_in_progress or setup_in_progress or not verified_physical_guard(error,observer.rows,geometry_from_runtime(rt),advance_in_progress)
+            (folder/'failure_snapshot.json').write_text(json.dumps({'error':error,'traceback':traceback.format_exc(),'native_frame':observer.frame,'native_micro':observer.micro,'geometry_audit':geometry_from_runtime(rt),'last_native_row':{k:np.asarray(v).tolist() if isinstance(v,np.ndarray) else v for k,v in observer.rows[-1].items()} if observer.rows else None,'infrastructure_error':infrastructure_error},indent=2))
+        finally:
+            if writer is not None:writer.stdin.close();assert writer.wait()==0
+        result=dict(name=row['name'],seed=row['seed'],split=split,task=row['task'],success=success,error=error,
+                    infrastructure_error=infrastructure_error,frames=len(states),metrics=metrics,setup=setup,video=row['name']+'/rollout.mp4',
+                    closing_tip_min_m=rt.closing_tip_min,gripper_table_min_m=rt.audit_min,gripper_table_contacts=rt.audit_contacts,
+                    guard_peaks=rt.metrics,table_projected_frames=int(np.count_nonzero(shifts)),max_table_projection_mm=float(max(shifts,default=0)*1000),
+                    inference_options=options,scope='Learned policy plus table-only controller; initial-condition setup excluded')
+        if last_rgb is not None:
+            from PIL import Image
+            for view,img in zip(('head','wrist'),last_rgb):Image.fromarray(img).save(folder/(view+'_last.png'))
+        trace_arrays=observer.arrays()
+        # Archive the complete observed attempt before any post-hoc validator can raise.
+        pre_audit_result=dict(result,strict_full1s_metrics=strict_metrics(trace_arrays,geometry_from_runtime(rt)),first_legacy_success_frame=first_legacy_success_frame,measurement_amendment='ioaudit_v2_20261019',not_a_valid_result_until_posthoc_audit_passes=True)
+        (folder/'pre_audit_result.json').write_text(json.dumps(pre_audit_result,indent=2))
+        (folder/'input_hashes.json').write_text(json.dumps(input_hashes,indent=2))
+        (folder/'geometry_audits_per_returned_frame.json').write_text(json.dumps(per_geometry))
+        np.savez_compressed(folder/'trajectory.npz',actual_q=np.asarray(states).reshape(-1,8),predicted_actions=np.asarray(actions).reshape(-1,7),
+                            executed_targets=np.asarray(raw_targets).reshape(-1,8),controller_targets=np.asarray(protected).reshape(-1,8),table_projection_shifts_m=np.asarray(shifts),
+                            object_base_pose=np.asarray(objects).reshape(-1,4,4),contact_substeps=np.asarray(contacts).reshape(-1,8),
+                            inference_frames=np.asarray(queries),model_chunks=np.asarray(chunks).reshape(-1,16,7),inference_states=np.asarray(inference_states).reshape(-1,7),observation_times_s=np.asarray(observation_times),camera_base_pose=np.asarray(camera_poses).reshape(-1,2,4,4),inference_query_wall_times_s=np.asarray(query_wall_times).reshape(-1,2),**trace_arrays)
+        trace_audit=audit_sent_commands(trace_arrays,rt.dt,rt.limits) if trace_arrays else {'steps':0,'no_policy_steps':True}
+        (folder/'trace_audit.json').write_text(json.dumps(trace_audit,indent=2));(folder/'input_hashes.json').write_text(json.dumps(input_hashes,indent=2))
+        result['trace_audit']=trace_audit;result['repeat_of_existing_DEV_not_new_independent_trials']=True
+        result.update(strict_full1s_metrics=strict_metrics(trace_arrays,geometry_from_runtime(rt)),first_legacy_success_frame=first_legacy_success_frame,success_protocol='Original legacy guards AND endpointinclusive actualnative post-step full1s within900model frames; continue withinbudget afterlegacyonlypass',clock_scope='Original runtime simulation-step time counter, not independentSDKclock',motor_scope='Incoming projected joint force is not isolated PD torque; explicitFF readback is not total motor effort')
+        (folder/'geometry_audits_per_returned_frame.json').write_text(json.dumps(per_geometry))
+
+        saved.write_text(json.dumps(result,indent=2));results.append(result);publish();print('EVAL_RESULT',json.dumps(result),flush=True)
+        if infrastructure_error:raise RuntimeError(f'Invalid model trial due to infrastructure/initialization: {row["name"]}')
+    assert len(results)==5 and not any(r['infrastructure_error'] for r in results)
+    report={'checkpoint':str(checkpoint),'completed':5,'successes':sum(r['success'] for r in results),'infrastructure_failures':0,'native_observer_TRAIN3_passed':True,'trace_arrays_actual_saved':True,'live_strict_full1s_protocol':True,'actual_query_HTTP_bodies_archived_losslessly':True,'repeat_existing_development20':True,'is_new_independent_final60':False,'real_admitted':False,'final_admitted':False,'results':results}
+    (OUT/'evaluation_complete.json').write_text(json.dumps(report,indent=2));print('EVAL_COMPLETE',json.dumps(report),flush=True)
+except BaseException:
+    (OUT/'failure.json').write_text(json.dumps({'error':traceback.format_exc()}));traceback.print_exc()
+finally:
+    if rt is not None:rt.close()
+    app.close()

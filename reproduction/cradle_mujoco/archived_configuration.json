@@ -1,0 +1,283 @@
+{
+  "observer_sha256": "e0ce104fd5e81c919fdb13cd888d88f1cdc4e4cd502b8fe2cb33182d7efa6245",
+  "archive_runtime": "MuJoCo 3.10.0 on Linux",
+  "replay_runtime": "MuJoCo 3.13.0 on Windows",
+  "cases": {
+    "l1_matched": {
+      "case_sha256": "97380d4b13b4d0206f4e0fc5145a5ce3125ceebb24c7016307c1c20e5425ff50",
+      "scene_sha256": "ad42eef0c7334c36a45b169754398535cca02feb24d0c3a10750ea1a5808d3c4",
+      "source_result_sha256": "b4b99842b13319fd45090a343d35957c017b9926a56bdd2bd520f95e63c7f7ff",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l1_gap100um": {
+      "case_sha256": "ca8d427cb095cb17f7080bdfc4b5599c13d1dd3fa2ca18f3b745c56543716d5b",
+      "scene_sha256": "61ffbd2b839c0a70f1ddf2e05b57de2481fcd88efd2b9da7454c0fcfce4d25a0",
+      "source_result_sha256": "f1c65a983b5653c0f2525895e5547de78c5bfc222d6b2e8b4e6505d2a6017340",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l2_matched": {
+      "case_sha256": "df06201186211dac0c0383d00a54110096be9c1e50f3686ef74f967b00e4afba",
+      "scene_sha256": "ad42eef0c7334c36a45b169754398535cca02feb24d0c3a10750ea1a5808d3c4",
+      "source_result_sha256": "0bcacabf0c8ec2ec46dae2b2671a6ead09847712109a16f75921da356214151a",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l2_gap100um": {
+      "case_sha256": "bb5d99d9b02f896dc346a6fcf8c31486ae0946840d912ca4783851220b8fc53e",
+      "scene_sha256": "61ffbd2b839c0a70f1ddf2e05b57de2481fcd88efd2b9da7454c0fcfce4d25a0",
+      "source_result_sha256": "daad14a1fef7876fd57f4fa169d8f4493312cdec0f1dede7397015ac87cea12d",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l3_matched": {
+      "case_sha256": "516f8bd896a9f71efb354198932bf706da7f8418bd62b794ddd2847097d9cd0d",
+      "scene_sha256": "ad42eef0c7334c36a45b169754398535cca02feb24d0c3a10750ea1a5808d3c4",
+      "source_result_sha256": "36755bdb3cb057f8ee1aa3742b33dc050c01f83ffc289661abc9c04a5cf1d6b9",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l3_gap100um": {
+      "case_sha256": "355153cc1fd13a0e4da1399fd69195c8db3cdbc65fb8719d34f987647b1dc215",
+      "scene_sha256": "61ffbd2b839c0a70f1ddf2e05b57de2481fcd88efd2b9da7454c0fcfce4d25a0",
+      "source_result_sha256": "59bb0b70aaefc31d42486cc486f385bd85ff88246b47b3d2851a5cbb34d863aa",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l4_matched": {
+      "case_sha256": "7e45ddbb0dd02e848f0d3ca43cb68ace726e76d2f0964386786ac1b711c13bf9",
+      "scene_sha256": "ad42eef0c7334c36a45b169754398535cca02feb24d0c3a10750ea1a5808d3c4",
+      "source_result_sha256": "77a9a4725b893d28b3729ca51601df498c72c54444ccdf57114da42db14a41b7",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l4_gap100um": {
+      "case_sha256": "9a3c4c1350d895807b8da3066b9b6d0460c6ea1422880f7851176d9708ed2c1d",
+      "scene_sha256": "61ffbd2b839c0a70f1ddf2e05b57de2481fcd88efd2b9da7454c0fcfce4d25a0",
+      "source_result_sha256": "8b85a2ccbe2e66a2ce5e3a0b76efd9ddd59b611dc26779537256b7c7c0017ad0",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l5_matched": {
+      "case_sha256": "48fa4d5ac86e960e4943e5432e88c41ff9abbe0d476036eebefd9ee1fd67ccaf",
+      "scene_sha256": "ad42eef0c7334c36a45b169754398535cca02feb24d0c3a10750ea1a5808d3c4",
+      "source_result_sha256": "485d4fb11b212a4096014eaab20a82450c4091cc8f1a5e9963c6e165fa27957e",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l5_gap100um": {
+      "case_sha256": "c4b411526b7537b3ec0a06026d137af1498392bf49407b425da2ff218d11fe76",
+      "scene_sha256": "61ffbd2b839c0a70f1ddf2e05b57de2481fcd88efd2b9da7454c0fcfce4d25a0",
+      "source_result_sha256": "10ffd4eb47b660d039357910d44934ba566a5fd1857a5e79bb33c00a1ee90136",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l6_matched": {
+      "case_sha256": "764c36e83327decf19e60fcb3da12c5b45a72dc42177185eb563f9cc6992e3df",
+      "scene_sha256": "ad42eef0c7334c36a45b169754398535cca02feb24d0c3a10750ea1a5808d3c4",
+      "source_result_sha256": "578412439edcc0ab62c08a272d90aa7b1a3ac48092a89b2025a199bd0745bb39",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    },
+    "l6_gap100um": {
+      "case_sha256": "cb294a22d9a632e46abccfa33d2a178cb7c4d8d1398ccbb8033f9c2708e4da74",
+      "scene_sha256": "61ffbd2b839c0a70f1ddf2e05b57de2481fcd88efd2b9da7454c0fcfce4d25a0",
+      "source_result_sha256": "076a096487475c49905977e58587516c085ebe23f7e01e75c3e076961c078971",
+      "version": "3.10.0",
+      "observed_steps": 21120,
+      "native_dt": 0.0010416666666666667,
+      "native_masses": [
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815,
+        0.03320866570271815
+      ],
+      "contact": {
+        "law": "MuJoCo direct-format compliant contact",
+        "solref": [
+          -10000,
+          -3.266
+        ],
+        "note": "normalized stiffness/damping; restitution not directly available; damping ratio .01633 of an ideal isolated linear oscillator, not measured pair restitution"
+      }
+    }
+  }
+}

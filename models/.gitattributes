@@ -1,0 +1,6 @@
+# Preserve the archived SHA-256 values in Git checkouts on all platforms.
+*/12000/assets/piper_three_tasks/norm_stats.json -text
+scripts/policy_core.py -text
+runtime/config_inference.py -text
+runtime/inference_options.json -text
+runtime/vendor/** -text

@@ -1,0 +1,835 @@
+{
+  "scope": "Original SHA-256 values from completed Figure 7 cell provenance and the frozen historical reference gate. Logical paths identify archived dependencies and do not refer to files in this release.",
+  "policy_server_original_hashes": {
+    "historical/runtime/policy_server_lossless_gpu1_same_protocol_20261015.py": "2c48f0dcae327b3335ff44e2255c131ee74ae1f2921155be6577597530d3bf35",
+    "historical/runtime/policy_server_lossless_same_protocol_v1_20261015.py": "a49f2f0ebedfd36a9a9a18bcd08f24cca9957261e991f375c781b6261e088e24"
+  },
+  "measurement_amendment_original_hashes": {
+    "historical/evaluator/scripts/cross6_float32_command_audit_v2_20261019.py": "76e5b35d5afce3323ac88cda74376a34245a894ae19ecce10287e4f0ca1868f8",
+    "historical/evaluator/scripts/evaluate_cross5_isaacsim_v2_ioaudit_20261019.py": "66fc653dabe589b4d8390e7e4576a0175d7f47aff1f2bf62bd52518b82e1a6a2",
+    "historical/evaluator/scripts/run_cross6_simple5_v2_ioaudit_20261019.py": "3954fe39a34c6404d0b95e70e417637c71e63ae7615d004f9ddef9ee76063c97"
+  },
+  "public_configuration_exports": {
+    "geometry.json": {
+      "source_sha256": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "export_sha256": "bc9dc0ebe40801c547891b4b8e105234ed0ec6139f5d7f60980277bf841a02e4",
+      "handling": "Removed the original filesystem path. Kept geometry and frames."
+    },
+    "accepted_calibration.json": {
+      "source_sha256": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "export_sha256": "7518213e1c10270a155e044fb69656b1342b12ca074dcb11d0cc4ce7aaa6bc4b",
+      "handling": "JSON exported for portability."
+    },
+    "native_task_physics.json": {
+      "source_sha256": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+      "export_sha256": "db039e62633a32582ed25d849fabe65dbe20c6be02dc6280f9791d9ca239f8a3",
+      "handling": "Original non-finite authored values use string tokens for valid JSON."
+    },
+    "scene_preparation.json": {
+      "source_sha256": "b5f2acb2ebcdc31896800070de9c9ab572fe55e1a90378e5d3ec4a98996894cb",
+      "export_sha256": "4d042d46c4db9b8d4b6adaaa57385effc3c0399b6abc890cac601ad2298d048d",
+      "handling": "Original relative scene path uses a logical archive identifier."
+    },
+    "isaacsim_trace_schema.json": {
+      "source_sha256": "ad15c79c2db1f8fa5b9c20b7fb54e17a55b7977c51c74e8c9dd18a1c411c0398",
+      "export_sha256": "19cfc3e547115c1e0dd78f69d35f532f39371045b814da934d63a0ff28669d31",
+      "handling": "JSON exported for portability."
+    }
+  },
+  "cells": [
+    {
+      "source_model": "isaacsim",
+      "destination_engine": "mujoco",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "06efaacdc646c79370b7254ee2dc8b0c358c09edb4b66e0b1c3ce29586050efc",
+      "source_map_sha256": "1230c8a55171d8f4115222cd042efe47c8d6d190e52770ad01302a24ccd65113",
+      "normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec"
+    },
+    {
+      "source_model": "isaacsim",
+      "destination_engine": "pybullet",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "93787cf154b459443e39038984b29eac28194c0e0c74900ed73380761c66165c",
+      "source_map_sha256": "d59a801eda416ce0115a490bb9218d542ff1b9dcc6ceeadf80c186b9b69daefe",
+      "normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec"
+    },
+    {
+      "source_model": "isaacsim",
+      "destination_engine": "drake",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "ba52f30d5b3ba02724732599f19e54996c4a04765c4d9a401ea9a751e5f994e9",
+      "source_map_sha256": "e092eae02be9781ca8c95f1466dedb805b17684a2c3de57446de75c2d479d737",
+      "normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec"
+    },
+    {
+      "source_model": "isaacsim",
+      "destination_engine": "newton",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "bf6bf96ec3ffa8a80cf9526444496abb0b3894971dd1987a1ad0d445bbc05e5f",
+      "source_map_sha256": "4c7dedf171ab532fbad492cd3de4f4ceb385a36fda13cd20566dc8c220e4b354",
+      "normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec"
+    },
+    {
+      "source_model": "isaacsim",
+      "destination_engine": "gazebo",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "0b4748db9e42992eae1dd3e6a3e157035382d5b5b303ff9a08e26c6caf6aed7a",
+      "source_map_sha256": "c442539fb4fa60929f1bdc5e85d1fb42d43fcccbb096fa58dbaafe1f612e2973",
+      "normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec"
+    },
+    {
+      "source_model": "mujoco",
+      "destination_engine": "isaacsim",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "8babeaf1a01e693a5d8136036dbc195f86e81bae59d3e3ce4746ec16701809ef",
+      "source_map_sha256": "f8527b982e5aa959cc1bdba5b94bdced43a9439a656b92a0138768593904c766",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "mujoco",
+      "destination_engine": "pybullet",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "2d4c03a2bb2a0c458673718f29296d8cd5025c104c18008b4932343c2e88b66b",
+      "source_map_sha256": "d59a801eda416ce0115a490bb9218d542ff1b9dcc6ceeadf80c186b9b69daefe",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "mujoco",
+      "destination_engine": "drake",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "92237871df5a46bbf430679d336d5ded9515a1857c954970a806ae70a212aaf7",
+      "source_map_sha256": "e092eae02be9781ca8c95f1466dedb805b17684a2c3de57446de75c2d479d737",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "mujoco",
+      "destination_engine": "newton",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "bc6d8721fd15c5752429ee2c6b79454d2d9a6488215bdd026b520e0eaeca5e59",
+      "source_map_sha256": "4c7dedf171ab532fbad492cd3de4f4ceb385a36fda13cd20566dc8c220e4b354",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "mujoco",
+      "destination_engine": "gazebo",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "185fdfc7a23a70542d2677c1d380ce852dee4a7e2fdad04a2a6dcc1f44f2bad2",
+      "source_map_sha256": "c442539fb4fa60929f1bdc5e85d1fb42d43fcccbb096fa58dbaafe1f612e2973",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "pybullet",
+      "destination_engine": "isaacsim",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "a424d1d5dd6e6c60ba06a6a5f0ce5eb4143cf6bda175cc580fee21b61bd60b99",
+      "source_map_sha256": "f8527b982e5aa959cc1bdba5b94bdced43a9439a656b92a0138768593904c766",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "pybullet",
+      "destination_engine": "mujoco",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "72d6cd6b0d4fbecaf596029dacf2431392f0272675e413e14c5f20d341ce437c",
+      "source_map_sha256": "1230c8a55171d8f4115222cd042efe47c8d6d190e52770ad01302a24ccd65113",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "pybullet",
+      "destination_engine": "drake",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "f7e87ad7abead9dde660ae26205a1007b4137476b8a14382c4678cf8e60d883e",
+      "source_map_sha256": "e092eae02be9781ca8c95f1466dedb805b17684a2c3de57446de75c2d479d737",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "pybullet",
+      "destination_engine": "newton",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "2b11145d6042f6915ce6ff1426034e14d3c51eb817e9f4374e139836ba8da3e9",
+      "source_map_sha256": "4c7dedf171ab532fbad492cd3de4f4ceb385a36fda13cd20566dc8c220e4b354",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "pybullet",
+      "destination_engine": "gazebo",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "d7c0a060c0331bd209b3f362cd816ed1e87611100015bcc3dac053701a4828e5",
+      "source_map_sha256": "c442539fb4fa60929f1bdc5e85d1fb42d43fcccbb096fa58dbaafe1f612e2973",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "drake",
+      "destination_engine": "isaacsim",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "f3d7131837cb7e9fc86ec50037caa6596fd69aad9e951f90e7e6466684621054",
+      "source_map_sha256": "f8527b982e5aa959cc1bdba5b94bdced43a9439a656b92a0138768593904c766",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "drake",
+      "destination_engine": "mujoco",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "c10c393ecc0303891ea845fe214b16ba433013fe34a949e5ecf6e04f349c7bbe",
+      "source_map_sha256": "1230c8a55171d8f4115222cd042efe47c8d6d190e52770ad01302a24ccd65113",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "drake",
+      "destination_engine": "pybullet",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "023cfb3aee478277829da11577f1493e75324550bba833eac89551900b926034",
+      "source_map_sha256": "d59a801eda416ce0115a490bb9218d542ff1b9dcc6ceeadf80c186b9b69daefe",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "drake",
+      "destination_engine": "newton",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "60d082f7080a4f87b6fc0b77524090cfc1c513b618d88b38b318f0fa25f611b4",
+      "source_map_sha256": "4c7dedf171ab532fbad492cd3de4f4ceb385a36fda13cd20566dc8c220e4b354",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "drake",
+      "destination_engine": "gazebo",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "46f3add2c0d6d97dc01072ff757e5fbfb642b2053f99ded41426707e7e72ebd2",
+      "source_map_sha256": "c442539fb4fa60929f1bdc5e85d1fb42d43fcccbb096fa58dbaafe1f612e2973",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "newton",
+      "destination_engine": "isaacsim",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "ea20ae94d74b8a048aecfc470288877c195fab7564e40ee983d3321051fee65c",
+      "source_map_sha256": "768d5891d51799b9efced002239d5c5690abd1305f53fa9d83e212a899fc5c96",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "newton",
+      "destination_engine": "mujoco",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "052fd301bd65e9ad851530f1c73c6d1613e7368102e06ff7607144c20eef1b39",
+      "source_map_sha256": "1230c8a55171d8f4115222cd042efe47c8d6d190e52770ad01302a24ccd65113",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "newton",
+      "destination_engine": "pybullet",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "f924888d4892ce85af063b7ef4df6620f61f6ceba357f300090a2936ea60df76",
+      "source_map_sha256": "d59a801eda416ce0115a490bb9218d542ff1b9dcc6ceeadf80c186b9b69daefe",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "newton",
+      "destination_engine": "drake",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "2efd84131299d32f017323751d4c874d4a2f99bf9cb6a1efb30a9aa2ec0b13bf",
+      "source_map_sha256": "e092eae02be9781ca8c95f1466dedb805b17684a2c3de57446de75c2d479d737",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "newton",
+      "destination_engine": "gazebo",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "101416bdf6e8258a836d565b4ee80924927f98bd041b0a279fc099a4bfa06a39",
+      "source_map_sha256": "c442539fb4fa60929f1bdc5e85d1fb42d43fcccbb096fa58dbaafe1f612e2973",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "gazebo",
+      "destination_engine": "isaacsim",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "b769a954c648759f588d80dd49f5c5fc8ff508f0deac9411f63b7250f6f74f55",
+      "source_map_sha256": "768d5891d51799b9efced002239d5c5690abd1305f53fa9d83e212a899fc5c96",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "gazebo",
+      "destination_engine": "mujoco",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "eba02e78c3986f9d004225b751083319c31edfa72239d3f9e06ed69a9a93080a",
+      "source_map_sha256": "1230c8a55171d8f4115222cd042efe47c8d6d190e52770ad01302a24ccd65113",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "gazebo",
+      "destination_engine": "pybullet",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "f1f3947e1a5b07a684a69773f095bb2790b1dd4e547ccf231d4c97741af0c947",
+      "source_map_sha256": "d59a801eda416ce0115a490bb9218d542ff1b9dcc6ceeadf80c186b9b69daefe",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "gazebo",
+      "destination_engine": "drake",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "1de20e20bd288325b3cb12a846603af935f5618e8c23d8ad6e3da48db4a2aeed",
+      "source_map_sha256": "e092eae02be9781ca8c95f1466dedb805b17684a2c3de57446de75c2d479d737",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    },
+    {
+      "source_model": "gazebo",
+      "destination_engine": "newton",
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05"
+      ],
+      "provenance_sha256": "be8f538fa726697a6177f1302d37e1aea9cc0f9d83603a1d9124341d8244135a",
+      "source_map_sha256": "4c7dedf171ab532fbad492cd3de4f4ceb385a36fda13cd20566dc8c220e4b354",
+      "normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf"
+    }
+  ],
+  "cross_backend_dependency_variants": {
+    "1230c8a55171d8f4115222cd042efe47c8d6d190e52770ad01302a24ccd65113": {
+      "destination_engine": "mujoco",
+      "source_count": 23,
+      "source_sha256": {
+        "historical/runtime/native_MuJoCo_control_readback_v1_20261016.py": "87bfba649bb25b42ab27587656a76d9ae95780e9829db16435d886728a7e42b3",
+        "historical/runtime/native_MuJoCo_control_RPC_v1_20261016.py": "71935a829c0adb002afa8af7e846a94cdd88584ec4be90cb67121228925b3cfb",
+        "historical/runtime/native_control_strict_measurement_v1_20261016.py": "79cc8469b5388678d456ee62a757211b70470976f435142f8a80c0896151ade9",
+        "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+        "historical/evaluator/scripts/evaluate_cross5_mujoco_v1_20261019.py": "62658a92712e1b95ab11f40adfe72278b69eeeb107183abccc984fabc0efd312",
+        "historical/runtime/native_domain_camera_mujoco_contact_GPU1_pair_v2_20261016.py": "d7ceb0e2d41334d6b6e6294e4420673116482f79d5044f07c6a052ceea7a43c6",
+        "historical/runtime/native_domain_bridge_mujoco_contact_candidate_IPC_v12_20261015.py": "809d25392671ac1901fde65f640797e423261678443cb691a983f4cc62c3af0d",
+        "historical/runtime/native_domain_bridge_mujoco_contact_calibrated_v11_20261015.py": "9998ed57e489f0ebdaf97dd3739972b1ca7990a18b609067c47ba73d6df5dfff",
+        "historical/runtime/native_domain_bridge_v4_tablemesh_20261014.py": "72f5f97af6ea63ac1cc3e99b306fbacf7bd45a51f78d43792aa33c303e6b131d",
+        "historical/runtime/native_mujoco_tablemesh_v6_20261014.py": "3cc29675c165c851866941e91ca5fbcf245fc5bd55bb5f5d78cb489b3a6ecbea",
+        "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+        "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+        "historical/runtime/native_task_backends_drake_patch_v1_20261013.py": "4bed26bf5e4465ff1a10c99f09fbecc83b20b92dd18a95e0db019251e8ada1cf",
+        "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+      }
+    },
+    "d59a801eda416ce0115a490bb9218d542ff1b9dcc6ceeadf80c186b9b69daefe": {
+      "destination_engine": "pybullet",
+      "source_count": 22,
+      "source_sha256": {
+        "historical/runtime/native_PyBullet_substep_RPC_v1_20261016.py": "c060dc5e8f2522ca1f3c6ba601b5f2910fed981adb5fb3824ce854412648b69c",
+        "historical/runtime/native_PyBullet_substep_readback_v1_20261016.py": "28ba4e5d8bf6097f151635bb6fc422f6fb284d1c25a12dd51cfd965c5ee6af84",
+        "historical/runtime/native_PyBullet_strict_measurement_v1_20261016.py": "e1a74e52e60281aadd9a7d5ff44cb217f5e5ac274529adc0051d079e3f40e4f8",
+        "historical/runtime/native_PyBullet_guard_classification_v1_20261016.py": "16d6bbb72d18734b06ed63337d57fc5cfdc91593fd60dcd59b244e84c2dc0f24",
+        "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+        "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/native_domain_camera_pybullet_strict_GPU1_v1_20261016.py": "a46271a0c2402df390f105ec1bee3d827872830916878733c2925a30d1269698",
+        "historical/runtime/native_domain_bridge_pybullet_semantic_v6_20261015.py": "68e12d3c7dd7d0f45b5f3f2501e6bb37491fa646c4bbb00c61791ae367a777c0",
+        "historical/runtime/native_pybullet_semantic_contact_v6_20261015.py": "6b99ebd24288990aa1c0499c3abf3890fcaf624aa0910c66583db6ed7b9c35dd",
+        "historical/runtime/native_pybullet_material_readback_v5_20261015.py": "22e78edd68def841d7f0575258a3abb4408f8dbf00bf940f6ec4f454adda85e0",
+        "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+        "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+        "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+        "historical/evaluator/scripts/evaluate_cross5_pybullet_v1_20261019.py": "61bc32c617d325af1a2bdb2ca89eab49bde066ecfad3a68e592e9ecb70d718d8",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+      }
+    },
+    "e092eae02be9781ca8c95f1466dedb805b17684a2c3de57446de75c2d479d737": {
+      "destination_engine": "drake",
+      "source_count": 22,
+      "source_sha256": {
+        "historical/runtime/native_domain_bridge_drake_strict_readback_v9_20261016.py": "be30c9b9f4cb005e7d32d36596b3edd751049d87269e62f3f2856dd41aef9216",
+        "historical/runtime/native_Drake_strict_measurement_v1_20261016.py": "5ef7d89e1df48f5a64d7c49003d2a81b8d7a5387fc92b5a39305b06fe75d10c7",
+        "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/native_domain_bridge_drake_substep_recording_v8_20261015.py": "53d1c6dbbe2a1aef8feb88a704e2abad46d701d730250851722495c53294aa53",
+        "historical/runtime/drake_native_substep_readback_v1_20261015.py": "3b9cd993cfb3adedacd33fe7eba7966014427cfa9f57f4e11400ff564e26c661",
+        "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+        "historical/evaluator/scripts/evaluate_cross5_drake_v1_20261019.py": "b711a96b71dc57d9e10b84d87b431d8f07c02d7f612777ba894222505186fa7b",
+        "historical/runtime/native_domain_camera_drake_strict_GPU1_v9_20261016.py": "db289df4721e6f3fc96a7882cca6d6c0d3d067c5d7c37e0b3f8bbb69babe2480",
+        "historical/runtime/native_domain_bridge_v7_drake_actuation_20261014.py": "3a2979efda80991570c6df31f4b13dcaf68ac352c9ea58f01d6a33fb77d95810",
+        "historical/runtime/native_drake_net_actuation_observed_v3_20261014.py": "f6b987925f14a2f3085511e082f9a441e7ca6fa04d5ea4f431caccaf7ba02f35",
+        "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+        "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+        "historical/runtime/native_task_backends_drake_patch_v1_20261013.py": "4bed26bf5e4465ff1a10c99f09fbecc83b20b92dd18a95e0db019251e8ada1cf",
+        "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+      }
+    },
+    "4c7dedf171ab532fbad492cd3de4f4ceb385a36fda13cd20566dc8c220e4b354": {
+      "destination_engine": "newton",
+      "source_count": 24,
+      "source_sha256": {
+        "historical/runtime/native_Newton_CPU_readonly_RPC_v1_20261016.py": "4655caaf7c1311f13a5b580efdcdf87990d4c2d38d5a1f899455db33b5d683f9",
+        "historical/runtime/native_Newton_CPU_readonly_observer_v1_20261016.py": "e40f52df887958cfad4bd65d0f59fbd130d6f6a9ad082336bb24cbee33d01c73",
+        "historical/runtime/native_Newton_actual_dt_strict_measurement_v1_20261016.py": "5a57e644dc8a7c34f39cb5c3df2ce69fe745736fb7e58790638a59c7b1a4a600",
+        "historical/runtime/native_Newton_guard_classification_v1_20261016.py": "ca0d51b689cc857bbadc0cab767d7abed5c0e76009b40196ce7ade1b8dca5817",
+        "historical/runtime/strict_native_actual_dt_full1s_v1_20261016.py": "35301546a90b993689987873e5d105a1221ba1592677a98ea159e83ad448b103",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/native_domain_camera_newton_readonly_GPU1_v1_20261016.py": "935bf97e7c1e85a6d96423c16edc3033f2eafd831f219bf22203cce1fc493845",
+        "historical/runtime/native_domain_bridge_v5_newton_gap_20261014.py": "5d99dd010f1530e6da3c32ff0d9cc497a6581d2a11dd88928df81ed86f74cc2f",
+        "historical/runtime/newton_CPU_active_matrix_launch_candidate_v2_20261016.py": "63d5f2f1911036f300d2542ada57d881d73124b5aa8222d8712a9aa71732b325",
+        "historical/runtime/newton_native_kamino_bounded_gap_v23_metadata_20261014.py": "385a6368c8de52727472e647461935587dde0b3c730e5c89c16719388a2483b7",
+        "historical/runtime/newton_native_kamino_bounded_gap_v22_20261014.py": "eed96f2f378eb590f3ae813f029d12551ecac54eca4dbf3b39bb95b7cb2c954f",
+        "historical/runtime/newton_native_kamino_servo_gap_v22_20261014.py": "277f66f5a4d019ce59be6e079f4f870acd1ad4002728e1da8775da1e736edb54",
+        "historical/runtime/newton_native_kamino_mass_gap_v22_20261014.py": "7cdea021ef4c15a76a2a5e61f0755a15a10a06b21319a5df49872bbc51da02e9",
+        "historical/runtime/apply_newton_implicit_PD_caps_v16_20261014.py": "15d87062affb1e055e4f4418cd5ac13c45173df1300de8f9bb4af2e32b8f2b28",
+        "historical/runtime/apply_newton_small_angle_fix_20261013.py": "793d82829b9a7383af2ddcdfb9b1175b33bcfe9a77f61efcc5fe25a391effc44",
+        "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+        "historical/evaluator/scripts/evaluate_cross5_newton_v1_20261019.py": "0e828e301febdf048a4a003069eaeaeea9ca9055c8b6930710937ddbc3f47924",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+      }
+    },
+    "c442539fb4fa60929f1bdc5e85d1fb42d43fcccbb096fa58dbaafe1f612e2973": {
+      "destination_engine": "gazebo",
+      "source_count": 26,
+      "source_sha256": {
+        "historical/runtime/native_Gazebo_control_readback_v1_20261016.py": "b727fddd76ff510b787486b0c982307283979e84fd84dc57b9a8b2cfaeddb0f2",
+        "historical/runtime/native_Gazebo_control_RPC_v1_20261016.py": "b484dbbdfa90704b3b01845c53716577e75e622a16b88a6ca3f26f2e4c6b16df",
+        "historical/runtime/native_Gazebo_strict_measurement_v2_20261016.py": "57f41a67ede5044047e5991ae27e47aefbde95d58fe9423433a7b6e1c8838437",
+        "historical/runtime/strict_native_nanosecond_full1s_v1_20261016.py": "5f6701154717d0dc085c38f7584f43c802394faa811c5eff96b9c56115ca8dd9",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+        "historical/runtime/native_Gazebo_guard_classification_v1_20261016.py": "9fd58e4e2611453c89e1f6f077dfe33c1b1ec73c0897caa04f55cf2385ce138e",
+        "historical/evaluator/scripts/evaluate_cross5_gazebo_v1_20261019.py": "017d7e76dc18f4c2649aad89c6ce9dac1e9fa17c234ed1e3403a2be2177afc17",
+        "historical/runtime/native_domain_camera_gazebo_dense_GPU1_v1_20261016.py": "2137d261db49dbe99ef1802f435af0bdc4b7d0caafd190e517b5b420b0432074",
+        "historical/runtime/native_domain_bridge_gazebo_joint_PD_v19_20261015.py": "b9169f663181cf027bfddfe0453b0ecc1336e0df2199c8547ac67813d7fcf6fb",
+        "historical/runtime/gazebo_native_joint_bounded_PD_metadata_v14_20261015.py": "b83837a07a78f08fcff42d45309146baa5bb9674358e370a36011441c12d65b1",
+        "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+        "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+        "historical/runtime/native_task_backends_drake_patch_v1_20261013.py": "4bed26bf5e4465ff1a10c99f09fbecc83b20b92dd18a95e0db019251e8ada1cf",
+        "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686",
+        "historical/runtime/gazebo_native_joint_bounded_PD_metadata_v13_20261015.py": "0c0bf1afc5d257f31e75a7d75cb62c8d9682b73c201c653bf1a49febb2127fef",
+        "historical/runtime/six_high_round_20261013/native_bounded_pd_v6_20261015/libPiperJointBoundedPD_v4_20261015.so": "f0926b8346ce6389b6bdf0e72a79117855928e596c3f7e80ce8a3e86ff3e504f",
+        "historical/runtime/six_high_round_20261013/native_bounded_pd_v6_20261015/controller_manifest.json": "a6303892e074403b8389aa32da5093dbade47897c6862c37fb92dd96229e7f1a",
+        "historical/runtime/six_high_round_20261013/gazebo_native_PD_metadata_errata_20261015.json": "1efe0ff360cce8a3171420aad1307c10523e1722e97e75f757a14113f49f10f6"
+      }
+    },
+    "f8527b982e5aa959cc1bdba5b94bdced43a9439a656b92a0138768593904c766": {
+      "destination_engine": "isaacsim",
+      "source_count": 27,
+      "source_sha256": {
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/kinematics.py": "f39a23a2cef5721f34efdfcb8f7036b26ae45577fbd53a8f048f2766b7644c73",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/dataset_requirements.json": "5f05cf7e12259426438fbc87845720c533dd4666b694a29728f6ee084d4e7507",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/frozen_splits.json": "07e2d15c2b4ce9cef6d1a34ef58d455397982b8b77e4fff3f4a940cce8eec2a0",
+        "historical/baseline/task_index.json": "97b388b975d5dc49b5406ee1d8b5ec2e1863fa03400786c46af79115fdd7f39b",
+        "historical/baseline/src/data_contract.py": "e16129beaf930076a837dc25daae5f6e9af76e4a47412caa339d31e929b1f9de",
+        "historical/baseline/room_layout_calibration.py": "73f4291b6a28352b27382682ee0b0fec159a9ff72df5ee965454cf15061b271a",
+        "historical/baseline/tool_group_trial.py": "d2341ad93edc713ffb13dccee96162820f14919332d9f4322915eebd6cb6c7d9",
+        "historical/baseline/tool_group_trial.json": "fb589040df4222a5b4a99700b9cc6db785af1cea59786e883412f5f427a136e5",
+        "historical/baseline/reports/scene_preparation.json": "b5f2acb2ebcdc31896800070de9c9ab572fe55e1a90378e5d3ec4a98996894cb",
+        "historical/evaluator/scripts/evaluate_cross5_isaacsim_v1_20261019.py": "0f94ba6a1294533a9228db637533e4cabaa6f581156acd014586f66c22b7431a",
+        "historical/runtime/isaac_native_trace_observer_v1_20261015.py": "b1db0f49fb8694f56b02807b353f8f82ca252b97559eff755e169243ecfe3a3b",
+        "historical/runtime/isaac_live_strict_measurement_v1_20261016.py": "a6cf1ba03d7a45d0b769f4f68b849900146c286eb2872ce8b94669fd66710bdf",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+        "historical/baseline/learning/config_inference.py": "6b4c9b60f5544349d401a4de167127864498db868fd19f218bc635f8fce2c61b",
+        "historical/baseline/learning/policy_server_inference.py": "54b0ef1f236d53defd2873f20b6cf0b2c249afeddd94cfb7739de5f60444a19f",
+        "historical/baseline/learning/config_multitask.py": "144b040dbcaf9aa2e0cc803d15d275cf169c027d80a4b8065403601e39836278",
+        "historical/baseline/learning/policy_server.py": "d2394bb5ede461678bb696d1c6ea3334370fb8e74cffba7474d102104e4cfce2",
+        "historical/baseline/learning/evaluate.py": "a0d16e211df1e73cd169f9ddbd87b30a41d3e4bb0120cbf50187db6852b21d98",
+        "historical/baseline/learning/audit_evaluation.py": "e4c7550a951b9fafaed4c752886c05597d3efd0565719855ab69e457df1d59ff",
+        "historical/baseline/learning/table_clearance_filter.py": "5840531679fbb9aed28cb8b64d1b7d7e0e6ada28c1853ff7fa36b1a04d159d2e"
+      }
+    },
+    "768d5891d51799b9efced002239d5c5690abd1305f53fa9d83e212a899fc5c96": {
+      "destination_engine": "isaacsim",
+      "source_count": 28,
+      "source_sha256": {
+        "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+        "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+        "historical/baseline/kinematics.py": "f39a23a2cef5721f34efdfcb8f7036b26ae45577fbd53a8f048f2766b7644c73",
+        "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+        "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+        "historical/baseline/dataset_requirements.json": "5f05cf7e12259426438fbc87845720c533dd4666b694a29728f6ee084d4e7507",
+        "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+        "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+        "historical/baseline/frozen_splits.json": "07e2d15c2b4ce9cef6d1a34ef58d455397982b8b77e4fff3f4a940cce8eec2a0",
+        "historical/baseline/task_index.json": "97b388b975d5dc49b5406ee1d8b5ec2e1863fa03400786c46af79115fdd7f39b",
+        "historical/baseline/src/data_contract.py": "e16129beaf930076a837dc25daae5f6e9af76e4a47412caa339d31e929b1f9de",
+        "historical/baseline/room_layout_calibration.py": "73f4291b6a28352b27382682ee0b0fec159a9ff72df5ee965454cf15061b271a",
+        "historical/baseline/tool_group_trial.py": "d2341ad93edc713ffb13dccee96162820f14919332d9f4322915eebd6cb6c7d9",
+        "historical/baseline/tool_group_trial.json": "fb589040df4222a5b4a99700b9cc6db785af1cea59786e883412f5f427a136e5",
+        "historical/baseline/reports/scene_preparation.json": "b5f2acb2ebcdc31896800070de9c9ab572fe55e1a90378e5d3ec4a98996894cb",
+        "historical/evaluator/scripts/evaluate_cross5_isaacsim_v2_ioaudit_20261019.py": "66fc653dabe589b4d8390e7e4576a0175d7f47aff1f2bf62bd52518b82e1a6a2",
+        "historical/runtime/isaac_native_trace_observer_v1_20261015.py": "b1db0f49fb8694f56b02807b353f8f82ca252b97559eff755e169243ecfe3a3b",
+        "historical/runtime/isaac_live_strict_measurement_v1_20261016.py": "a6cf1ba03d7a45d0b769f4f68b849900146c286eb2872ce8b94669fd66710bdf",
+        "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+        "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+        "historical/baseline/learning/config_inference.py": "6b4c9b60f5544349d401a4de167127864498db868fd19f218bc635f8fce2c61b",
+        "historical/baseline/learning/policy_server_inference.py": "54b0ef1f236d53defd2873f20b6cf0b2c249afeddd94cfb7739de5f60444a19f",
+        "historical/baseline/learning/config_multitask.py": "144b040dbcaf9aa2e0cc803d15d275cf169c027d80a4b8065403601e39836278",
+        "historical/baseline/learning/policy_server.py": "d2394bb5ede461678bb696d1c6ea3334370fb8e74cffba7474d102104e4cfce2",
+        "historical/baseline/learning/evaluate.py": "a0d16e211df1e73cd169f9ddbd87b30a41d3e4bb0120cbf50187db6852b21d98",
+        "historical/baseline/learning/audit_evaluation.py": "e4c7550a951b9fafaed4c752886c05597d3efd0565719855ab69e457df1d59ff",
+        "historical/baseline/learning/table_clearance_filter.py": "5840531679fbb9aed28cb8b64d1b7d7e0e6ada28c1853ff7fa36b1a04d159d2e",
+        "historical/evaluator/scripts/cross6_float32_command_audit_v2_20261019.py": "76e5b35d5afce3323ac88cda74376a34245a894ae19ecce10287e4f0ca1868f8"
+      }
+    }
+  },
+  "historical_same_backend_native_source_checks": {
+    "isaacsim": {
+      "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+      "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+      "historical/baseline/kinematics.py": "f39a23a2cef5721f34efdfcb8f7036b26ae45577fbd53a8f048f2766b7644c73",
+      "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "historical/baseline/dataset_requirements.json": "5f05cf7e12259426438fbc87845720c533dd4666b694a29728f6ee084d4e7507",
+      "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+      "historical/baseline/frozen_splits.json": "07e2d15c2b4ce9cef6d1a34ef58d455397982b8b77e4fff3f4a940cce8eec2a0",
+      "historical/baseline/task_index.json": "97b388b975d5dc49b5406ee1d8b5ec2e1863fa03400786c46af79115fdd7f39b",
+      "historical/baseline/src/data_contract.py": "e16129beaf930076a837dc25daae5f6e9af76e4a47412caa339d31e929b1f9de",
+      "historical/baseline/room_layout_calibration.py": "73f4291b6a28352b27382682ee0b0fec159a9ff72df5ee965454cf15061b271a",
+      "historical/baseline/tool_group_trial.py": "d2341ad93edc713ffb13dccee96162820f14919332d9f4322915eebd6cb6c7d9",
+      "historical/baseline/tool_group_trial.json": "fb589040df4222a5b4a99700b9cc6db785af1cea59786e883412f5f427a136e5",
+      "historical/baseline/reports/scene_preparation.json": "b5f2acb2ebcdc31896800070de9c9ab572fe55e1a90378e5d3ec4a98996894cb",
+      "historical/runtime/evaluate_Isaac_seed1_live_strict_GPU0_dev20_v1_20261016.py": "2ecb704fb6f6f4363dd10d485feb42531a9183f34184bbb855be0d2b53dac3d4",
+      "historical/runtime/isaac_native_trace_observer_v1_20261015.py": "b1db0f49fb8694f56b02807b353f8f82ca252b97559eff755e169243ecfe3a3b",
+      "historical/runtime/isaac_live_strict_measurement_v1_20261016.py": "a6cf1ba03d7a45d0b769f4f68b849900146c286eb2872ce8b94669fd66710bdf",
+      "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+      "historical/baseline/learning/config_inference.py": "6b4c9b60f5544349d401a4de167127864498db868fd19f218bc635f8fce2c61b",
+      "historical/baseline/learning/policy_server_inference.py": "54b0ef1f236d53defd2873f20b6cf0b2c249afeddd94cfb7739de5f60444a19f",
+      "historical/baseline/learning/config_multitask.py": "144b040dbcaf9aa2e0cc803d15d275cf169c027d80a4b8065403601e39836278",
+      "historical/baseline/learning/policy_server.py": "d2394bb5ede461678bb696d1c6ea3334370fb8e74cffba7474d102104e4cfce2",
+      "historical/baseline/learning/evaluate.py": "a0d16e211df1e73cd169f9ddbd87b30a41d3e4bb0120cbf50187db6852b21d98",
+      "historical/baseline/learning/audit_evaluation.py": "e4c7550a951b9fafaed4c752886c05597d3efd0565719855ab69e457df1d59ff",
+      "historical/baseline/learning/table_clearance_filter.py": "5840531679fbb9aed28cb8b64d1b7d7e0e6ada28c1853ff7fa36b1a04d159d2e"
+    },
+    "mujoco": {
+      "historical/runtime/native_MuJoCo_control_readback_v1_20261016.py": "87bfba649bb25b42ab27587656a76d9ae95780e9829db16435d886728a7e42b3",
+      "historical/runtime/native_MuJoCo_control_RPC_v1_20261016.py": "71935a829c0adb002afa8af7e846a94cdd88584ec4be90cb67121228925b3cfb",
+      "historical/runtime/native_control_strict_measurement_v1_20261016.py": "79cc8469b5388678d456ee62a757211b70470976f435142f8a80c0896151ade9",
+      "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+      "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+      "historical/runtime/evaluate_native_mujoco_contact_GPU1_pair_v2_20261016.py": "8b7a983fdacc8e749e6099bd4c778cceae37cc3e102ec7359929656a1f5387dc",
+      "historical/runtime/native_domain_camera_mujoco_contact_GPU1_pair_v2_20261016.py": "d7ceb0e2d41334d6b6e6294e4420673116482f79d5044f07c6a052ceea7a43c6",
+      "historical/runtime/native_domain_bridge_mujoco_contact_candidate_IPC_v12_20261015.py": "809d25392671ac1901fde65f640797e423261678443cb691a983f4cc62c3af0d",
+      "historical/runtime/native_domain_bridge_mujoco_contact_calibrated_v11_20261015.py": "9998ed57e489f0ebdaf97dd3739972b1ca7990a18b609067c47ba73d6df5dfff",
+      "historical/runtime/native_domain_bridge_v4_tablemesh_20261014.py": "72f5f97af6ea63ac1cc3e99b306fbacf7bd45a51f78d43792aa33c303e6b131d",
+      "historical/runtime/native_mujoco_tablemesh_v6_20261014.py": "3cc29675c165c851866941e91ca5fbcf245fc5bd55bb5f5d78cb489b3a6ecbea",
+      "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+      "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+      "historical/runtime/native_task_backends_drake_patch_v1_20261013.py": "4bed26bf5e4465ff1a10c99f09fbecc83b20b92dd18a95e0db019251e8ada1cf",
+      "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+      "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+      "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+      "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+      "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+    },
+    "pybullet": {
+      "historical/runtime/native_PyBullet_substep_RPC_v1_20261016.py": "c060dc5e8f2522ca1f3c6ba601b5f2910fed981adb5fb3824ce854412648b69c",
+      "historical/runtime/native_PyBullet_substep_readback_v1_20261016.py": "28ba4e5d8bf6097f151635bb6fc422f6fb284d1c25a12dd51cfd965c5ee6af84",
+      "historical/runtime/native_PyBullet_strict_measurement_v1_20261016.py": "e1a74e52e60281aadd9a7d5ff44cb217f5e5ac274529adc0051d079e3f40e4f8",
+      "historical/runtime/native_PyBullet_guard_classification_v1_20261016.py": "16d6bbb72d18734b06ed63337d57fc5cfdc91593fd60dcd59b244e84c2dc0f24",
+      "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+      "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+      "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "historical/runtime/native_domain_camera_pybullet_strict_GPU1_v1_20261016.py": "a46271a0c2402df390f105ec1bee3d827872830916878733c2925a30d1269698",
+      "historical/runtime/native_domain_bridge_pybullet_semantic_v6_20261015.py": "68e12d3c7dd7d0f45b5f3f2501e6bb37491fa646c4bbb00c61791ae367a777c0",
+      "historical/runtime/native_pybullet_semantic_contact_v6_20261015.py": "6b99ebd24288990aa1c0499c3abf3890fcaf624aa0910c66583db6ed7b9c35dd",
+      "historical/runtime/native_pybullet_material_readback_v5_20261015.py": "22e78edd68def841d7f0575258a3abb4408f8dbf00bf940f6ec4f454adda85e0",
+      "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+      "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+      "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+      "historical/runtime/evaluate_native_pybullet_strict_GPU1_v1_20261016.py": "cbfda6c9bd952e1afc65ee74858f97c20846111a4fa1fe8518a3c7825916acbe",
+      "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+      "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+      "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+      "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+    },
+    "drake": {
+      "historical/runtime/native_domain_bridge_drake_strict_readback_v9_20261016.py": "be30c9b9f4cb005e7d32d36596b3edd751049d87269e62f3f2856dd41aef9216",
+      "historical/runtime/native_Drake_strict_measurement_v1_20261016.py": "5ef7d89e1df48f5a64d7c49003d2a81b8d7a5387fc92b5a39305b06fe75d10c7",
+      "historical/runtime/strict_native_full1s_metric_v1_20261016.py": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+      "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "historical/runtime/native_domain_bridge_drake_substep_recording_v8_20261015.py": "53d1c6dbbe2a1aef8feb88a704e2abad46d701d730250851722495c53294aa53",
+      "historical/runtime/drake_native_substep_readback_v1_20261015.py": "3b9cd993cfb3adedacd33fe7eba7966014427cfa9f57f4e11400ff564e26c661",
+      "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+      "historical/runtime/evaluate_native_drake_strict_GPU1_v1_20261016.py": "d42441564f81ee66fd6eaf86533fba42fb2f6e522e468ac4dacb46478041af4e",
+      "historical/runtime/native_domain_camera_drake_strict_GPU1_v9_20261016.py": "db289df4721e6f3fc96a7882cca6d6c0d3d067c5d7c37e0b3f8bbb69babe2480",
+      "historical/runtime/native_domain_bridge_v7_drake_actuation_20261014.py": "3a2979efda80991570c6df31f4b13dcaf68ac352c9ea58f01d6a33fb77d95810",
+      "historical/runtime/native_drake_net_actuation_observed_v3_20261014.py": "f6b987925f14a2f3085511e082f9a441e7ca6fa04d5ea4f431caccaf7ba02f35",
+      "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+      "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+      "historical/runtime/native_task_backends_drake_patch_v1_20261013.py": "4bed26bf5e4465ff1a10c99f09fbecc83b20b92dd18a95e0db019251e8ada1cf",
+      "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+      "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+      "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+      "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+      "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+    },
+    "newton": {
+      "historical/runtime/native_Newton_CPU_readonly_RPC_v1_20261016.py": "4655caaf7c1311f13a5b580efdcdf87990d4c2d38d5a1f899455db33b5d683f9",
+      "historical/runtime/native_Newton_CPU_readonly_observer_v1_20261016.py": "e40f52df887958cfad4bd65d0f59fbd130d6f6a9ad082336bb24cbee33d01c73",
+      "historical/runtime/native_Newton_actual_dt_strict_measurement_v1_20261016.py": "5a57e644dc8a7c34f39cb5c3df2ce69fe745736fb7e58790638a59c7b1a4a600",
+      "historical/runtime/native_Newton_guard_classification_v1_20261016.py": "ca0d51b689cc857bbadc0cab767d7abed5c0e76009b40196ce7ade1b8dca5817",
+      "historical/runtime/strict_native_actual_dt_full1s_v1_20261016.py": "35301546a90b993689987873e5d105a1221ba1592677a98ea159e83ad448b103",
+      "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "historical/runtime/native_domain_camera_newton_readonly_GPU1_v1_20261016.py": "935bf97e7c1e85a6d96423c16edc3033f2eafd831f219bf22203cce1fc493845",
+      "historical/runtime/native_domain_bridge_v5_newton_gap_20261014.py": "5d99dd010f1530e6da3c32ff0d9cc497a6581d2a11dd88928df81ed86f74cc2f",
+      "historical/runtime/newton_CPU_active_matrix_launch_candidate_v2_20261016.py": "63d5f2f1911036f300d2542ada57d881d73124b5aa8222d8712a9aa71732b325",
+      "historical/runtime/newton_native_kamino_bounded_gap_v23_metadata_20261014.py": "385a6368c8de52727472e647461935587dde0b3c730e5c89c16719388a2483b7",
+      "historical/runtime/newton_native_kamino_bounded_gap_v22_20261014.py": "eed96f2f378eb590f3ae813f029d12551ecac54eca4dbf3b39bb95b7cb2c954f",
+      "historical/runtime/newton_native_kamino_servo_gap_v22_20261014.py": "277f66f5a4d019ce59be6e079f4f870acd1ad4002728e1da8775da1e736edb54",
+      "historical/runtime/newton_native_kamino_mass_gap_v22_20261014.py": "7cdea021ef4c15a76a2a5e61f0755a15a10a06b21319a5df49872bbc51da02e9",
+      "historical/runtime/apply_newton_implicit_PD_caps_v16_20261014.py": "15d87062affb1e055e4f4418cd5ac13c45173df1300de8f9bb4af2e32b8f2b28",
+      "historical/runtime/apply_newton_small_angle_fix_20261013.py": "793d82829b9a7383af2ddcdfb9b1175b33bcfe9a77f61efcc5fe25a391effc44",
+      "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+      "historical/runtime/evaluate_native_newton_readonly_strict_GPU1_v1_20261016.py": "1019d37bcccf6816744690a29e1d0ea8cb0aa5578812226f13e592e2ed22593a",
+      "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+      "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+      "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+      "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686"
+    },
+    "gazebo": {
+      "historical/runtime/native_Gazebo_control_readback_v1_20261016.py": "b727fddd76ff510b787486b0c982307283979e84fd84dc57b9a8b2cfaeddb0f2",
+      "historical/runtime/native_Gazebo_control_RPC_v1_20261016.py": "b484dbbdfa90704b3b01845c53716577e75e622a16b88a6ca3f26f2e4c6b16df",
+      "historical/runtime/native_Gazebo_strict_measurement_v2_20261016.py": "57f41a67ede5044047e5991ae27e47aefbde95d58fe9423433a7b6e1c8838437",
+      "historical/runtime/strict_native_nanosecond_full1s_v1_20261016.py": "5f6701154717d0dc085c38f7584f43c802394faa811c5eff96b9c56115ca8dd9",
+      "historical/runtime/record_native_policy_request_v1_20261016.py": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "historical/runtime/native_policy_guard_classification_v1_20261016.py": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+      "historical/runtime/native_Gazebo_guard_classification_v1_20261016.py": "9fd58e4e2611453c89e1f6f077dfe33c1b1ec73c0897caa04f55cf2385ce138e",
+      "historical/runtime/evaluate_Gazebo_v6_closeout5_only_20261016.py": "b56ac8c217781aa4fd5cc5aee44cc634064672a53eca867688db5d6c834c805f",
+      "historical/runtime/native_domain_camera_gazebo_dense_GPU1_v1_20261016.py": "2137d261db49dbe99ef1802f435af0bdc4b7d0caafd190e517b5b420b0432074",
+      "historical/runtime/native_domain_bridge_gazebo_joint_PD_v19_20261015.py": "b9169f663181cf027bfddfe0453b0ecc1336e0df2199c8547ac67813d7fcf6fb",
+      "historical/runtime/gazebo_native_joint_bounded_PD_metadata_v14_20261015.py": "b83837a07a78f08fcff42d45309146baa5bb9674358e370a36011441c12d65b1",
+      "historical/runtime/native_pybullet_PD_pairmatch_v4_20261014.py": "54559eea7c5e703247daa29571f7aaf6274a526044db90f547ea9149a4b2654c",
+      "historical/runtime/native_task_backends_high_candidates_20261013.py": "03641b6542c2211a11fff0d36f3086f7c51c8c08fb238f59bae0f213c58402b6",
+      "historical/runtime/native_task_backends_drake_patch_v1_20261013.py": "4bed26bf5e4465ff1a10c99f09fbecc83b20b92dd18a95e0db019251e8ada1cf",
+      "historical/runtime/native_task_physics.json": "47b1df78c30c1eb17f8df3110a5616ce79f20296ad57fa584656eb3fbd3fc4fc",
+      "historical/baseline/accepted_calibration.json": "91176f746420e43aea2aa47c0664b78ef4d3f49afbbe0a596a90c018d3fe00ea",
+      "historical/baseline/geometry.json": "0e64f961055cebbacd8955971342724e86d7ad28557c3ead3784f130474036d6",
+      "historical/baseline/training_runtime.py": "019ff7228c0226eee84d30bf8e94a5d91b207ad2bc1678d045ae9aca28c51e9a",
+      "historical/baseline/calibrated_runtime.py": "3f8b5cb2b4cffffe06211e0f99329fb9d6a65328554c6b075ace5dbf407a4df8",
+      "historical/baseline/task_contract.py": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "historical/baseline/evaluation_protocol.json": "86e3341dd607f716faddbeb9d8ab43dc897cd21b4807ef6c2d8235db695a3d2f",
+      "historical/baseline/learning/inference_options.json": "540b3c2e43d115671e154c651007b3dd07172df5ba75368d0fc95c081f677686",
+      "historical/runtime/gazebo_native_joint_bounded_PD_metadata_v13_20261015.py": "0c0bf1afc5d257f31e75a7d75cb62c8d9682b73c201c653bf1a49febb2127fef",
+      "historical/runtime/six_high_round_20261013/native_bounded_pd_v6_20261015/libPiperJointBoundedPD_v4_20261015.so": "f0926b8346ce6389b6bdf0e72a79117855928e596c3f7e80ce8a3e86ff3e504f",
+      "historical/runtime/six_high_round_20261013/native_bounded_pd_v6_20261015/controller_manifest.json": "a6303892e074403b8389aa32da5093dbade47897c6862c37fb92dd96229e7f1a",
+      "historical/runtime/six_high_round_20261013/gazebo_native_PD_metadata_errata_20261015.json": "1efe0ff360cce8a3171420aad1307c10523e1722e97e75f757a14113f49f10f6"
+    }
+  }
+}

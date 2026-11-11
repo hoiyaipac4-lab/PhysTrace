@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "frequency_hz": 960,
+  "native_sent_position": "Exact copied values forwarded to native set_dof_position_targets; joint1..6 rad, joint7..8 m",
+  "native_sent_feedforward": "Exact values forwarded to native set_dof_actuation_forces, here explicit native gravity compensation; Nm then N",
+  "native_incoming_joint_projected_force": "SDK get_dof_projected_joint_forces: incoming link joint force projected into joint motion direction; NOT isolated drive motor effort or hardware sensor",
+  "native_explicit_actuation_force_readback": "SDK get_dof_actuation_forces; do not infer implicit PD drive effort from this alone",
+  "native_link_world_pos_xyzw": "Native articulation get_link_transforms: world position m and quaternion xyzw, link order stored separately",
+  "native_t_start/native_t_end": "Absolute simulation seconds; post-step state at t_end",
+  "camera_base_pose": "T_robot_base_from_OpenCV_camera, recorded at each RGB observation before its 32 substeps",
+  "contact_valid": "False if original runtime raised before refreshing rt.last; stale contact samples must not be included in recomputed contact metrics",
+  "native_returned": "Original rt.step returned normally; failed native step still retained if physics time advanced",
+  "model_times": "Simulation observation time and wall-clock request start/end, kept separately",
+  "no_robot_commands": true,
+  "does_not_change_model_physics_guards_or_setter_arguments": true
+}

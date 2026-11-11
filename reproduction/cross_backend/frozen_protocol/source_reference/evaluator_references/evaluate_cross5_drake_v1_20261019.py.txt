@@ -1,0 +1,70 @@
+# Historical evaluator source reference. Native runtime dependencies are external.
+"""Frozen VLA development grasp-lift loop over native feedback, common calibrated RGB."""
+from pathlib import Path
+import os,sys,json,time,traceback,hashlib,io,urllib.request,subprocess
+import numpy as np
+P=Path(os.environ['PHYSTRACE_HISTORICAL_RUNTIME_ROOT']);B=P.parent/'baseline';Q=P/'six_high_round_20261013';OUT=Path(os.environ['PIPER_NATIVE_EVAL_OUT']);OUT.mkdir(parents=True,exist_ok=True);engine=os.environ['PIPER_NATIVE_EVAL_ENGINE'];checkpoint=Path(os.environ['PIPER_CHECKPOINT']);assert engine=='drake';assert os.environ.get('PIPER_NATIVE_RESOURCE_LOCKS_HELD')=='1';sys.path[:0]=[str(P),str(B),str(B/'src'),str(B/'learning')];os.environ['SCENE_APPLIANCES_PRESENT']='0'
+from task_contract import physical_metrics,PROMPTS
+from data_contract import encode
+from record_native_policy_request_v1_20261016 import save_query_request
+from native_Drake_strict_measurement_v1_20261016 import new_control_history,append_control_history,strict_control_metrics,control_trace_arrays
+from native_policy_guard_classification_v1_20261016 import verified_physical_guard
+protocol=json.loads((B/'evaluation_protocol.json').read_text());options=json.loads(Path(os.environ['PIPER_INFERENCE_OPTIONS']).read_text());rows=[r for r in json.loads((B/'task_index.json').read_text()) if r['split']=='dev' and r['task']=='grasp_lift'];assert len(rows)==20;rows=[r for r in rows if r['seed'] in json.loads(os.environ['PHYSTRACE_HISTORICAL_DEV_SCENE_IDS'])];assert [r['seed'] for r in rows]==json.loads(os.environ['PHYSTRACE_HISTORICAL_DEV_SCENE_IDS']);scenes={r['seed']:r for r in json.loads((B/'plans/index.json').read_text()) if r['split']=='dev'};assert set(r['seed'] for r in rows).issubset(scenes)
+sources=[P/'native_domain_bridge_drake_strict_readback_v9_20261016.py',P/'native_Drake_strict_measurement_v1_20261016.py',P/'strict_native_full1s_metric_v1_20261016.py',P/'record_native_policy_request_v1_20261016.py',P/'native_domain_bridge_drake_substep_recording_v8_20261015.py',P/'drake_native_substep_readback_v1_20261015.py',P/'native_policy_guard_classification_v1_20261016.py',Path(__file__),P/'native_domain_camera_drake_strict_GPU1_v9_20261016.py',P/'native_domain_bridge_v7_drake_actuation_20261014.py',P/'native_drake_net_actuation_observed_v3_20261014.py',P/'native_pybullet_PD_pairmatch_v4_20261014.py',P/'native_task_backends_high_candidates_20261013.py',P/'native_task_backends_drake_patch_v1_20261013.py',P/'native_task_physics.json',B/'accepted_calibration.json',B/'geometry.json',B/'training_runtime.py',B/'calibrated_runtime.py',B/'task_contract.py',B/'evaluation_protocol.json',B/'learning/inference_options.json'];snapshot=OUT/'implementation_snapshot';snapshot.mkdir(exist_ok=True);hashes={}
+for f in sources:
+ key=str(f.relative_to(P)) if f.is_relative_to(P) else 'baseline/'+str(f.relative_to(B));target=snapshot/key;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(f.read_bytes());hashes[key]=hashlib.sha256(f.read_bytes()).hexdigest()
+provenance={'engine':engine,'checkpoint':str(checkpoint),'implementation_sha256':hashes,'checkpoint_norm_sha256':hashlib.sha256((checkpoint/'assets/piper_three_tasks/norm_stats.json').read_bytes()).hexdigest(),'evaluation_scope':'FrozenDrakev5 sameDEV20 GPU1 repeat with actual3840Hz full1s live stopping, original guards and900framebudget; oldGPU0legacy17 separate, no causal GPU/protocol comparison or final/real admission','native_high_fidelity_final_admitted':False,'real_robot_ready':False};provenance.update(evaluation_scope='Frozen old-model cross-engine pilot. Five fixed already-used paired DEV scenes, full independent policy grasp_lift; no teacher pregrasp, retraining, tuning, final-holdout or real-robot operation. Rows=model source, columns=native physics destination.',source_model=os.environ['PIPER_SOURCE_MODEL'],destination_engine=engine,paired_DEV_seeds=json.loads(os.environ['PHYSTRACE_HISTORICAL_DEV_SCENE_IDS']));provenance['destination_legacy_source_dataset_reference']=provenance.pop('source_dataset',None);(OUT/'provenance.json').write_text(json.dumps(provenance,indent=2));(OUT/'scenarios.json').write_text(json.dumps(rows,indent=2));(OUT/'inference_options.json').write_text(json.dumps(options,indent=2));results=[];rt=None;start=time.time()
+def publish(current=None):
+ x={'pid':os.getpid(),'started':start,'updated':time.time(),'engine':engine,'checkpoint':str(checkpoint),'completed':len(results),'planned':5,'successes':sum(r['success'] for r in results),'infrastructure_failures':sum(r['infrastructure_error'] for r in results),'current':current,'results':results,'final_admitted':False};tmp=OUT/'status.tmp';tmp.write_text(json.dumps(x,indent=2));tmp.replace(OUT/'status.json')
+from isaacsim import SimulationApp
+app=SimulationApp({'active_gpu':1,'physics_gpu':1,'multi_gpu':False,'limit_cpu_threads':8,'headless':True,'width':640,'height':480,'renderer':'RayTracedLighting','extra_args':['--/renderer/multiGpu/enabled=false','--/exts/isaacsim.physics.newton/auto_switch_on_startup=false','--/app/tokens/cache='+str(P.parent/'kit_cache'),'--/app/tokens/data='+str(P.parent/'kit_data'),'--portable-root',str(P.parent/'kit_runtime')]})
+try:
+ from native_domain_camera_drake_strict_GPU1_v9_20261016 import NativeCameraRuntime
+ from kinematics import Kinematics
+ from table_clearance_filter import project_target
+ kin=Kinematics();rt=NativeCameraRuntime(app,engine,OUT);opener=urllib.request.build_opener(urllib.request.ProxyHandler({}))
+ from PIL import Image
+ train_rows={r['seed']:r for r in json.loads((B/'plans/index.json').read_text()) if r['split']=='train'};smoke=[]
+ for seed in json.loads(os.environ['PHYSTRACE_HISTORICAL_SMOKE_SCENE_IDS']):
+  before=rt.reset(train_rows[seed]);rgb,camera_before,observed=rt.capture();assert before==observed
+  result=rt.advance_model_frame(np.asarray(observed['actual_q']));rgb_after,camera_after,after=rt.capture();assert after==result['observation']
+  h=new_control_history();append_control_history(h,result);assert len(h['native_time_s'])==128
+  folder=OUT/'TRAIN_camera_smoke'/str(seed);folder.mkdir(parents=True,exist_ok=True)
+  for name,pixels in zip(['head','wrist'],rgb_after):Image.fromarray(pixels).save(folder/(name+'.png'))
+  np.savez_compressed(folder/'native_observed.npz',camera_before=camera_before,camera_after=camera_after,**control_trace_arrays(h));smoke.append({'seed':seed,'native_actual_samples':128,'actual_native_hz':3840,'physics_frozen_during_RGB':True,'same_original_calibration_and_native_control':True,'no_VLA_queries':True})
+ (OUT/'candidate_actual_TRAIN3_camera_smoke.json').write_text(json.dumps({'passed':True,'records':smoke,'scope':'Actual privateDrakeRPC plus GPU1calibratedRGB, no new model success/final/real claim'},indent=2))
+ for row in rows:
+  folder=OUT/row['name'];folder.mkdir(exist_ok=True);saved=folder/'result.json'
+  if saved.exists():results.append(json.loads(saved.read_text()));publish();continue
+  states=[];actions=[];raw=[];protected=[];shifts=[];poses=[];contacts=[];commands=[];efforts=[];queries=[];chunks=[];inference_states=[];camera_poses=[];body_poses=[];times=[];post_states=[];post_objects=[];metrics={};success=False;error=None;infra=False;writer=None;call_in_progress=False;setup_in_progress=True;advance_in_progress=False;native_history=new_control_history();geometry_audits=[];first_legacy_success_frame=None
+  try:
+   rt.reset(scenes[row['seed']]);setup_in_progress=False;publish({'name':row['name'],'frame':0,'stage':'native_vla_loop'})
+   writer=subprocess.Popen(['ffmpeg','-y','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s','1280x480','-r','30','-i','-','-an','-c:v','libx264','-preset','ultrafast','-crf','23','-pix_fmt','yuv420p',str(folder/'rollout.mp4')],stdin=subprocess.PIPE)
+   for frame in range(protocol['maximum_model_frames']['grasp_lift']):
+    rgb,camera,obs=rt.capture();q=np.asarray(obs['actual_q']);writer.stdin.write(np.concatenate(rgb,axis=1).tobytes())
+    if frame%options['replan_every_frames']==0:
+     state=encode(q);payload=io.BytesIO();np.savez(payload,head=rgb[0],wrist=rgb[1],state=state,prompt=np.array(PROMPTS['grasp_lift']),seed=np.array(row['seed']),frame=np.array(frame));request=urllib.request.Request('http://127.0.0.1:18811/',data=payload.getvalue(),method='POST');call_in_progress=True;save_query_request(folder,row['seed'],frame,payload.getvalue())
+     with opener.open(request,timeout=120) as response:chunk=np.load(io.BytesIO(response.read()),allow_pickle=False)
+     assert chunk.shape==(16,7) and np.isfinite(chunk).all();call_in_progress=False;queries.append(frame);chunks.append(chunk);inference_states.append(state)
+    candidates=[c[frame-f] for f,c in zip(queries,chunks) if 0<=frame-f<16];action=np.mean(candidates,axis=0) if options['temporal_ensemble'] else candidates[-1].copy();width=float(np.clip(action[6],0,.07));target=np.clip(np.r_[action[:6],width/2-.004,-width/2-.004],rt.limits[:,0],rt.limits[:,1]);goal,shift=project_target(target,kin)
+    states.append(q);actions.append(action);raw.append(target);protected.append(goal);shifts.append(shift);poses.append(np.asarray(obs['object_base_pose']));times.append(obs['sim_time_s']);camera_poses.append(camera);body_poses.append(np.asarray(obs['native_body_world_pose']))
+    advance_in_progress=True;executed=rt.advance_model_frame(goal);advance_in_progress=False;append_control_history(native_history,executed);contacts.extend(executed['contact_substeps']);commands.extend(executed['controller_command_substeps']);efforts.extend(executed['actual_motor_effort_substeps']);after=executed['observation'];geometry_audits.append(after['geometry_audit']);post_states.append(after['actual_q']);post_objects.append(after['object_base_pose'])
+    if len(poses)>=30:
+     metrics=physical_metrics(contacts,poses,'grasp_lift');audit=after['geometry_audit'];metrics.update(geometry_audit=audit);metrics['success'] &= audit['minimum_clearance_m']>=.005 and audit['minimum_close_tip_m']>.008 and audit['table_contact_samples']==0
+     if metrics['success'] and first_legacy_success_frame is None:first_legacy_success_frame=frame
+     if metrics['success'] and strict_control_metrics(native_history,audit)['strict_pass']:success=True;break
+    if frame%15==0:publish({'name':row['name'],'frame':frame,'stage':'native_vla_loop','native_simulation_time_s':obs['sim_time_s'],'stable_hold_s':metrics.get('stable_hold_s',0)})
+  except Exception:
+   error=traceback.format_exc();infra=call_in_progress or setup_in_progress or not verified_physical_guard(error,getattr(rt,'failure_snapshot',None),advance_in_progress);snapshot={'error':error,'last_selected_model_action':np.asarray(actions[-1]).tolist() if actions else None,'last_raw_target':np.asarray(raw[-1]).tolist() if raw else None,'last_projected_target':np.asarray(protected[-1]).tolist() if protected else None,'saved_frame_count':len(states),'native_failure':getattr(rt,'failure_snapshot',None)};(folder/'failure_snapshot.json').write_text(json.dumps(snapshot,indent=2));traceback.print_exc()
+  finally:
+   if writer is not None:writer.stdin.close();assert writer.wait()==0,'Rollout video encoding failed'
+  strict_metrics=strict_control_metrics(native_history,metrics.get('geometry_audit',{}))
+  (folder/'geometry_audits_per_returned_frame.json').write_text(json.dumps(geometry_audits))
+  result={'name':row['name'],'seed':row['seed'],'split':'dev','task':'grasp_lift','engine':engine,'success':bool(success),'error':error,'infrastructure_error':infra,'frames':len(states),'metrics':metrics,'strict_full1s_metrics':strict_metrics,'first_legacy_success_frame':first_legacy_success_frame,'success_protocol':'Legacy guards AND endpointinclusive actual3840Hz full1s, same900framebudget','scope':'independent native policy execution with synchronized calibrated RGB; development only; not final or real-world acceptance','real_robot_execution':False,'global_fidelity_admitted':False,'action_mapping':'same frozen six joint + total jaw-width mapping; table-only projection; model arm0.30rad/s and jaw2mm/s limiter unchanged'}
+  np.savez_compressed(folder/'trajectory.npz',actual_q=np.asarray(states).reshape(-1,8),predicted_actions=np.asarray(actions).reshape(-1,7),raw_model_targets=np.asarray(raw).reshape(-1,8),projected_targets=np.asarray(protected).reshape(-1,8),controller_command_substeps=np.asarray(commands).reshape(-1,8),contact_substeps=np.asarray(contacts).reshape(-1,8),object_base_pose=np.asarray(poses).reshape(-1,4,4),timestamps_s=np.asarray(times),camera_base_pose=np.asarray(camera_poses).reshape(-1,2,4,4),native_body_world_pose=np.asarray(body_poses).reshape(-1,9,4,4),post_actual_q=np.asarray(post_states).reshape(-1,8),post_object_base_pose=np.asarray(post_objects).reshape(-1,4,4),table_projection_shifts_m=np.asarray(shifts),inference_frames=np.asarray(queries),model_chunks=np.asarray(chunks).reshape(-1,16,7),inference_states=np.asarray(inference_states).reshape(-1,7),**control_trace_arrays(native_history));(folder/'motor_effort.json').write_text(json.dumps({'records':efforts,'definition':'Original returned960Hz last-of4 native netPD+FF motor; full actual3840 samples in native_drake_3840_readback.npz; not real motor sensors'}));saved.write_text(json.dumps(result,indent=2));results.append(result);publish();print('NATIVE_VLA_RESULT',json.dumps(result),flush=True)
+  if infra:raise RuntimeError('Native model trial invalid due to infrastructure; preserve outputs')
+ assert len(results)==5 and not any(r['infrastructure_error'] for r in results);report=dict(provenance,completed=5,successes=sum(r['success'] for r in results),final_holdout_touched=False,physical_task_thresholds_unchanged=True,finished=time.time());(OUT/'evaluation_complete.json').write_text(json.dumps(report,indent=2));publish({'stage':'development_complete'})
+except BaseException:(OUT/'failure.json').write_text(json.dumps({'error':traceback.format_exc(),'finished':time.time()}));traceback.print_exc()
+finally:
+ if rt is not None:rt.close()
+ app.close()

@@ -1,0 +1,197 @@
+{
+  "schema": "phystrace_frozen_model_training_records_v1",
+  "scope": "Historical training records for the six frozen policies used in the cross-backend and matched same-backend evaluations.",
+  "frozen_evaluation_protocol_sha256": "c758bce35ad7431a1e25577ed138fc4064b831a8cfff54561f6d9c9d37a6fa7d",
+  "training_spec_archive_sha256": "9b9c858fff043ac7f03a67d463e7829165c40d0fe14dcffc19f959c5889211f3",
+  "shared_recorded_settings": {
+    "initialization": "frozen checkpoint from the Isaac reference domain",
+    "initialization_checkpoint_manifest_sha256": "dc2a197cf529deeb224dc55c41c4d4e749d92ebf99048df6262d4df8616aa128",
+    "batch_size": 4,
+    "planned_optimizer_updates": 12000,
+    "fresh_optimizer_at_start": true,
+    "resume_at_start": false,
+    "learning_rate_schedule": {
+      "type": "cosine_decay",
+      "warmup_updates": 100,
+      "peak": 1e-05,
+      "final": 2.5e-06,
+      "total_updates": 12000
+    },
+    "augmentation": "color_only",
+    "loss_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "complete_task_frame_multiplier": 3
+  },
+  "models": [
+    {
+      "engine": "isaacsim",
+      "frozen_policy_id": "isaac_nominal_v2_20261013_seed1",
+      "seed": 1,
+      "optimizer_updates": 12000,
+      "training_spec_record": "train_isaac_nominal_v2_20261013_seed1_spec.json",
+      "training_dataset_view": "isaac_reference",
+      "physical_source_view_as_recorded": null,
+      "training_episodes": 600,
+      "training_scenes_as_recorded": null,
+      "training_frames": 236938,
+      "recorded_ready_manifest_sha256": "5fb12e1a4844938fc23232d1de5193304cb9093f186e6a56f72bb6b72b398fc3",
+      "recorded_training_shared_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "frozen_inference_normalization_sha256": "f0f7bfac17886283e8e89de61cb5bcda560fb2533e21d0700774f906b32a0dec",
+      "label_or_sampling_settings_as_recorded": {},
+      "trainer_source_fingerprint": null
+    },
+    {
+      "engine": "mujoco",
+      "frozen_policy_id": "mujoco_contact_anticipatory_hold_v12_20261016_seed0",
+      "seed": 0,
+      "optimizer_updates": 12000,
+      "training_spec_record": "train_mujoco_contact_anticipatory_hold_v12_20261016_seed0_spec.json",
+      "training_dataset_view": "mujoco_contact_anticipatory_hold_labels_v12_20261016",
+      "physical_source_view_as_recorded": "mujoco_contact_calibrated_feedback_v11_20261015",
+      "training_episodes": 600,
+      "training_scenes_as_recorded": 200,
+      "training_frames": 186596,
+      "recorded_ready_manifest_sha256": null,
+      "recorded_training_shared_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "frozen_inference_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "label_or_sampling_settings_as_recorded": {
+        "qualified_hold_label_frames_changed": 6000
+      },
+      "trainer_source_fingerprint": {
+        "script": "train_mujoco_contact_hold_lossless_v12_20261016.py",
+        "sha256": "6a7397445b968ff32d545277ab47ac5d1982f7a80f60b2145ffaa17614f65b56",
+        "basis": "UTF-8 training script payload embedded in the archived version-specific deployment script"
+      }
+    },
+    {
+      "engine": "pybullet",
+      "frozen_policy_id": "pybullet_semantic_nominal_v9_20261015_seed0",
+      "seed": 0,
+      "optimizer_updates": 12000,
+      "training_spec_record": "train_pybullet_semantic_nominal_v9_20261015_seed0_spec.json",
+      "training_dataset_view": "pybullet_semantic_contact_v9_20261015",
+      "physical_source_view_as_recorded": "pybullet_semantic_contact_v9_20261015",
+      "training_episodes": 600,
+      "training_scenes_as_recorded": 200,
+      "training_frames": 186714,
+      "recorded_ready_manifest_sha256": null,
+      "recorded_training_shared_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "frozen_inference_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "label_or_sampling_settings_as_recorded": {},
+      "trainer_source_fingerprint": {
+        "script": "train_pybullet_semantic_lossless_v9_20261015.py",
+        "sha256": "a9c9d243d52ee314877469b79b7015c8310a6f1ee193154cb11346a0999250ec",
+        "basis": "archived source text matched the archived file digest"
+      }
+    },
+    {
+      "engine": "drake",
+      "frozen_policy_id": "drake_qualified_hold_nominal_v5_20261015_seed0",
+      "seed": 0,
+      "optimizer_updates": 12000,
+      "training_spec_record": "train_drake_qualified_hold_nominal_v5_20261015_seed0_spec.json",
+      "training_dataset_view": "drake_qualified_hold_labels_v5_20261015",
+      "physical_source_view_as_recorded": "drake_feedback_controller_v8_20261014",
+      "training_episodes": 600,
+      "training_scenes_as_recorded": 200,
+      "training_frames": 186314,
+      "recorded_ready_manifest_sha256": "58550a8fc0aa839826a21137dd8197ddac2b2a4b8c6a4114cb0632a86900220f",
+      "recorded_training_shared_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "frozen_inference_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "label_or_sampling_settings_as_recorded": {
+        "label_correction_only": true,
+        "qualified_hold_label_frames_changed": 6000
+      },
+      "trainer_source_fingerprint": {
+        "script": "train_drake_qualified_hold_lossless_v5_20261015.py",
+        "sha256": "e7caf6ea08632bedc9c8750b442968f3d5b32ad0110b589b2571a55601f5ad25",
+        "basis": "archived source text matched the archived file digest"
+      }
+    },
+    {
+      "engine": "newton",
+      "frozen_policy_id": "newton_gap_feedback_nominal_v3_20261015_seed0",
+      "seed": 0,
+      "optimizer_updates": 12000,
+      "training_spec_record": "train_newton_gap_feedback_nominal_v3_20261015_seed0_spec.json",
+      "training_dataset_view": "newton_feedback_gap_v24_20261014",
+      "physical_source_view_as_recorded": "newton_feedback_gap_v24_20261014",
+      "training_episodes": 600,
+      "training_scenes_as_recorded": 200,
+      "training_frames": 192884,
+      "recorded_ready_manifest_sha256": "874842bac68c00780dd1c0e7fbb55bc80f586b549c54e07daf19a56cd9581e1a",
+      "recorded_training_shared_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "frozen_inference_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "label_or_sampling_settings_as_recorded": {
+        "label_correction_only": false,
+        "original_teacher_lookahead_labels": true
+      },
+      "trainer_source_fingerprint": {
+        "script": "train_newton_gap_feedback_lossless_v3_20261015.py",
+        "sha256": "884b593d51cc64d6eeb0c4a4364a34e5cd0f9750ffe88e74717c5dc6a2b4c05d",
+        "basis": "archived source text matched the archived file digest"
+      }
+    },
+    {
+      "engine": "gazebo",
+      "frozen_policy_id": "gazebo_anticipatory_hold_nominal_v6_20261016_seed0",
+      "seed": 0,
+      "optimizer_updates": 12000,
+      "training_spec_record": "train_gazebo_anticipatory_hold_nominal_v6_20261016_seed0_spec.json",
+      "training_dataset_view": "gazebo_anticipatory_hold_labels_v6_20261016",
+      "physical_source_view_as_recorded": "gazebo_native_PD_controller_v13_20261015",
+      "training_episodes": 600,
+      "training_scenes_as_recorded": 200,
+      "training_frames": 186800,
+      "recorded_ready_manifest_sha256": "82813f1cc616a8e40bfa0ac689d7ecedfc8f020144c11bba2184de91407c5a54",
+      "recorded_training_shared_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "frozen_inference_normalization_sha256": "644cd0e392ec30eddee511d8f806c8a12e5cf9afc9c612834bc78a20c636a3bf",
+      "label_or_sampling_settings_as_recorded": {
+        "label_correction_only": false,
+        "original_teacher_lookahead_labels": false,
+        "retrospective_anticipatory_target_only": true,
+        "phase_sampling_only": false,
+        "nonclose_phase_weight": 4,
+        "close_phase_weight": 1,
+        "qualified_hold_label_frames_changed": 6000
+      },
+      "trainer_source_fingerprint": {
+        "script": "train_gazebo_anticipatory_hold_lossless_v6_20261016.py",
+        "sha256": "b6c015d020d5a8329f48327e4021344b3e4ffad1732ec86597dfbb05e2e6e51b",
+        "basis": "UTF-8 training script payload embedded in the archived version-specific deployment script; text also matches the standalone local training-source archive"
+      }
+    }
+  ]
+}

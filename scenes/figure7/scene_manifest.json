@@ -1,0 +1,1309 @@
+{
+  "entry": "simulation/figure7_calibration_1400024/checkerboard_scene.usda",
+  "base_zip": "PhysTrace_PiPER_scene_assets_20260926.zip",
+  "base_sha256": "7029c84892162d9453855b789197c3bf80ba04da8fd6c6f58d56c84d3cecc6d2",
+  "external_isaac_material_modules": [
+    "OmniPBR.mdl",
+    "OmniPBR_Opacity.mdl"
+  ],
+  "files": [
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/assets/Clamp_Final_Black_v1/IsaacSim/Clamp.usdc",
+      "kind": "layer",
+      "source_sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc",
+      "sha256": "df6f6fc1342afe0ad3e417f1c009f436516d715332d12258b5ef46c30b31b8cc",
+      "bytes": 8771789,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/desk/lift_table.usda",
+      "kind": "layer",
+      "source_sha256": "b416136af07f97e5efe7c266dd7951e20e42dcb15f675065adee8e1a8e6fa7c3",
+      "sha256": "b416136af07f97e5efe7c266dd7951e20e42dcb15f675065adee8e1a8e6fa7c3",
+      "bytes": 19789,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/desk/textures/sjz_d.png",
+      "kind": "asset",
+      "source_sha256": "145d2e53ef800c82e9399be6a91da87673196bf29f976b5f56be5f7f4940a86e",
+      "sha256": "145d2e53ef800c82e9399be6a91da87673196bf29f976b5f56be5f7f4940a86e",
+      "bytes": 9245624,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/desk/textures/sjz_m.png",
+      "kind": "asset",
+      "source_sha256": "3439d0ea2b25adf43ae615b9b88727b6b727651883a0b6b286a5cae9c2dcc857",
+      "sha256": "3439d0ea2b25adf43ae615b9b88727b6b727651883a0b6b286a5cae9c2dcc857",
+      "bytes": 2584778,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/desk/textures/sjz_n.png",
+      "kind": "asset",
+      "source_sha256": "c17fba76562b3fbb26f9e88acc7d443f895a6b072d5dfa05bb5f19e95fbd906d",
+      "sha256": "c17fba76562b3fbb26f9e88acc7d443f895a6b072d5dfa05bb5f19e95fbd906d",
+      "bytes": 15640576,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/desk/textures/sjz_r.png",
+      "kind": "asset",
+      "source_sha256": "e0e548670d9ab6e6f00113c2b118d8497879ffcc071b16571a4a04a26bd9e6c6",
+      "sha256": "e0e548670d9ab6e6f00113c2b118d8497879ffcc071b16571a4a04a26bd9e6c6",
+      "bytes": 5250129,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/desk/visual.usdc",
+      "kind": "layer",
+      "source_sha256": "813749bd7d5ffd66b596af987514f9f8d68a9df1287394ecaf62aeb4caf8965a",
+      "sha256": "813749bd7d5ffd66b596af987514f9f8d68a9df1287394ecaf62aeb4caf8965a",
+      "bytes": 524415,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/mujoco.usda",
+      "kind": "layer",
+      "source_sha256": "9045fce6ec241447c2e561105651bdc048fe3710f6a478c53d63187c525ffb6c",
+      "sha256": "5724a3cf83063ebe193a079134b3df4efd1efa41098a72ed4b93785b54b10fe5",
+      "bytes": 36215,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "2f0c1ab34d19455b5d72b7d1cf6e582afbb797001586cb93ba1287c6fbcae753",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physics.usda",
+      "kind": "layer",
+      "source_sha256": "37ae84d115a95ef745b366137f0944818ac99c3638a5a91ae13c6e02004393ba",
+      "sha256": "5d37869c6fc05a851b2afc67831daac4ec284ff1ef99f7d9806a505980ac3832",
+      "bytes": 14810,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "5d37869c6fc05a851b2afc67831daac4ec284ff1ef99f7d9806a505980ac3832",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/Physics/physx.usda",
+      "kind": "layer",
+      "source_sha256": "4359598db71c195b000de4561d68bdc3062b8ca78753610dac00ffaf66db4077",
+      "sha256": "12fd42c8fdf97da21a8411e98e52ae2c45b44cab69f053de938e571fb78e1039",
+      "bytes": 1642,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "f23723b47bc190d3e55740e636de3c27002866b55e7de137f2f6975c8c6fb6a3",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/base.usda",
+      "kind": "layer",
+      "source_sha256": "bbc001c694b637f236c0d4ad654f4f841c3d25ef74380cc15764c4f2f90841eb",
+      "sha256": "e09e86c351a464e786404b452050af7bd5174453d10e5ec384c256fb0ac4a8db",
+      "bytes": 163527,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "a1a53225c0e07a944e5e7c92ba7d9bb58ce3a5b7afa22ad7b1d7cf86ff67fcf1",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/materials.usda",
+      "kind": "layer",
+      "source_sha256": "2917e09dd0c264f928e3a667a81e36c40e12b5b48f6703f6dc13c475ca37b652",
+      "sha256": "b0e6caa80e374cc5e02d8deb0722bef7b2ab2a15a552670ea2e87ba807801781",
+      "bytes": 18814,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "b0e6caa80e374cc5e02d8deb0722bef7b2ab2a15a552670ea2e87ba807801781",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/payloads/robot.usda",
+      "kind": "layer",
+      "source_sha256": "c504744f27e31c138a457fa0dd75c05940fbfe2671817b0124201d02400dc377",
+      "sha256": "07e3f4a55e0383669dad4fbb3c477fae7a0be51c7f13d4fbd914a2c512e13063",
+      "bytes": 43448,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "07e3f4a55e0383669dad4fbb3c477fae7a0be51c7f13d4fbd914a2c512e13063",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/robot/piper/piper.usda",
+      "kind": "layer",
+      "source_sha256": "921c83e70a37ab1ce7e9d7fcf214b0c70b88fb314fc5e89fb25557a4c23e40fb",
+      "sha256": "079fd9e05622a6c309e9d935e94d9404cdf5c1cc8b21db1c436b30b3d09a89a9",
+      "bytes": 114169287,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "3d0461b1bebf86e29997a3c4e157949f6a9c25c85e2c0dce058844f4e6b70904",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/01_door/asset.usda",
+      "kind": "layer",
+      "source_sha256": "58d61a2cc41f3f9ede83affb10087cf88a4925bfe218791e7ebca33c1512ce53",
+      "sha256": "58d61a2cc41f3f9ede83affb10087cf88a4925bfe218791e7ebca33c1512ce53",
+      "bytes": 10201,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/01_door/geometry.usdc",
+      "kind": "layer",
+      "source_sha256": "df101fc5e4d5949d9874246c24127bfc70d6b40169e13515eee76c6c5422b90f",
+      "sha256": "df101fc5e4d5949d9874246c24127bfc70d6b40169e13515eee76c6c5422b90f",
+      "bytes": 72431,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/02_backdrop/asset.usda",
+      "kind": "layer",
+      "source_sha256": "7cff01fc817d646cc01a877072215486f2fbcbb366ce0e940ce424d2400f57ea",
+      "sha256": "7cff01fc817d646cc01a877072215486f2fbcbb366ce0e940ce424d2400f57ea",
+      "bytes": 76728,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/02_backdrop/geometry.usdc",
+      "kind": "layer",
+      "source_sha256": "e079a65f61bc0209f5486f4999a79b8b0e2bd2569cba1eb9501dc315991f03e3",
+      "sha256": "e079a65f61bc0209f5486f4999a79b8b0e2bd2569cba1eb9501dc315991f03e3",
+      "bytes": 318948,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/02_backdrop/textures/013.png",
+      "kind": "asset",
+      "source_sha256": "4cfaa7dbd92458743f8e8d3c4e76dc38a592c88c96a5e3d1e8b3676ba2057491",
+      "sha256": "4cfaa7dbd92458743f8e8d3c4e76dc38a592c88c96a5e3d1e8b3676ba2057491",
+      "bytes": 438249,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/05_light/asset.usda",
+      "kind": "layer",
+      "source_sha256": "a14e2de9164cb84bd063bc84f2d23610ff1308e0998fd432a7d35f531bae132f",
+      "sha256": "a14e2de9164cb84bd063bc84f2d23610ff1308e0998fd432a7d35f531bae132f",
+      "bytes": 20586,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/05_light/geometry.usdc",
+      "kind": "layer",
+      "source_sha256": "4c07c2a9dedcd71c200251548047f0567e0bed83dc8487c9b2dd267bf515b650",
+      "sha256": "4c07c2a9dedcd71c200251548047f0567e0bed83dc8487c9b2dd267bf515b650",
+      "bytes": 7066635,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/06_sofa/asset.usda",
+      "kind": "layer",
+      "source_sha256": "73025cab3338d30ccd373c79c5cca5754acff4af10f0ebf89e9f163ccbbce1a7",
+      "sha256": "73025cab3338d30ccd373c79c5cca5754acff4af10f0ebf89e9f163ccbbce1a7",
+      "bytes": 13658,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/06_sofa/geometry.usdc",
+      "kind": "layer",
+      "source_sha256": "a5bf1915791f321638d718e01e14463e414aed98143d4cdbcaff68ae78cd983a",
+      "sha256": "a5bf1915791f321638d718e01e14463e414aed98143d4cdbcaff68ae78cd983a",
+      "bytes": 2039132,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/assets/06_sofa/textures/002.png",
+      "kind": "asset",
+      "source_sha256": "1bfa36f3c5eb796b490f3dc05197daeb63d124cace758bd0d022d26c63f84eb4",
+      "sha256": "1bfa36f3c5eb796b490f3dc05197daeb63d124cace758bd0d022d26c63f84eb4",
+      "bytes": 304312,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/room/room.usda",
+      "kind": "layer",
+      "source_sha256": "2d76f12ef07f13e252bb081612165b1dbf1fd775b97fb025a6efbee0b61ab892",
+      "sha256": "2d76f12ef07f13e252bb081612165b1dbf1fd775b97fb025a6efbee0b61ab892",
+      "bytes": 77111,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/PiPER_Scene_Assets_v1/scene/scene.usda",
+      "kind": "layer",
+      "source_sha256": "b8f47875e59aa031e1e633769453ad3d0023bea3af793bce8b08c25311c508f2",
+      "sha256": "b8f47875e59aa031e1e633769453ad3d0023bea3af793bce8b08c25311c508f2",
+      "bytes": 83856990,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/figure7_calibration_1400024/checkerboard_collection.usda",
+      "kind": "layer",
+      "source_sha256": "4417dc6237669a2fc617ba02f563c70241072d7d983121760f379efe0ba875ed",
+      "sha256": "dd230dd1b532c9ff906e0b2ba12c006e7cbf99e1d20773e888526ca9e1ad2980",
+      "bytes": 17643,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 1,
+        "canonical_usda_except_asset_paths_sha256": "357028a27497e44254cb4b326ffa332606e7f7a555ec3976f49ddc9d76a073fd",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": false,
+        "relocated_relative_paths": [
+          "../scene_training.usda"
+        ]
+      }
+    },
+    {
+      "path": "simulation/figure7_calibration_1400024/checkerboard_scene.usda",
+      "kind": "layer",
+      "source_sha256": "4951a263918155f955f8c1ee8f10298067dac612e8d4a00e38afc4eba23e8255",
+      "sha256": "a7f81ab24c6f67cc30a975ed5efd5f83e39e076b7d77c838afe3c3667580421b",
+      "bytes": 1198,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 2,
+        "canonical_usda_except_asset_paths_sha256": "7b3bf017e72ce112cdae485968e181882cbb9a726628b4e1b6e4c9d177719b14",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": false,
+        "relocated_relative_paths": [
+          "../table_layout.usda",
+          "./checkerboard_collection.usda"
+        ]
+      }
+    },
+    {
+      "path": "simulation/paper_source/checkerboard_A4.png",
+      "kind": "asset",
+      "source_sha256": "499b2f626a160cf7a5e474ce99f55235a5c4f9cef90632b31a01a8c145d21491",
+      "sha256": "499b2f626a160cf7a5e474ce99f55235a5c4f9cef90632b31a01a8c145d21491",
+      "bytes": 6645301,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/04beaacd1daa7bf7.png",
+      "kind": "asset",
+      "source_sha256": "340993e843b7721a71775ade47e4a99f955b391b266d24e836d9335372c8a239",
+      "sha256": "340993e843b7721a71775ade47e4a99f955b391b266d24e836d9335372c8a239",
+      "bytes": 2587819,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/1d2771137b1e97b1.png",
+      "kind": "asset",
+      "source_sha256": "953e459993b4f92b496764de1991d0e88f59e47a014e1031d00b4e8ae070d235",
+      "sha256": "953e459993b4f92b496764de1991d0e88f59e47a014e1031d00b4e8ae070d235",
+      "bytes": 2957353,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/2df0e9cf624520b8.png",
+      "kind": "asset",
+      "source_sha256": "340993e843b7721a71775ade47e4a99f955b391b266d24e836d9335372c8a239",
+      "sha256": "340993e843b7721a71775ade47e4a99f955b391b266d24e836d9335372c8a239",
+      "bytes": 2587819,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/3a6b3692870fc9f4.png",
+      "kind": "asset",
+      "source_sha256": "9a76475027a5811b84cc0f513820fe65a6169b6a38336b65a3d0d73d7b83e06e",
+      "sha256": "9a76475027a5811b84cc0f513820fe65a6169b6a38336b65a3d0d73d7b83e06e",
+      "bytes": 2169832,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/3ed27358f9595061.png",
+      "kind": "asset",
+      "source_sha256": "68960f52b67750679f3b9304de85f91a18b7201a90e1b21015f10126a1bfeea2",
+      "sha256": "68960f52b67750679f3b9304de85f91a18b7201a90e1b21015f10126a1bfeea2",
+      "bytes": 3298505,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/54b3adedd7f6b26f.png",
+      "kind": "asset",
+      "source_sha256": "41f95c000576a177604a98bf67ab18583ce28ac549d305cd97cf633e5b89da55",
+      "sha256": "41f95c000576a177604a98bf67ab18583ce28ac549d305cd97cf633e5b89da55",
+      "bytes": 2262325,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/6c2722a9eaa9f873.png",
+      "kind": "asset",
+      "source_sha256": "5c48e681cbaad82c9e88156026e1ac431e3d63690d707a7837aa2d7229b83fdf",
+      "sha256": "5c48e681cbaad82c9e88156026e1ac431e3d63690d707a7837aa2d7229b83fdf",
+      "bytes": 131390,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/76cbb4909f8ed6bc.png",
+      "kind": "asset",
+      "source_sha256": "5c48e681cbaad82c9e88156026e1ac431e3d63690d707a7837aa2d7229b83fdf",
+      "sha256": "5c48e681cbaad82c9e88156026e1ac431e3d63690d707a7837aa2d7229b83fdf",
+      "bytes": 131390,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/798764980dc1cc13.png",
+      "kind": "asset",
+      "source_sha256": "11f9498e813c97fc30abce3d22c8ae2170c096b944b8e0e056b0866be2448cf6",
+      "sha256": "11f9498e813c97fc30abce3d22c8ae2170c096b944b8e0e056b0866be2448cf6",
+      "bytes": 645959,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/a178ecdb27333b4f.png",
+      "kind": "asset",
+      "source_sha256": "41f95c000576a177604a98bf67ab18583ce28ac549d305cd97cf633e5b89da55",
+      "sha256": "41f95c000576a177604a98bf67ab18583ce28ac549d305cd97cf633e5b89da55",
+      "bytes": 2262325,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/c8ca2278a21e0aff.png",
+      "kind": "asset",
+      "source_sha256": "499973a6ccefe4360978e62ebdcbdda8041e1a2228734e8387ff4ea95bcdc005",
+      "sha256": "499973a6ccefe4360978e62ebdcbdda8041e1a2228734e8387ff4ea95bcdc005",
+      "bytes": 1362787,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/render_textures/c8deaf66341af68b.png",
+      "kind": "asset",
+      "source_sha256": "ce6cc178b2283e214e4d83f275092f102cb27e38e7f973b412e2532b83adb223",
+      "sha256": "ce6cc178b2283e214e4d83f275092f102cb27e38e7f973b412e2532b83adb223",
+      "bytes": 1456951,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/ruler_scale.png",
+      "kind": "asset",
+      "source_sha256": "a82872b514fa0ac6bca66b1ba87c921d2d10c7d467680d7f33481a37731abb5c",
+      "sha256": "a82872b514fa0ac6bca66b1ba87c921d2d10c7d467680d7f33481a37731abb5c",
+      "bytes": 92378,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/scene.usda",
+      "kind": "layer",
+      "source_sha256": "124a5f3afb6a7401409b0752c4bdf77f7ef107612973ad9db65b84e787b51950",
+      "sha256": "124a5f3afb6a7401409b0752c4bdf77f7ef107612973ad9db65b84e787b51950",
+      "bytes": 128,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/scene_base.usda",
+      "kind": "layer",
+      "source_sha256": "f0f0743ef6d00215122385d19fb8430389d4aa5f64d9e50ff5bd5a9236e710c8",
+      "sha256": "f0f0743ef6d00215122385d19fb8430389d4aa5f64d9e50ff5bd5a9236e710c8",
+      "bytes": 38953335,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/scene_training.usda",
+      "kind": "layer",
+      "source_sha256": "cf111be5d48c7ec7141dcbce609eb46fe7a40b765af5c84de36bd677375a4a5d",
+      "sha256": "cf111be5d48c7ec7141dcbce609eb46fe7a40b765af5c84de36bd677375a4a5d",
+      "bytes": 188416,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/airfryer/meshes/kqzg_D.png",
+      "kind": "asset",
+      "source_sha256": "5d1341ec94672ab3d5abf88fe77f5e4c4770adf2017065e54e2b712f63f777ff",
+      "sha256": "5d1341ec94672ab3d5abf88fe77f5e4c4770adf2017065e54e2b712f63f777ff",
+      "bytes": 7234734,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/microwave/meshes/T_WBL_C.png",
+      "kind": "asset",
+      "source_sha256": "4accd515a76a2fed0e3eec8228d06ce663586f7a38243507d05a73d535f93304",
+      "sha256": "4accd515a76a2fed0e3eec8228d06ce663586f7a38243507d05a73d535f93304",
+      "bytes": 3514805,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/piper/visual_refresh/camera_body_base_color.png",
+      "kind": "asset",
+      "source_sha256": "87534fb8e4ff9d5b18ff6354c9df36fb817d089fe0b4f80d18bd4fad356c8ae1",
+      "sha256": "87534fb8e4ff9d5b18ff6354c9df36fb817d089fe0b4f80d18bd4fad356c8ae1",
+      "bytes": 8100561,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/piper/visual_refresh/mount_bracket_base_color.png",
+      "kind": "asset",
+      "source_sha256": "951e6e50701f9e84e3469832604fea61efe673b1b36fc588f8420bac5a2656dd",
+      "sha256": "951e6e50701f9e84e3469832604fea61efe673b1b36fc588f8420bac5a2656dd",
+      "bytes": 5162442,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/piper/visual_refresh/mount_screw_01_base_color.png",
+      "kind": "asset",
+      "source_sha256": "66cd136b57d62a00166c143e329e367d46df9b6d21d383d2e83eec836a028da3",
+      "sha256": "66cd136b57d62a00166c143e329e367d46df9b6d21d383d2e83eec836a028da3",
+      "bytes": 308718,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/piper/visual_refresh/mount_screw_02_base_color.png",
+      "kind": "asset",
+      "source_sha256": "66cd136b57d62a00166c143e329e367d46df9b6d21d383d2e83eec836a028da3",
+      "sha256": "66cd136b57d62a00166c143e329e367d46df9b6d21d383d2e83eec836a028da3",
+      "bytes": 308718,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/assets/plate/base_color.png",
+      "kind": "asset",
+      "source_sha256": "f99e34a2c30e62aacaba82c4cbb83a63598e2fe5861c8eef61980447a610286b",
+      "sha256": "f99e34a2c30e62aacaba82c4cbb83a63598e2fe5861c8eef61980447a610286b",
+      "bytes": 7505476,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/material_visual/aluminum/T_Box25_C.png",
+      "kind": "asset",
+      "source_sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "bytes": 1057922,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/material_visual/brass/T_Box25_C.png",
+      "kind": "asset",
+      "source_sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "bytes": 1057922,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/material_visual/iron/T_Box25_C.png",
+      "kind": "asset",
+      "source_sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "bytes": 1057922,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/source_v4/material_visual/wood/T_Box25_C.png",
+      "kind": "asset",
+      "source_sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "bytes": 1057922,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/table_layout.usda",
+      "kind": "layer",
+      "source_sha256": "493995287fb4182a389b0d112c1edf2f05f976e093941bc52f40123e72259a3f",
+      "sha256": "493995287fb4182a389b0d112c1edf2f05f976e093941bc52f40123e72259a3f",
+      "bytes": 15764,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/airfryer.usd",
+      "kind": "layer",
+      "source_sha256": "756f308b8a5b101e30ab5b9567f1a4920edc2159e5b821547a685dac2ea773eb",
+      "sha256": "756f308b8a5b101e30ab5b9567f1a4920edc2159e5b821547a685dac2ea773eb",
+      "bytes": 1477,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/airfryer_base.usd",
+      "kind": "layer",
+      "source_sha256": "dffaa3705b6ad4139a173a65eadf655bd12d8b55f62b7fa0cb5f6f096cad9cee",
+      "sha256": "dffaa3705b6ad4139a173a65eadf655bd12d8b55f62b7fa0cb5f6f096cad9cee",
+      "bytes": 44998902,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/airfryer_physics.usd",
+      "kind": "layer",
+      "source_sha256": "24df140a90d8c997e966f2303b08d4921ad6d3bc091e5a5036e2b38a8851e19c",
+      "sha256": "24df140a90d8c997e966f2303b08d4921ad6d3bc091e5a5036e2b38a8851e19c",
+      "bytes": 4048,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/airfryer_robot.usd",
+      "kind": "layer",
+      "source_sha256": "49cc142b895139379592537f2fa5c2d4f7eecfa92be700310ca7e23449ddfef8",
+      "sha256": "49cc142b895139379592537f2fa5c2d4f7eecfa92be700310ca7e23449ddfef8",
+      "bytes": 1516,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/airfryer_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "537f6908705d2427fbfbf30f93c3e3d13bdc71a5d81b62a86df9560de9615eef",
+      "sha256": "537f6908705d2427fbfbf30f93c3e3d13bdc71a5d81b62a86df9560de9615eef",
+      "bytes": 666,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_aluminum_base.usd",
+      "kind": "layer",
+      "source_sha256": "2638c7e15511908afcb644e524c772758326c9ab597d613c90709507ad237b45",
+      "sha256": "2638c7e15511908afcb644e524c772758326c9ab597d613c90709507ad237b45",
+      "bytes": 14148,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_aluminum_physics.usd",
+      "kind": "layer",
+      "source_sha256": "ba763b2ee541fada543c8a630c170a580a35e0f1f98df53045c8a9bc17b228cb",
+      "sha256": "ba763b2ee541fada543c8a630c170a580a35e0f1f98df53045c8a9bc17b228cb",
+      "bytes": 1538,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_aluminum_robot.usd",
+      "kind": "layer",
+      "source_sha256": "5900c0a734273f233fd88c4c78e2fc60084bf9c14f32a38eb9b9bca906b64e1e",
+      "sha256": "5900c0a734273f233fd88c4c78e2fc60084bf9c14f32a38eb9b9bca906b64e1e",
+      "bytes": 1116,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_aluminum_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "32a8ba8c8bbca67e8896a1e1274de436594ebe6e2adee23a8021a836637b1488",
+      "sha256": "32a8ba8c8bbca67e8896a1e1274de436594ebe6e2adee23a8021a836637b1488",
+      "bytes": 653,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_brass_base.usd",
+      "kind": "layer",
+      "source_sha256": "342e2fb24ecff3dfc55e101554e47ec2d7d131e5da2ffb5306a9d4ffa4dbeac6",
+      "sha256": "342e2fb24ecff3dfc55e101554e47ec2d7d131e5da2ffb5306a9d4ffa4dbeac6",
+      "bytes": 14156,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_brass_physics.usd",
+      "kind": "layer",
+      "source_sha256": "887c17d522ebbe5a4c166a85ca05c3d175a7500bdefec4cc130a876254eb5180",
+      "sha256": "887c17d522ebbe5a4c166a85ca05c3d175a7500bdefec4cc130a876254eb5180",
+      "bytes": 1535,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_brass_robot.usd",
+      "kind": "layer",
+      "source_sha256": "883549e90423e87248d85df732a6c6bb90b1ecad9a999d62324ff44608ab75a9",
+      "sha256": "883549e90423e87248d85df732a6c6bb90b1ecad9a999d62324ff44608ab75a9",
+      "bytes": 1109,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_brass_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "dd82c6ba3679c909a106b1d82eb99cf1c89e9e6d0b6c968302c62a8fd0e516f3",
+      "sha256": "dd82c6ba3679c909a106b1d82eb99cf1c89e9e6d0b6c968302c62a8fd0e516f3",
+      "bytes": 650,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_iron_base.usd",
+      "kind": "layer",
+      "source_sha256": "e2456ee5deed0223e3205939d6434bea8bc73eed32b809455ee95b5b32f82865",
+      "sha256": "e2456ee5deed0223e3205939d6434bea8bc73eed32b809455ee95b5b32f82865",
+      "bytes": 14155,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_iron_physics.usd",
+      "kind": "layer",
+      "source_sha256": "972add2df55da71a1bf04e5a1e1607382984bac2d7618a8c4c518cc853444458",
+      "sha256": "972add2df55da71a1bf04e5a1e1607382984bac2d7618a8c4c518cc853444458",
+      "bytes": 1534,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_iron_robot.usd",
+      "kind": "layer",
+      "source_sha256": "432c425715c54b0f9faefb4fcdeedbba043b5cd5aadb03b6ad6946e16bcff171",
+      "sha256": "432c425715c54b0f9faefb4fcdeedbba043b5cd5aadb03b6ad6946e16bcff171",
+      "bytes": 1112,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_iron_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "87348fd8048c8b92a40b89c56540e6c4c49da2b1281fe1df7914a86d3abd5f4e",
+      "sha256": "87348fd8048c8b92a40b89c56540e6c4c49da2b1281fe1df7914a86d3abd5f4e",
+      "bytes": 649,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_wood_base.usd",
+      "kind": "layer",
+      "source_sha256": "35fcfcad08dba268700810edf4924c30b54b3640ed3c5c3fe8504bc8c1320dd2",
+      "sha256": "35fcfcad08dba268700810edf4924c30b54b3640ed3c5c3fe8504bc8c1320dd2",
+      "bytes": 14139,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_wood_physics.usd",
+      "kind": "layer",
+      "source_sha256": "10537716198118bec701bf2e7054f236e8835aaa71abc4602d5e4ea681f75a8c",
+      "sha256": "10537716198118bec701bf2e7054f236e8835aaa71abc4602d5e4ea681f75a8c",
+      "bytes": 1534,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_wood_robot.usd",
+      "kind": "layer",
+      "source_sha256": "6cfddb2d1b2fdf4a5ac49641951368f1b9d0ee3c5599d1f5d306a9e60f89ee99",
+      "sha256": "6cfddb2d1b2fdf4a5ac49641951368f1b9d0ee3c5599d1f5d306a9e60f89ee99",
+      "bytes": 1112,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/cube_wood_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "30af226277b398e1152d9fd6589c8368ab2f4b4af1e31b0ddedb9c06bff50866",
+      "sha256": "30af226277b398e1152d9fd6589c8368ab2f4b4af1e31b0ddedb9c06bff50866",
+      "bytes": 649,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/materials/textures/T_Box25_C.png",
+      "kind": "asset",
+      "source_sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "sha256": "a82e84311be282eaeb521ce84053e053ec243859ba02924865c5a9e985a040c3",
+      "bytes": 1057922,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/materials/textures/T_WBL_C.png",
+      "kind": "asset",
+      "source_sha256": "4accd515a76a2fed0e3eec8228d06ce663586f7a38243507d05a73d535f93304",
+      "sha256": "4accd515a76a2fed0e3eec8228d06ce663586f7a38243507d05a73d535f93304",
+      "bytes": 3514805,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/materials/textures/base_color.png",
+      "kind": "asset",
+      "source_sha256": "f99e34a2c30e62aacaba82c4cbb83a63598e2fe5861c8eef61980447a610286b",
+      "sha256": "f99e34a2c30e62aacaba82c4cbb83a63598e2fe5861c8eef61980447a610286b",
+      "bytes": 7505476,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/materials/textures/kqzg_D.png",
+      "kind": "asset",
+      "source_sha256": "5d1341ec94672ab3d5abf88fe77f5e4c4770adf2017065e54e2b712f63f777ff",
+      "sha256": "5d1341ec94672ab3d5abf88fe77f5e4c4770adf2017065e54e2b712f63f777ff",
+      "bytes": 7234734,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/microwave_base.usd",
+      "kind": "layer",
+      "source_sha256": "d40f14f9c501a19d6e727e14fd3599e9aea07d54e48f866abe037c1ee722e860",
+      "sha256": "d40f14f9c501a19d6e727e14fd3599e9aea07d54e48f866abe037c1ee722e860",
+      "bytes": 1913768,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/microwave_physics.usd",
+      "kind": "layer",
+      "source_sha256": "67f21981866587352016ea73de087210e7fe0fd853620914f3cf0fb75b9e2aa1",
+      "sha256": "67f21981866587352016ea73de087210e7fe0fd853620914f3cf0fb75b9e2aa1",
+      "bytes": 6467,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/microwave_robot.usd",
+      "kind": "layer",
+      "source_sha256": "7769b48f04ff4e4597094a5dd420d593e03b4268cb84525f5b2d536eea8aefdb",
+      "sha256": "7769b48f04ff4e4597094a5dd420d593e03b4268cb84525f5b2d536eea8aefdb",
+      "bytes": 1597,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/microwave_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "09cb648950b0e765f3a86473575d18d478af7f27030d72d52c0aff581f502363",
+      "sha256": "09cb648950b0e765f3a86473575d18d478af7f27030d72d52c0aff581f502363",
+      "bytes": 667,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/plate_base.usd",
+      "kind": "layer",
+      "source_sha256": "1a7c91cfd029da931e3c1b44a9b3e0e8a88c6bd8a8d8892b78d29fc559875562",
+      "sha256": "1a7c91cfd029da931e3c1b44a9b3e0e8a88c6bd8a8d8892b78d29fc559875562",
+      "bytes": 8820625,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/plate_physics.usd",
+      "kind": "layer",
+      "source_sha256": "21298fe7226e28fa524075c3eb43a23fbeb9fc518db3785057e0504bfc3519c4",
+      "sha256": "21298fe7226e28fa524075c3eb43a23fbeb9fc518db3785057e0504bfc3519c4",
+      "bytes": 2274,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/plate_robot.usd",
+      "kind": "layer",
+      "source_sha256": "b55c1a8e629ed56072120b625952656f32ac2783a6f6e750a7e946f1f6ea2226",
+      "sha256": "b55c1a8e629ed56072120b625952656f32ac2783a6f6e750a7e946f1f6ea2226",
+      "bytes": 1079,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/plate_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "2d43098ecb56cee495e663715eb26ac5464a45064f3b0d38811904753b061d50",
+      "sha256": "2d43098ecb56cee495e663715eb26ac5464a45064f3b0d38811904753b061d50",
+      "bytes": 645,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_airfryer_base.usd",
+      "kind": "layer",
+      "source_sha256": "6bb78f1e3ca2b7d99c8df241733a8e11c128ed0d476fba9587c81eb30d58a661",
+      "sha256": "6bb78f1e3ca2b7d99c8df241733a8e11c128ed0d476fba9587c81eb30d58a661",
+      "bytes": 1634,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_airfryer_physics.usd",
+      "kind": "layer",
+      "source_sha256": "e4bb2a5921f00c787ce2cca668dbcd1a808571e55eca289c7f27429c98076e01",
+      "sha256": "e4bb2a5921f00c787ce2cca668dbcd1a808571e55eca289c7f27429c98076e01",
+      "bytes": 1538,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_airfryer_robot.usd",
+      "kind": "layer",
+      "source_sha256": "9853577fafd46918523c0c4539399bc70f3ab3ce9c0a8d93936fb2d0d0e8a12f",
+      "sha256": "9853577fafd46918523c0c4539399bc70f3ab3ce9c0a8d93936fb2d0d0e8a12f",
+      "bytes": 1116,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_airfryer_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "a0907491a862180b105b36026041e0ebed854211a409bca4bf7e174721354161",
+      "sha256": "a0907491a862180b105b36026041e0ebed854211a409bca4bf7e174721354161",
+      "bytes": 656,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_microwave_base.usd",
+      "kind": "layer",
+      "source_sha256": "cfc61eb53c0132115bce0fa5a9effcaf7da09b0591ceb8763dcf9dabac18634e",
+      "sha256": "cfc61eb53c0132115bce0fa5a9effcaf7da09b0591ceb8763dcf9dabac18634e",
+      "bytes": 1635,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_microwave_physics.usd",
+      "kind": "layer",
+      "source_sha256": "58fa9cd5efcf3bd6b399521bedc08df48d53e0bf042ddc484ada50dbe8d70f59",
+      "sha256": "58fa9cd5efcf3bd6b399521bedc08df48d53e0bf042ddc484ada50dbe8d70f59",
+      "bytes": 1540,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_microwave_robot.usd",
+      "kind": "layer",
+      "source_sha256": "74a7fb8e37b1da6ececbcef9af2d643ad83dfb86be88bb33f87335eb1ceb349b",
+      "sha256": "74a7fb8e37b1da6ececbcef9af2d643ad83dfb86be88bb33f87335eb1ceb349b",
+      "bytes": 1119,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/configuration/support_microwave_sensor.usd",
+      "kind": "layer",
+      "source_sha256": "c7d8c1acc9bca3f8fbfb87bf8af79b9cf572669c843e7acdd3667e0b75109b9a",
+      "sha256": "c7d8c1acc9bca3f8fbfb87bf8af79b9cf572669c843e7acdd3667e0b75109b9a",
+      "bytes": 657,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/cube_aluminum.usd",
+      "kind": "layer",
+      "source_sha256": "27a87a4e9d173292c909e2e844e3b1fa86e523ec6b8341b705c75176ced69163",
+      "sha256": "27a87a4e9d173292c909e2e844e3b1fa86e523ec6b8341b705c75176ced69163",
+      "bytes": 1410,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/cube_brass.usd",
+      "kind": "layer",
+      "source_sha256": "27e6e5f80ac1730aed2707418acfae453efccee939b10352e464ff5dd6ba7c99",
+      "sha256": "27e6e5f80ac1730aed2707418acfae453efccee939b10352e464ff5dd6ba7c99",
+      "bytes": 1407,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/cube_iron.usd",
+      "kind": "layer",
+      "source_sha256": "1b01354a0d9bbb79f47070cea3e3c6f51e1c5c6c5511d3e5dd5a061a9cafe4a5",
+      "sha256": "1b01354a0d9bbb79f47070cea3e3c6f51e1c5c6c5511d3e5dd5a061a9cafe4a5",
+      "bytes": 1406,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/cube_wood.usd",
+      "kind": "layer",
+      "source_sha256": "f6c1d05ca649a09760d53ebd815fd8fca4a8992854e984edb21ac304aabd196d",
+      "sha256": "f6c1d05ca649a09760d53ebd815fd8fca4a8992854e984edb21ac304aabd196d",
+      "bytes": 1406,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/microwave.usd",
+      "kind": "layer",
+      "source_sha256": "04f43e14209b105afb688d8a0835a8649e5632e00777d6faa72147a390ad9ce4",
+      "sha256": "04f43e14209b105afb688d8a0835a8649e5632e00777d6faa72147a390ad9ce4",
+      "bytes": 1478,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/plate.usd",
+      "kind": "layer",
+      "source_sha256": "f6587d74a70b7f4f71104b97d97b946fbae5a05f6e4f98cd064abcec814a200d",
+      "sha256": "f6587d74a70b7f4f71104b97d97b946fbae5a05f6e4f98cd064abcec814a200d",
+      "bytes": 1402,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/support_airfryer.usd",
+      "kind": "layer",
+      "source_sha256": "757bd59bdf9f2145a9d3aaf21f39a321cae032dc5bf018180edcc646b80a64b5",
+      "sha256": "757bd59bdf9f2145a9d3aaf21f39a321cae032dc5bf018180edcc646b80a64b5",
+      "bytes": 1414,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/task_assets/support_microwave.usd",
+      "kind": "layer",
+      "source_sha256": "e058176f30d1ca49ddf4a0e7afd38cab0213017a9b44fef45e12b115800cf141",
+      "sha256": "e058176f30d1ca49ddf4a0e7afd38cab0213017a9b44fef45e12b115800cf141",
+      "bytes": 1415,
+      "include_in_overlay": false,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/camera_mount.usdc",
+      "kind": "layer",
+      "source_sha256": "337d31ac97ce22f33956b78857851fadeec76e5cdf7c62918d02e2dd29804543",
+      "sha256": "47fa99ac6687add62d085342f5291eb28dde1dae84f692cafc61878e29a82174",
+      "bytes": 101909118,
+      "include_in_overlay": true,
+      "layer_relocation": {
+        "authored_asset_references_relocated": 0,
+        "canonical_usda_except_asset_paths_sha256": "8634db5ffa73aa405aaf20571aac014a00b7ad8e0710d56ce314fc7fa99fdd4f",
+        "original_path_text_or_inert_bytes_scrubbed": true,
+        "removed_workstation_path_from_source_documentation": true,
+        "relocated_relative_paths": []
+      }
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t000_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "9426be6d13504b2267546f92a6ee9899e186cca8fcb2f91cd06422261600ab15",
+      "sha256": "9426be6d13504b2267546f92a6ee9899e186cca8fcb2f91cd06422261600ab15",
+      "bytes": 118661,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t001_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "e1c02315a2d80f176c80689f577d55f2f730d79a4ffaafb208337a7d4ffcae83",
+      "sha256": "e1c02315a2d80f176c80689f577d55f2f730d79a4ffaafb208337a7d4ffcae83",
+      "bytes": 120335,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t002_Normal.png",
+      "kind": "asset",
+      "source_sha256": "1fa5d6385bf65f18aa58002ffa9d87953e26bd5851e81431068932e083cf7f70",
+      "sha256": "1fa5d6385bf65f18aa58002ffa9d87953e26bd5851e81431068932e083cf7f70",
+      "bytes": 65656,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t003_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "7f685a1ece0e40600fc157452dec00cff22bf8d6827835de1e620783006a952e",
+      "sha256": "7f685a1ece0e40600fc157452dec00cff22bf8d6827835de1e620783006a952e",
+      "bytes": 136576,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t004_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "319fce253fc8772a61e5e95223377fad0089f0de2d1dd0b4f095eb8169375a04",
+      "sha256": "319fce253fc8772a61e5e95223377fad0089f0de2d1dd0b4f095eb8169375a04",
+      "bytes": 139109,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t005_Normal.png",
+      "kind": "asset",
+      "source_sha256": "ab795a865f839197a503f92b6df81a224c63a1112551a4533d2fdd600435a3d1",
+      "sha256": "ab795a865f839197a503f92b6df81a224c63a1112551a4533d2fdd600435a3d1",
+      "bytes": 203999,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t006_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "ad5d288f5255078a9d5024c2fe8d8416d8cd88e82962851f5ffa0703484ed721",
+      "sha256": "ad5d288f5255078a9d5024c2fe8d8416d8cd88e82962851f5ffa0703484ed721",
+      "bytes": 143943,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t007_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "bcf42b7b95fdc2b9b70b91959b75bd298480919ce490cbb4995226f47804084a",
+      "sha256": "bcf42b7b95fdc2b9b70b91959b75bd298480919ce490cbb4995226f47804084a",
+      "bytes": 146585,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t008_Normal.png",
+      "kind": "asset",
+      "source_sha256": "0d59d0590c720062b9ca2b6489c795ede7021618a855fd9850cad63ca7304549",
+      "sha256": "0d59d0590c720062b9ca2b6489c795ede7021618a855fd9850cad63ca7304549",
+      "bytes": 195676,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t009_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "5e420db28638fa9aed4a9241b916be44b2479bfe030bf1b121b645a9f54abe42",
+      "sha256": "5e420db28638fa9aed4a9241b916be44b2479bfe030bf1b121b645a9f54abe42",
+      "bytes": 103776,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t010_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "a92fe22c922a6b259c98f7721db3e0a60edd8310b869cf1f8012c67d7860b481",
+      "sha256": "a92fe22c922a6b259c98f7721db3e0a60edd8310b869cf1f8012c67d7860b481",
+      "bytes": 105244,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t011_Normal.png",
+      "kind": "asset",
+      "source_sha256": "0664f594233329216a6f147b9376beeb10104c12b126785863b03d6b166eb6ad",
+      "sha256": "0664f594233329216a6f147b9376beeb10104c12b126785863b03d6b166eb6ad",
+      "bytes": 62563,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t012_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "332555ed11e003a5cadf1ebfa463411074ebb0c2738f8894f7bc5434f599b25e",
+      "sha256": "332555ed11e003a5cadf1ebfa463411074ebb0c2738f8894f7bc5434f599b25e",
+      "bytes": 119787,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t013_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "5a0a0eaa812d21e827a41627ce911884ace2c6572602c52539dfb91f9715c832",
+      "sha256": "5a0a0eaa812d21e827a41627ce911884ace2c6572602c52539dfb91f9715c832",
+      "bytes": 121305,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t014_Normal.png",
+      "kind": "asset",
+      "source_sha256": "804da70b1e7173e51e2353ae2c5562e925900cafa7084d5d6e937636298c508b",
+      "sha256": "804da70b1e7173e51e2353ae2c5562e925900cafa7084d5d6e937636298c508b",
+      "bytes": 66530,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t015_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "84d4c17fb23b107c63884d6f43f47e9b94f2fbce402deec110e940207b70dde8",
+      "sha256": "84d4c17fb23b107c63884d6f43f47e9b94f2fbce402deec110e940207b70dde8",
+      "bytes": 96441,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t016_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "edd6a11d3bb6f92dc1eae20079f38f8413b23cbb9bdefe6f84162e677c4f5f5c",
+      "sha256": "edd6a11d3bb6f92dc1eae20079f38f8413b23cbb9bdefe6f84162e677c4f5f5c",
+      "bytes": 97685,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t017_Normal.png",
+      "kind": "asset",
+      "source_sha256": "700f884c9d367e092df251c7d502c6da23a78657d17d58d010900d36a71931a2",
+      "sha256": "700f884c9d367e092df251c7d502c6da23a78657d17d58d010900d36a71931a2",
+      "bytes": 62778,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t018_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "c441a63ed2db7db3d91597ce5cb4ac3e0020a22ede7fd24a87e86ece20faf39b",
+      "sha256": "c441a63ed2db7db3d91597ce5cb4ac3e0020a22ede7fd24a87e86ece20faf39b",
+      "bytes": 124486,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t019_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "79df53835ec2d39ba753e32fc70550b11080b87487999f9bc6c26383bd5386a5",
+      "sha256": "79df53835ec2d39ba753e32fc70550b11080b87487999f9bc6c26383bd5386a5",
+      "bytes": 126170,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t020_Normal.png",
+      "kind": "asset",
+      "source_sha256": "deb3c944b846304a8b2a1f5581fb3c6ba9f75d303c73643f4dcf36b4439bc34f",
+      "sha256": "deb3c944b846304a8b2a1f5581fb3c6ba9f75d303c73643f4dcf36b4439bc34f",
+      "bytes": 176148,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t021_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "c420872110d41b684ba8da24dbdaee7b2ba05cec4738aa3a7e0a77592ed4af64",
+      "sha256": "c420872110d41b684ba8da24dbdaee7b2ba05cec4738aa3a7e0a77592ed4af64",
+      "bytes": 103329,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t022_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "309a30d5b23736a4db8a47d2cfdf76580a06ab5e1714bae00b0f094c19405906",
+      "sha256": "309a30d5b23736a4db8a47d2cfdf76580a06ab5e1714bae00b0f094c19405906",
+      "bytes": 105044,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t023_Normal.png",
+      "kind": "asset",
+      "source_sha256": "fe26a33959710ee7fcf56b14acb9d1cab51b630ff7b9e4d815edee2bb4a575b4",
+      "sha256": "fe26a33959710ee7fcf56b14acb9d1cab51b630ff7b9e4d815edee2bb4a575b4",
+      "bytes": 61257,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t024_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "9558042f2dffa4c5b5fe6a8719ca037acca65f4d50e6d0778d83f224466ce4a9",
+      "sha256": "9558042f2dffa4c5b5fe6a8719ca037acca65f4d50e6d0778d83f224466ce4a9",
+      "bytes": 115974,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t025_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "be3d45c0a8d1507a472d840b3f62dab08ad5f2759e764790e8e78675e3d79c4a",
+      "sha256": "be3d45c0a8d1507a472d840b3f62dab08ad5f2759e764790e8e78675e3d79c4a",
+      "bytes": 117557,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t026_Normal.png",
+      "kind": "asset",
+      "source_sha256": "eb3b078316768c9a54d6653b21f3aabc393eae50ccb7110a983f60a701e2ff95",
+      "sha256": "eb3b078316768c9a54d6653b21f3aabc393eae50ccb7110a983f60a701e2ff95",
+      "bytes": 178014,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t027_BaseColor.png",
+      "kind": "asset",
+      "source_sha256": "9b99f8003ca84b0d4b88b96376854604d3ef8a4e14fd26dacc7300650043afc1",
+      "sha256": "9b99f8003ca84b0d4b88b96376854604d3ef8a4e14fd26dacc7300650043afc1",
+      "bytes": 94489,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t028_Roughness.png",
+      "kind": "asset",
+      "source_sha256": "2b16e1c7338ddce77afafea827a6a537cb7a2c6a51c2f51041f6cd44645bbff3",
+      "sha256": "2b16e1c7338ddce77afafea827a6a537cb7a2c6a51c2f51041f6cd44645bbff3",
+      "bytes": 95919,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    },
+    {
+      "path": "simulation/摄像头支架_统一版_v1/textures/t029_Normal.png",
+      "kind": "asset",
+      "source_sha256": "79d80322f6172860db0179583db777ee950c178037d7178c946e86b307acc1a3",
+      "sha256": "79d80322f6172860db0179583db777ee950c178037d7178c946e86b307acc1a3",
+      "bytes": 60407,
+      "include_in_overlay": true,
+      "layer_relocation": null
+    }
+  ]
+}

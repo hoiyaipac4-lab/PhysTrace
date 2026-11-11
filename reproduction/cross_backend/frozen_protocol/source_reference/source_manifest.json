@@ -1,0 +1,239 @@
+{
+  "original_provenance": "../source_map.json",
+  "files": [
+    {
+      "historical_source": "historical/runtime/native_control_strict_measurement_v1_20261016.py",
+      "historical_sha256": "79cc8469b5388678d456ee62a757211b70470976f435142f8a80c0896151ade9",
+      "release_path": "measurement/native_control_strict_measurement_v1_20261016.py",
+      "release_sha256": "79cc8469b5388678d456ee62a757211b70470976f435142f8a80c0896151ade9",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/strict_native_full1s_metric_v1_20261016.py",
+      "historical_sha256": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+      "release_path": "measurement/strict_native_full1s_metric_v1_20261016.py",
+      "release_sha256": "56758c479772bc6bdd927ee35718fb90c31a0949827169cb00cfe649ee848017",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/record_native_policy_request_v1_20261016.py",
+      "historical_sha256": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "release_path": "measurement/record_native_policy_request_v1_20261016.py",
+      "release_sha256": "abc996ebe587db3152e6f4c9807516f28b41315dd23a6a7845773515f26cafa0",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/native_policy_guard_classification_v1_20261016.py",
+      "historical_sha256": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+      "release_path": "measurement/native_policy_guard_classification_v1_20261016.py",
+      "release_sha256": "f9f4c076e438dde2d4f52d7d313301fae05fb1f3a95a825b258335e6db8a0a22",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_mujoco_v1_20261019.py",
+      "historical_sha256": "62658a92712e1b95ab11f40adfe72278b69eeeb107183abccc984fabc0efd312",
+      "release_path": "evaluator_references/evaluate_cross5_mujoco_v1_20261019.py.txt",
+      "release_sha256": "c149e57344e87598bd00fa1df55c990e76a732609d4ad85d0295bf5f370ce62e",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Three internal smoke-case identifiers supplied through PHYSTRACE_HISTORICAL_SMOKE_SCENE_IDS.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/baseline/task_contract.py",
+      "historical_sha256": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "release_path": "measurement/task_contract.py",
+      "release_sha256": "15fe658f3b368b1f038c17d6f0a1011c18d39f47ebdd710202f89d91dc499a32",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/native_PyBullet_strict_measurement_v1_20261016.py",
+      "historical_sha256": "e1a74e52e60281aadd9a7d5ff44cb217f5e5ac274529adc0051d079e3f40e4f8",
+      "release_path": "measurement/native_PyBullet_strict_measurement_v1_20261016.py",
+      "release_sha256": "e1a74e52e60281aadd9a7d5ff44cb217f5e5ac274529adc0051d079e3f40e4f8",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/native_PyBullet_guard_classification_v1_20261016.py",
+      "historical_sha256": "16d6bbb72d18734b06ed63337d57fc5cfdc91593fd60dcd59b244e84c2dc0f24",
+      "release_path": "measurement/native_PyBullet_guard_classification_v1_20261016.py",
+      "release_sha256": "16d6bbb72d18734b06ed63337d57fc5cfdc91593fd60dcd59b244e84c2dc0f24",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_pybullet_v1_20261019.py",
+      "historical_sha256": "61bc32c617d325af1a2bdb2ca89eab49bde066ecfad3a68e592e9ecb70d718d8",
+      "release_path": "evaluator_references/evaluate_cross5_pybullet_v1_20261019.py.txt",
+      "release_sha256": "638aa3cd947f3a52335ca6ae29afec80b4ad7fd9542abc00cdd34931624970dd",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Three internal smoke-case identifiers supplied through PHYSTRACE_HISTORICAL_SMOKE_SCENE_IDS.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/runtime/native_Drake_strict_measurement_v1_20261016.py",
+      "historical_sha256": "5ef7d89e1df48f5a64d7c49003d2a81b8d7a5387fc92b5a39305b06fe75d10c7",
+      "release_path": "measurement/native_Drake_strict_measurement_v1_20261016.py",
+      "release_sha256": "5ef7d89e1df48f5a64d7c49003d2a81b8d7a5387fc92b5a39305b06fe75d10c7",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_drake_v1_20261019.py",
+      "historical_sha256": "b711a96b71dc57d9e10b84d87b431d8f07c02d7f612777ba894222505186fa7b",
+      "release_path": "evaluator_references/evaluate_cross5_drake_v1_20261019.py.txt",
+      "release_sha256": "2120ab4567526326ad42bba9ee0829d559097351cdb080a8718d0493ea0c8996",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Three internal smoke-case identifiers supplied through PHYSTRACE_HISTORICAL_SMOKE_SCENE_IDS.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/runtime/native_Newton_actual_dt_strict_measurement_v1_20261016.py",
+      "historical_sha256": "5a57e644dc8a7c34f39cb5c3df2ce69fe745736fb7e58790638a59c7b1a4a600",
+      "release_path": "measurement/native_Newton_actual_dt_strict_measurement_v1_20261016.py",
+      "release_sha256": "5a57e644dc8a7c34f39cb5c3df2ce69fe745736fb7e58790638a59c7b1a4a600",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/native_Newton_guard_classification_v1_20261016.py",
+      "historical_sha256": "ca0d51b689cc857bbadc0cab767d7abed5c0e76009b40196ce7ade1b8dca5817",
+      "release_path": "measurement/native_Newton_guard_classification_v1_20261016.py",
+      "release_sha256": "ca0d51b689cc857bbadc0cab767d7abed5c0e76009b40196ce7ade1b8dca5817",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/strict_native_actual_dt_full1s_v1_20261016.py",
+      "historical_sha256": "35301546a90b993689987873e5d105a1221ba1592677a98ea159e83ad448b103",
+      "release_path": "measurement/strict_native_actual_dt_full1s_v1_20261016.py",
+      "release_sha256": "35301546a90b993689987873e5d105a1221ba1592677a98ea159e83ad448b103",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_newton_v1_20261019.py",
+      "historical_sha256": "0e828e301febdf048a4a003069eaeaeea9ca9055c8b6930710937ddbc3f47924",
+      "release_path": "evaluator_references/evaluate_cross5_newton_v1_20261019.py.txt",
+      "release_sha256": "ca8937e0cfdc268ec4c9459fb5deccfacca9b55c321bb28dbd3ce8fdade46517",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Three internal smoke-case identifiers supplied through PHYSTRACE_HISTORICAL_SMOKE_SCENE_IDS.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/runtime/native_Gazebo_strict_measurement_v2_20261016.py",
+      "historical_sha256": "57f41a67ede5044047e5991ae27e47aefbde95d58fe9423433a7b6e1c8838437",
+      "release_path": "measurement/native_Gazebo_strict_measurement_v2_20261016.py",
+      "release_sha256": "57f41a67ede5044047e5991ae27e47aefbde95d58fe9423433a7b6e1c8838437",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/strict_native_nanosecond_full1s_v1_20261016.py",
+      "historical_sha256": "5f6701154717d0dc085c38f7584f43c802394faa811c5eff96b9c56115ca8dd9",
+      "release_path": "measurement/strict_native_nanosecond_full1s_v1_20261016.py",
+      "release_sha256": "5f6701154717d0dc085c38f7584f43c802394faa811c5eff96b9c56115ca8dd9",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/runtime/native_Gazebo_guard_classification_v1_20261016.py",
+      "historical_sha256": "9fd58e4e2611453c89e1f6f077dfe33c1b1ec73c0897caa04f55cf2385ce138e",
+      "release_path": "measurement/native_Gazebo_guard_classification_v1_20261016.py",
+      "release_sha256": "9fd58e4e2611453c89e1f6f077dfe33c1b1ec73c0897caa04f55cf2385ce138e",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_gazebo_v1_20261019.py",
+      "historical_sha256": "017d7e76dc18f4c2649aad89c6ce9dac1e9fa17c234ed1e3403a2be2177afc17",
+      "release_path": "evaluator_references/evaluate_cross5_gazebo_v1_20261019.py.txt",
+      "release_sha256": "b378fa39af6ae134d65479a06568081abb7afff432232b02681077c7ead23ab6",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/baseline/src/data_contract.py",
+      "historical_sha256": "e16129beaf930076a837dc25daae5f6e9af76e4a47412caa339d31e929b1f9de",
+      "release_path": "measurement/data_contract.py",
+      "release_sha256": "e16129beaf930076a837dc25daae5f6e9af76e4a47412caa339d31e929b1f9de",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_isaacsim_v1_20261019.py",
+      "historical_sha256": "0f94ba6a1294533a9228db637533e4cabaa6f581156acd014586f66c22b7431a",
+      "release_path": "evaluator_references/evaluate_cross5_isaacsim_v1_20261019.py.txt",
+      "release_sha256": "dd0bf9487e1ab4a1d11e678f97c885218ccfc6264648978dc91add798f5211f5",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Isaac Kit cache, data and runtime roots supplied as environment variables.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/runtime/isaac_live_strict_measurement_v1_20261016.py",
+      "historical_sha256": "a6cf1ba03d7a45d0b769f4f68b849900146c286eb2872ce8b94669fd66710bdf",
+      "release_path": "measurement/isaac_live_strict_measurement_v1_20261016.py",
+      "release_sha256": "a6cf1ba03d7a45d0b769f4f68b849900146c286eb2872ce8b94669fd66710bdf",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/baseline/learning/table_clearance_filter.py",
+      "historical_sha256": "5840531679fbb9aed28cb8b64d1b7d7e0e6ada28c1853ff7fa36b1a04d159d2e",
+      "release_path": "measurement/table_clearance_filter.py",
+      "release_sha256": "5840531679fbb9aed28cb8b64d1b7d7e0e6ada28c1853ff7fa36b1a04d159d2e",
+      "byte_identical": true,
+      "release_edits": []
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/evaluate_cross5_isaacsim_v2_ioaudit_20261019.py",
+      "historical_sha256": "66fc653dabe589b4d8390e7e4576a0175d7f47aff1f2bf62bd52518b82e1a6a2",
+      "release_path": "evaluator_references/evaluate_cross5_isaacsim_v2_ioaudit_20261019.py.txt",
+      "release_sha256": "b5a1b23609f3bd5b6dd992b012e695ca88fb2c26ee89def796e332f59236337b",
+      "byte_identical": false,
+      "release_edits": [
+        "Project root supplied through PHYSTRACE_HISTORICAL_RUNTIME_ROOT.",
+        "Five internal development identifiers supplied through PHYSTRACE_HISTORICAL_DEV_SCENE_IDS.",
+        "Isaac Kit cache, data and runtime roots supplied as environment variables.",
+        "Inserted an archival scope comment."
+      ]
+    },
+    {
+      "historical_source": "historical/evaluator/scripts/cross6_float32_command_audit_v2_20261019.py",
+      "historical_sha256": "76e5b35d5afce3323ac88cda74376a34245a894ae19ecce10287e4f0ca1868f8",
+      "release_path": "measurement/cross6_float32_command_audit_v2_20261019.py",
+      "release_sha256": "76e5b35d5afce3323ac88cda74376a34245a894ae19ecce10287e4f0ca1868f8",
+      "byte_identical": true,
+      "release_edits": []
+    }
+  ]
+}

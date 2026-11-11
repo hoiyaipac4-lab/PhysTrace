@@ -1,0 +1,4 @@
+{
+  "source_code_sha256": "7dfd1a4859a1f65baaf0917bbbf382dd6aa8af814e141ad2191648af2429e1ff",
+  "changes": "Package-relative default inputs and output, and path-free run receipt. Scoring and numerical assertions unchanged."
+}

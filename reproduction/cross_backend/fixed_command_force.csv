@@ -1,0 +1,4 @@
+scene_id,engine,baseline_case,treatment_case,command_width_mm,baseline_contact_time_ms,treatment_contact_time_ms,baseline_reported_force_N,treatment_reported_force_N,absolute_change_N,relative_change_percent,aggregation_substeps,native_substep_rate_Hz
+force_01,MuJoCo,baseline,tau2p1ms,21.6,20,2.1,2.056332382218779,3.4376870512478854,1.3813546690291063,67.17565122125961,32,960
+force_02,MuJoCo,baseline,tau2p1ms,21.6,20,2.1,2.057488405352752,3.4379974332961067,1.3805090279433547,67.09680717285352,32,960
+force_03,MuJoCo,baseline,tau2p1ms,21.6,20,2.1,2.0532458041137085,3.4377556436598455,1.384509839546137,67.43030166053433,32,960

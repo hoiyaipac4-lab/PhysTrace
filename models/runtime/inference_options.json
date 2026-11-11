@@ -1,0 +1,6 @@
+{
+  "denoise_steps": 20,
+  "replan_every_frames": 4,
+  "temporal_ensemble": true,
+  "noise_mode": "fixed"
+}
