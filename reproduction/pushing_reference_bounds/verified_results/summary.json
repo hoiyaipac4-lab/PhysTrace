@@ -1,0 +1,17 @@
+{
+  "analysis_type": "analytical_reference_perturbation_bound",
+  "baseline_statistics_sha256": "cc08a50cd7f7a1472350c779007f4b0129d7b9531fb2dcaf669e5833255b8181",
+  "pair_count": 6,
+  "epsilon_count": 7,
+  "scan_rows": 42,
+  "archived_42_rows_match": true,
+  "largest_nominal_median_difference_mm": 0.05638624978836715,
+  "half_largest_difference_mm": 0.028193124894183574,
+  "selected_epsilon_mm": 0.03,
+  "pairwise_bound_mm_at_selected_epsilon": 0.06,
+  "pairwise_orders_certified_at_selected_epsilon": 0,
+  "interpretation": "At the assumed 0.03 mm RMS reference bound, the conservative interval test certifies none of the six pairwise orders.",
+  "epsilon_is_measured_camera_error": false,
+  "actual_reference_trajectory_perturbation_replay_performed": false,
+  "realized_order_reversals_claimed": false
+}

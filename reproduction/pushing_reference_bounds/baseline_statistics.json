@@ -1,0 +1,93 @@
+{
+  "analysis_type": "analytical_reference_perturbation_bound",
+  "units": "mm",
+  "physics_hz": 240,
+  "shared_contact_mu": 0.2,
+  "condition_ids": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c7",
+    "c8"
+  ],
+  "metric": "sqrt(mean((native_COM_left_displacement(video_time_i)-observed_feature_left_displacement_i)^2)); comparison restricted to existing native interval",
+  "aggregation": "Median of eight completed per-clip RMSE values for each engine.",
+  "assumptions": [
+    "A common reference perturbation has RMS at most epsilon in each clip's fixed comparison window.",
+    "Simulation trajectories, sampled times, alignment, clip inclusion and weights are fixed.",
+    "The resulting pairwise bound is conservative; failure of its certificate does not establish a realized order reversal."
+  ],
+  "epsilon_scenarios_mm": [
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "epsilon_provenance": "Selected sensitivity-analysis scenarios, not measured camera calibration errors.",
+  "engines": [
+    {
+      "engine": "mujoco",
+      "completed_clips": 8,
+      "median_rmse_mm": 2.200249046536327
+    },
+    {
+      "engine": "pybullet",
+      "completed_clips": 8,
+      "median_rmse_mm": 2.1505903532359962
+    },
+    {
+      "engine": "gazebo",
+      "completed_clips": 8,
+      "median_rmse_mm": 2.151859747198896
+    },
+    {
+      "engine": "isaac",
+      "completed_clips": 8,
+      "median_rmse_mm": 2.14386279674796
+    }
+  ],
+  "source": {
+    "file": "push_summary.json",
+    "sha256": "d00e73161881f41b20607aa7155fc30f923b7049a4362d8cc29948741b112c5b",
+    "original_reference_track_hashes": [
+      {
+        "file": "c1_tracks_tip.json",
+        "sha256": "aba739da752cff9cb33d925666b9c1ffad09ab0d082af245c72caed8affc6023"
+      },
+      {
+        "file": "c2_tracks_tip.json",
+        "sha256": "e90c7e026406005b1e468ebcebbc48204ed870c884e434406261a1c05ba752b0"
+      },
+      {
+        "file": "c3_tracks_tip.json",
+        "sha256": "e32ed8907af08136b87cce510ceebca1c2c47559bd94ae3b31ad5122a2b6ea9a"
+      },
+      {
+        "file": "c4_tracks_tip.json",
+        "sha256": "4dea23709812c04ab7b59fc193b4fadde12f17ceec4de76d35ec6eeeb76f3e9b"
+      },
+      {
+        "file": "c5_tracks_tip.json",
+        "sha256": "200679d62d32873e86c5150a2dbd0d1ca026e011bb6187f4dfad6668313b562e"
+      },
+      {
+        "file": "c6_tracks_tip.json",
+        "sha256": "eedbbc17846f7ad0f1f88ff810d223087a2f218a90078978724b302a9c8d6aba"
+      },
+      {
+        "file": "c7_tracks_tip.json",
+        "sha256": "c7fd19647e8243028a8ea38fd5f65ca7c5534220606ca7bd11bbc51307ea9bb3"
+      },
+      {
+        "file": "c8_tracks_tip.json",
+        "sha256": "b24fddae16ea6dfac09c8db5115518bb2b8082e072536b66d20e29d19a355029"
+      }
+    ]
+  }
+}

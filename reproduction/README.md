@@ -5,6 +5,7 @@
 | `cradle_thresholds/` | 72 saved trajectories, two gap-control records and six threshold settings; recomputed first-peak and energy pass counts. |
 | `cradle_mujoco/` | 12 cases, procedural asset construction and reference MJCF files; native simulation outputs and comparison with the recorded MuJoCo versions. |
 | `cross_backend/` | 150 cross-platform and 30 same-platform outcomes; aggregate results and three fixed-command contact-force comparisons. |
+| `pushing_reference_bounds/` | Four pushing-error medians and seven assumed reference-error levels; a reproducible 42-row analytical order bound. |
 | `protocol/` | Task specification, scoring rules, example record and field validation. |
 
 The threshold arrays contain time, normalized displacement and energy ratios. Gap-control arrays include five-ball positions. File hashes, shapes and data types are checked on load.
